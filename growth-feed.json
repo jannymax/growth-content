@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-15T09:00:00Z",
+  "updated_at": "2026-05-15T10:00:00Z",
   "today_id": "2026-05-15",
   "items": [
     {
@@ -12,7 +12,7 @@
         "ja": "子どもの安心感の大きな部分は、「生活はだいたい予想できるものだ」と感じられることから生まれます。子どもは、決まった毎日の流れを覚えていくことで世界を理解し、自分の中に「ここは安全だ」という感覚を少しずつ育てていきます。"
       },
       "source": "Routines and child development: A systematic review-Saliha B. Selman,2023",
-      "image_url":  "https://jannymax/growth/images/2026-05-11.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-11.png",
       "active": true
     },
     {
@@ -24,7 +24,7 @@
         "ja": "安定して予測しやすい環境と生活リズムは、子どもが注意を向けやすくなり、感情を整え、ストレスに対処することを助けてくれます。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-12.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-12.png",
       "active": true
     },
     {
@@ -36,7 +36,7 @@
         "ja": "子どもは「小さな大人」ではなく、年齢によって脳のはたらき方がまったく違います。たとえば 2〜7 歳ごろの子どもは、自分中心にものを考えやすく、おもちゃに気持ちがあると信じたり、目立つ一つの特徴に注意を奪われたりします。だから、大人のような「道理で説得する」ことの多くは、まだ発達の段階としてできないのです。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-13.png",
       "active": true
     },
     {
@@ -48,7 +48,7 @@
         "ja": "パズル、積み木、物語を語ること、ごっこ遊び、質問することなど、こうした日常の遊びそのものが、記憶力や集中力、推理力と言語の練習になっています。いっしょに料理をする、散歩しながら話す、小さな塔を組み立てる──こうした日常の小さな出来事は、どれも子どもの認知を育てるよい刺激になります。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-14.png",
       "active": true
     },
     {
@@ -60,7 +60,7 @@
         "ja": "安全な親子関係と、受け止めてもらえる感情、過度ではないプレッシャーがあると、子どもはもっと安心して探索し、難しい課題にも挑戦しやすくなります。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-15.png",
       "active": true
     }
   ]
