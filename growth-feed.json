@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-15T09:00:00Z",
+  "today_id": "2026-05-15",
+  "items": [
+    {
+      "id": "2026-05-11",
+      "date": "2026-05-11",
+      "quote": {
+        "zh-Hans": "孩子的安全感，很大一部分来自‘生活是可以预期的’。孩子通过记住固定的日常流程来理解世界和建立安全感。",
+        "en": "A large part of a child’s sense of security comes from feeling that life is predictable. By learning and remembering familiar daily routines, children make sense of the world and build that inner sense of safety.",
+        "ja": "子どもの安心感の大きな部分は、「生活はだいたい予想できるものだ」と感じられることから生まれます。子どもは、決まった毎日の流れを覚えていくことで世界を理解し、自分の中に「ここは安全だ」という感覚を少しずつ育てていきます。"
+      },
+      "source": "Routines and child development: A systematic review-Saliha B. Selman,2023",
+      "image_url":  "https://jannymax/growth/images/2026-05-11.jpg",
+      "active": true
+    },
+    {
+      "id": "2026-05-12",
+      "date": "2026-05-12",
+      "quote": {
+        "zh-Hans": "稳定、可预期的环境和作息可以帮助孩子集中注意力、调节情绪和应对压力。",
+        "en": "A stable, predictable environment and daily routine help children focus their attention, regulate their emotions, and cope with stress.",
+        "ja": "安定して予測しやすい環境と生活リズムは、子どもが注意を向けやすくなり、感情を整え、ストレスに対処することを助けてくれます。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-12.jpg",
+      "active": true
+    },
+    {
+      "id": "2026-05-13",
+      "date": "2026-05-13",
+      "quote": {
+        "zh-Hans": "孩子不是“迷你大人”，不同年龄的大脑在用完全不一样的方式思考。例如 2–7 岁的孩子会很自我中心、相信玩具有感情、容易被一个特征吸引走，所以很多“讲道理”他们暂时真的做不到。",
+        "en": "Children are not “mini adults”; at different ages their brains work in very different ways. For example, children between about 2 and 7 are naturally egocentric, may believe toys have feelings, and are easily drawn to one striking feature, so many kinds of “reasoning with them” are simply not yet within their reach.",
+        "ja": "子どもは「小さな大人」ではなく、年齢によって脳のはたらき方がまったく違います。たとえば 2〜7 歳ごろの子どもは、自分中心にものを考えやすく、おもちゃに気持ちがあると信じたり、目立つ一つの特徴に注意を奪われたりします。だから、大人のような「道理で説得する」ことの多くは、まだ発達の段階としてできないのです。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "active": true
+    },
+    {
+      "id": "2026-05-14",
+      "date": "2026-05-14",
+      "quote": {
+        "zh-Hans": "拼图、搭积木、讲故事、角色扮演、问问题，这些日常游戏，本身就是在练记忆、专注、推理和语言。一起做饭、散步聊天、搭一座塔，这些日常小事都是很好的认知刺激。",
+        "en": "Everyday play—puzzles, building blocks, storytelling, pretend play, asking questions—is already practice for memory, attention, reasoning, and language. Cooking together, chatting on a walk, or building a small tower are all simple moments that provide rich cognitive stimulation.",
+        "ja": "パズル、積み木、物語を語ること、ごっこ遊び、質問することなど、こうした日常の遊びそのものが、記憶力や集中力、推理力と言語の練習になっています。いっしょに料理をする、散歩しながら話す、小さな塔を組み立てる──こうした日常の小さな出来事は、どれも子どもの認知を育てるよい刺激になります。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "active": true
+    },
+    {
+      "id": "2026-05-15",
+      "date": "2026-05-15",
+      "quote": {
+        "zh-Hans": "安全的亲子关系、被接住的情绪、不过度压力，会让孩子更敢去探索、更愿意尝试难题。",
+        "en": "A secure parent–child relationship, emotions that are received rather than dismissed, and pressure kept within reason make children more willing to explore and more ready to tackle difficult tasks.",
+        "ja": "安全な親子関係と、受け止めてもらえる感情、過度ではないプレッシャーがあると、子どもはもっと安心して探索し、難しい課題にも挑戦しやすくなります。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "active": true
+    }
+  ]
+}
