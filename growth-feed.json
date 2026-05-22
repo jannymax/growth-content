@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-15T09:00:00Z",
+  "updated_at": "2026-05-15T10:00:00Z",
   "today_id": "2026-05-15",
   "items": [
     {
@@ -12,7 +12,7 @@
         "ja": "子どもの安心感の大きな部分は、「生活はだいたい予想できるものだ」と感じられることから生まれます。子どもは、決まった毎日の流れを覚えていくことで世界を理解し、自分の中に「ここは安全だ」という感覚を少しずつ育てていきます。"
       },
       "source": "Routines and child development: A systematic review-Saliha B. Selman,2023",
-      "image_url":  "https://jannymax/growth/images/2026-05-11.jpg",
+      "image_url":  "https://jannymax/growth/images/2026-05-11.png",
       "active": true
     },
     {
@@ -24,7 +24,7 @@
         "ja": "安定して予測しやすい環境と生活リズムは、子どもが注意を向けやすくなり、感情を整え、ストレスに対処することを助けてくれます。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-12.jpg",
+      "image_url":  "https://jannymax/growth/images/2026-05-12.png",
       "active": true
     },
     {
@@ -36,7 +36,7 @@
         "ja": "子どもは「小さな大人」ではなく、年齢によって脳のはたらき方がまったく違います。たとえば 2〜7 歳ごろの子どもは、自分中心にものを考えやすく、おもちゃに気持ちがあると信じたり、目立つ一つの特徴に注意を奪われたりします。だから、大人のような「道理で説得する」ことの多くは、まだ発達の段階としてできないのです。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "image_url":  "https://jannymax/growth/images/2026-05-13.png",
       "active": true
     },
     {
@@ -48,7 +48,7 @@
         "ja": "パズル、積み木、物語を語ること、ごっこ遊び、質問することなど、こうした日常の遊びそのものが、記憶力や集中力、推理力と言語の練習になっています。いっしょに料理をする、散歩しながら話す、小さな塔を組み立てる──こうした日常の小さな出来事は、どれも子どもの認知を育てるよい刺激になります。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "image_url":  "https://jannymax/growth/images/2026-05-14.png",
       "active": true
     },
     {
@@ -60,7 +60,91 @@
         "ja": "安全な親子関係と、受け止めてもらえる感情、過度ではないプレッシャーがあると、子どもはもっと安心して探索し、難しい課題にも挑戦しやすくなります。"
       },
       "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
-      "image_url":  "https://jannymax/growth/images/2026-05-13.jpg",
+      "image_url":  "https://jannymax/growth/images/2026-05-15.png",
+      "active": true
+    },
+    {
+      "id": "2026-05-16",
+      "date": "2026-05-16",
+      "quote": {
+        "zh-Hans": "孩子的大脑很多「高阶能力」，是通过和别人一起做事、一起说话慢慢长出来的。父母、老师、同伴，甚至他们接触到的文化和工具，都会悄悄地影响他们怎么思考、怎么表达。",
+        "en": "Many of the higher-level abilities in a child’s brain grow through doing things and talking together with other people.Parents, teachers, peers, and even the cultures and tools they are exposed to quietly shape how they think and how they express themselves.",
+        "ja": "子どもの脳の多くの「高次的な能力」は、誰かと一緒に行動したり、一緒に会話したりする中で少しずつ育っていきます。親や先生、友だち、そして子どもが触れる文化や道具までもが、子どもが「どう考えるか」「どう表現するか」に静かに影響を与えています。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-16.png",
+      "active": true
+    },
+    {
+      "id": "2026-05-17",
+      "date": "2026-05-17",
+      "quote": {
+        "zh-Hans": "维果斯基提出了一个概念，叫「最近发展区」：有一块能力区域，是孩子一个人暂时做不到，但在大人或同伴一点点帮忙下可以做到的。很多成长，就发生在这个「有点难、但不是完全够不着」的区间里。",
+        "en": "Lev Vygotsky proposed a concept called the ‘zone of proximal development.’ It refers to an area of ability where a child cannot yet succeed alone, but can do it with a bit of help from an adult or a peer.A lot of growth happens in this space that is ‘a bit challenging, but not completely out of reach.’ ",
+        "ja": "ヴィゴツキーは「最近接発達領域」と呼ばれる概念を提案しました。それは、子どもが一人ではまだできないけれど、大人や友だちが少し手伝えばできるような能力の領域を指します。多くの成長は、この「少し難しいけれど、まったく手が届かないわけではない」ゾーンの中で起こると言われています。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-17.png",
+      "active": true
+    },
+    {
+      "id": "2026-05-18",
+      "date": "2026-05-18",
+      "quote": {
+        "zh-Hans": "「最近发展区」里，旁边那个更熟练的人可以提供一些「脚手架」式的帮助，比如示范、提醒、提问题、一起分步骤做。等孩子慢慢熟练，支架就可以一点点撤掉，他们最后能独立完成这件事。",
+        "en": "Within the zone of proximal development, the more experienced person nearby can provide “scaffolding” support, such as demonstrating, giving reminders, asking guiding questions, or breaking the task into steps to do together. As the child becomes more skilled, these supports can be gradually removed, and in the end the child is able to do it independently.",
+        "ja": "この「最近接発達領域」の中では、そばにいるより経験豊かな人が、見本を見せる・そっと声をかける・問いかけをする・一緒に手順を分けて取り組む、といった「足場（スキャフォルディング）」のような支援を行うことができます。子どもがだんだん慣れて上手になってくると、その足場は少しずつ外していくことができ、最終的には子どもが一人でできるようになります。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-18.png",
+      "active": true
+    },
+    {
+      "id": "2026-05-19",
+      "date": "2026-05-19",
+      "quote": {
+        "zh-Hans": "维果斯基觉得，帮助孩子的不一定只有大人，同龄孩子或稍微大一点的孩子，也可以成为「更有经验的伙伴」。有时孩子看同伴怎么做、怎么说，比直接听大人的讲解更容易上手。",
+        "en": "Vygotsky believed that it isn’t only adults who can help children; peers or slightly older children can also act as ‘more knowledgeable partners.’ Sometimes watching how another child does or says something makes it easier to learn than listening to an adult’s explanation.",
+        "ja": "ヴィゴツキーは、子どもを助けるのは大人だけではなく、同年代の子どもや少し年上の子どもも「より有能なパートナー」になり得ると考えました。ときには、大人の説明を聞くよりも、別の子どもがどうやって行動したり話したりしているかを見るほうが、子どもにとっては学びやすいこともあります。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-19.png",
+      "active": true
+    },
+    {
+      "id": "2026-05-20",
+      "date": "2026-05-20",
+      "quote": {
+        "zh-Hans": "在假装、角色扮演、讲故事的游戏里，孩子会「超出自己平常的水平」，尝试用更成熟的方式思考和表达。在这些「像游戏一样」的情境里，他们练习规则、语言、换位思考和自我控制。",
+        "en": "In pretend play, role play, and storytelling, children often go “beyond their usual level” and try to think and express themselves in more mature ways. In these “play-like” situations, they practice rules, language, perspective-taking, and self-control.",
+        "ja": "ごっこ遊びや役割遊び、お話づくりのような遊びの中で、子どもはしばしば「ふだんの自分より一段階高いレベル」で考えたり表現したりしようとします。こうした「遊びのような」場面の中で、子どもたちはルール、ことば、相手の気持ちを想像する力、自分をコントロールする力などを練習しています。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-20.png",
+      "active": true
+    },
+    {
+      "id": "2026-05-21",
+      "date": "2026-05-21",
+      "quote": {
+        "zh-Hans": "维果斯基认为，不同文化会提供不同的「思考工具」，比如语言、记事方式、解决问题的习惯，这些都会慢慢变成孩子脑中的一部分。对孩子来说，他们使用的语言、接触到的故事和日常中的小工具，都是在悄悄塑造「我怎么理解世界」。",
+        "en": "Vygotsky argued that different cultures provide different “tools for thinking,” such as language, ways of recording information, and typical problem-solving habits, and these gradually become part of the child’s mind. For a child, the languages they use, the stories they encounter, and the everyday tools around them are all quietly shaping their inner sense of “how I understand the world.",
+        "ja": "ヴィゴツキーは、文化によって「考えるための道具」が異なり、たとえばことば、記録のしかた、問題解決の習慣などが、少しずつ子どもの心の一部になっていくと考えました。子どもにとって、自分が使う言語、日々出会う物語、身のまわりの小さな道具のひとつひとつが、「世界をどう理解するか」という内側の感覚を静かに形づくっています。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-21.png",
+      "active": true
+    },
+    {
+      "id": "2026-05-22",
+      "date": "2026-05-22",
+      "quote": {
+        "zh-Hans": "孩子很多重要的能力，是在和别人一起做事、一起说话、在有点挑战但有人陪着的游戏里，一点点长出来的。",
+        "en": "Many key abilities grow as children do things and talk with others, playing in slightly challenging situations where someone is there to support them.",
+        "ja": "子どもの大切な力の多くは、誰かと一緒に行動したり話したりしながら、少しむずかしいけれどそばで支えてくれる人がいる遊びの中で、少しずつ育っていきます。"
+      },
+      "source": "https://www.shichida.com.au/blog/child-cognitive-development/",
+      "image_url":  "https://jannymax/growth/images/2026-05-22.png",
       "active": true
     }
   ]
