@@ -194,6 +194,86 @@
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-22.jpg",
       "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-05-23",
+      "date": "2026-05-23",
+      "quote": {
+        "zh-Hans": "研究发现，如果任务设计得贴近日常生活，一些4岁左右的孩子已经可以在一定程度上理解别人的视角。",
+        "en": "Research has found that if tasks are designed to be relevant to daily life, some children around the age of four are already able to understand other people's perspectives to some extent.",
+        "ja": "研究によると、日常生活に関連した課題であれば、4歳前後の子供でも、ある程度は他人の視点を理解できることが分かっている。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-23.png",
+      "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-05-24",
+      "date": "2026-05-24",
+      "quote": {
+        "zh-Hans": "孩子会用一个东西代表另一个（扫帚当马、娃娃当“宝宝”），说明大脑已经在用“符号”思考，而不是只依赖眼前实物。",
+        "en": "Children use one object to represent another (a broom as a horse, a doll as a 'baby'), which shows that their brains are already thinking using 'symbols' rather than relying solely on the physical objects in front of them.",
+        "ja": "子どもたちはある物体を別の物体に見立てて使う（ほうきを馬に見立てたり、人形を「赤ちゃん」に見立てたりする）が、これは彼らの脳がすでに目の前の物理的な物体だけに頼るのではなく、「記号」を使って思考していることを示している。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-24.png",
+      "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-05-25",
+      "date": "2026-05-25",
+      "quote": {
+        "zh-Hans": "语言是思维的载体。多学一种语言，孩子的大脑里就多了一套解释世界的算法。",
+        "en": "Language is the vehicle of thought. The more languages ​​a child learns, the more algorithms they develop in their brain to interpret the world.",
+        "ja": "言語は思考の伝達手段である。子どもが学ぶ言語が多ければ多いほど、世界を解釈するためのアルゴリズムが脳内に発達していく。"
+      },
+      "author": {
+        "zh-Hans": "-",
+        "en": "-",
+        "ja": "-"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-25.png",
+      "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-05-26",
+      "date": "2026-05-26",
+      "quote": {
+        "zh-Hans": "学语言是人类目前已知成本最低、效果最好的“脑力全脑开发”手段。",
+        "en": "Learning a language is currently the lowest-cost and most effective way for humans to develop their brainpower.",
+        "ja": "言語学習は、現在、人間が脳力を発達させるための最も低コストで効果的な方法である。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-26.png",
+      "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-05-27",
+      "date": "2026-05-27",
+      "quote": {
+        "zh-Hans": "双语儿童在执行功能（Executive Function）、认知灵活性、工作记忆以及抑制控制能力上，显著优于单语儿童。",
+        "en": "Bilingual children outperform monolingual children in executive function, cognitive flexibility, working memory, and inhibitory control.",
+        "ja": "バイリンガルの子どもは、実行機能、認知の柔軟性、ワーキングメモリ、抑制制御において、モノリンガルの子どもよりも優れた能力を発揮する。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-27.png",
+      "image_name": "quotation_card_bg"
     }
   ]
 }
