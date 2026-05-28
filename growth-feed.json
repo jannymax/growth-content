@@ -274,6 +274,22 @@
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-27.png",
       "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-05-28",
+      "date": "2026-05-28",
+      "quote": {
+        "zh-Hans": "根据埃里克森发展理论，儿童期看似无忧无虑，实际上是人生发展最密集、最关键的阶段，前11年需要完成人生8个核心发展阶段中的4个，这对孩子来说确实是巨大的挑战。",
+        "en": "According to Erikson's theory of development, childhood, which may seem carefree, is actually the most intensive and critical stage of a person's development. The first 11 years are required to complete 4 of the 8 core developmental stages in life, which is indeed a huge challenge for children.",
+        "ja": "エリクソンの発達理論によれば、一見のんびりとした子供時代は、実は人の発達において最も集中的で重要な段階である。人生における8つの主要な発達段階のうち4つを完了するには、最初の11年間が必要であり、これは子供にとって実に大きな挑戦である。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-28.png",
+      "image_name": "quotation_card_bg"
     }
   ]
 }
