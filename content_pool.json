@@ -1,3 +1,148 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "pool_20260602083314_1",
+      "status": "published",
+      "created_at": "2026-06-02T08:33:14Z",
+      "published_at": "2026-06-02T08:33:15Z",
+      "published_date": "2026-06-02",
+      "topic": "日常生活",
+      "quote": {
+        "zh-Hans": "稳定的日常生活有助于孩子的成长与安全感。",
+        "en": "Stable routines contribute to children's growth and sense of security.",
+        "ja": "安定した日常生活は、子どもの成長と安心感を育みます。"
+      },
+      "image_query": "quiet morning forest minimal background",
+      "source_summary": "研究强调稳定的日常生活对儿童成长的重要性。",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      }
+    },
+    {
+      "id": "pool_20260602083314_2",
+      "status": "draft",
+      "created_at": "2026-06-02T08:33:14Z",
+      "published_at": null,
+      "published_date": null,
+      "topic": "亲密关系",
+      "quote": {
+        "zh-Hans": "安全的关系是孩子学习和探索的基础。",
+        "en": "Secure relationships are the foundation for children's learning and exploration.",
+        "ja": "安全な関係は、子どもが学び、探求するための基盤です。"
+      },
+      "image_query": "calm ocean sunset minimal background",
+      "source_summary": "安全的关系为儿童提供了学习和探索的支持。",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      }
+    },
+    {
+      "id": "pool_20260602083314_3",
+      "status": "draft",
+      "created_at": "2026-06-02T08:33:14Z",
+      "published_at": null,
+      "published_date": null,
+      "topic": "引导参与",
+      "quote": {
+        "zh-Hans": "引导参与可以帮助孩子更好地理解世界。",
+        "en": "Guided participation helps children better understand the world.",
+        "ja": "ガイド付きの参加は、子どもが世界をよりよく理解するのに役立ちます。"
+      },
+      "image_query": "peaceful grassland minimal background",
+      "source_summary": "研究指出引导参与对儿童理解世界的重要性。",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      }
+    },
+    {
+      "id": "pool_20260602083314_4",
+      "status": "draft",
+      "created_at": "2026-06-02T08:33:14Z",
+      "published_at": null,
+      "published_date": null,
+      "topic": "象征性游戏",
+      "quote": {
+        "zh-Hans": "象征性游戏促进孩子的创造力与想象力。",
+        "en": "Symbolic play fosters children's creativity and imagination.",
+        "ja": "象徴的な遊びは、子どもの創造性と想像力を育みます。"
+      },
+      "image_query": "serene wheat field minimal background",
+      "source_summary": "象征性游戏在儿童发展中起到促进创造力的作用。",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      }
+    },
+    {
+      "id": "pool_20260602083314_5",
+      "status": "draft",
+      "created_at": "2026-06-02T08:33:14Z",
+      "published_at": null,
+      "published_date": null,
+      "topic": "语言互动",
+      "quote": {
+        "zh-Hans": "语言互动是儿童社交与认知发展的关键。",
+        "en": "Language interaction is key to children's social and cognitive development.",
+        "ja": "言語の相互作用は、子どもの社会的および認知的発達の鍵です。"
+      },
+      "image_query": "tranquil city morning minimal background",
+      "source_summary": "语言互动对儿童的社交和认知发展至关重要。",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      }
+    },
+    {
+      "id": "pool_20260602083314_6",
+      "status": "draft",
+      "created_at": "2026-06-02T08:33:14Z",
+      "published_at": null,
+      "published_date": null,
+      "topic": "学习挑战",
+      "quote": {
+        "zh-Hans": "逐渐增加的挑战能激发孩子的学习兴趣。",
+        "en": "Gradually increasing challenges can spark children's interest in learning.",
+        "ja": "徐々に増える挑戦は、子どもの学ぶ意欲を引き出します。"
+      },
+      "image_query": "calm rainy street minimal background",
+      "source_summary": "逐渐增加的挑战对激发儿童学习兴趣有积极影响。",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      }
+    }
+  ]
 }
