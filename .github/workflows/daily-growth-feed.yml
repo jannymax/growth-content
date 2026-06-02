@@ -1,0 +1,50 @@
+name: Daily Growth Feed
+
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  models: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate daily growth feed entry
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          GITHUB_MODEL: openai/gpt-4o-mini
+        run: python scripts/generate_daily_growth.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Add daily growth feed"
+          title: "Add daily growth feed"
+          body: |
+            This PR was generated automatically.
+
+            Please review:
+            - quote quality
+            - translations
+            - source
+            - background image
+          branch: "daily-growth-feed-${{ github.run_id }}"
+          delete-branch: true
