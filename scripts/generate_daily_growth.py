@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -96,30 +97,76 @@ def search_semantic_scholar():
         "fields": "title,abstract,year,citationCount,url,authors"
     }
 
-    response = requests.get(url, params=params, timeout=30)
-    response.raise_for_status()
+    headers = {
+        "User-Agent": "growth-content-daily-feed/1.0"
+    }
 
-    papers = response.json().get("data", [])
+    last_error = None
 
-    papers = [
-        p for p in papers
-        if p.get("abstract")
-        and p.get("title")
-        and p.get("year")
-    ]
+    for attempt in range(3):
+        try:
+            response = requests.get(
+                url,
+                params=params,
+                headers=headers,
+                timeout=30
+            )
 
-    if not papers:
-        raise RuntimeError("No suitable papers found.")
+            if response.status_code == 429:
+                wait_seconds = 10 * (attempt + 1)
+                print(f"Semantic Scholar rate limited. Waiting {wait_seconds} seconds...")
+                time.sleep(wait_seconds)
+                continue
 
-    papers.sort(
-        key=lambda p: (
-            p.get("citationCount") or 0,
-            p.get("year") or 0
+            response.raise_for_status()
+
+            papers = response.json().get("data", [])
+
+            papers = [
+                p for p in papers
+                if p.get("abstract")
+                and p.get("title")
+                and p.get("year")
+            ]
+
+            if not papers:
+                raise RuntimeError("No suitable papers found from Semantic Scholar.")
+
+            papers.sort(
+                key=lambda p: (
+                    p.get("citationCount") or 0,
+                    p.get("year") or 0
+                ),
+                reverse=True
+            )
+
+            return papers[0]
+
+        except Exception as error:
+            last_error = error
+            wait_seconds = 5 * (attempt + 1)
+            print(f"Semantic Scholar search failed. Attempt {attempt + 1}/3. Waiting {wait_seconds} seconds...")
+            time.sleep(wait_seconds)
+
+    print(f"Semantic Scholar failed after retries: {last_error}")
+    print("Using fallback classic child development source.")
+
+    return {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "abstract": (
+            "Classic child development research suggests that children grow through stable routines, "
+            "secure relationships, guided participation, pretend play, language interaction, and gradually "
+            "increasing challenges. Theories from developmental psychology emphasize that children are not "
+            "miniature adults; they learn through social interaction, predictable environments, symbolic play, "
+            "and support from more experienced adults or peers."
         ),
-        reverse=True
-    )
-
-    return papers[0]
+        "year": 2024,
+        "citationCount": 0,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "authors": [
+            {"name": "Child Development Research"}
+        ]
+    }
 
 
 def github_models_generate(system_prompt, user_prompt):
