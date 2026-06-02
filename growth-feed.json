@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-05-15T10:00:00Z",
-  "today_id": "2026-05-15",
+  "updated_at": "2026-06-02T08:33:15Z",
+  "today_id": "2026-06-02",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -290,6 +290,38 @@
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-28.png",
       "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-06-02",
+      "date": "2026-06-02",
+      "quote": {
+        "zh-Hans": "稳定的日常生活有助于孩子的成长与安全感。",
+        "en": "Stable routines contribute to children's growth and sense of security.",
+        "ja": "安定した日常生活は、子どもの成長と安心感を育みます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-02.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      },
+      "topic": "日常生活",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "7axBZDlTD8Q",
+        "photographer": "Benjamin Hibbert-Hingston",
+        "url": "https://unsplash.com/photos/misty-forest-canopy-with-blurred-trees-7axBZDlTD8Q"
+      }
     }
   ]
 }
