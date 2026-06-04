@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-02T08:33:15Z",
-  "today_id": "2026-06-02",
+  "updated_at": "2026-06-03T23:25:18Z",
+  "today_id": "2026-06-03",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -321,6 +321,38 @@
         "id": "7axBZDlTD8Q",
         "photographer": "Benjamin Hibbert-Hingston",
         "url": "https://unsplash.com/photos/misty-forest-canopy-with-blurred-trees-7axBZDlTD8Q"
+      }
+    },
+    {
+      "id": "2026-06-03",
+      "date": "2026-06-03",
+      "quote": {
+        "zh-Hans": "安全的关系是孩子学习和探索的基础。",
+        "en": "Secure relationships are the foundation for children's learning and exploration.",
+        "ja": "安全な関係は、子どもが学び、探求するための基盤です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-03.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      },
+      "topic": "亲密关系",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "58omTtUK8yM",
+        "photographer": "Eran Menashri",
+        "url": "https://unsplash.com/photos/photo-of-body-of-water-58omTtUK8yM"
       }
     }
   ]
