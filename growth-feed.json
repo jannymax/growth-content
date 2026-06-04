@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-03T23:25:18Z",
-  "today_id": "2026-06-03",
+  "updated_at": "2026-06-04T22:58:30Z",
+  "today_id": "2026-06-04",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -353,6 +353,38 @@
         "id": "58omTtUK8yM",
         "photographer": "Eran Menashri",
         "url": "https://unsplash.com/photos/photo-of-body-of-water-58omTtUK8yM"
+      }
+    },
+    {
+      "id": "2026-06-04",
+      "date": "2026-06-04",
+      "quote": {
+        "zh-Hans": "引导参与可以帮助孩子更好地理解世界。",
+        "en": "Guided participation helps children better understand the world.",
+        "ja": "ガイド付きの参加は、子どもが世界をよりよく理解するのに役立ちます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-04.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      },
+      "topic": "引导参与",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "cQLRkh1YTWg",
+        "photographer": "Giorgio Trovato",
+        "url": "https://unsplash.com/photos/brown-grass-field-under-blue-sky-during-daytime-cQLRkh1YTWg"
       }
     }
   ]
