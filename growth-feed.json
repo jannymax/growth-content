@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated_at": "2026-06-06T22:51:09Z",
-  "today_id": "2026-06-06",
+  "today_id": "2026-06-07",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -388,7 +388,39 @@
       }
     },
     {
-      "id": "2026-06-06",
+"id": "2026-06-05",
+          "date": "2026-06-05",
+          "quote": {
+            "zh-Hans": "语言互动是儿童社交与认知发展的关键。",
+            "en": "Language interaction is key to children's social and cognitive development.",
+            "ja": "言語的なやりとりは、子どもの社会的・認知的発達の鍵となります。"
+          },
+          "author": {
+            "zh-Hans": "育儿研究",
+            "en": "Parenting Insights",
+            "ja": "育児リサーチ"
+          },
+          "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-05.jpg",
+          "image_name": "quotation_card_bg",
+          "source": {
+            "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+            "year": 2024,
+            "url": "https://en.wikipedia.org/wiki/Child_development",
+            "citationCount": 0,
+            "authors": [
+              "Child Development Research"
+            ]
+          },
+          "topic": "语言互动",
+          "image_source": {
+            "provider": "Unsplash",
+            "id": "STGs2DYmKJ4",
+            "photographer": "Wolfgang Hasselmann",
+            "url": "https://unsplash.com/photos/a-sheep-is-standing-in-a-grassy-field-STGs2DYmKJ4"
+          }
+        },
+        {
+                "id": "2026-06-06",
       "date": "2026-06-06",
       "quote": {
         "zh-Hans": "象征性游戏促进孩子的创造力与想象力。",
@@ -418,6 +450,38 @@
         "photographer": "Pascal Bullan",
         "url": "https://unsplash.com/photos/a-close-up-of-a-plant-with-a-blurry-background-lcG9dSVGudI"
       }
-    }
+    },
+        {
+          "id": "2026-06-07",
+          "date": "2026-06-07",
+          "quote": {
+            "zh-Hans": "逐渐增加的挑战能激发孩子的学习兴趣。",
+            "en": "Gradually increasing challenges can spark children's interest in learning.",
+            "ja": "段階的に高まる挑戦は、子どもの学びへの兴味を引き出すことができます。"
+          },
+          "author": {
+            "zh-Hans": "育儿研究",
+            "en": "Parenting Insights",
+            "ja": "育児リサーチ"
+          },
+          "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-07.jpg",
+          "image_name": "quotation_card_bg",
+          "source": {
+            "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+            "year": 2024,
+            "url": "https://en.wikipedia.org/wiki/Child_development",
+            "citationCount": 0,
+            "authors": [
+              "Child Development Research"
+            ]
+          },
+          "topic": "学习挑战",
+          "image_source": {
+            "provider": "Unsplash",
+            "id": "CxUp4OQd6G8",
+            "photographer": "Jakob Braun",
+            "url": "https://unsplash.com/photos/CxUp4OQd6G8"
+          }
+        }
   ]
 }
