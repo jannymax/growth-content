@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-06T22:51:09Z",
-  "today_id": "2026-06-06",
+  "updated_at": "2026-06-05T22:53:16Z",
+  "today_id": "2026-06-05",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -356,8 +356,8 @@
       }
     },
     {
-      "id": "2026-06-04",
-      "date": "2026-06-04",
+      "id": "2026-06-05",
+      "date": "2026-06-05",
       "quote": {
         "zh-Hans": "引导参与可以帮助孩子更好地理解世界。",
         "en": "Guided participation helps children better understand the world.",
@@ -368,7 +368,7 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-04.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-05.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
@@ -382,9 +382,9 @@
       "topic": "引导参与",
       "image_source": {
         "provider": "Unsplash",
-        "id": "cQLRkh1YTWg",
-        "photographer": "Giorgio Trovato",
-        "url": "https://unsplash.com/photos/brown-grass-field-under-blue-sky-during-daytime-cQLRkh1YTWg"
+        "id": "5TGs2DYmKJ4",
+        "photographer": "Wolfgang Hasselmann",
+        "url": "https://unsplash.com/photos/a-sheep-is-standing-in-a-grassy-field-5TGs2DYmKJ4"
       }
     },
     {
