@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-04T22:58:30Z",
-  "today_id": "2026-06-04",
+  "updated_at": "2026-06-07T22:51:42Z",
+  "today_id": "2026-06-07",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -385,6 +385,38 @@
         "id": "cQLRkh1YTWg",
         "photographer": "Giorgio Trovato",
         "url": "https://unsplash.com/photos/brown-grass-field-under-blue-sky-during-daytime-cQLRkh1YTWg"
+      }
+    },
+    {
+      "id": "2026-06-07",
+      "date": "2026-06-07",
+      "quote": {
+        "zh-Hans": "象征性游戏促进孩子的创造力与想象力。",
+        "en": "Symbolic play fosters children's creativity and imagination.",
+        "ja": "象徴的な遊びは、子どもの創造性と想像力を育みます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-07.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      },
+      "topic": "象征性游戏",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "CxUp4OQd6G8",
+        "photographer": "Jakob Braun",
+        "url": "https://unsplash.com/photos/brown-grass-field-during-daytime-CxUp4OQd6G8"
       }
     }
   ]
