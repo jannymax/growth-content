@@ -98,10 +98,10 @@
     },
     {
       "id": "pool_20260602083314_5",
-      "status": "draft",
+      "status": "published",
       "created_at": "2026-06-02T08:33:14Z",
-      "published_at": null,
-      "published_date": null,
+      "published_at": "2026-06-05T22:51:09Z",
+      "published_date": "2026-06-05",
       "topic": "语言互动",
       "quote": {
         "zh-Hans": "语言互动是儿童社交与认知发展的关键。",
@@ -122,10 +122,10 @@
     },
     {
       "id": "pool_20260602083314_6",
-      "status": "draft",
+      "status": "published",
       "created_at": "2026-06-02T08:33:14Z",
-      "published_at": null,
-      "published_date": null,
+      "published_at": "2026-06-07T22:51:09Z",
+      "published_date": "2026-06-07",
       "topic": "学习挑战",
       "quote": {
         "zh-Hans": "逐渐增加的挑战能激发孩子的学习兴趣。",
