@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-08T23:06:02Z",
-  "today_id": "2026-06-08",
+  "updated_at": "2026-06-09T23:06:37Z",
+  "today_id": "2026-06-09",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -513,6 +513,38 @@
         "id": "HOkOUQX9_vc",
         "photographer": "Alicja Gancarz",
         "url": "https://unsplash.com/photos/body-of-water-under-white-sky-during-daytime-HOkOUQX9_vc"
+      }
+    },
+    {
+      "id": "2026-06-09",
+      "date": "2026-06-09",
+      "quote": {
+        "zh-Hans": "安全的关系让孩子更勇于探索和学习。",
+        "en": "Secure relationships encourage children to explore and learn.",
+        "ja": "安全な関係は子供が探索し学ぶことを促します。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-09.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      },
+      "topic": "亲密关系",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "imiEkMoZt48",
+        "photographer": "Emmanuel Phaeton",
+        "url": "https://unsplash.com/photos/a-forest-filled-with-lots-of-green-trees-imiEkMoZt48"
       }
     }
   ]

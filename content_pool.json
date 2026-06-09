@@ -170,10 +170,10 @@
     },
     {
       "id": "pool_20260608230602_2",
-      "status": "draft",
+      "status": "published",
       "created_at": "2026-06-08T23:06:02Z",
-      "published_at": null,
-      "published_date": null,
+      "published_at": "2026-06-09T23:06:37Z",
+      "published_date": "2026-06-09",
       "topic": "亲密关系",
       "quote": {
         "zh-Hans": "安全的关系让孩子更勇于探索和学习。",
