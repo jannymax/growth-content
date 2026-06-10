@@ -194,10 +194,10 @@
     },
     {
       "id": "pool_20260608230602_3",
-      "status": "draft",
+      "status": "published",
       "created_at": "2026-06-08T23:06:02Z",
-      "published_at": null,
-      "published_date": null,
+      "published_at": "2026-06-10T23:16:28Z",
+      "published_date": "2026-06-10",
       "topic": "参与学习",
       "quote": {
         "zh-Hans": "引导参与能帮助孩子更好地理解世界。",
