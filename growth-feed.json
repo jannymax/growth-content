@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-09T23:06:37Z",
-  "today_id": "2026-06-09",
+  "updated_at": "2026-06-10T23:16:28Z",
+  "today_id": "2026-06-10",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -545,6 +545,38 @@
         "id": "imiEkMoZt48",
         "photographer": "Emmanuel Phaeton",
         "url": "https://unsplash.com/photos/a-forest-filled-with-lots-of-green-trees-imiEkMoZt48"
+      }
+    },
+    {
+      "id": "2026-06-10",
+      "date": "2026-06-10",
+      "quote": {
+        "zh-Hans": "引导参与能帮助孩子更好地理解世界。",
+        "en": "Guided participation helps children understand the world better.",
+        "ja": "導かれた参加は子供が世界をよりよく理解するのを助けます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-10.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      },
+      "topic": "参与学习",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "nHvOw2hbPYs",
+        "photographer": "Anton Atanasov",
+        "url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-nHvOw2hbPYs"
       }
     }
   ]
