@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-10T23:16:28Z",
-  "today_id": "2026-06-10",
+  "updated_at": "2026-06-30T23:00:35Z",
+  "today_id": "2026-06-30",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -577,6 +577,38 @@
         "id": "nHvOw2hbPYs",
         "photographer": "Anton Atanasov",
         "url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-nHvOw2hbPYs"
+      }
+    },
+    {
+      "id": "2026-06-30",
+      "date": "2026-06-30",
+      "quote": {
+        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
+        "en": "Pretend play is an important way for children to learn.",
+        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-30.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
+        "year": 2024,
+        "url": "https://en.wikipedia.org/wiki/Child_development",
+        "citationCount": 0,
+        "authors": [
+          "Child Development Research"
+        ]
+      },
+      "topic": "游戏学习",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
       }
     }
   ]
