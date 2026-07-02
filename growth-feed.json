@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "updated_at": "2026-06-16T23:15:55Z",
+  "today_id": "2026-06-16",
   "updated_at": "2026-06-17T23:12:43Z",
   "today_id": "2026-06-17",
   "updated_at": "2026-06-18T23:26:26Z",
@@ -614,6 +616,8 @@
       }
     },
     {
+      "id": "2026-06-16",
+      "date": "2026-06-16",
       "id": "2026-06-17",
       "date": "2026-06-17",
       "id": "2026-06-18",
@@ -660,6 +664,7 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-16.jpg",
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-17.jpg",
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-18.jpg",
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-19.jpg",
