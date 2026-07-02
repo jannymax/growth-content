@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "updated_at": "2026-06-30T23:00:35Z",
+  "today_id": "2026-06-30",
   "updated_at": "2026-07-01T22:58:56Z",
   "today_id": "2026-07-01",
   "quotes": [
@@ -580,6 +582,8 @@
       }
     },
     {
+      "id": "2026-06-30",
+      "date": "2026-06-30",
       "id": "2026-07-01",
       "date": "2026-07-01",
       "quote": {
@@ -592,6 +596,7 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-30.jpg",
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-01.jpg",
       "image_name": "quotation_card_bg",
       "source": {
@@ -606,6 +611,9 @@
       "topic": "游戏学习",
       "image_source": {
         "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
