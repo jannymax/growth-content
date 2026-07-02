@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "updated_at": "2026-06-19T22:41:05Z",
+  "today_id": "2026-06-19",
   "updated_at": "2026-06-20T22:55:02Z",
   "today_id": "2026-06-20",
   "updated_at": "2026-06-21T22:56:03Z",
@@ -608,6 +610,8 @@
       }
     },
     {
+      "id": "2026-06-19",
+      "date": "2026-06-19",
       "id": "2026-06-20",
       "date": "2026-06-20",
       "id": "2026-06-21",
@@ -648,6 +652,7 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-19.jpg",
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-20.jpg",
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-21.jpg",
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-22.jpg",
@@ -676,6 +681,9 @@
       "topic": "游戏学习",
       "image_source": {
         "provider": "Unsplash",
+        "id": "CvGxZHYGEas",
+        "photographer": "JIEUN KWON",
+        "url": "https://unsplash.com/photos/a-bird-flying-over-a-field-of-purple-flowers-CvGxZHYGEas"
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
