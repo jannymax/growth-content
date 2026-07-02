@@ -2,6 +2,14 @@
   "version": 1,
   "updated_at": "2026-06-27T22:48:26Z",
   "today_id": "2026-06-27",
+  "updated_at": "2026-06-28T22:48:57Z",
+  "today_id": "2026-06-28",
+  "updated_at": "2026-06-29T22:43:54Z",
+  "today_id": "2026-06-29",
+  "updated_at": "2026-06-30T23:00:35Z",
+  "today_id": "2026-06-30",
+  "updated_at": "2026-07-01T22:58:56Z",
+  "today_id": "2026-07-01",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -582,6 +590,14 @@
     {
       "id": "2026-06-27",
       "date": "2026-06-27",
+      "id": "2026-06-28",
+      "date": "2026-06-28",
+      "id": "2026-06-29",
+      "date": "2026-06-29",
+      "id": "2026-06-30",
+      "date": "2026-06-30",
+      "id": "2026-07-01",
+      "date": "2026-07-01",
       "quote": {
         "zh-Hans": "象征性游戏是孩子学习的重要方式。",
         "en": "Pretend play is an important way for children to learn.",
@@ -593,6 +609,10 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-27.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-28.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-29.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-30.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-01.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
@@ -609,6 +629,9 @@
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "id": "sZXlOY-dhJY",
+        "photographer": "Truong Tuyet Ly",
+        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
       }
     }
   ]
