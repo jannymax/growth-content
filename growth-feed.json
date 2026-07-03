@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-03T00:00:00Z",
-  "today_id": "2026-07-01",
+  "updated_at": "2026-07-03T22:49:58Z",
+  "today_id": "2026-07-04",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -1252,6 +1252,60 @@
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+      }
+    },
+    {
+      "id": "2026-07-04",
+      "date": "2026-07-04",
+      "quote": {
+        "zh-Hans": "让孩子自己尝试解决问题，可能有助于他们提升记忆力、专注力和灵活思考的能力。",
+        "en": "Encouraging kids to solve problems on their own may help improve memory, focus, and flexible thinking.",
+        "ja": "子どもに自分で問題を解決させることは、記憶力、集中力、柔軟な思考力を育む助けになるかもしれません。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-04.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "a95bfe0a3516e0c5976df5b1b948979baacef000",
+        "title": "The effectiveness of an autonomy-supportive parenting intervention for enhancing maternal parenting skills and executive functioning among preschool-aged children: two preliminary studies.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/a95bfe0a3516e0c5976df5b1b948979baacef000",
+        "citationCount": 0,
+        "authors": [
+          "Donny Hendrawan",
+          "Rahmah Nurul Hayya",
+          "Farras Syazwani",
+          "Keiko Anarizki Adisya Fahira",
+          "Mawla Atqiyya Muhdiar",
+          "Nisrina Putri Anandiva"
+        ],
+        "venue": "Child Neuropsychology: A Journal of Normal and Abnormal Development in Childhood and Adolescence",
+        "publicationDate": "2026-02-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1080/09297049.2025.2612025",
+          "CorpusId": 285258911,
+          "PubMed": "41622938"
+        },
+        "search_query": "executive function child development parenting intervention"
+      },
+      "source_summary": "研究探讨了支持自主性养育（ASP）对学龄前儿童执行功能（EF）和母亲养育技能的影响。执行功能包括工作记忆、抑制控制和认知灵活性。通过两项初步研究发现，参与四次2小时的ASP干预培训后，母亲的养育技能和孩子的执行功能均有所提升。研究强调了针对性养育支持对儿童发展和家长技能的重要性。摘要未说明样本规模或具体效果量，需谨慎理解。",
+      "practical_takeaway": "在日常生活中，给孩子机会自己尝试解决小问题，比如选择穿什么衣服或如何整理玩具。",
+      "topic": "自主性支持与执行功能",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "1gHcEFOtvlI",
+        "photographer": "Richie Bettencourt",
+        "url": "https://unsplash.com/photos/a-path-in-the-middle-of-a-forest-with-lots-of-trees-1gHcEFOtvlI",
+        "perceptual_hash": "5113136307060f0e",
+        "width": 4000,
+        "height": 6000
       }
     }
   ]
