@@ -1,12 +1,20 @@
+import argparse
+import difflib
 import json
 import os
 import random
+import re
+import tempfile
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
-from json_repair import repair_json
+
+try:
+    from json_repair import repair_json
+except Exception:
+    repair_json = None
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,34 +25,57 @@ PROMPTS_DIR = ROOT / "prompts"
 IMAGES_DIR = ROOT / "images"
 
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/jannymax/growth-content/main/images"
-
 GITHUB_MODELS_URL = "https://models.github.ai/inference/chat/completions"
-GITHUB_MODEL = os.getenv("GITHUB_MODEL", "openai/gpt-4o-mini")
+GITHUB_MODEL = os.getenv("GITHUB_MODEL", "openai/gpt-4o")
 
+SEMANTIC_SCHOLAR_SEARCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 UNSPLASH_SEARCH_URL = "https://api.unsplash.com/search/photos"
 
-SEARCH_KEYWORDS = [
-    "child development psychology",
-    "early childhood education child development",
-    "parent child interaction child development",
-    "emotion regulation preschool children",
-    "executive function child development",
-    "pretend play child development",
-    "language development children",
-    "bilingual children cognitive development",
-    "attachment theory child development",
-    "scaffolding learning children",
-    "play based learning early childhood",
-    "social emotional learning preschool children",
+CHINA_TZ = timezone(timedelta(hours=8))
+
+TOPIC_QUERIES = [
+    "early childhood development parenting longitudinal study",
+    "parent child interaction language development children study",
+    "emotion regulation preschool children parenting study",
+    "executive function child development parenting intervention",
+    "play based learning early childhood development research",
+    "sleep routines child development parenting study",
+    "shared reading language development children meta analysis",
+    "secure attachment child development parenting study",
+    "self regulation children family routines study",
+    "positive parenting child socioemotional development study",
+    "outdoor play child development early childhood study",
+    "screen time child development systematic review preschool",
+    "bilingual children cognitive language development study",
+    "growth mindset children learning motivation study",
+    "scaffolding learning children parent interaction study",
 ]
 
+DISALLOWED_ABSOLUTE_WORDS = [
+    "决定一生",
+    "错过就来不及",
+    "唯一",
+    "必须",
+    "最有效",
+    "显著优于",
+    "保证",
+    "彻底改变",
+]
 
-def utc_now():
+DEFAULT_IMAGE_QUERY = "quiet lake morning mist minimal background"
+
+
+def now_utc():
     return datetime.now(timezone.utc)
 
 
+def iso_now():
+    return now_utc().strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def today_id():
-    return utc_now().strftime("%Y-%m-%d")
+    # 这个项目的发布时间对应中国早晨，所以日期按 Asia/Shanghai 计算，而不是 UTC。
+    return datetime.now(CHINA_TZ).strftime("%Y-%m-%d")
 
 
 def load_json(path, default):
@@ -56,117 +87,192 @@ def load_json(path, default):
 
 
 def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp_name = tempfile.mkstemp(
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        dir=str(path.parent),
+    )
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        os.replace(tmp_name, str(path))
+    finally:
+        if os.path.exists(tmp_name):
+            os.unlink(tmp_name)
 
 
 def load_feed():
-    return load_json(FEED_PATH, {
-        "version": 1,
-        "updated_at": "",
-        "today_id": "",
-        "quotes": []
-    })
+    return load_json(
+        FEED_PATH,
+        {
+            "version": 1,
+            "updated_at": "",
+            "today_id": "",
+            "quotes": [],
+        },
+    )
 
 
 def load_pool():
-    return load_json(POOL_PATH, {
-        "items": []
-    })
+    return load_json(POOL_PATH, {"items": []})
 
 
 def already_published_today(feed, date_id):
     return any(item.get("id") == date_id for item in feed.get("quotes", []))
 
 
-def get_unpublished_items(pool):
-    return [
-        item for item in pool.get("items", [])
-        if item.get("status") != "published"
-    ]
+def canonical_text(value):
+    value = (value or "").strip().lower()
+    value = re.sub(r"https?://", "", value)
+    value = re.sub(r"[^0-9a-z\u4e00-\u9fff]+", "", value)
+    return value
 
 
-def search_semantic_scholar():
-    keyword = random.choice(SEARCH_KEYWORDS)
+def paper_source_keys(paper):
+    keys = set()
 
-    url = "https://api.semanticscholar.org/graph/v1/paper/search"
-    params = {
-        "query": keyword,
-        "limit": 10,
-        "fields": "title,abstract,year,citationCount,url,authors"
-    }
+    for name in ("paperId", "url", "title"):
+        value = paper.get(name)
+        if value:
+            keys.add(f"{name}:{canonical_text(value)}")
 
-    headers = {
-        "User-Agent": "growth-content-daily-feed/1.0"
-    }
+    external_ids = paper.get("externalIds") or {}
+    doi = external_ids.get("DOI") or paper.get("doi")
+    if doi:
+        keys.add(f"doi:{canonical_text(doi)}")
+
+    return {key for key in keys if key.split(":", 1)[1]}
+
+
+def used_source_keys(feed, pool):
+    keys = set()
+    records = list(feed.get("quotes", [])) + list(pool.get("items", []))
+
+    for record in records:
+        source = record.get("source") or {}
+        keys.update(paper_source_keys(source))
+
+    return keys
+
+
+def quote_similarity(left, right):
+    return difflib.SequenceMatcher(
+        None,
+        canonical_text(left),
+        canonical_text(right),
+    ).ratio()
+
+
+def get_recent_zh_quotes(feed, limit=60):
+    quotes = []
+    for item in feed.get("quotes", [])[-limit:]:
+        text = (item.get("quote") or {}).get("zh-Hans", "")
+        if text:
+            quotes.append(text)
+    return quotes
+
+
+def score_paper(paper):
+    year = paper.get("year") or 0
+    citations = paper.get("citationCount") or 0
+    abstract_len = len(paper.get("abstract") or "")
+
+    recency_bonus = max(0, year - 2018) * 30
+    citation_bonus = min(citations, 500) * 0.7
+    abstract_bonus = min(abstract_len, 1600) * 0.05
+
+    return recency_bonus + citation_bonus + abstract_bonus
+
+
+def select_paper(papers, used_keys):
+    candidates = []
+    for paper in papers:
+        if not paper.get("title") or not paper.get("abstract") or not paper.get("year"):
+            continue
+        if len(paper.get("abstract") or "") < 500:
+            continue
+        if paper_source_keys(paper) & used_keys:
+            continue
+        candidates.append(paper)
+
+    if not candidates:
+        return None
+
+    candidates.sort(key=score_paper, reverse=True)
+    return candidates[0]
+
+
+def search_semantic_scholar(used_keys, topic_offset=0):
+    headers = {"User-Agent": "growth-content-daily-feed/2.0"}
+    fields = ",".join(
+        [
+            "paperId",
+            "title",
+            "abstract",
+            "year",
+            "citationCount",
+            "url",
+            "authors",
+            "externalIds",
+            "publicationDate",
+            "venue",
+            "publicationTypes",
+        ]
+    )
+
+    queries = TOPIC_QUERIES[:]
+    start = topic_offset % len(queries)
+    queries = queries[start:] + queries[:start]
 
     last_error = None
 
-    for attempt in range(3):
-        try:
-            response = requests.get(
-                url,
-                params=params,
-                headers=headers,
-                timeout=30
-            )
+    for query in queries:
+        params = {
+            "query": query,
+            "limit": 50,
+            "fields": fields,
+        }
 
-            if response.status_code == 429:
-                wait_seconds = 10 * (attempt + 1)
-                print(f"Semantic Scholar rate limited. Waiting {wait_seconds} seconds...")
+        for attempt in range(3):
+            try:
+                response = requests.get(
+                    SEMANTIC_SCHOLAR_SEARCH_URL,
+                    params=params,
+                    headers=headers,
+                    timeout=30,
+                )
+
+                if response.status_code == 429:
+                    wait_seconds = 12 * (attempt + 1)
+                    print(
+                        "Semantic Scholar rate limited. "
+                        f"Waiting {wait_seconds} seconds..."
+                    )
+                    time.sleep(wait_seconds)
+                    continue
+
+                response.raise_for_status()
+                papers = response.json().get("data", [])
+                selected = select_paper(papers, used_keys)
+                if selected:
+                    selected["_search_query"] = query
+                    return selected
+                break
+            except Exception as error:
+                last_error = error
+                wait_seconds = 5 * (attempt + 1)
+                print(
+                    "Semantic Scholar search failed. "
+                    f"Attempt {attempt + 1}/3. Waiting {wait_seconds} seconds..."
+                )
                 time.sleep(wait_seconds)
-                continue
 
-            response.raise_for_status()
-
-            papers = response.json().get("data", [])
-
-            papers = [
-                p for p in papers
-                if p.get("abstract")
-                and p.get("title")
-                and p.get("year")
-            ]
-
-            if not papers:
-                raise RuntimeError("No suitable papers found from Semantic Scholar.")
-
-            papers.sort(
-                key=lambda p: (
-                    p.get("citationCount") or 0,
-                    p.get("year") or 0
-                ),
-                reverse=True
-            )
-
-            return papers[0]
-
-        except Exception as error:
-            last_error = error
-            wait_seconds = 5 * (attempt + 1)
-            print(f"Semantic Scholar search failed. Attempt {attempt + 1}/3. Waiting {wait_seconds} seconds...")
-            time.sleep(wait_seconds)
-
-    print(f"Semantic Scholar failed after retries: {last_error}")
-    print("Using fallback classic child development source.")
-
-    return {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "abstract": (
-            "Classic child development research suggests that children grow through stable routines, "
-            "secure relationships, guided participation, pretend play, language interaction, and gradually "
-            "increasing challenges. Theories from developmental psychology emphasize that children are not "
-            "miniature adults; they learn through social interaction, predictable environments, symbolic play, "
-            "and support from more experienced adults or peers."
-        ),
-        "year": 2024,
-        "citationCount": 0,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "authors": [
-            {"name": "Child Development Research"}
-        ]
-    }
+    raise RuntimeError(
+        "No new suitable paper found from Semantic Scholar. "
+        f"Last error: {last_error}"
+    )
 
 
 def github_models_generate(system_prompt, user_prompt):
@@ -176,30 +282,24 @@ def github_models_generate(system_prompt, user_prompt):
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json",
         "Content-Type": "application/json",
-        "X-GitHub-Api-Version": "2026-03-10"
+        "X-GitHub-Api-Version": "2026-03-10",
     }
 
     payload = {
         "model": GITHUB_MODEL,
         "messages": [
-            {
-                "role": "system",
-                "content": system_prompt
-            },
-            {
-                "role": "user",
-                "content": user_prompt
-            }
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
         ],
-        "temperature": 0.4,
-        "max_tokens": 1800
+        "temperature": 0.35,
+        "max_tokens": 2400,
     }
 
     response = requests.post(
         GITHUB_MODELS_URL,
         headers=headers,
         json=payload,
-        timeout=120
+        timeout=120,
     )
     response.raise_for_status()
 
@@ -207,11 +307,26 @@ def github_models_generate(system_prompt, user_prompt):
     return data["choices"][0]["message"]["content"].strip()
 
 
-def generate_insights(paper):
+def parse_model_json(raw):
+    try:
+        return json.loads(raw)
+    except Exception:
+        if repair_json is None:
+            raise
+        return json.loads(repair_json(raw))
+
+
+def author_names(paper):
+    authors = paper.get("authors") or []
+    return [a.get("name") for a in authors if a.get("name")][:6]
+
+
+def generate_insight(paper, recent_quotes):
     system_prompt = (PROMPTS_DIR / "content_system_prompt.md").read_text(encoding="utf-8")
+    recent_block = "\n".join(f"- {quote}" for quote in recent_quotes[-25:])
 
     user_prompt = f"""
-请基于下面这篇研究，生成 1–8 条适合进入内容池的每日成长短句。
+请只基于下面这一篇真实研究，生成 1 条每日成长内容。
 
 论文标题：
 {paper.get("title")}
@@ -219,141 +334,283 @@ def generate_insights(paper):
 年份：
 {paper.get("year")}
 
+期刊/会议：
+{paper.get("venue") or "摘要未说明"}
+
 引用数：
 {paper.get("citationCount")}
+
+论文链接：
+{paper.get("url")}
 
 摘要：
 {paper.get("abstract")}
 
+最近已经发布过的中文短句，注意不要重复观点和句式：
+{recent_block or "暂无"}
+
 要求：
-- 每条中文 20–40 个汉字左右
-- 每条只表达一个洞察
-- 适合每天发布一条
-- 中文、英文、日文三语
-- 不夸大，不制造焦虑
-- 输出严格 JSON，不要 markdown
+- 只输出 1 条，不要输出多条
+- 中文短句 55–90 个汉字，必须有具体洞察，不要口号
+- source_summary 120–260 个汉字，说明研究关注什么、发现了什么、能怎样谨慎理解
+- practical_takeaway 40–120 个汉字，给家长一个温和、可执行、不制造焦虑的做法
+- 如果摘要没有样本、方法、效果量等信息，就明确写“摘要未说明……”，不要编造
+- 不要使用“决定一生、唯一、必须、最有效、保证”等绝对表达
+- image_query 只能是英文摄影关键词，不能出现 people, child, baby, face, hand
+- 输出严格 JSON，不要 markdown，不要解释
+
+输出格式：
+{{
+  "insights": [
+    {{
+      "quote": {{
+        "zh-Hans": "...",
+        "en": "...",
+        "ja": "..."
+      }},
+      "topic": "...",
+      "source_summary": "...",
+      "practical_takeaway": "...",
+      "image_query": "quiet lake morning mist minimal background"
+    }}
+  ]
+}}
 """
 
     raw = github_models_generate(system_prompt, user_prompt)
-
-    try:
-        return json.loads(raw)
-    except Exception:
-        repaired = repair_json(raw)
-        return json.loads(repaired)
-
-
-def add_insights_to_pool(pool, generated, paper):
-    insights = generated.get("insights", [])
-
-    if not insights:
-        raise RuntimeError("No insights generated.")
-
-    now_text = utc_now().strftime("%Y-%m-%dT%H:%M:%SZ")
-
-    authors = paper.get("authors") or []
-    author_names = [a.get("name") for a in authors if a.get("name")]
-
-    existing_keys = set()
-    for item in pool.get("items", []):
-        zh = item.get("quote", {}).get("zh-Hans", "")
-        existing_keys.add(zh)
-
-    added_count = 0
-
-    for index, insight in enumerate(insights, start=1):
-        quote = insight.get("quote", {})
-        zh = quote.get("zh-Hans", "").strip()
-
-        if not zh:
-            continue
-
-        if zh in existing_keys:
-            continue
-
-        pool_item = {
-            "id": f"pool_{utc_now().strftime('%Y%m%d%H%M%S')}_{index}",
-            "status": "draft",
-            "created_at": now_text,
-            "published_at": None,
-            "published_date": None,
-            "topic": insight.get("topic", ""),
-            "quote": quote,
-            "image_query": insight.get("image_query", "quiet lake morning mist minimal background"),
-            "source_summary": insight.get("source_summary", ""),
-            "source": {
-                "title": paper.get("title"),
-                "year": paper.get("year"),
-                "url": paper.get("url"),
-                "citationCount": paper.get("citationCount"),
-                "authors": author_names[:5]
-            }
-        }
-
-        pool["items"].append(pool_item)
-        existing_keys.add(zh)
-        added_count += 1
-
-    if added_count == 0:
-        raise RuntimeError("No new insights added to pool.")
-
-    return added_count
+    generated = parse_model_json(raw)
+    insights = generated.get("insights") or []
+    if len(insights) != 1:
+        raise RuntimeError("Model must return exactly one insight.")
+    return insights[0]
 
 
-def download_unsplash_image(date_id, image_query):
-    access_key = os.environ["UNSPLASH_ACCESS_KEY"]
+def validate_insight(insight, existing_quotes):
+    quote = insight.get("quote") or {}
+    zh = (quote.get("zh-Hans") or "").strip()
+    en = (quote.get("en") or "").strip()
+    ja = (quote.get("ja") or "").strip()
+    summary = (insight.get("source_summary") or "").strip()
+    takeaway = (insight.get("practical_takeaway") or "").strip()
+    image_query = (insight.get("image_query") or "").strip()
 
-    # 强化你的图片审美：干净、安静、适合背景
-    query = f"{image_query} minimal calm nature background negative space"
+    if not zh or not en or not ja:
+        raise RuntimeError("Generated quote is missing one or more languages.")
+    if len(zh) < 35 or len(zh) > 110:
+        raise RuntimeError(f"Chinese quote length looks wrong: {len(zh)}")
+    if len(summary) < 80:
+        raise RuntimeError("source_summary is too short.")
+    if len(takeaway) < 30:
+        raise RuntimeError("practical_takeaway is too short.")
 
-    params = {
-        "query": query,
-        "orientation": "landscape",
-        "per_page": 10,
-        "client_id": access_key
+    for word in DISALLOWED_ABSOLUTE_WORDS:
+        if word in zh or word in summary or word in takeaway:
+            raise RuntimeError(f"Generated content uses absolutist wording: {word}")
+
+    for old_quote in existing_quotes:
+        if quote_similarity(zh, old_quote) >= 0.72:
+            raise RuntimeError("Generated quote is too similar to an existing quote.")
+
+    lowered_query = image_query.lower()
+    blocked_image_words = ["people", "person", "child", "children", "baby", "face", "hand"]
+    if any(word in lowered_query for word in blocked_image_words):
+        raise RuntimeError("image_query contains people/child/body words.")
+    if not re.search(r"[a-zA-Z]", image_query):
+        raise RuntimeError("image_query must be English keywords.")
+
+
+def make_pool_item(insight, paper, date_id):
+    source = {
+        "paperId": paper.get("paperId"),
+        "title": paper.get("title"),
+        "year": paper.get("year"),
+        "url": paper.get("url"),
+        "citationCount": paper.get("citationCount"),
+        "authors": author_names(paper),
+        "venue": paper.get("venue"),
+        "publicationDate": paper.get("publicationDate"),
+        "publicationTypes": paper.get("publicationTypes"),
+        "externalIds": paper.get("externalIds"),
+        "search_query": paper.get("_search_query"),
     }
-
-    response = requests.get(
-        UNSPLASH_SEARCH_URL,
-        params=params,
-        timeout=30
-    )
-    response.raise_for_status()
-
-    results = response.json().get("results", [])
-
-    if not results:
-        # 兜底关键词
-        params["query"] = "minimal calm landscape negative space"
-        response = requests.get(
-            UNSPLASH_SEARCH_URL,
-            params=params,
-            timeout=30
-        )
-        response.raise_for_status()
-        results = response.json().get("results", [])
-
-    if not results:
-        raise RuntimeError("No Unsplash image found.")
-
-    # 取前几张里随机一张，避免每天过于类似
-    selected = random.choice(results[:5])
-    image_url = selected["urls"]["regular"]
-
-    image_response = requests.get(image_url, timeout=60)
-    image_response.raise_for_status()
-
-    IMAGES_DIR.mkdir(exist_ok=True)
-
-    image_path = IMAGES_DIR / f"{date_id}.jpg"
-    image_path.write_bytes(image_response.content)
 
     return {
-        "path": image_path,
-        "unsplash_id": selected.get("id"),
-        "unsplash_user": selected.get("user", {}).get("name"),
-        "unsplash_page": selected.get("links", {}).get("html")
+        "id": f"pool_{date_id}",
+        "status": "draft",
+        "created_at": iso_now(),
+        "published_at": None,
+        "published_date": None,
+        "topic": insight.get("topic", ""),
+        "quote": insight["quote"],
+        "image_query": insight.get("image_query", DEFAULT_IMAGE_QUERY),
+        "source_summary": insight.get("source_summary", ""),
+        "practical_takeaway": insight.get("practical_takeaway", ""),
+        "source": source,
     }
+
+
+def get_used_unsplash_ids(feed):
+    used = set()
+    for item in feed.get("quotes", []):
+        source = item.get("image_source") or {}
+        image_id = source.get("id")
+        if image_id:
+            used.add(image_id)
+    return used
+
+
+def import_pillow():
+    try:
+        from PIL import Image
+    except Exception:
+        return None
+    return Image
+
+
+def dhash_image_file(path):
+    Image = import_pillow()
+    if Image is None:
+        return None
+
+    try:
+        with Image.open(path) as image:
+            image = image.convert("L").resize((9, 8))
+            pixels = list(image.getdata())
+    except Exception:
+        return None
+
+    bits = []
+    for row in range(8):
+        offset = row * 9
+        for col in range(8):
+            bits.append(1 if pixels[offset + col] > pixels[offset + col + 1] else 0)
+
+    value = 0
+    for bit in bits:
+        value = (value << 1) | bit
+    return f"{value:016x}"
+
+
+def hamming_distance(left, right):
+    if not left or not right:
+        return 64
+    return bin(int(left, 16) ^ int(right, 16)).count("1")
+
+
+def existing_image_hashes(feed):
+    hashes = []
+    for item in feed.get("quotes", []):
+        image_source = item.get("image_source") or {}
+        value = image_source.get("perceptual_hash")
+        if value:
+            hashes.append(value)
+
+    for path in IMAGES_DIR.glob("*"):
+        if path.suffix.lower() not in {".jpg", ".jpeg", ".png", ".webp"}:
+            continue
+        value = dhash_image_file(path)
+        if value:
+            hashes.append(value)
+
+    return hashes
+
+
+def build_unsplash_download_url(photo):
+    raw = (photo.get("urls") or {}).get("raw")
+    if not raw:
+        return (photo.get("urls") or {}).get("regular")
+
+    separator = "&" if "?" in raw else "?"
+    return (
+        f"{raw}{separator}"
+        "w=1440&h=2160&fit=crop&crop=entropy&auto=format&q=90&fm=jpg"
+    )
+
+
+def notify_unsplash_download(photo, access_key):
+    location = (photo.get("links") or {}).get("download_location")
+    if not location:
+        return
+
+    try:
+        requests.get(
+            location,
+            params={"client_id": access_key},
+            timeout=15,
+        )
+    except Exception as error:
+        print(f"Unsplash download notification failed: {error}")
+
+
+def download_unsplash_image(date_id, image_query, feed):
+    access_key = os.environ["UNSPLASH_ACCESS_KEY"]
+    query = f"{image_query or DEFAULT_IMAGE_QUERY} calm minimal premium background negative space"
+    used_ids = get_used_unsplash_ids(feed)
+    known_hashes = existing_image_hashes(feed)
+
+    search_queries = [
+        query,
+        "minimal quiet landscape vertical background negative space",
+        "soft morning light nature vertical background",
+    ]
+
+    last_error = None
+
+    for search_query in search_queries:
+        params = {
+            "query": search_query,
+            "orientation": "portrait",
+            "content_filter": "high",
+            "per_page": 30,
+            "client_id": access_key,
+        }
+
+        response = requests.get(UNSPLASH_SEARCH_URL, params=params, timeout=30)
+        response.raise_for_status()
+        results = response.json().get("results", [])
+        random.shuffle(results)
+
+        for selected in results:
+            if selected.get("id") in used_ids:
+                continue
+
+            image_url = build_unsplash_download_url(selected)
+            if not image_url:
+                continue
+
+            try:
+                image_response = requests.get(image_url, timeout=60)
+                image_response.raise_for_status()
+
+                IMAGES_DIR.mkdir(exist_ok=True)
+                image_path = IMAGES_DIR / f"{date_id}.jpg"
+                image_path.write_bytes(image_response.content)
+
+                image_hash = dhash_image_file(image_path)
+                if image_hash and any(
+                    hamming_distance(image_hash, old_hash) <= 8
+                    for old_hash in known_hashes
+                ):
+                    if image_path.exists():
+                        image_path.unlink()
+                    continue
+
+                notify_unsplash_download(selected, access_key)
+
+                return {
+                    "path": image_path,
+                    "unsplash_id": selected.get("id"),
+                    "unsplash_user": (selected.get("user") or {}).get("name"),
+                    "unsplash_page": (selected.get("links") or {}).get("html"),
+                    "perceptual_hash": image_hash,
+                    "width": selected.get("width"),
+                    "height": selected.get("height"),
+                }
+            except Exception as error:
+                last_error = error
+                continue
+
+    raise RuntimeError(f"No suitable non-duplicate Unsplash image found: {last_error}")
 
 
 def build_feed_entry(date_id, pool_item, image_meta):
@@ -364,73 +621,131 @@ def build_feed_entry(date_id, pool_item, image_meta):
         "author": {
             "zh-Hans": "育儿研究",
             "en": "Parenting Insights",
-            "ja": "育児リサーチ"
+            "ja": "育児リサーチ",
         },
         "image_url": f"{GITHUB_RAW_BASE}/{date_id}.jpg",
         "image_name": "quotation_card_bg",
         "source": pool_item.get("source", {}),
+        "source_summary": pool_item.get("source_summary", ""),
+        "practical_takeaway": pool_item.get("practical_takeaway", ""),
         "topic": pool_item.get("topic", ""),
         "image_source": {
             "provider": "Unsplash",
             "id": image_meta.get("unsplash_id"),
             "photographer": image_meta.get("unsplash_user"),
-            "url": image_meta.get("unsplash_page")
-        }
+            "url": image_meta.get("unsplash_page"),
+            "perceptual_hash": image_meta.get("perceptual_hash"),
+            "width": image_meta.get("width"),
+            "height": image_meta.get("height"),
+        },
     }
 
 
-def publish_one_item(feed, pool, date_id):
-    unpublished = get_unpublished_items(pool)
+def validate_feed(feed):
+    if not isinstance(feed.get("quotes"), list):
+        raise RuntimeError("growth-feed.json must contain a quotes list.")
 
-    if not unpublished:
-        raise RuntimeError("No unpublished items in pool.")
+    seen_ids = set()
+    for item in feed.get("quotes", []):
+        item_id = item.get("id")
+        if not item_id:
+            raise RuntimeError("A feed item is missing id.")
+        if item_id in seen_ids:
+            raise RuntimeError(f"Duplicate feed id: {item_id}")
+        seen_ids.add(item_id)
 
-    selected = unpublished[0]
+        quote = item.get("quote") or {}
+        zh = quote.get("zh-Hans")
+        if not zh:
+            raise RuntimeError(f"Feed item {item_id} is missing zh-Hans quote.")
 
+        source = item.get("source") or {}
+        if source and not source.get("title"):
+            raise RuntimeError(f"Feed item {item_id} is missing source title.")
+
+
+def validate_pool(pool):
+    if not isinstance(pool.get("items"), list):
+        raise RuntimeError("content_pool.json must contain an items list.")
+
+    seen_ids = set()
+    for item in pool.get("items", []):
+        item_id = item.get("id")
+        if not item_id:
+            raise RuntimeError("A pool item is missing id.")
+        if item_id in seen_ids:
+            raise RuntimeError(f"Duplicate pool id: {item_id}")
+        seen_ids.add(item_id)
+
+
+def publish_daily_entry(feed, pool, date_id):
+    used_keys = used_source_keys(feed, pool)
+    paper = search_semantic_scholar(used_keys, topic_offset=len(feed.get("quotes", [])))
+    recent_quotes = get_recent_zh_quotes(feed)
+
+    last_error = None
+    for attempt in range(2):
+        try:
+            insight = generate_insight(paper, recent_quotes)
+            validate_insight(insight, recent_quotes)
+            break
+        except Exception as error:
+            last_error = error
+            print(f"Generated insight failed validation. Attempt {attempt + 1}/2: {error}")
+    else:
+        raise RuntimeError(f"Could not generate a valid insight: {last_error}")
+
+    pool_item = make_pool_item(insight, paper, date_id)
     image_meta = download_unsplash_image(
         date_id=date_id,
-        image_query=selected.get("image_query", "quiet lake morning mist minimal background")
+        image_query=pool_item.get("image_query", DEFAULT_IMAGE_QUERY),
+        feed=feed,
     )
-
-    entry = build_feed_entry(date_id, selected, image_meta)
+    entry = build_feed_entry(date_id, pool_item, image_meta)
 
     feed["quotes"].append(entry)
+    feed["quotes"].sort(key=lambda item: item.get("date") or item.get("id") or "")
     feed["today_id"] = date_id
-    feed["updated_at"] = utc_now().strftime("%Y-%m-%dT%H:%M:%SZ")
+    feed["updated_at"] = iso_now()
 
-    selected["status"] = "published"
-    selected["published_at"] = utc_now().strftime("%Y-%m-%dT%H:%M:%SZ")
-    selected["published_date"] = date_id
+    pool_item["status"] = "published"
+    pool_item["published_at"] = iso_now()
+    pool_item["published_date"] = date_id
+    pool["items"].append(pool_item)
 
-    return selected
+    validate_feed(feed)
+    validate_pool(pool)
+
+    return entry
 
 
 def main():
-    date_id = today_id()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--validate-only", action="store_true")
+    args = parser.parse_args()
 
     feed = load_feed()
     pool = load_pool()
 
+    validate_feed(feed)
+    validate_pool(pool)
+
+    if args.validate_only:
+        print("growth-feed.json and content_pool.json are valid.")
+        return
+
+    date_id = today_id()
     if already_published_today(feed, date_id):
         print(f"{date_id} already exists in growth-feed.json. Nothing to do.")
         return
 
-    unpublished = get_unpublished_items(pool)
-
-    if not unpublished:
-        print("Content pool is empty. Searching for a new paper...")
-        paper = search_semantic_scholar()
-        generated = generate_insights(paper)
-        added_count = add_insights_to_pool(pool, generated, paper)
-        print(f"Added {added_count} insights to content_pool.json.")
-
-    selected = publish_one_item(feed, pool, date_id)
+    entry = publish_daily_entry(feed, pool, date_id)
 
     save_json(FEED_PATH, feed)
     save_json(POOL_PATH, pool)
 
     print(f"Published daily growth quote for {date_id}.")
-    print(selected.get("quote", {}).get("zh-Hans", ""))
+    print((entry.get("quote") or {}).get("zh-Hans", ""))
 
 
 if __name__ == "__main__":

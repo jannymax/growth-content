@@ -5,9 +5,12 @@ on:
     - cron: "0 22 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: daily-growth-feed
+  cancel-in-progress: false
+
 permissions:
   contents: write
-  pull-requests: write
   models: read
 
 jobs:
@@ -17,6 +20,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -26,25 +31,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Validate current content files
+        run: python scripts/generate_daily_growth.py --validate-only
+
       - name: Generate daily growth feed entry
         env:
           GITHUB_TOKEN: ${{ github.token }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          GITHUB_MODEL: openai/gpt-4o-mini
+          GITHUB_MODEL: openai/gpt-4o
         run: python scripts/generate_daily_growth.py
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          commit-message: "Add daily growth feed"
-          title: "Add daily growth feed"
-          body: |
-            This PR was generated automatically.
+      - name: Commit directly to main
+        run: |
+          if git diff --quiet; then
+            echo "No content changes to commit."
+            exit 0
+          fi
 
-            Please review:
-            - quote quality
-            - translations
-            - source
-            - background image
-          branch: "daily-growth-feed-${{ github.run_id }}"
-          delete-branch: true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add growth-feed.json content_pool.json images
+          git commit -m "Add daily growth feed"
+          git pull --rebase origin main
+          git push origin HEAD:main
