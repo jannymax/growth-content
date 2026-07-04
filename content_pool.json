@@ -185,6 +185,47 @@
         },
         "search_query": "executive function child development parenting intervention"
       }
+    },
+    {
+      "id": "pool_2026-07-05",
+      "status": "published",
+      "created_at": "2026-07-04T22:57:07Z",
+      "published_at": "2026-07-04T22:57:12Z",
+      "published_date": "2026-07-05",
+      "topic": "情绪调节与父母温暖的双向作用",
+      "quote": {
+        "zh-Hans": "孩子的情绪表达和父母的温暖互动是双向的，彼此影响，长期来看可能与孩子的行为发展相关。",
+        "en": "Children’s emotional expression and parental warmth influence each other, shaping long-term behavioral development.",
+        "ja": "子どもの感情表現と親の温かい関わりは相互に影響し合い、長期的な行動発達に関係しています。"
+      },
+      "image_query": "calm forest sunlight peaceful atmosphere",
+      "source_summary": "这项研究分析了儿童情绪调节能力和父母温暖互动的双向关系，以及它们如何预测学龄期的行为问题。研究基于 2,341 名 3–10 岁儿童的数据，发现孩子的情绪能力和父母的温暖互动会互相影响，并且这种相互作用对孩子的行为发展有长期影响。研究强调了情绪调节与父母温暖在预防儿童内化和外化行为问题中的重要性。",
+      "practical_takeaway": "尝试在日常互动中多表达对孩子的关心和支持，帮助他们更好地调节情绪。",
+      "source": {
+        "paperId": "52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "title": "Unraveling the dynamics of emotional regulation and parental warmth across early childhood: prediction of later behavioral problems",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "citationCount": 6,
+        "authors": [
+          "Aimé Isdahl-Troye",
+          "Paula Villar",
+          "María Álvarez-Voces",
+          "Estrella Romero"
+        ],
+        "venue": "Scientific Reports",
+        "publicationDate": "2025-07-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12222833",
+          "DOI": "10.1038/s41598-025-06846-5",
+          "CorpusId": 279862145,
+          "PubMed": "40604066"
+        },
+        "search_query": "early childhood development parenting longitudinal study"
+      }
     }
   ]
 }
