@@ -269,6 +269,48 @@
         },
         "search_query": "outdoor play child development early childhood study"
       }
+    },
+    {
+      "id": "pool_2026-07-07",
+      "status": "published",
+      "created_at": "2026-07-06T22:54:41Z",
+      "published_at": "2026-07-06T22:54:44Z",
+      "published_date": "2026-07-07",
+      "topic": "亲子互动与情感表达",
+      "quote": {
+        "zh-Hans": "父母试着回应孩子的表情和动作，可能有助于增进亲子互动的质量，帮助孩子更好地表达情绪和需求。",
+        "en": "Responding to your child’s expressions and actions can help improve interaction quality and support their emotional growth.",
+        "ja": "子どもの表情や動きに応えることで、親子の関係が深まり、子どもの感情表現が育まれるかもしれません。"
+      },
+      "image_query": "calm forest sunlight minimal background",
+      "source_summary": "这项研究评估了 ATTACH™ 项目对经历代际压力的原住民家庭的影响。该项目旨在通过提升父母的反思能力和亲子互动质量，改善儿童发展结果。研究发现，参与项目的父母在反思能力和亲子互动质量上有显著提升，尤其是在理解和回应孩子情绪线索方面。由于样本量较小（17 对家庭），结果需谨慎解读，但表明该干预对高风险家庭具有潜在益处。",
+      "practical_takeaway": "日常生活中，试着观察并回应孩子的表情和动作，比如微笑、点头或轻声回应，帮助他们感受到被理解和关注。",
+      "source": {
+        "paperId": "3f3b47eb9cb03f1486d7a9cff9b64d4379810f06",
+        "title": "Effectiveness of the ATTACH™ program on Indigenous parents and their children exposed to intergenerational stress: pilot findings.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/3f3b47eb9cb03f1486d7a9cff9b64d4379810f06",
+        "citationCount": 0,
+        "authors": [
+          "Kiri M Dean",
+          "J. Hart",
+          "Heather Bensler",
+          "Cheryle Chagnon-Greyeyes",
+          "Michelle Scott Paul",
+          "Nicole L Letourneau"
+        ],
+        "venue": "Canadian journal of public health",
+        "publicationDate": "2026-02-10",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.17269/s41997-026-01157-2",
+          "CorpusId": 285468291,
+          "PubMed": "41667754"
+        },
+        "search_query": "secure attachment child development parenting study"
+      }
     }
   ]
 }
