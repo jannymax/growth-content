@@ -8,6 +8,7 @@ import tempfile
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
@@ -60,6 +61,23 @@ DISALLOWED_ABSOLUTE_WORDS = [
     "显著优于",
     "保证",
     "彻底改变",
+]
+
+DISALLOWED_SOUPY_WORDS = [
+    "藏在",
+    "土壤",
+    "发光",
+    "礼物",
+    "被看见",
+    "生长",
+    "养出",
+    "邀请",
+]
+
+DISALLOWED_SOURCE_MARKERS = [
+    "wikipedia",
+    "百科",
+    "classic theories in child development",
 ]
 
 DEFAULT_IMAGE_QUERY = "quiet lake morning mist minimal background"
@@ -352,8 +370,13 @@ def generate_insight(paper, recent_quotes):
 要求：
 - 只输出 1 条，不要输出多条
 - 中文短句 55–90 个汉字，必须有具体洞察，不要口号
+- 中文短句不要使用“可能”，要可信、具体、普通用户听得懂
+- 不要用“藏在、土壤、发光、礼物、被看见、生长、养出、邀请”等鸡汤化或诗化表达
+- 谨慎不等于反复弱化；用“与……相关、常常、更容易、为……提供、正在练习”等自然表达保留边界
 - source_summary 120–260 个汉字，说明研究关注什么、发现了什么、能怎样谨慎理解
+- source_summary 必须只依据上面的论文标题、年份、期刊/会议、链接和摘要，不要编造样本、方法或效果
 - practical_takeaway 40–120 个汉字，给家长一个温和、可执行、不制造焦虑的做法
+- source_summary 和 practical_takeaway 合计最多使用 1 次“可能”
 - 如果摘要没有样本、方法、效果量等信息，就明确写“摘要未说明……”，不要编造
 - 不要使用“决定一生、唯一、必须、最有效、保证”等绝对表达
 - image_query 只能是英文摄影关键词，不能出现 people, child, baby, face, hand
@@ -402,10 +425,17 @@ def validate_insight(insight, existing_quotes):
         raise RuntimeError("source_summary is too short.")
     if len(takeaway) < 30:
         raise RuntimeError("practical_takeaway is too short.")
+    if "可能" in zh:
+        raise RuntimeError("Chinese quote should avoid weak wording: 可能")
+    if summary.count("可能") + takeaway.count("可能") > 1:
+        raise RuntimeError("Generated content uses 可能 too often.")
 
     for word in DISALLOWED_ABSOLUTE_WORDS:
         if word in zh or word in summary or word in takeaway:
             raise RuntimeError(f"Generated content uses absolutist wording: {word}")
+    for word in DISALLOWED_SOUPY_WORDS:
+        if word in zh:
+            raise RuntimeError(f"Generated quote sounds too slogan-like: {word}")
 
     for old_quote in existing_quotes:
         if quote_similarity(zh, old_quote) >= 0.72:
@@ -614,6 +644,8 @@ def download_unsplash_image(date_id, image_query, feed):
 
 
 def build_feed_entry(date_id, pool_item, image_meta):
+    image_filename = f"{date_id}.jpg"
+
     return {
         "id": date_id,
         "date": date_id,
@@ -623,7 +655,9 @@ def build_feed_entry(date_id, pool_item, image_meta):
             "en": "Parenting Insights",
             "ja": "育児リサーチ",
         },
-        "image_url": f"{GITHUB_RAW_BASE}/{date_id}.jpg",
+        "image_url": f"{GITHUB_RAW_BASE}/{image_filename}",
+        "image_filename": image_filename,
+        "image_path": f"images/{image_filename}",
         "image_name": "quotation_card_bg",
         "source": pool_item.get("source", {}),
         "source_summary": pool_item.get("source_summary", ""),
@@ -641,11 +675,39 @@ def build_feed_entry(date_id, pool_item, image_meta):
     }
 
 
+def image_filename_for_item(item):
+    filename = item.get("image_filename")
+    if filename:
+        return filename
+
+    image_path = item.get("image_path")
+    if image_path:
+        return Path(image_path).name
+
+    image_url = item.get("image_url")
+    if image_url:
+        return Path(urlparse(image_url).path).name
+
+    return ""
+
+
+def has_real_source(source):
+    title = str(source.get("title") or "").strip()
+    url = str(source.get("url") or "").strip()
+    year = source.get("year")
+    if not title or not url or not year:
+        return False
+
+    haystack = f"{title} {url}".lower()
+    return not any(marker in haystack for marker in DISALLOWED_SOURCE_MARKERS)
+
+
 def validate_feed(feed):
     if not isinstance(feed.get("quotes"), list):
         raise RuntimeError("growth-feed.json must contain a quotes list.")
 
     seen_ids = set()
+    seen_quotes = {}
     for item in feed.get("quotes", []):
         item_id = item.get("id")
         if not item_id:
@@ -658,8 +720,30 @@ def validate_feed(feed):
         zh = quote.get("zh-Hans")
         if not zh:
             raise RuntimeError(f"Feed item {item_id} is missing zh-Hans quote.")
+        normalized_quote = canonical_text(zh)
+        previous_id = seen_quotes.get(normalized_quote)
+        if previous_id:
+            raise RuntimeError(
+                f"Duplicate zh-Hans quote in {previous_id} and {item_id}: {zh}"
+            )
+        seen_quotes[normalized_quote] = item_id
+
+        image_filename = image_filename_for_item(item)
+        if not image_filename:
+            raise RuntimeError(f"Feed item {item_id} is missing image filename.")
+        image_path = IMAGES_DIR / image_filename
+        if not image_path.exists():
+            raise RuntimeError(
+                f"Feed item {item_id} points to missing image: {image_path}"
+            )
 
         source = item.get("source") or {}
+        if item_id >= "2026-06-02" and not has_real_source(source):
+            raise RuntimeError(
+                f"Feed item {item_id} must cite a specific real publication."
+            )
+        if item_id >= "2026-06-02" and not item.get("source_summary"):
+            raise RuntimeError(f"Feed item {item_id} is missing source_summary.")
         if source and not source.get("title"):
             raise RuntimeError(f"Feed item {item_id} is missing source title.")
 
@@ -676,6 +760,15 @@ def validate_pool(pool):
         if item_id in seen_ids:
             raise RuntimeError(f"Duplicate pool id: {item_id}")
         seen_ids.add(item_id)
+
+        published_date = item.get("published_date")
+        if published_date and published_date >= "2026-06-02":
+            if not has_real_source(item.get("source") or {}):
+                raise RuntimeError(
+                    f"Published pool item {item_id} must cite a specific real publication."
+                )
+            if not item.get("source_summary"):
+                raise RuntimeError(f"Published pool item {item_id} is missing source_summary.")
 
 
 def publish_daily_entry(feed, pool, date_id):

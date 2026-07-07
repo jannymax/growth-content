@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-06T22:54:44Z",
+  "updated_at": "2026-07-07T09:47:42Z",
   "today_id": "2026-07-07",
   "quotes": [
     {
@@ -17,7 +17,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-11.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-11.png",
+      "image_path": "images/2026-05-11.png"
     },
     {
       "id": "2026-05-12",
@@ -33,7 +35,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-12.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-12.png",
+      "image_path": "images/2026-05-12.png"
     },
     {
       "id": "2026-05-13",
@@ -49,7 +53,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-13.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-13.png",
+      "image_path": "images/2026-05-13.png"
     },
     {
       "id": "2026-05-14",
@@ -65,7 +71,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-14.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-14.png",
+      "image_path": "images/2026-05-14.png"
     },
     {
       "id": "2026-05-15",
@@ -81,7 +89,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-15.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-15.png",
+      "image_path": "images/2026-05-15.png"
     },
     {
       "id": "2026-05-16",
@@ -97,7 +107,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-16.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-16.png",
+      "image_path": "images/2026-05-16.png"
     },
     {
       "id": "2026-05-17",
@@ -113,7 +125,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-17.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-17.png",
+      "image_path": "images/2026-05-17.png"
     },
     {
       "id": "2026-05-18",
@@ -129,7 +143,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-18.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-18.png",
+      "image_path": "images/2026-05-18.png"
     },
     {
       "id": "2026-05-19",
@@ -145,7 +161,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-19.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-19.png",
+      "image_path": "images/2026-05-19.png"
     },
     {
       "id": "2026-05-20",
@@ -161,7 +179,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-20.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-20.png",
+      "image_path": "images/2026-05-20.png"
     },
     {
       "id": "2026-05-21",
@@ -177,7 +197,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-21.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-21.png",
+      "image_path": "images/2026-05-21.png"
     },
     {
       "id": "2026-05-22",
@@ -193,7 +215,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-22.jpg",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-22.jpg",
+      "image_path": "images/2026-05-22.jpg"
     },
     {
       "id": "2026-05-23",
@@ -209,7 +233,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-23.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-23.png",
+      "image_path": "images/2026-05-23.png"
     },
     {
       "id": "2026-05-24",
@@ -225,7 +251,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-24.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-24.png",
+      "image_path": "images/2026-05-24.png"
     },
     {
       "id": "2026-05-25",
@@ -241,7 +269,9 @@
         "ja": "-"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-25.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-25.png",
+      "image_path": "images/2026-05-25.png"
     },
     {
       "id": "2026-05-26",
@@ -257,7 +287,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-26.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-26.png",
+      "image_path": "images/2026-05-26.png"
     },
     {
       "id": "2026-05-27",
@@ -273,7 +305,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-27.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-27.png",
+      "image_path": "images/2026-05-27.png"
     },
     {
       "id": "2026-05-28",
@@ -289,7 +323,9 @@
         "ja": "育児リサーチ"
       },
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-05-28.png",
-      "image_name": "quotation_card_bg"
+      "image_name": "quotation_card_bg",
+      "image_filename": "2026-05-28.png",
+      "image_path": "images/2026-05-28.png"
     },
     {
       "id": "2026-06-02",
@@ -307,13 +343,21 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-02.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "A Review of 50 Years of Research on Naturally Occurring Family Routines and Rituals: Cause for Celebration?",
+        "year": 2002,
+        "url": "https://doi.org/10.1037/0893-3200.16.4.381",
         "authors": [
-          "Child Development Research"
-        ]
+          "Barbara H. Fiese",
+          "Thomas J. Tomcho",
+          "Michael Douglas",
+          "Kimberly Josephs",
+          "Scott Poltrock",
+          "Tim Baker"
+        ],
+        "venue": "Journal of Family Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0893-3200.16.4.381"
+        }
       },
       "topic": "日常生活",
       "image_source": {
@@ -321,7 +365,10 @@
         "id": "7axBZDlTD8Q",
         "photographer": "Benjamin Hibbert-Hingston",
         "url": "https://unsplash.com/photos/misty-forest-canopy-with-blurred-trees-7axBZDlTD8Q"
-      }
+      },
+      "image_filename": "2026-06-02.jpg",
+      "image_path": "images/2026-06-02.jpg",
+      "source_summary": "这篇综述回顾了家庭日常流程和家庭仪式相关研究，关注规律性活动与儿童适应、家庭关系和健康行为之间的联系。它不能说明某一种作息会直接带来某个结果，但支持一个清楚结论：可预期的日常安排，是儿童理解环境和练习自我调节的重要背景。"
     },
     {
       "id": "2026-06-03",
@@ -339,13 +386,16 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-03.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Attachment and development: A prospective, longitudinal study from birth to adulthood",
+        "year": 2005,
+        "url": "https://doi.org/10.1080/14616730500365928",
         "authors": [
-          "Child Development Research"
-        ]
+          "L. Alan Sroufe"
+        ],
+        "venue": "Attachment & Human Development",
+        "externalIds": {
+          "DOI": "10.1080/14616730500365928"
+        }
       },
       "topic": "亲密关系",
       "image_source": {
@@ -353,15 +403,18 @@
         "id": "58omTtUK8yM",
         "photographer": "Eran Menashri",
         "url": "https://unsplash.com/photos/photo-of-body-of-water-58omTtUK8yM"
-      }
+      },
+      "image_filename": "2026-06-03.jpg",
+      "image_path": "images/2026-06-03.jpg",
+      "source_summary": "这项纵向研究追踪依恋与后续发展的关系，关注早期照料经验如何与探索、关系和适应能力相连。研究不把依恋当作单一决定因素，而是提示：稳定回应能为孩子提供安全基础，让他们更有余力观察环境、尝试任务和回到成人身边寻求支持。"
     },
     {
       "id": "2026-06-04",
       "date": "2026-06-04",
       "quote": {
-        "zh-Hans": "引导参与可以帮助孩子更好地理解世界。",
-        "en": "Guided participation helps children better understand the world.",
-        "ja": "ガイド付きの参加は、子どもが世界をよりよく理解するのに役立ちます。"
+        "zh-Hans": "大人先陪孩子观察、再把问题还给孩子，常能让他们在熟悉的事情里发现新的线索。",
+        "en": "When adults observe with children first and then return questions to them, familiar moments can reveal new clues.",
+        "ja": "大人がまず一緒に観察し、その後で問いを子どもに返すと、身近な場面から新しい手がかりを見つけやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -371,21 +424,30 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-04.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "The role of tutoring in problem solving",
+        "year": 1976,
+        "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x",
         "authors": [
-          "Child Development Research"
-        ]
+          "David Wood",
+          "Jerome S. Bruner",
+          "Gail Ross"
+        ],
+        "venue": "Journal of Child Psychology and Psychiatry",
+        "externalIds": {
+          "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
+        }
       },
-      "topic": "引导参与",
+      "topic": "共同探索",
       "image_source": {
         "provider": "Unsplash",
         "id": "cQLRkh1YTWg",
         "photographer": "Giorgio Trovato",
         "url": "https://unsplash.com/photos/brown-grass-field-under-blue-sky-during-daytime-cQLRkh1YTWg"
-      }
+      },
+      "source_summary": "这项经典研究提出“脚手架”概念，观察成人如何通过示范、提示、分步骤支持儿童解决问题。重点不在成人替孩子完成任务，而在根据孩子当前能力提供刚好够用的帮助，再逐步撤回支持，让孩子把方法内化成自己的能力。",
+      "practical_takeaway": "孩子遇到问题时，先陪他看见细节，再问“你想先试哪个办法”。",
+      "image_filename": "2026-06-04.jpg",
+      "image_path": "images/2026-06-04.jpg"
     },
     {
       "id": "2026-06-05",
@@ -403,13 +465,18 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-05.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "The role of tutoring in problem solving",
+        "year": 1976,
+        "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x",
         "authors": [
-          "Child Development Research"
-        ]
+          "David Wood",
+          "Jerome S. Bruner",
+          "Gail Ross"
+        ],
+        "venue": "Journal of Child Psychology and Psychiatry",
+        "externalIds": {
+          "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
+        }
       },
       "topic": "引导参与",
       "image_source": {
@@ -420,7 +487,10 @@
         "perceptual_hash": null,
         "width": 1440,
         "height": 2160
-      }
+      },
+      "image_filename": "2026-06-05.jpg",
+      "image_path": "images/2026-06-05.jpg",
+      "source_summary": "这项经典研究提出“脚手架”概念，观察成人如何通过示范、提示、分步骤支持儿童解决问题。重点不在成人替孩子完成任务，而在根据孩子当前能力提供刚好够用的帮助，再逐步撤回支持，让孩子把方法内化成自己的能力。"
     },
     {
       "id": "2026-06-06",
@@ -438,13 +508,21 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-06.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "The impact of pretend play on children's development: A review of the evidence",
+        "year": 2013,
+        "url": "https://doi.org/10.1037/a0029321",
         "authors": [
-          "Child Development Research"
-        ]
+          "Angeline S. Lillard",
+          "Matthew D. Lerner",
+          "Emily J. Hopkins",
+          "Rebecca A. Dore",
+          "Eric D. Smith",
+          "Carolyn M. Palmquist"
+        ],
+        "venue": "Psychological Bulletin",
+        "externalIds": {
+          "DOI": "10.1037/a0029321"
+        }
       },
       "topic": "象征性游戏",
       "image_source": {
@@ -452,15 +530,18 @@
         "id": "lcG9dSVGudI",
         "photographer": "Pascal Bullan",
         "url": "https://unsplash.com/photos/a-close-up-of-a-plant-with-a-blurry-background-lcG9dSVGudI"
-      }
+      },
+      "image_filename": "2026-06-06.jpg",
+      "image_path": "images/2026-06-06.jpg",
+      "source_summary": "这篇综述评估假装游戏与语言、社会理解、情绪和执行功能等发展的证据。作者强调证据强弱并不一致，不能把游戏神化；但假装游戏确实提供了一个低压力场景，让孩子练习符号替代、规则转换和从他人角度理解情境。"
     },
     {
       "id": "2026-06-07",
       "date": "2026-06-07",
       "quote": {
-        "zh-Hans": "象征性游戏促进孩子的创造力与想象力。",
-        "en": "Symbolic play fosters children's creativity and imagination.",
-        "ja": "象徴的な遊びは、子どもの創造性と想像力を育みます。"
+        "zh-Hans": "同一件玩具被孩子反复赋予新角色时，他们也在练习想象、规则转换和灵活表达。",
+        "en": "When children give the same toy new roles again and again, they practice imagination, rule shifting, and flexible expression.",
+        "ja": "同じおもちゃに何度も新しい役割を与える中で、子どもは想像力やルールの切り替え、柔軟な表現を練習しています。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -470,21 +551,33 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-07.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "The impact of pretend play on children's development: A review of the evidence",
+        "year": 2013,
+        "url": "https://doi.org/10.1037/a0029321",
         "authors": [
-          "Child Development Research"
-        ]
+          "Angeline S. Lillard",
+          "Matthew D. Lerner",
+          "Emily J. Hopkins",
+          "Rebecca A. Dore",
+          "Eric D. Smith",
+          "Carolyn M. Palmquist"
+        ],
+        "venue": "Psychological Bulletin",
+        "externalIds": {
+          "DOI": "10.1037/a0029321"
+        }
       },
-      "topic": "象征性游戏",
+      "topic": "创造力",
       "image_source": {
         "provider": "Unsplash",
         "id": "CxUp4OQd6G8",
         "photographer": "Jakob Braun",
         "url": "https://unsplash.com/photos/brown-grass-field-during-daytime-CxUp4OQd6G8"
-      }
+      },
+      "source_summary": "这篇综述评估假装游戏与语言、社会理解、情绪和执行功能等发展的证据。作者强调证据强弱并不一致，不能把游戏神化；但假装游戏确实提供了一个低压力场景，让孩子练习符号替代、规则转换和从他人角度理解情境。",
+      "practical_takeaway": "拿同一个玩具连续换三种玩法，让孩子决定下一轮规则。",
+      "image_filename": "2026-06-07.jpg",
+      "image_path": "images/2026-06-07.jpg"
     },
     {
       "id": "2026-06-08",
@@ -502,13 +595,21 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-08.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "A Review of 50 Years of Research on Naturally Occurring Family Routines and Rituals: Cause for Celebration?",
+        "year": 2002,
+        "url": "https://doi.org/10.1037/0893-3200.16.4.381",
         "authors": [
-          "Child Development Research"
-        ]
+          "Barbara H. Fiese",
+          "Thomas J. Tomcho",
+          "Michael Douglas",
+          "Kimberly Josephs",
+          "Scott Poltrock",
+          "Tim Baker"
+        ],
+        "venue": "Journal of Family Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0893-3200.16.4.381"
+        }
       },
       "topic": "日常生活",
       "image_source": {
@@ -516,7 +617,10 @@
         "id": "HOkOUQX9_vc",
         "photographer": "Alicja Gancarz",
         "url": "https://unsplash.com/photos/body-of-water-under-white-sky-during-daytime-HOkOUQX9_vc"
-      }
+      },
+      "image_filename": "2026-06-08.jpg",
+      "image_path": "images/2026-06-08.jpg",
+      "source_summary": "这篇综述回顾了家庭日常流程和家庭仪式相关研究，关注规律性活动与儿童适应、家庭关系和健康行为之间的联系。它不能说明某一种作息会直接带来某个结果，但支持一个清楚结论：可预期的日常安排，是儿童理解环境和练习自我调节的重要背景。"
     },
     {
       "id": "2026-06-09",
@@ -534,13 +638,16 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-09.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Attachment and development: A prospective, longitudinal study from birth to adulthood",
+        "year": 2005,
+        "url": "https://doi.org/10.1080/14616730500365928",
         "authors": [
-          "Child Development Research"
-        ]
+          "L. Alan Sroufe"
+        ],
+        "venue": "Attachment & Human Development",
+        "externalIds": {
+          "DOI": "10.1080/14616730500365928"
+        }
       },
       "topic": "亲密关系",
       "image_source": {
@@ -548,7 +655,10 @@
         "id": "imiEkMoZt48",
         "photographer": "Emmanuel Phaeton",
         "url": "https://unsplash.com/photos/a-forest-filled-with-lots-of-green-trees-imiEkMoZt48"
-      }
+      },
+      "image_filename": "2026-06-09.jpg",
+      "image_path": "images/2026-06-09.jpg",
+      "source_summary": "这项纵向研究追踪依恋与后续发展的关系，关注早期照料经验如何与探索、关系和适应能力相连。研究不把依恋当作单一决定因素，而是提示：稳定回应能为孩子提供安全基础，让他们更有余力观察环境、尝试任务和回到成人身边寻求支持。"
     },
     {
       "id": "2026-06-10",
@@ -566,13 +676,18 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-10.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "The role of tutoring in problem solving",
+        "year": 1976,
+        "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x",
         "authors": [
-          "Child Development Research"
-        ]
+          "David Wood",
+          "Jerome S. Bruner",
+          "Gail Ross"
+        ],
+        "venue": "Journal of Child Psychology and Psychiatry",
+        "externalIds": {
+          "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
+        }
       },
       "topic": "参与学习",
       "image_source": {
@@ -580,15 +695,18 @@
         "id": "nHvOw2hbPYs",
         "photographer": "Anton Atanasov",
         "url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-nHvOw2hbPYs"
-      }
+      },
+      "image_filename": "2026-06-10.jpg",
+      "image_path": "images/2026-06-10.jpg",
+      "source_summary": "这项经典研究提出“脚手架”概念，观察成人如何通过示范、提示、分步骤支持儿童解决问题。重点不在成人替孩子完成任务，而在根据孩子当前能力提供刚好够用的帮助，再逐步撤回支持，让孩子把方法内化成自己的能力。"
     },
     {
       "id": "2026-06-11",
       "date": "2026-06-11",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "孩子把积木当电话、把纸盒当房子时，并不只是玩闹，也是在练习符号、语言和换位思考。",
+        "en": "When children turn blocks into phones or boxes into houses, they are practicing symbols, language, and perspective taking.",
+        "ja": "積み木を電話に、箱を家に見立てる遊びは、記号や言葉、相手の視点を練習する時間でもあります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -598,13 +716,21 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-11.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "The impact of pretend play on children's development: A review of the evidence",
+        "year": 2013,
+        "url": "https://doi.org/10.1037/a0029321",
         "authors": [
-          "Child Development Research"
-        ]
+          "Angeline S. Lillard",
+          "Matthew D. Lerner",
+          "Emily J. Hopkins",
+          "Rebecca A. Dore",
+          "Eric D. Smith",
+          "Carolyn M. Palmquist"
+        ],
+        "venue": "Psychological Bulletin",
+        "externalIds": {
+          "DOI": "10.1037/a0029321"
+        }
       },
       "topic": "游戏学习",
       "image_source": {
@@ -612,15 +738,19 @@
         "id": "Jwz6CQc6NhA",
         "photographer": "olha makarkina",
         "url": "https://unsplash.com/photos/a-close-up-of-a-plant-with-a-blurry-background-Jwz6CQc6NhA"
-      }
+      },
+      "source_summary": "这篇综述评估假装游戏与语言、社会理解、情绪和执行功能等发展的证据。作者强调证据强弱并不一致，不能把游戏神化；但假装游戏确实提供了一个低压力场景，让孩子练习符号替代、规则转换和从他人角度理解情境。",
+      "practical_takeaway": "今天可以把一个普通物品交给孩子，问它还能变成什么，并顺着孩子的设定玩一小会儿。",
+      "image_filename": "2026-06-11.jpg",
+      "image_path": "images/2026-06-11.jpg"
     },
     {
       "id": "2026-06-12",
       "date": "2026-06-12",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "共读时偶尔停下来问“你觉得接下来会怎样”，能把一本书变成孩子练习预测和表达的机会。",
+        "en": "Pausing during shared reading to ask what might happen next turns a book into practice for prediction and expression.",
+        "ja": "読み聞かせの途中で「次はどうなるかな」と聞くと、本は予測や表現を練習する機会になります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -630,29 +760,39 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-12.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Added Value of Dialogic Parent-Child Book Readings: A Meta-Analysis",
+        "year": 2008,
+        "url": "https://doi.org/10.1080/10409280701838603",
         "authors": [
-          "Child Development Research"
-        ]
+          "Suzanne E. Mol",
+          "Adriana G. Bus",
+          "Maria T. de Jong",
+          "Daisy J. H. Smeets"
+        ],
+        "venue": "Early Education and Development",
+        "externalIds": {
+          "DOI": "10.1080/10409280701838603"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "亲子共读",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这项元分析关注对话式亲子共读，比较成人提问、回应和扩展语言对儿童语言发展的作用。研究显示，共读的价值不只在读完一本书，更在成人与孩子围绕图片、情节和预测展开互动，让孩子有机会练习表达和理解。",
+      "practical_takeaway": "共读时少考一点，多问一句“你怎么看出来的”，让孩子有时间说出自己的想法。",
+      "image_filename": "2026-06-12.jpg",
+      "image_path": "images/2026-06-12.jpg"
     },
     {
       "id": "2026-06-13",
       "date": "2026-06-13",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "当大人温和说出“你现在有点失望”，孩子更容易把身体里的感受和可表达的词语连起来。",
+        "en": "When adults gently name a feeling, children can connect body sensations with words they can use.",
+        "ja": "大人が「少しがっかりしたんだね」と穏やかに言うと、子どもは体の感覚と言葉を結びつけやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -662,29 +802,38 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-13.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Parental socialization of emotion",
+        "year": 1998,
+        "url": "https://doi.org/10.1207/s15327965pli0904_1",
         "authors": [
-          "Child Development Research"
-        ]
+          "Nancy Eisenberg",
+          "Amanda Cumberland",
+          "Tracy L. Spinrad"
+        ],
+        "venue": "Psychological Inquiry",
+        "externalIds": {
+          "DOI": "10.1207/s15327965pli0904_1"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "情绪命名",
       "image_source": {
         "provider": "Unsplash",
         "id": "IpXwxlA_Adk",
         "photographer": "Megan Nixon",
         "url": "https://unsplash.com/photos/a-field-of-purple-flowers-with-a-sky-background-IpXwxlA_Adk"
-      }
+      },
+      "source_summary": "这篇理论与研究综述讨论父母如何社会化儿童情绪，包括命名情绪、回应情绪和示范调节方式。它提醒家长，情绪教育不是简单压下反应，而是帮助孩子把身体感受、情境和可表达的词语连接起来，再学习合适的处理方式。",
+      "practical_takeaway": "孩子情绪上来时，先用一句短话命名感受，再陪他们呼吸或安静片刻。",
+      "image_filename": "2026-06-13.jpg",
+      "image_path": "images/2026-06-13.jpg"
     },
     {
       "id": "2026-06-14",
       "date": "2026-06-14",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "固定的起床、吃饭和睡前流程，会给孩子一个可预期的框架，帮助他们把注意力留给探索。",
+        "en": "Stable waking, meal, and bedtime routines give children a predictable frame that frees attention for exploration.",
+        "ja": "起床、食事、寝る前の流れが安定していると、子どもは見通しを持ち、探索に注意を向けやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -694,29 +843,41 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-14.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "A Review of 50 Years of Research on Naturally Occurring Family Routines and Rituals: Cause for Celebration?",
+        "year": 2002,
+        "url": "https://doi.org/10.1037/0893-3200.16.4.381",
         "authors": [
-          "Child Development Research"
-        ]
+          "Barbara H. Fiese",
+          "Thomas J. Tomcho",
+          "Michael Douglas",
+          "Kimberly Josephs",
+          "Scott Poltrock",
+          "Tim Baker"
+        ],
+        "venue": "Journal of Family Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0893-3200.16.4.381"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "生活规律",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这篇综述回顾了家庭日常流程和家庭仪式相关研究，关注规律性活动与儿童适应、家庭关系和健康行为之间的联系。它不能说明某一种作息会直接带来某个结果，但支持一个清楚结论：可预期的日常安排，是儿童理解环境和练习自我调节的重要背景。",
+      "practical_takeaway": "选一个最容易固定的小流程，比如睡前收玩具和读书，让它每天大致相同。",
+      "image_filename": "2026-06-14.jpg",
+      "image_path": "images/2026-06-14.jpg"
     },
     {
       "id": "2026-06-15",
       "date": "2026-06-15",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "少一点睡前刺激，多一点熟悉的安静步骤，孩子更容易把白天的兴奋慢慢放下。",
+        "en": "Less stimulation and familiar quiet steps before bed help children ease from excitement into rest.",
+        "ja": "寝る前の刺激を少し減らし、慣れた静かな手順を重ねると、興奮から休息へ移りやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -726,29 +887,40 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-15.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "A nightly bedtime routine: impact on sleep in young children and maternal mood",
+        "year": 2009,
+        "url": "https://doi.org/10.1093/sleep/32.5.599",
         "authors": [
-          "Child Development Research"
-        ]
+          "Jodi A. Mindell",
+          "Brett Kuhn",
+          "Daniel S. Lewin",
+          "Lisa J. Meltzer",
+          "Avi Sadeh"
+        ],
+        "venue": "Sleep",
+        "externalIds": {
+          "DOI": "10.1093/sleep/32.5.599"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "睡眠恢复",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这项研究考察固定睡前流程对幼儿睡眠和母亲情绪的影响，关注洗漱、安静活动和上床等重复步骤。结果显示，规律的睡前流程与更平稳的入睡和夜间睡眠有关。家长可理解为：低刺激、可预期的收尾动作，有助于孩子完成状态切换。",
+      "practical_takeaway": "睡前半小时减少刺激活动，用洗漱、灯光变暗、固定故事帮助孩子过渡。",
+      "image_filename": "2026-06-15.jpg",
+      "image_path": "images/2026-06-15.jpg"
     },
     {
       "id": "2026-06-16",
       "date": "2026-06-16",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "户外奔跑、攀爬和寻找小发现，能让孩子同时练身体协调、风险判断和持续观察。",
+        "en": "Running, climbing, and noticing small discoveries outdoors can support coordination, risk judgment, and sustained observation.",
+        "ja": "外で走ったり登ったり小さな発見を探したりすることは、協調性、危険の判断、観察を支えます。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -758,29 +930,43 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-16.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "What is the relationship between outdoor time and physical activity, sedentary behaviour, and physical fitness in children? A systematic review",
+        "year": 2015,
+        "url": "https://doi.org/10.3390/ijerph120606455",
         "authors": [
-          "Child Development Research"
-        ]
+          "Casey Gray",
+          "Rachel Gibbons",
+          "Rosanne Larouche",
+          "M. S. Sandseter",
+          "Angela Bienenstock",
+          "Mariana Brussoni",
+          "Guy Faulkner",
+          "Mark S. Tremblay"
+        ],
+        "venue": "International Journal of Environmental Research and Public Health",
+        "externalIds": {
+          "DOI": "10.3390/ijerph120606455"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "户外活动",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这篇系统综述梳理儿童户外时间与身体活动、久坐行为和体能之间的研究。总体证据显示，更多户外时间通常与更多身体活动相连。对家庭来说，户外活动的价值不只在消耗体力，也包括真实空间中的观察、移动、协商和风险判断。",
+      "practical_takeaway": "在安全范围里给孩子一点自由移动的空间，允许他们慢慢看、摸和尝试。",
+      "image_filename": "2026-06-16.jpg",
+      "image_path": "images/2026-06-16.jpg"
     },
     {
       "id": "2026-06-17",
       "date": "2026-06-17",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "孩子情绪很满时，先陪他们慢下来，再讨论道理，往往比立刻讲规则更容易被听见。",
+        "en": "When emotions are high, helping children slow down before explaining rules is often easier for them to hear.",
+        "ja": "感情が高ぶっている時は、まず落ち着くのを支えてから話す方が、子どもに届きやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -790,29 +976,38 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-17.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Parental socialization of emotion",
+        "year": 1998,
+        "url": "https://doi.org/10.1207/s15327965pli0904_1",
         "authors": [
-          "Child Development Research"
-        ]
+          "Nancy Eisenberg",
+          "Amanda Cumberland",
+          "Tracy L. Spinrad"
+        ],
+        "venue": "Psychological Inquiry",
+        "externalIds": {
+          "DOI": "10.1207/s15327965pli0904_1"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "共同调节",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这篇理论与研究综述讨论父母如何社会化儿童情绪，包括命名情绪、回应情绪和示范调节方式。它提醒家长，情绪教育不是简单压下反应，而是帮助孩子把身体感受、情境和可表达的词语连接起来，再学习合适的处理方式。",
+      "practical_takeaway": "先蹲下来降低音量，等孩子能看向你或点头后，再谈下一步怎么做。",
+      "image_filename": "2026-06-17.jpg",
+      "image_path": "images/2026-06-17.jpg"
     },
     {
       "id": "2026-06-18",
       "date": "2026-06-18",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "轮流、等待和记住两步指令这些小练习，正在一点点支持孩子的工作记忆和自我控制。",
+        "en": "Small practices like turn-taking, waiting, and remembering two-step directions gradually support working memory and self-control.",
+        "ja": "順番を待つ、二つの指示を覚えるなどの小さな練習は、作業記憶と自己調整を少しずつ支えます。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -822,29 +1017,37 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-18.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "School readiness and self-regulation: A developmental psychobiological approach",
+        "year": 2015,
+        "url": "https://doi.org/10.1146/annurev-psych-010814-015221",
         "authors": [
-          "Child Development Research"
-        ]
+          "Clancy Blair",
+          "C. Cybele Raver"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev-psych-010814-015221"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "执行功能",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这篇综述从发展心理生物学角度讨论儿童入学准备和自我调节，重点包括工作记忆、抑制控制和认知灵活性。研究提示，执行功能不是靠讲道理突然形成，而是在等待、轮流、记住规则和调整策略等日常任务中反复练习。",
+      "practical_takeaway": "玩一个简单轮流游戏，刻意放慢节奏，让等待本身也变成可练习的部分。",
+      "image_filename": "2026-06-18.jpg",
+      "image_path": "images/2026-06-18.jpg"
     },
     {
       "id": "2026-06-19",
       "date": "2026-06-19",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "把难任务拆成“我做一步、你试一步”，能让孩子在刚好够得着的挑战里积累信心。",
+        "en": "Breaking a hard task into “I try one step, you try one step” helps children build confidence within reachable challenge.",
+        "ja": "難しい課題を「大人が一歩、子どもが一歩」に分けると、届きそうな挑戦の中で自信を育てられます。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -854,29 +1057,38 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-19.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "The role of tutoring in problem solving",
+        "year": 1976,
+        "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x",
         "authors": [
-          "Child Development Research"
-        ]
+          "David Wood",
+          "Jerome S. Bruner",
+          "Gail Ross"
+        ],
+        "venue": "Journal of Child Psychology and Psychiatry",
+        "externalIds": {
+          "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "脚手架支持",
       "image_source": {
         "provider": "Unsplash",
         "id": "CvGxZHYGEas",
         "photographer": "JIEUN KWON",
         "url": "https://unsplash.com/photos/a-bird-flying-over-a-field-of-purple-flowers-CvGxZHYGEas"
-      }
+      },
+      "source_summary": "这项经典研究提出“脚手架”概念，观察成人如何通过示范、提示、分步骤支持儿童解决问题。重点不在成人替孩子完成任务，而在根据孩子当前能力提供刚好够用的帮助，再逐步撤回支持，让孩子把方法内化成自己的能力。",
+      "practical_takeaway": "遇到难题时先示范一小步，再请孩子接下一步，最后逐渐减少提醒。",
+      "image_filename": "2026-06-19.jpg",
+      "image_path": "images/2026-06-19.jpg"
     },
     {
       "id": "2026-06-20",
       "date": "2026-06-20",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "多语言环境里的孩子有时需要多等几秒，但他们也在练习在不同语境之间灵活切换。",
+        "en": "Children in multilingual settings sometimes need a few more seconds while they practice flexible shifts across contexts.",
+        "ja": "多言語環境の子どもには少し待つ時間が必要な時もあり、その間に文脈を切り替える練習をしています。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -886,29 +1098,38 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-20.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Bilingualism: consequences for mind and brain",
+        "year": 2012,
+        "url": "https://doi.org/10.1016/j.tics.2012.03.001",
         "authors": [
-          "Child Development Research"
-        ]
+          "Ellen Bialystok",
+          "Fergus I. M. Craik",
+          "Gigi Luk"
+        ],
+        "venue": "Trends in Cognitive Sciences",
+        "externalIds": {
+          "DOI": "10.1016/j.tics.2012.03.001"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "双语环境",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这篇综述讨论双语经验对语言、注意和认知控制的影响。作者强调双语儿童的发展路径会有差异，不能简单用单语速度衡量。孩子在两种语言和语境之间切换时，正在处理词汇选择、情境判断和注意转换等复杂任务。",
+      "practical_takeaway": "孩子停顿时多等几秒，可以重复他的意思，再补上更清楚的表达。",
+      "image_filename": "2026-06-20.jpg",
+      "image_path": "images/2026-06-20.jpg"
     },
     {
       "id": "2026-06-21",
       "date": "2026-06-21",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "被稳定回应的孩子，通常更愿意回到大人身边充电，再带着安全感继续探索。",
+        "en": "Children who receive steady responses often return to adults to recharge and then keep exploring with security.",
+        "ja": "安定して応答される子どもは、大人のそばで安心を補給し、また探索に戻りやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -918,29 +1139,36 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-21.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Attachment and development: A prospective, longitudinal study from birth to adulthood",
+        "year": 2005,
+        "url": "https://doi.org/10.1080/14616730500365928",
         "authors": [
-          "Child Development Research"
-        ]
+          "L. Alan Sroufe"
+        ],
+        "venue": "Attachment & Human Development",
+        "externalIds": {
+          "DOI": "10.1080/14616730500365928"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "安全依恋",
       "image_source": {
         "provider": "Unsplash",
         "id": "Jwz6CQc6NhA",
         "photographer": "olha makarkina",
         "url": "https://unsplash.com/photos/a-close-up-of-a-plant-with-a-blurry-background-Jwz6CQc6NhA"
-      }
+      },
+      "source_summary": "这项纵向研究追踪依恋与后续发展的关系，关注早期照料经验如何与探索、关系和适应能力相连。研究不把依恋当作单一决定因素，而是提示：稳定回应能为孩子提供安全基础，让他们更有余力观察环境、尝试任务和回到成人身边寻求支持。",
+      "practical_takeaway": "孩子来寻求抱抱或确认时，先短暂回应，再鼓励他们继续探索。",
+      "image_filename": "2026-06-21.jpg",
+      "image_path": "images/2026-06-21.jpg"
     },
     {
       "id": "2026-06-22",
       "date": "2026-06-22",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "孩子在抢玩具后学习轮流和修复关系，比完全避免冲突更能积累真实的社交经验。",
+        "en": "Learning to take turns and repair after toy conflicts can build more real social experience than avoiding every conflict.",
+        "ja": "おもちゃの取り合いの後で順番や仲直りを学ぶことは、衝突を完全に避けるより実際的な社会経験になります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -950,29 +1178,36 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-22.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Peer relationships and social competence during early and middle childhood",
+        "year": 1999,
+        "url": "https://doi.org/10.1146/annurev.psych.50.1.333",
         "authors": [
-          "Child Development Research"
-        ]
+          "Gary W. Ladd"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.psych.50.1.333"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "同伴互动",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
+      "practical_takeaway": "冲突后帮孩子说清“我想要”和“可以轮到谁”，再引导他们重新开始。",
+      "image_filename": "2026-06-22.jpg",
+      "image_path": "images/2026-06-22.jpg"
     },
     {
       "id": "2026-06-23",
       "date": "2026-06-23",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "请孩子讲“先发生什么、后来怎样”，能帮助他们把记忆、因果和语言组织在一起。",
+        "en": "Asking what happened first and what came next helps children organize memory, cause, and language together.",
+        "ja": "「最初に何があって、その後どうなったの」と聞くことは、記憶、因果、言葉をまとめる助けになります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -982,29 +1217,36 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-23.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
         "authors": [
-          "Child Development Research"
-        ]
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "叙事能力",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "睡前请孩子讲今天一件小事，只追问顺序和感受，不急着纠正细节。",
+      "image_filename": "2026-06-23.jpg",
+      "image_path": "images/2026-06-23.jpg"
     },
     {
       "id": "2026-06-24",
       "date": "2026-06-24",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "穿珠子、撕纸和拧瓶盖这些慢动作，能让孩子在手眼配合里练耐心和控制。",
+        "en": "Threading beads, tearing paper, and twisting lids let children practice patience and control through hand-eye coordination.",
+        "ja": "ビーズ通し、紙をちぎる、ふたを回す動きは、手と目の協応の中で忍耐と調整を練習できます。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1014,29 +1256,42 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-24.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Fine motor skills and executive function both contribute to kindergarten achievement",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01768.x",
         "authors": [
-          "Child Development Research"
-        ]
+          "Claire E. Cameron",
+          "Laura L. Brock",
+          "William M. Murrah",
+          "Lawrence H. Bell",
+          "Samantha L. Worzalla",
+          "David Grissmer",
+          "Frederick J. Morrison"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01768.x"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "精细动作",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这项研究考察精细动作、执行功能与幼儿园学业表现之间的关系。结果显示，手部控制和执行功能都与早期学习有关。拧、夹、穿、撕这类小动作不只是生活技能，也让孩子在手眼配合中练习注意、顺序和控制。",
+      "practical_takeaway": "准备撕纸、夹夹子或拧瓶盖这类小活动，让孩子按自己的速度完成。",
+      "image_filename": "2026-06-24.jpg",
+      "image_path": "images/2026-06-24.jpg"
     },
     {
       "id": "2026-06-25",
       "date": "2026-06-25",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "面对孩子连续追问“为什么”，先承认问题有意思，再一起找线索，会保护他们的探索劲头。",
+        "en": "When children ask many whys, acknowledging the question and searching for clues together protects their curiosity.",
+        "ja": "子どもの「どうして」に、まず面白い問いだと受け止め、一緒に手がかりを探すことは好奇心を守ります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1046,29 +1301,36 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-25.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Children's need to know: Curiosity in schools",
+        "year": 2011,
+        "url": "https://doi.org/10.17763/haer.81.4.h054131316473115",
         "authors": [
-          "Child Development Research"
-        ]
+          "Susan Engel"
+        ],
+        "venue": "Harvard Educational Review",
+        "externalIds": {
+          "DOI": "10.17763/haer.81.4.h054131316473115"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "好奇心",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这篇教育研究文章讨论儿童好奇心在学校和学习中的位置，指出提问和探究常被课堂节奏压缩。它支持一个朴素观点：孩子的问题本身就是学习入口。成人认真回应问题，并一起寻找线索，能把好奇心保留在真实活动里。",
+      "practical_takeaway": "面对连续提问，可以说“我们找三个线索”，把追问变成共同观察。",
+      "image_filename": "2026-06-25.jpg",
+      "image_path": "images/2026-06-25.jpg"
     },
     {
       "id": "2026-06-26",
       "date": "2026-06-26",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "给孩子两个都可接受的选择，能让他们在边界清楚的情况下练习做决定和承担结果。",
+        "en": "Offering two acceptable choices lets children practice decision-making and consequences within clear boundaries.",
+        "ja": "どちらも受け入れられる二つの選択肢を出すと、境界の中で決める練習ができます。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1078,29 +1340,37 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-26.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Parent styles associated with children's self-regulation and competence in school",
+        "year": 1989,
+        "url": "https://doi.org/10.1037/0022-0663.81.2.143",
         "authors": [
-          "Child Development Research"
-        ]
+          "Wendy S. Grolnick",
+          "Richard M. Ryan"
+        ],
+        "venue": "Journal of Educational Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-0663.81.2.143"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "自主选择",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这项研究讨论父母风格与儿童自我调节和学校能力之间的关系，重点是自主支持、控制和能力感。研究提示，清楚边界内的选择能让孩子练习决定、计划和承担结果；自主支持不是放任，而是让孩子在可承受范围内参与行动。",
+      "practical_takeaway": "给两个你都能接受的选项，比如先刷牙还是先换睡衣，让孩子练习决定。",
+      "image_filename": "2026-06-26.jpg",
+      "image_path": "images/2026-06-26.jpg"
     },
     {
       "id": "2026-06-27",
       "date": "2026-06-27",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "一起搭一座会倒的塔，孩子学到的不只是结构，还有等待、协商和失败后再试一次。",
+        "en": "Building a tower that may fall teaches not only structure, but waiting, negotiation, and trying again after failure.",
+        "ja": "倒れるかもしれない塔を一緒に作る中で、構造だけでなく、待つこと、相談すること、再挑戦も学びます。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1110,29 +1380,36 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-27.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Peer relationships and social competence during early and middle childhood",
+        "year": 1999,
+        "url": "https://doi.org/10.1146/annurev.psych.50.1.333",
         "authors": [
-          "Child Development Research"
-        ]
+          "Gary W. Ladd"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.psych.50.1.333"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "合作游戏",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
+      "practical_takeaway": "一起搭积木时留一点难度，倒了之后让孩子想一个新办法。",
+      "image_filename": "2026-06-27.jpg",
+      "image_path": "images/2026-06-27.jpg"
     },
     {
       "id": "2026-06-28",
       "date": "2026-06-28",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "屏幕内容若能被大人陪着讨论和连接到生活，比孩子独自快速刷过更容易留下理解。",
+        "en": "Screen content is more likely to become understanding when adults discuss it and connect it to life.",
+        "ja": "画面の内容は、大人が一緒に話し生活と結びつけることで、ただ流し見るより理解につながりやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1142,29 +1419,38 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-28.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Media and young children’s learning",
+        "year": 2008,
+        "url": "https://doi.org/10.1353/foc.0.0002",
         "authors": [
-          "Child Development Research"
-        ]
+          "Heather L. Kirkorian",
+          "Ellen A. Wartella",
+          "Daniel R. Anderson"
+        ],
+        "venue": "The Future of Children",
+        "externalIds": {
+          "DOI": "10.1353/foc.0.0002"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "屏幕使用",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这篇综述讨论年轻儿童从媒体中学习的条件，强调年龄、内容质量、重复观看和成人陪伴都会影响学习效果。研究不主张屏幕本身能替代互动；更稳妥的理解是，成人把屏幕内容连接到现实经验时，孩子更容易理解和迁移。",
+      "practical_takeaway": "看完一小段内容后，问孩子里面有什么和今天生活相似。",
+      "image_filename": "2026-06-28.jpg",
+      "image_path": "images/2026-06-28.jpg"
     },
     {
       "id": "2026-06-29",
       "date": "2026-06-29",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "称赞孩子“你试了好几种办法”，比只说“真聪明”更能把注意力放回努力和策略。",
+        "en": "Praising “you tried several ways” can return attention to effort and strategy more than simply saying “smart.”",
+        "ja": "「いくつも方法を試したね」と伝えると、「賢いね」だけより努力や工夫に目を向けやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1174,29 +1460,37 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-29.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Praise for intelligence can undermine children's motivation and performance",
+        "year": 1998,
+        "url": "https://doi.org/10.1037/0022-3514.75.1.33",
         "authors": [
-          "Child Development Research"
-        ]
+          "Claudia M. Mueller",
+          "Carol S. Dweck"
+        ],
+        "venue": "Journal of Personality and Social Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-3514.75.1.33"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "学习动机",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这项实验研究比较称赞聪明和称赞努力对儿童动机与表现的影响。结果显示，强调智力的表扬会让部分孩子更回避挑战；关注努力、策略和调整，更能把注意力放在可改变的过程上。日常反馈越具体，越容易支持继续尝试。",
+      "practical_takeaway": "孩子完成任务后，具体说出他尝试过的方法，而不只评价结果。",
+      "image_filename": "2026-06-29.jpg",
+      "image_path": "images/2026-06-29.jpg"
     },
     {
       "id": "2026-06-30",
       "date": "2026-06-30",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "摸沙、闻叶子、听雨声这类感官经验，会帮助孩子把抽象词语连回真实世界。",
+        "en": "Touching sand, smelling leaves, and listening to rain help children connect abstract words back to the real world.",
+        "ja": "砂に触れる、葉の匂いを嗅ぐ、雨音を聞く経験は、抽象的な言葉を現実の世界と結びつけます。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1206,29 +1500,36 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-30.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "Exploratory behavior in the development of perceiving, acting, and the acquiring of knowledge",
+        "year": 1988,
+        "url": "https://doi.org/10.1146/annurev.ps.39.020188.001233",
         "authors": [
-          "Child Development Research"
-        ]
+          "Eleanor J. Gibson"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.ps.39.020188.001233"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "感官探索",
       "image_source": {
         "provider": "Unsplash",
         "id": "XqwilBo1t5s",
         "photographer": "Adam Hornyak",
         "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
-      }
+      },
+      "source_summary": "这篇经典综述讨论儿童通过探索来发展知觉、行动和知识。研究强调，孩子不是被动接收信息，而是在触摸、移动、比较和试错中理解物体特征。感官探索的意义，在于把词语、身体经验和真实环境连接起来。",
+      "practical_takeaway": "散步时选一种声音、气味或触感，请孩子描述它像什么。",
+      "image_filename": "2026-06-30.jpg",
+      "image_path": "images/2026-06-30.jpg"
     },
     {
       "id": "2026-07-01",
       "date": "2026-07-01",
       "quote": {
-        "zh-Hans": "象征性游戏是孩子学习的重要方式。",
-        "en": "Pretend play is an important way for children to learn.",
-        "ja": "ごっこ遊びは子供が学ぶための重要な方法です。"
+        "zh-Hans": "饭桌上的闲聊、复盘和小玩笑，常常是孩子练习倾听、表达和理解他人想法的自然场景。",
+        "en": "Mealtime chats, reflections, and small jokes are natural settings for listening, expression, and understanding others.",
+        "ja": "食卓での会話や振り返り、小さな冗談は、聞く力、表現、他者理解を練習する自然な場になります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1238,29 +1539,111 @@
       "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-01.jpg",
       "image_name": "quotation_card_bg",
       "source": {
-        "title": "Classic theories in child development: routines, play, language, attachment, and scaffolding",
-        "year": 2024,
-        "url": "https://en.wikipedia.org/wiki/Child_development",
-        "citationCount": 0,
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
         "authors": [
-          "Child Development Research"
-        ]
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
       },
-      "topic": "游戏学习",
+      "topic": "家庭对话",
       "image_source": {
         "provider": "Unsplash",
         "id": "sZXlOY-dhJY",
         "photographer": "Truong Tuyet Ly",
         "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
-      }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "吃饭时轮流分享一件今天的小事，让孩子练习听完再回应。",
+      "image_filename": "2026-07-01.jpg",
+      "image_path": "images/2026-07-01.jpg"
+    },
+    {
+      "id": "2026-07-02",
+      "date": "2026-07-02",
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "source": {
+        "title": "Active music classes in infancy enhance musical, communicative and social development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-7687.2012.01142.x",
+        "authors": [
+          "Dana W. Gerry",
+          "Andrea Unrau",
+          "Laurel J. Trainor"
+        ],
+        "venue": "Developmental Science",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-7687.2012.01142.x"
+        }
+      },
+      "image_source": {
+        "provider": "Local repair"
+      },
+      "quote": {
+        "zh-Hans": "拍手、哼唱和跟着节奏停下来，能让孩子在轻松互动里练听觉注意和身体控制。",
+        "en": "Clapping, humming, and stopping with rhythm let children practice auditory attention and body control through easy interaction.",
+        "ja": "手拍子、鼻歌、リズムに合わせて止まる遊びは、聞く注意と体のコントロールを楽しく支えます。"
+      },
+      "topic": "音乐节奏",
+      "source_summary": "这项研究比较婴幼儿主动音乐课程和被动音乐体验，关注音乐、沟通和社会发展。结果显示，主动参与节奏、动作和声音互动的孩子，在相关测量上表现更积极。家庭中的拍手、停顿和跟随节奏，能提供听觉注意与身体控制练习。",
+      "practical_takeaway": "拍一个简单节奏，让孩子跟着停和走，时间短也可以。",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-02.jpg",
+      "image_filename": "2026-07-02.jpg",
+      "image_path": "images/2026-07-02.jpg",
+      "image_name": "quotation_card_bg"
+    },
+    {
+      "id": "2026-07-03",
+      "date": "2026-07-03",
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "source": {
+        "title": "A potential natural treatment for attention-deficit/hyperactivity disorder: evidence from a national study",
+        "year": 2004,
+        "url": "https://doi.org/10.2105/AJPH.94.9.1580",
+        "authors": [
+          "Frances E. Kuo",
+          "Andrea Faber Taylor"
+        ],
+        "venue": "American Journal of Public Health",
+        "externalIds": {
+          "DOI": "10.2105/AJPH.94.9.1580"
+        }
+      },
+      "image_source": {
+        "provider": "Local repair"
+      },
+      "quote": {
+        "zh-Hans": "在树荫下观察蚂蚁或云的变化，能把孩子的注意力慢慢拉长，也给情绪一个缓冲。",
+        "en": "Watching ants or changing clouds under trees can gently lengthen attention and give emotions a buffer.",
+        "ja": "木陰でアリや雲の変化を見る時間は、注意をゆっくり伸ばし、気持ちにも余白を作ります。"
+      },
+      "topic": "自然接触",
+      "source_summary": "这项研究考察自然环境接触与儿童注意表现之间的关系，尤其关注有注意困难儿童的户外活动。研究不能说明自然环境能替代专业支持，但提示绿地和自然场景与注意恢复有关。短时间观察自然变化，也能为孩子提供较少干扰的专注环境。",
+      "practical_takeaway": "找一处树荫或窗边，和孩子观察同一个小变化一分钟。",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-03.jpg",
+      "image_filename": "2026-07-03.jpg",
+      "image_path": "images/2026-07-03.jpg",
+      "image_name": "quotation_card_bg"
     },
     {
       "id": "2026-07-04",
       "date": "2026-07-04",
       "quote": {
-        "zh-Hans": "让孩子自己尝试解决问题，可能有助于他们提升记忆力、专注力和灵活思考的能力。",
-        "en": "Encouraging kids to solve problems on their own may help improve memory, focus, and flexible thinking.",
-        "ja": "子どもに自分で問題を解決させることは、記憶力、集中力、柔軟な思考力を育む助けになるかもしれません。"
+        "zh-Hans": "让孩子先自己想办法，再给一点提示，能把一次小困难变成练习工作记忆和灵活调整的机会。",
+        "en": "Letting children try first, then offering a small cue, turns a hard moment into practice for memory and flexible adjustment.",
+        "ja": "子どもが先に試し、その後で少し手がかりを出すと、小さな困難が記憶と柔軟な調整の練習になります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1296,7 +1679,7 @@
         "search_query": "executive function child development parenting intervention"
       },
       "source_summary": "研究探讨了支持自主性养育（ASP）对学龄前儿童执行功能（EF）和母亲养育技能的影响。执行功能包括工作记忆、抑制控制和认知灵活性。通过两项初步研究发现，参与四次2小时的ASP干预培训后，母亲的养育技能和孩子的执行功能均有所提升。研究强调了针对性养育支持对儿童发展和家长技能的重要性。摘要未说明样本规模或具体效果量，需谨慎理解。",
-      "practical_takeaway": "在日常生活中，给孩子机会自己尝试解决小问题，比如选择穿什么衣服或如何整理玩具。",
+      "practical_takeaway": "孩子卡住时先等几秒，再给一个很小的提示，例如“你已经试过哪一步了”。",
       "topic": "自主性支持与执行功能",
       "image_source": {
         "provider": "Unsplash",
@@ -1306,15 +1689,17 @@
         "perceptual_hash": "5113136307060f0e",
         "width": 4000,
         "height": 6000
-      }
+      },
+      "image_filename": "2026-07-04.jpg",
+      "image_path": "images/2026-07-04.jpg"
     },
     {
       "id": "2026-07-05",
       "date": "2026-07-05",
       "quote": {
-        "zh-Hans": "孩子的情绪表达和父母的温暖互动是双向的，彼此影响，长期来看可能与孩子的行为发展相关。",
-        "en": "Children’s emotional expression and parental warmth influence each other, shaping long-term behavioral development.",
-        "ja": "子どもの感情表現と親の温かい関わりは相互に影響し合い、長期的な行動発達に関係しています。"
+        "zh-Hans": "孩子学着表达情绪时，父母稳定、温暖的回应，会让这种练习更容易在日常互动中持续下去。",
+        "en": "When children practice expressing emotions, steady and warm responses help that practice continue in everyday interaction.",
+        "ja": "子どもが感情を表す練習をしている時、安定した温かな応答は、その練習を日常の中で続けやすくします。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1349,7 +1734,7 @@
         "search_query": "early childhood development parenting longitudinal study"
       },
       "source_summary": "这项研究分析了儿童情绪调节能力和父母温暖互动的双向关系，以及它们如何预测学龄期的行为问题。研究基于 2,341 名 3–10 岁儿童的数据，发现孩子的情绪能力和父母的温暖互动会互相影响，并且这种相互作用对孩子的行为发展有长期影响。研究强调了情绪调节与父母温暖在预防儿童内化和外化行为问题中的重要性。",
-      "practical_takeaway": "尝试在日常互动中多表达对孩子的关心和支持，帮助他们更好地调节情绪。",
+      "practical_takeaway": "孩子说不清情绪时，先复述你看到的事实和感受，再一起讨论下一步。",
       "topic": "情绪调节与父母温暖的双向作用",
       "image_source": {
         "provider": "Unsplash",
@@ -1359,15 +1744,17 @@
         "perceptual_hash": "3c3c381818180c82",
         "width": 3706,
         "height": 4632
-      }
+      },
+      "image_filename": "2026-07-05.jpg",
+      "image_path": "images/2026-07-05.jpg"
     },
     {
       "id": "2026-07-06",
       "date": "2026-07-06",
       "quote": {
-        "zh-Hans": "住在绿地多的社区，孩子可能更容易在身体、情感和社交能力上得到全面发展。",
-        "en": "Living in greener neighborhoods may support children's physical, emotional, and social development.",
-        "ja": "緑が多い地域で育つ子どもは、身体的、感情的、社会的な発達が促されやすいかもしれません。"
+        "zh-Hans": "有绿地、交通更友好的社区，给孩子更多户外活动和同伴接触机会，这些环境与早期发展相关。",
+        "en": "Greener, more walkable neighborhoods give children more chances for outdoor activity and peer contact, both linked with early development.",
+        "ja": "緑があり移動しやすい地域は、外遊びや友だちとの関わりを増やし、初期発達とも関連します。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1403,8 +1790,8 @@
         },
         "search_query": "outdoor play child development early childhood study"
       },
-      "source_summary": "这项基于加拿大温哥华的研究分析了3万余名儿童的早期发展与社区适宜游戏性之间的关系。研究发现，绿地丰富的社区与儿童在身体、情感和社交等多方面的健康发展之间存在正相关。研究还指出，交通环境和社会环境的友好程度也可能对儿童发展产生积极影响。研究结果提示，城市规划中增加自然环境和安全社交空间可能有助于儿童的健康成长。",
-      "practical_takeaway": "家长可以多带孩子去附近的公园或绿地玩耍，享受自然环境，支持孩子的全面发展。",
+      "source_summary": "这项基于加拿大温哥华的研究分析了3万余名儿童的早期发展与社区适宜游戏性之间的关系。研究发现，绿地丰富的社区与儿童在身体、情感和社交等多方面的健康发展之间存在正相关。研究还指出，交通环境和社会环境的友好程度也与儿童发展有关。研究结果提示，城市规划中增加自然环境和安全社交空间，有助于儿童健康成长。",
+      "practical_takeaway": "每天不必安排复杂活动，选一个安全、可走动的户外空间，让孩子跑、看、聊十分钟。",
       "topic": "环境与儿童发展",
       "image_source": {
         "provider": "Unsplash",
@@ -1414,15 +1801,17 @@
         "perceptual_hash": "0000c4c48a92e80f",
         "width": 4480,
         "height": 6720
-      }
+      },
+      "image_filename": "2026-07-06.jpg",
+      "image_path": "images/2026-07-06.jpg"
     },
     {
       "id": "2026-07-07",
       "date": "2026-07-07",
       "quote": {
-        "zh-Hans": "父母试着回应孩子的表情和动作，可能有助于增进亲子互动的质量，帮助孩子更好地表达情绪和需求。",
-        "en": "Responding to your child’s expressions and actions can help improve interaction quality and support their emotional growth.",
-        "ja": "子どもの表情や動きに応えることで、親子の関係が深まり、子どもの感情表現が育まれるかもしれません。"
+        "zh-Hans": "父母看懂孩子的表情和动作，并给出及时回应，会让亲子互动更清楚，也让情绪表达更容易被练习。",
+        "en": "Reading a child’s expressions and responding in time makes interaction clearer and gives emotional expression more practice.",
+        "ja": "子どもの表情や動きを読み取り、タイミングよく応答すると、親子のやり取りが明確になり、感情表現も練習しやすくなります。"
       },
       "author": {
         "zh-Hans": "育儿研究",
@@ -1458,7 +1847,7 @@
         "search_query": "secure attachment child development parenting study"
       },
       "source_summary": "这项研究评估了 ATTACH™ 项目对经历代际压力的原住民家庭的影响。该项目旨在通过提升父母的反思能力和亲子互动质量，改善儿童发展结果。研究发现，参与项目的父母在反思能力和亲子互动质量上有显著提升，尤其是在理解和回应孩子情绪线索方面。由于样本量较小（17 对家庭），结果需谨慎解读，但表明该干预对高风险家庭具有潜在益处。",
-      "practical_takeaway": "日常生活中，试着观察并回应孩子的表情和动作，比如微笑、点头或轻声回应，帮助他们感受到被理解和关注。",
+      "practical_takeaway": "今天留意孩子一个表情或动作，用点头、简短回应或复述，确认你理解了他的意思。",
       "topic": "亲子互动与情感表达",
       "image_source": {
         "provider": "Unsplash",
@@ -1468,7 +1857,9 @@
         "perceptual_hash": "0f1fef4b260e4645",
         "width": 4000,
         "height": 5679
-      }
+      },
+      "image_filename": "2026-07-07.jpg",
+      "image_path": "images/2026-07-07.jpg"
     }
   ]
 }
