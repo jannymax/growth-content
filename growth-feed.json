@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-07T09:47:42Z",
-  "today_id": "2026-07-07",
+  "updated_at": "2026-07-07T22:47:59Z",
+  "today_id": "2026-07-08",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -1860,6 +1860,63 @@
       },
       "image_filename": "2026-07-07.jpg",
       "image_path": "images/2026-07-07.jpg"
+    },
+    {
+      "id": "2026-07-08",
+      "date": "2026-07-08",
+      "quote": {
+        "zh-Hans": "父母在孩子三岁前多用回应式互动，比如回应孩子的表情和声音，有助于孩子的认知、语言和社交情感发展。",
+        "en": "Responsive interactions with your child before age three can support their cognitive, language, and social-emotional development.",
+        "ja": "3歳までの子どもに対して、表情や声に応じた反応をすることで、認知、言語、社会情緒の発達を助けることができます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-08.jpg",
+      "image_filename": "2026-07-08.jpg",
+      "image_path": "images/2026-07-08.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "00da2bcc92f953e79db85167bf52e22df80a2b9e",
+        "title": "Parenting interventions to promote early child development in the first three years of life: A global systematic review and meta-analysis",
+        "year": 2021,
+        "url": "https://www.semanticscholar.org/paper/00da2bcc92f953e79db85167bf52e22df80a2b9e",
+        "citationCount": 721,
+        "authors": [
+          "Joshua Jeong",
+          "E. Franchett",
+          "C. V. Ramos de Oliveira",
+          "K. Rehmani",
+          "A. Yousafzai"
+        ],
+        "venue": "PLoS Medicine",
+        "publicationDate": "2021-05-01",
+        "publicationTypes": [
+          "JournalArticle",
+          "Review"
+        ],
+        "externalIds": {
+          "PubMedCentral": "8109838",
+          "DOI": "10.1371/journal.pmed.1003602",
+          "CorpusId": 234359991,
+          "PubMed": "33970913"
+        },
+        "search_query": "positive parenting child socioemotional development study"
+      },
+      "source_summary": "2021年发表在《PLoS Medicine》的一项系统综述和荟萃分析研究了全球范围内针对3岁以下儿童的育儿干预措施对早期儿童发展（ECD）和育儿结果的影响。研究发现，回应式养育对儿童的认知、语言、运动和社交情感发展，以及亲子互动和育儿知识都有积极作用，尤其在低中收入国家效果更明显。但研究也指出，干预内容和实施的报告不够充分，且研究质量存在差异，需谨慎解读。",
+      "practical_takeaway": "当孩子发出声音或表情时，试着用语言或动作温和回应，为他们提供更多互动机会。",
+      "topic": "早期发展中的回应式互动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "uwGUc_U0MdU",
+        "photographer": "Jason Grant",
+        "url": "https://unsplash.com/photos/2-people-riding-on-boat-on-sea-during-daytime-uwGUc_U0MdU",
+        "perceptual_hash": "0100008000101000",
+        "width": 2592,
+        "height": 3808
+      }
     }
   ]
 }
