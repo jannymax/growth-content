@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-07T22:47:59Z",
-  "today_id": "2026-07-08",
+  "updated_at": "2026-07-08T23:02:24Z",
+  "today_id": "2026-07-09",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -1916,6 +1916,58 @@
         "perceptual_hash": "0100008000101000",
         "width": 2592,
         "height": 3808
+      }
+    },
+    {
+      "id": "2026-07-09",
+      "date": "2026-07-09",
+      "quote": {
+        "zh-Hans": "用讲故事或解谜类的互动屏幕游戏，能为孩子提供练习逻辑分类和问题解决的机会。",
+        "en": "Interactive digital games like storytelling or puzzles can provide opportunities for children to practice logic and problem-solving.",
+        "ja": "ストーリーテリングやパズルのようなインタラクティブなデジタルゲームは、子どもが論理や問題解決を練習する機会を提供します。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-09.jpg",
+      "image_filename": "2026-07-09.jpg",
+      "image_path": "images/2026-07-09.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "abd3bcc32c9cfc0932e58256565e0498cbf8098a",
+        "title": "Digital Play-Based Pedagogy in Early Childhood Education: A Quasi-Experimental Study of Preschool Cognitive Development",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/abd3bcc32c9cfc0932e58256565e0498cbf8098a",
+        "citationCount": 1,
+        "authors": [
+          "Suryansah",
+          "Ari Saputra",
+          "Lalu Ibrohim Burhan"
+        ],
+        "venue": "Cendekia",
+        "publicationDate": "2026-04-20",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.63982/cendekia.45a7bw44",
+          "CorpusId": 287639663
+        },
+        "search_query": "play based learning early childhood development research"
+      },
+      "source_summary": "2026年发表在《Cendekia》的研究探讨了基于游戏的数字化教学对4-6岁幼儿认知发展的影响。研究通过6周的干预，结合数字故事、教育游戏和解谜活动，发现这些方法可以显著提升孩子的符号推理和问题解决能力。研究强调，发展适龄的数字化游戏教学策略，能有效支持幼儿的认知参与和学习过程。摘要未说明具体样本量和效果量，需谨慎理解。",
+      "practical_takeaway": "尝试和孩子一起玩一些数字化的故事或解谜游戏，过程中多鼓励他们自己探索解决方法。",
+      "topic": "数字化游戏与认知发展",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "aXeXFty1900",
+        "photographer": "Joel Stählin",
+        "url": "https://unsplash.com/photos/brown-trees-on-forest-during-daytime-aXeXFty1900",
+        "perceptual_hash": "a703880c0e0f0f33",
+        "width": 4016,
+        "height": 6016
       }
     }
   ]
