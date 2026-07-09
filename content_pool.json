@@ -1113,6 +1113,45 @@
         },
         "search_query": "play based learning early childhood development research"
       }
+    },
+    {
+      "id": "pool_2026-07-10",
+      "status": "published",
+      "created_at": "2026-07-09T23:06:24Z",
+      "published_at": "2026-07-09T23:06:27Z",
+      "published_date": "2026-07-10",
+      "topic": "语言发展与回应式互动",
+      "quote": {
+        "zh-Hans": "当孩子用简单语言表达需求时，父母多用回应式互动，比如重复孩子的话并扩展，会为他们的语言和社交能力提供支持。",
+        "en": "When children use simple words to express needs, parents can support their language and social skills by responding and expanding on their words.",
+        "ja": "子どもが簡単な言葉で要望を伝えるとき、親がその言葉を繰り返したり広げたりして応じることで、言語や社会性の発達を支えることができます。"
+      },
+      "image_query": "calm forest path sunlight minimal background",
+      "source_summary": "本研究探讨了土耳其2-4岁发展性语言障碍风险儿童（rDLD）与典型发展儿童的语用语言使用及亲子互动行为的差异。结果显示，rDLD儿童在语用语言使用和社交互动方面表现出显著困难，且其父母的回应性较低，指令性行为较高。研究还发现，父母的回应性和情感表达与儿童的语言能力和互动行为密切相关。研究表明，早期评估和干预应关注语用语言、父母行为和儿童互动技能的综合发展。",
+      "practical_takeaway": "当孩子用简单语言表达时，父母可以通过重复和扩展孩子的话，帮助他们练习语言和社交技能。",
+      "source": {
+        "paperId": "6dbe60951bc7bd799dd918c3fd14cd5abbf06698",
+        "title": "Pragmatic Language Use and Parent-Child Interaction Among Children at Risk for Developmental Language Disorder and Typically Developing Peers.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/6dbe60951bc7bd799dd918c3fd14cd5abbf06698",
+        "citationCount": 0,
+        "authors": [
+          "Mısra Kolbaşı",
+          "Namık Yücel Birol"
+        ],
+        "venue": "International journal of language and communication disorders",
+        "publicationDate": "2026-04-22",
+        "publicationTypes": [
+          "Study",
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1111/1460-6984.70253",
+          "CorpusId": 287751914,
+          "PubMed": "42020350"
+        },
+        "search_query": "parent child interaction language development children study"
+      }
     }
   ]
 }
