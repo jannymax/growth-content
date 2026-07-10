@@ -34,7 +34,7 @@ UNSPLASH_SEARCH_URL = "https://api.unsplash.com/search/photos"
 
 CHINA_TZ = timezone(timedelta(hours=8))
 
-TOPIC_QUERIES = [
+CORE_TOPIC_QUERIES = [
     "early childhood development parenting longitudinal study",
     "parent child interaction language development children study",
     "emotion regulation preschool children parenting study",
@@ -51,6 +51,27 @@ TOPIC_QUERIES = [
     "growth mindset children learning motivation study",
     "scaffolding learning children parent interaction study",
 ]
+
+SCIENCE_LITERACY_TOPIC_QUERIES = [
+    "infant brain development synaptic pruning experience dependent plasticity review",
+    "early brain development synaptogenesis pruning children cognitive development review",
+    "infant speech perception perceptual narrowing native language development study",
+    "early second language learning children phonetic perception bilingual development study",
+    "children emotion development emotion understanding regulation longitudinal study",
+    "moral development children fairness prosocial behavior study",
+    "decision making development children executive function risk reward study",
+    "causal reasoning development children cognitive psychology study",
+    "perceptual development infants children auditory visual learning study",
+    "intrinsic motivation extrinsic motivation children education psychology study",
+    "working memory development children learning educational psychology study",
+    "attention development children learning classroom educational psychology study",
+    "retrieval practice spacing effect children learning education study",
+    "multisensory learning children language vocabulary development study",
+    "social interaction language learning infants children study",
+]
+
+SCIENCE_LITERACY_INTERVAL = 4
+TOPIC_QUERIES = CORE_TOPIC_QUERIES + SCIENCE_LITERACY_TOPIC_QUERIES
 
 DISALLOWED_ABSOLUTE_WORDS = [
     "决定一生",
@@ -72,6 +93,16 @@ DISALLOWED_SOUPY_WORDS = [
     "生长",
     "养出",
     "邀请",
+]
+
+DISALLOWED_NEURO_MYTH_WORDS = [
+    "神经元被裁剪",
+    "裁剪神经元",
+    "卫星计算机",
+    "开发右脑",
+    "开发左脑",
+    "开发大脑",
+    "激活大脑潜能",
 ]
 
 DISALLOWED_SOURCE_MARKERS = [
@@ -222,6 +253,21 @@ def select_paper(papers, used_keys):
     return candidates[0]
 
 
+def topic_queries_for_offset(topic_offset):
+    if topic_offset % SCIENCE_LITERACY_INTERVAL == SCIENCE_LITERACY_INTERVAL - 1:
+        primary = SCIENCE_LITERACY_TOPIC_QUERIES
+        fallback = CORE_TOPIC_QUERIES
+    else:
+        primary = CORE_TOPIC_QUERIES
+        fallback = SCIENCE_LITERACY_TOPIC_QUERIES
+
+    start = topic_offset % len(primary)
+    rotated_primary = primary[start:] + primary[:start]
+    fallback_start = topic_offset % len(fallback)
+    rotated_fallback = fallback[fallback_start:] + fallback[:fallback_start]
+    return rotated_primary + rotated_fallback
+
+
 def search_semantic_scholar(used_keys, topic_offset=0):
     headers = {"User-Agent": "growth-content-daily-feed/2.0"}
     fields = ",".join(
@@ -240,9 +286,7 @@ def search_semantic_scholar(used_keys, topic_offset=0):
         ]
     )
 
-    queries = TOPIC_QUERIES[:]
-    start = topic_offset % len(queries)
-    queries = queries[start:] + queries[:start]
+    queries = topic_queries_for_offset(topic_offset)
 
     last_error = None
 
@@ -372,6 +416,9 @@ def generate_insight(paper, recent_quotes):
 - 中文短句 55–90 个汉字，必须有具体洞察，不要口号
 - 中文短句不要使用“可能”，要可信、具体、普通用户听得懂
 - 不要用“藏在、土壤、发光、礼物、被看见、生长、养出、邀请”等鸡汤化或诗化表达
+- 可以生成儿童心理学、发展心理学、认知心理学、教育心理学小科普，但必须来自这篇论文，不要脱离摘要讲教材常识
+- 涉及大脑、神经、语言敏感期时，只能说“神经连接/突触会随经验调整、稳定或减弱”，不要写“神经元被裁剪”“成人错过就学不会”
+- 涉及情绪、道德、决策、推理、感知、动机时，要写成“孩子正在发展某种能力”，不要写成家长必须训练
 - 谨慎不等于反复弱化；用“与……相关、常常、更容易、为……提供、正在练习”等自然表达保留边界
 - source_summary 120–260 个汉字，说明研究关注什么、发现了什么、能怎样谨慎理解
 - source_summary 必须只依据上面的论文标题、年份、期刊/会议、链接和摘要，不要编造样本、方法或效果
@@ -436,6 +483,10 @@ def validate_insight(insight, existing_quotes):
     for word in DISALLOWED_SOUPY_WORDS:
         if word in zh:
             raise RuntimeError(f"Generated quote sounds too slogan-like: {word}")
+    combined_text = f"{zh}\n{summary}\n{takeaway}"
+    for word in DISALLOWED_NEURO_MYTH_WORDS:
+        if word in combined_text:
+            raise RuntimeError(f"Generated content risks a neuro-myth: {word}")
 
     for old_quote in existing_quotes:
         if quote_similarity(zh, old_quote) >= 0.72:

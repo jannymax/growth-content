@@ -42,6 +42,22 @@ class GenerateDailyGrowthTests(unittest.TestCase):
 
         self.assertEqual(selected["paperId"], "fresh-paper")
 
+    def test_topic_queries_include_science_literacy_at_controlled_interval(self):
+        core_turn_queries = growth.topic_queries_for_offset(0)
+        science_turn_queries = growth.topic_queries_for_offset(
+            growth.SCIENCE_LITERACY_INTERVAL - 1
+        )
+
+        self.assertIn("parenting", core_turn_queries[0])
+        self.assertIn(
+            science_turn_queries[0],
+            growth.SCIENCE_LITERACY_TOPIC_QUERIES,
+        )
+        self.assertLess(
+            len(growth.SCIENCE_LITERACY_TOPIC_QUERIES),
+            len(growth.TOPIC_QUERIES),
+        )
+
     def test_validate_insight_rejects_near_duplicate_quote(self):
         insight = {
             "quote": {
@@ -87,6 +103,21 @@ class GenerateDailyGrowthTests(unittest.TestCase):
             "source_summary": "这项研究关注儿童尝试任务时成人支持方式与自我调节之间的关系，摘要显示适度提示和等待能让儿童参与解决问题。摘要未说明完整效果量，因此需要保留边界理解。",
             "practical_takeaway": "孩子遇到小困难时，可以先等待几秒，再给一个很小的提示。",
             "image_query": "quiet forest morning minimal background",
+        }
+
+        with self.assertRaises(RuntimeError):
+            growth.validate_insight(insight, [])
+
+    def test_validate_insight_rejects_neuro_myth_wording(self):
+        insight = {
+            "quote": {
+                "zh-Hans": "婴儿早期能分辨许多语言声音，母语经验会让常用语音连接更稳定，少用声音的神经元被裁剪。",
+                "en": "Early language experience shapes speech perception.",
+                "ja": "早期の言語経験は音の聞き分けに関わります。",
+            },
+            "source_summary": "这项研究关注婴儿语音知觉如何随语言经验变化，摘要显示早期经验与语音分辨模式调整有关。摘要未说明完整样本细节，因此不能把结果解释为简单的能力消失。",
+            "practical_takeaway": "可以用自然互动让孩子多听、多回应不同语言声音，不需要制造窗口期焦虑。",
+            "image_query": "quiet window light minimal background",
         }
 
         with self.assertRaises(RuntimeError):
