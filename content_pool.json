@@ -1152,6 +1152,45 @@
         },
         "search_query": "parent child interaction language development children study"
       }
+    },
+    {
+      "id": "pool_2026-07-11",
+      "status": "published",
+      "created_at": "2026-07-10T22:47:47Z",
+      "published_at": "2026-07-10T22:47:49Z",
+      "published_date": "2026-07-11",
+      "topic": "儿童问题解决策略",
+      "quote": {
+        "zh-Hans": "孩子解决复杂任务时，常会把问题拆成小块逐步完成，这是一种自然的分解策略。",
+        "en": "Children often break complex tasks into smaller steps, using a natural decomposition strategy.",
+        "ja": "子どもは複雑な課題を小さなステップに分解して進めることがよくあります。"
+      },
+      "image_query": "quiet lake morning mist minimal background",
+      "source_summary": "2020年的研究探讨了教育机器人如何支持儿童计算思维的发展，发现孩子在解决复杂任务时，常使用分解策略，将任务拆成更易处理的小步骤。研究还发现，不同性别的孩子对教学方法的反应有所不同：男孩更受益于个体化的动手活动，而女孩更适合协作式的书写活动。摘要未说明具体样本数量和年龄范围。家长可以理解为，儿童在面对复杂任务时，倾向于通过分解来降低难度。",
+      "practical_takeaway": "当孩子面对困难任务时，可以鼓励他们先拆分问题，逐步解决每个小部分。",
+      "source": {
+        "paperId": "b423a97451fe2f29fe70ac4ed2e87a269cd41629",
+        "title": "Developing young children's computational thinking with educational robotics: An interaction effect between gender and scaffolding strategy",
+        "year": 2020,
+        "url": "https://www.semanticscholar.org/paper/b423a97451fe2f29fe70ac4ed2e87a269cd41629",
+        "citationCount": 376,
+        "authors": [
+          "C. Angeli",
+          "Nicos Valanides"
+        ],
+        "venue": "Computers in Human Behavior",
+        "publicationDate": "2020-04-01",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DBLP": "journals/chb/AngeliV20",
+          "MAG": "2922867488",
+          "DOI": "10.1016/J.CHB.2019.03.018",
+          "CorpusId": 150523525
+        },
+        "search_query": "scaffolding learning children parent interaction study"
+      }
     }
   ]
 }
