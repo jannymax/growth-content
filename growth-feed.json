@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-10T22:47:49Z",
-  "today_id": "2026-07-11",
+  "updated_at": "2026-07-11T22:34:42Z",
+  "today_id": "2026-07-12",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2074,6 +2074,58 @@
         "perceptual_hash": "ffff7f3f3f070707",
         "width": 3205,
         "height": 4807
+      }
+    },
+    {
+      "id": "2026-07-12",
+      "date": "2026-07-12",
+      "quote": {
+        "zh-Hans": "父母用语言和手势同时引导孩子解决问题时，亲子间的脑同步性会更持久，互动也更深入。",
+        "en": "Using both speech and gestures to guide problem-solving can sustain parent-child brain synchrony and deepen interaction.",
+        "ja": "言葉とジェスチャーを組み合わせて子どもを導くと、親子間の脳の同期が持続し、より深い交流が生まれます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-12.jpg",
+      "image_filename": "2026-07-12.jpg",
+      "image_path": "images/2026-07-12.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "5c1b4a6436776479f2487986ff214c7c3e07ffca",
+        "title": "Parental speech and gesture scaffolding moderate the neural dynamics of parent-child synchrony.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/5c1b4a6436776479f2487986ff214c7c3e07ffca",
+        "citationCount": 0,
+        "authors": [
+          "Ying Li",
+          "Ö. E. Demir-Lira"
+        ],
+        "venue": "Developmental Cognitive Neuroscience",
+        "publicationDate": "2026-06-01",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1016/j.dcn.2026.101771",
+          "CorpusId": 289647430,
+          "PubMed": "42385270"
+        },
+        "search_query": "scaffolding learning children parent interaction study"
+      },
+      "source_summary": "这项2026年的研究发表于《Developmental Cognitive Neuroscience》，通过fNIRS脑部扫描技术，观察了父母在与孩子合作解决空间问题时使用语言、手势或两者结合的引导方式对亲子脑同步性的影响。结果显示，语言和手势结合的引导方式能够使亲子间的脑同步性更持久且更深入，尤其是在互动的后期阶段。研究还发现，这种引导方式与孩子右侧前额叶皮层和父母颞顶区的脑区同步性增强相关。摘要未说明具体样本规模和年龄范围，家长可将此理解为一种支持孩子参与互动的方式，而非绝对必要的做法。",
+      "practical_takeaway": "在和孩子一起解决问题时，尝试用语言描述步骤，同时配合手势示范，帮助孩子更好地理解和参与。",
+      "topic": "亲子互动中的语言和手势",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "RsFO5OG0rjA",
+        "photographer": "Toan Chu",
+        "url": "https://unsplash.com/photos/blue-body-of-water-under-white-sky-during-daytime-RsFO5OG0rjA",
+        "perceptual_hash": "0303030307010100",
+        "width": 5167,
+        "height": 7746
       }
     }
   ]
