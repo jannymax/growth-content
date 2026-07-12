@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T22:34:42Z",
-  "today_id": "2026-07-12",
+  "updated_at": "2026-07-12T22:48:51Z",
+  "today_id": "2026-07-13",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2126,6 +2126,63 @@
         "perceptual_hash": "0303030307010100",
         "width": 5167,
         "height": 7746
+      }
+    },
+    {
+      "id": "2026-07-13",
+      "date": "2026-07-13",
+      "quote": {
+        "zh-Hans": "在自然环境中学习，孩子更容易参与和主动探索，也会积累协作和解决问题的经验。",
+        "en": "Learning in nature encourages children to engage actively and build collaboration and problem-solving skills.",
+        "ja": "自然環境での学びは、子どもたちが積極的に関わり、協力や問題解決の経験を積む助けになります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-13.jpg",
+      "image_filename": "2026-07-13.jpg",
+      "image_path": "images/2026-07-13.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "299936d50164f7d16d06d878d7e22656beaba9dc",
+        "title": "Getting Out of the Classroom and Into Nature: A Systematic Review of Nature-Specific Outdoor Learning on School Children's Learning and Development",
+        "year": 2022,
+        "url": "https://www.semanticscholar.org/paper/299936d50164f7d16d06d878d7e22656beaba9dc",
+        "citationCount": 179,
+        "authors": [
+          "J. Mann",
+          "Tonia Gray",
+          "Son Truong",
+          "E. Brymer",
+          "Rowena Passy",
+          "Susanna Ho"
+        ],
+        "venue": "Frontiers in Public Health",
+        "publicationDate": "2022-05-16",
+        "publicationTypes": [
+          "Review"
+        ],
+        "externalIds": {
+          "PubMedCentral": "9149177",
+          "DOI": "10.3389/fpubh.2022.877058",
+          "CorpusId": 248800470,
+          "PubMed": "35651851"
+        },
+        "search_query": "attention development children learning classroom educational psychology study"
+      },
+      "source_summary": "这篇2022年发表在《Frontiers in Public Health》的系统综述汇总了147项研究，探讨了自然环境中的户外学习对学龄儿童的社会情感发展、学术表现和健康的影响。研究发现，学生在自然环境中学习时，参与度和学习主动性更高，社交和协作能力有所发展，部分研究还显示了学术表现的改善。研究建议将自然环境学习纳入学校课程，但强调需要更多研究明确不同形式的户外学习对具体目标的效果。摘要未说明具体样本规模或效果量。",
+      "practical_takeaway": "带孩子在公园或自然环境中玩耍，并鼓励他们观察、提问或完成小任务，支持他们的探索和合作能力。",
+      "topic": "自然环境与儿童学习",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "3pRoEe76eI4",
+        "photographer": "Vlad Tamkin",
+        "url": "https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-forest-3pRoEe76eI4",
+        "perceptual_hash": "171717232f1f0125",
+        "width": 4000,
+        "height": 6000
       }
     }
   ]
