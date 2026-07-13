@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T22:48:51Z",
-  "today_id": "2026-07-13",
+  "updated_at": "2026-07-13T22:43:33Z",
+  "today_id": "2026-07-14",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2183,6 +2183,58 @@
         "perceptual_hash": "171717232f1f0125",
         "width": 4000,
         "height": 6000
+      }
+    },
+    {
+      "id": "2026-07-14",
+      "date": "2026-07-14",
+      "quote": {
+        "zh-Hans": "孩子表达情绪时，父母的接纳和引导，会帮助他们更好地理解和调节自己的感受。",
+        "en": "When children express emotions, parental acceptance and guidance help them better understand and regulate their feelings.",
+        "ja": "子どもが感情を表現する際、親が受け入れ導くことで、感情を理解し調整する力が育まれます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-14.jpg",
+      "image_filename": "2026-07-14.jpg",
+      "image_path": "images/2026-07-14.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "34293e872439fa9b1b1e2a77e6aaddb6999211a8",
+        "title": "PARENTING SELF-EFFICACY DAN EMOTION COACHING PADA IBU DENGAN ANAK USIA PRASEKOLAH",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/34293e872439fa9b1b1e2a77e6aaddb6999211a8",
+        "citationCount": 0,
+        "authors": [
+          "D. A. Rahmawati",
+          "Niken Fitri Palupi",
+          "K. Kunci—"
+        ],
+        "venue": "PAEDAGOGY Jurnal Ilmu Pendidikan dan Psikologi",
+        "publicationDate": "2026-06-15",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.51878/paedagogy.v6i2.11972",
+          "CorpusId": 289357247
+        },
+        "search_query": "emotion regulation preschool children parenting study"
+      },
+      "source_summary": "这项2026年的研究探讨了母亲的育儿自我效能感与情绪引导能力之间的关系。研究发现，两者之间并无显著相关性，表明母亲的自信心并不直接决定其情绪引导策略的实施。研究还指出，情绪知识、育儿经验、孩子的特质以及社会支持等因素可能对母亲的情绪引导实践有更大影响。摘要未说明研究的具体效果量，但强调了情绪引导对学龄前儿童情绪发展的重要性。",
+      "practical_takeaway": "当孩子表达情绪时，父母可以试着先接纳孩子的感受，再用简单的语言帮助他们理解情绪的来源和意义。",
+      "topic": "情绪引导与儿童发展",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "iKLXtS_Zcss",
+        "photographer": "Nadine Marfurt",
+        "url": "https://unsplash.com/photos/a-body-of-water-with-hills-in-the-background-iKLXtS_Zcss",
+        "perceptual_hash": "7f3f3f1f3fff7fff",
+        "width": 3264,
+        "height": 4928
       }
     }
   ]
