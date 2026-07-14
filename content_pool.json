@@ -1310,6 +1310,48 @@
         },
         "search_query": "emotion regulation preschool children parenting study"
       }
+    },
+    {
+      "id": "pool_2026-07-15",
+      "status": "published",
+      "created_at": "2026-07-14T22:55:20Z",
+      "published_at": "2026-07-14T22:55:23Z",
+      "published_date": "2026-07-15",
+      "topic": "儿童屏幕时间与互动",
+      "quote": {
+        "zh-Hans": "孩子看屏幕时，父母一起观看并讨论内容，会帮助他们更好地理解和学习其中的信息。",
+        "en": "Watching screens together and discussing the content helps children better understand and learn from it.",
+        "ja": "子どもが画面を見るときに親が一緒に見て内容を話し合うことで、より良い理解と学びを促します。"
+      },
+      "image_query": "quiet lake morning mist minimal background",
+      "source_summary": "2023年发表在《Cureus》期刊的研究探讨了过度屏幕时间对儿童认知、语言和社交情感发展的影响。研究发现，屏幕内容在适当的上下文中，例如父母共同观看并讨论时，有助于语言和认知发展。但过度使用屏幕可能与执行功能下降、学业表现较差以及社交情感问题相关。摘要建议通过设定使用边界、使用家长控制功能，以及鼓励替代性活动来管理屏幕时间。摘要未说明具体样本和方法。",
+      "practical_takeaway": "与孩子一起观看屏幕内容，并用简单语言讨论其中的情节或信息，帮助孩子更好地理解和学习。",
+      "source": {
+        "paperId": "cd37403ce5ea053033313ae2ad260b487d6ad6ec",
+        "title": "Effects of Excessive Screen Time on Child Development: An Updated Review and Strategies for Management",
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/cd37403ce5ea053033313ae2ad260b487d6ad6ec",
+        "citationCount": 308,
+        "authors": [
+          "S. Muppalla",
+          "Sravya Vuppalapati",
+          "Apeksha Reddy Pulliahgaru",
+          "Himabindu Sreenivasulu"
+        ],
+        "venue": "Cureus",
+        "publicationDate": "2023-06-01",
+        "publicationTypes": [
+          "Review",
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "10353947",
+          "DOI": "10.7759/cureus.40608",
+          "CorpusId": 259426561,
+          "PubMed": "37476119"
+        },
+        "search_query": "screen time child development systematic review preschool"
+      }
     }
   ]
 }
