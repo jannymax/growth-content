@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-15T22:50:26Z",
-  "today_id": "2026-07-16",
+  "updated_at": "2026-07-18T22:36:34Z",
+  "today_id": "2026-07-19",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2348,6 +2348,61 @@
         "perceptual_hash": "ffffffff5f277fff",
         "width": 3536,
         "height": 5304
+      }
+    },
+    {
+      "id": "2026-07-19",
+      "date": "2026-07-19",
+      "quote": {
+        "zh-Hans": "孩子的情绪调节能力与认知控制有关，稳定的情绪和专注力能帮助他们更好地适应学习和社交挑战。",
+        "en": "Children's emotion regulation is linked to cognitive control. Stable emotions and focus support better learning and social adjustment.",
+        "ja": "子どもの感情調整能力は認知制御と関連しています。安定した感情と集中力は、学習や社会的適応を助けます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-19.jpg",
+      "image_filename": "2026-07-19.jpg",
+      "image_path": "images/2026-07-19.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "d538071989b9441ab6b9faa400378f20cad2e41e",
+        "title": "Emotion Regulation Profiles Using Multiple Components and Contexts: Correlates and Consequences From Early Childhood to Preadolescence",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/d538071989b9441ab6b9faa400378f20cad2e41e",
+        "citationCount": 1,
+        "authors": [
+          "Sujin Lee",
+          "Erna Chiu",
+          "Alaina Schreiner",
+          "Sheryl L. Olson"
+        ],
+        "venue": "Research on Child and Adolescent Psychopathology",
+        "publicationDate": "2026-03-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12953315",
+          "DOI": "10.1007/s10802-026-01441-2",
+          "CorpusId": 286214867,
+          "PubMed": "41772311"
+        },
+        "search_query": "children emotion development emotion understanding regulation longitudinal study"
+      },
+      "source_summary": "这项研究通过多种方法和指标，探讨了儿童的情绪调节能力（ER）及其与认知控制、家庭风险因素和发展结果的关系。研究发现，情绪调节能力较好的儿童在智力、学术表现和社会行为方面表现更优。情绪调节能力较差的儿童可能在认知控制、学术成就和社交行为上面临更多挑战。研究强调了早期干预的重要性，但摘要未说明具体干预效果或方法。",
+      "practical_takeaway": "帮助孩子稳定情绪时，可以引导他们用语言表达感受，并通过简单任务练习专注力。",
+      "topic": "儿童情绪调节与认知控制",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "kgt27mNTH98",
+        "photographer": "Erik Mclean",
+        "url": "https://unsplash.com/photos/a-large-rock-in-the-middle-of-a-body-of-water-kgt27mNTH98",
+        "perceptual_hash": "030c5dcde9f8e030",
+        "width": 2767,
+        "height": 4151
       }
     }
   ]
