@@ -1436,6 +1436,43 @@
         },
         "search_query": "children emotion development emotion understanding regulation longitudinal study"
       }
+    },
+    {
+      "id": "pool_2026-07-21",
+      "status": "published",
+      "created_at": "2026-07-20T22:45:42Z",
+      "published_at": "2026-07-20T22:45:46Z",
+      "published_date": "2026-07-21",
+      "topic": "语言学习与数字环境",
+      "quote": {
+        "zh-Hans": "孩子在6岁前用平板学习英语时更容易专注，家长可以陪伴他们一起探索内容，帮助理解和延续兴趣。",
+        "en": "Children under six focus better when learning English with tablets. Join them to explore and support their understanding.",
+        "ja": "6歳未満の子どもはタブレットで英語を学ぶ際、より集中しやすいです。一緒に内容を探求し、理解を助けてください。"
+      },
+      "image_query": "quiet lake morning mist minimal background",
+      "source_summary": "这篇2026年的系统综述和元分析研究了影响沙特儿童第一语言（阿拉伯语）和第二语言（英语）习得的家庭、数字、教育和社会文化因素。研究发现，6岁以下儿童使用平板学习英语时更为有效，尤其是在学习英语词汇方面。摘要未说明具体样本量和方法，但研究强调了平衡母语和第二语言发展的重要性，以及早期语言学习的支持策略。",
+      "practical_takeaway": "在孩子使用平板学习英语时，家长可以陪伴他们一起探索内容，适时讨论和扩展，帮助孩子理解和保持兴趣。",
+      "source": {
+        "paperId": "a33e54bb941821630ddbd7bb8354c2d4d33ba76c",
+        "title": "Children’s Language Acquisition and Development in Saudi Arabia: A Systematic Review and Meta Analysis",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/a33e54bb941821630ddbd7bb8354c2d4d33ba76c",
+        "citationCount": 28,
+        "authors": [
+          "Reima Al-Jarf"
+        ],
+        "venue": "Journal of Learning and Development Studies",
+        "publicationDate": "2026-01-09",
+        "publicationTypes": [
+          "JournalArticle",
+          "Review"
+        ],
+        "externalIds": {
+          "DOI": "10.32996/jlds.2026.6.1.3",
+          "CorpusId": 284697084
+        },
+        "search_query": "shared reading language development children meta analysis"
+      }
     }
   ]
 }
