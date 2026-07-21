@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-20T22:45:46Z",
-  "today_id": "2026-07-21",
+  "updated_at": "2026-07-21T22:42:03Z",
+  "today_id": "2026-07-22",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2454,6 +2454,59 @@
         "perceptual_hash": "07232b4507870301",
         "width": 3312,
         "height": 4416
+      }
+    },
+    {
+      "id": "2026-07-22",
+      "date": "2026-07-22",
+      "quote": {
+        "zh-Hans": "孩子在21点前入睡，往往能获得更充足的睡眠，这对他们的情绪和身体发育都很重要。",
+        "en": "Children who go to bed before 9 PM often get more sleep, supporting their emotional and physical development.",
+        "ja": "子どもが21時前に寝ると、より十分な睡眠を得られ、感情や身体の発達を支えます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-22.jpg",
+      "image_filename": "2026-07-22.jpg",
+      "image_path": "images/2026-07-22.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "9fb1fc99f524dff6074a9ab8d9fd2b1721c394f9",
+        "title": "Sleep duration, bedtime routines, and autonomy in preschool children attending a paediatric outpatient clinic in Valencia, Spain: An exploratory cross-sectional study",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/9fb1fc99f524dff6074a9ab8d9fd2b1721c394f9",
+        "citationCount": 0,
+        "authors": [
+          "L. R. Díaz",
+          "Eva Carvajal Roca",
+          "Rosa Fornes Vivas",
+          "A. Nieto"
+        ],
+        "venue": "Ethiopian journal of pediatrics and child health",
+        "publicationDate": "2026-01-01",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.4314/ejpch.v21i1.3",
+          "CorpusId": 284801472
+        },
+        "search_query": "sleep routines child development parenting study"
+      },
+      "source_summary": "这项2026年的研究探讨了家庭习惯、睡前行为和睡眠环境与3至5岁儿童睡眠质量的关系。研究发现，早睡（21点前）与更长的睡眠时间相关，且大部分儿童需要父母陪伴才能入睡。睡眠不足可能影响儿童的身体、神经和情绪发展，但摘要未说明具体效果量或长期影响。家长可以关注睡前习惯，帮助孩子建立健康的睡眠模式。",
+      "practical_takeaway": "尝试让孩子在21点前入睡，并通过固定的睡前流程，比如讲故事，帮助他们放松和建立规律。",
+      "topic": "儿童睡眠与早期发展",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "q6C6Nq5A3eQ",
+        "photographer": "MF Evelyn",
+        "url": "https://unsplash.com/photos/a-tree-with-a-cloudy-sky-q6C6Nq5A3eQ",
+        "perceptual_hash": "8ccc110000000000",
+        "width": 2688,
+        "height": 4032
       }
     }
   ]
