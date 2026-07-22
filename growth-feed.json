@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-21T22:42:03Z",
-  "today_id": "2026-07-22",
+  "updated_at": "2026-07-22T22:48:42Z",
+  "today_id": "2026-07-23",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2507,6 +2507,57 @@
         "perceptual_hash": "8ccc110000000000",
         "width": 2688,
         "height": 4032
+      }
+    },
+    {
+      "id": "2026-07-23",
+      "date": "2026-07-23",
+      "quote": {
+        "zh-Hans": "父母的忽视会削弱孩子的情感安全感，而温暖的回应能为他们的社交和道德发展提供重要支持。",
+        "en": "Parental neglect weakens a child's emotional security, while warm responses support their social and moral development.",
+        "ja": "親の無関心は子どもの情緒的な安心感を弱めますが、温かい対応は社会性や道徳の発達を支えます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-23.jpg",
+      "image_filename": "2026-07-23.jpg",
+      "image_path": "images/2026-07-23.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "0a06ef231e48de0f200a2bb825c1e0a3d18f2be9",
+        "title": "The Relationship between Negative Parenting and Delinquent Behavior in Children at the Special Children's Development Institution for Grade 1 Medan: A Literature Study",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/0a06ef231e48de0f200a2bb825c1e0a3d18f2be9",
+        "citationCount": 1,
+        "authors": [
+          "Novan Rizky Ramadan",
+          "Qisthina Aulia"
+        ],
+        "venue": "Jurnal Pemasyarakatan dan Keadilan",
+        "publicationDate": "2025-03-31",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.64272/4jjt3z57",
+          "CorpusId": 279921282
+        },
+        "search_query": "secure attachment child development parenting study"
+      },
+      "source_summary": "这项2025年的研究分析了忽视型教养对儿童行为偏差的影响，尤其是在特殊儿童发展机构中。研究发现，忽视孩子的身体、情感和心理需求会显著增加攻击性和反社会行为的风险。摘要强调了家庭在提供情感安全和稳定关注方面的重要性，但未说明具体样本和方法。",
+      "practical_takeaway": "每天花时间与孩子交流，倾听他们的感受和想法，能帮助他们建立情感安全感。",
+      "topic": "情感安全与亲子互动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "KqtbN76lg_Q",
+        "photographer": "Randol Ozoria Santana",
+        "url": "https://unsplash.com/photos/sunlight-shines-through-lush-green-foliage-KqtbN76lg_Q",
+        "perceptual_hash": "0b0e1733397e3c3d",
+        "width": 4000,
+        "height": 6000
       }
     }
   ]

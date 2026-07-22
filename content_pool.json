@@ -1512,6 +1512,43 @@
         },
         "search_query": "sleep routines child development parenting study"
       }
+    },
+    {
+      "id": "pool_2026-07-23",
+      "status": "published",
+      "created_at": "2026-07-22T22:48:38Z",
+      "published_at": "2026-07-22T22:48:42Z",
+      "published_date": "2026-07-23",
+      "topic": "情感安全与亲子互动",
+      "quote": {
+        "zh-Hans": "父母的忽视会削弱孩子的情感安全感，而温暖的回应能为他们的社交和道德发展提供重要支持。",
+        "en": "Parental neglect weakens a child's emotional security, while warm responses support their social and moral development.",
+        "ja": "親の無関心は子どもの情緒的な安心感を弱めますが、温かい対応は社会性や道徳の発達を支えます。"
+      },
+      "image_query": "forest sunlight calm atmosphere minimal background",
+      "source_summary": "这项2025年的研究分析了忽视型教养对儿童行为偏差的影响，尤其是在特殊儿童发展机构中。研究发现，忽视孩子的身体、情感和心理需求会显著增加攻击性和反社会行为的风险。摘要强调了家庭在提供情感安全和稳定关注方面的重要性，但未说明具体样本和方法。",
+      "practical_takeaway": "每天花时间与孩子交流，倾听他们的感受和想法，能帮助他们建立情感安全感。",
+      "source": {
+        "paperId": "0a06ef231e48de0f200a2bb825c1e0a3d18f2be9",
+        "title": "The Relationship between Negative Parenting and Delinquent Behavior in Children at the Special Children's Development Institution for Grade 1 Medan: A Literature Study",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/0a06ef231e48de0f200a2bb825c1e0a3d18f2be9",
+        "citationCount": 1,
+        "authors": [
+          "Novan Rizky Ramadan",
+          "Qisthina Aulia"
+        ],
+        "venue": "Jurnal Pemasyarakatan dan Keadilan",
+        "publicationDate": "2025-03-31",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.64272/4jjt3z57",
+          "CorpusId": 279921282
+        },
+        "search_query": "secure attachment child development parenting study"
+      }
     }
   ]
 }
