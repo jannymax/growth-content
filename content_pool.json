@@ -1549,6 +1549,49 @@
         },
         "search_query": "secure attachment child development parenting study"
       }
+    },
+    {
+      "id": "pool_2026-07-24",
+      "status": "published",
+      "created_at": "2026-07-23T22:49:06Z",
+      "published_at": "2026-07-23T22:49:09Z",
+      "published_date": "2026-07-24",
+      "topic": "儿童问题解决策略",
+      "quote": {
+        "zh-Hans": "孩子在解决复杂问题时，分步骤完成任务是自然策略，父母可以鼓励他们自己拆解问题。",
+        "en": "Children naturally break tasks into steps when solving complex problems. Encourage them to try on their own.",
+        "ja": "子どもは複雑な問題を解決する際に自然にステップを分けます。自分で試すよう促しましょう。"
+      },
+      "image_query": "quiet lake morning mist minimal background",
+      "source_summary": "这项研究探讨了在医学教育中使用 ChatGPT 辅助的知识检索练习对学生高阶认知能力的影响。研究发现，通过教师监督的 ChatGPT 互动和反思练习，学生在复杂问题解决中的表现显著提高，且效果在三个月后仍能持续。低成绩学生的提升幅度较高，表明这种方法对不同水平的学习者都有帮助。家长可以理解为，分解问题并逐步解决是孩子自然发展的策略之一。",
+      "practical_takeaway": "当孩子面对复杂任务时，鼓励他们自己尝试拆解问题，并逐步完成每个步骤。",
+      "source": {
+        "paperId": "0692a86c4552a2c57a7cdeac255bdb34a5d5f96f",
+        "title": "Integrating ChatGPT into knowledge-retrieval tutorials in undergraduate medical education: a prospective evaluation of higher-order learning and feasibility",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/0692a86c4552a2c57a7cdeac255bdb34a5d5f96f",
+        "citationCount": 1,
+        "authors": [
+          "R. A. Daniel",
+          "Nivethitha V",
+          "Surya Bn",
+          "Antoinette Daniel",
+          "V. R"
+        ],
+        "venue": "Medical Education Online",
+        "publicationDate": "2026-03-02",
+        "publicationTypes": [
+          "JournalArticle",
+          "Review"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12954799",
+          "DOI": "10.1080/10872981.2026.2639203",
+          "CorpusId": 286211340,
+          "PubMed": "41769797"
+        },
+        "search_query": "retrieval practice spacing effect children learning education study"
+      }
     }
   ]
 }
