@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-23T22:49:09Z",
-  "today_id": "2026-07-24",
+  "updated_at": "2026-07-24T22:51:48Z",
+  "today_id": "2026-07-25",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2615,6 +2615,62 @@
         "perceptual_hash": "0100000002181f07",
         "width": 2848,
         "height": 4272
+      }
+    },
+    {
+      "id": "2026-07-25",
+      "date": "2026-07-25",
+      "quote": {
+        "zh-Hans": "疫情期间，孩子的屏幕时间平均增加了约1.4小时，家长可以帮助孩子安排屏幕外的活动，平衡线上线下生活。",
+        "en": "During the pandemic, children's screen time increased by about 1.4 hours daily. Parents can help balance online and offline activities.",
+        "ja": "パンデミック期間中、子どものスクリーンタイムは平均約1.4時間増加しました。親はオンラインとオフラインの活動をバランスよく調整する手助けができます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-25.jpg",
+      "image_filename": "2026-07-25.jpg",
+      "image_path": "images/2026-07-25.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "109c8b49a1cc9ae481b4d279bb127d5db00109a8",
+        "title": "Assessment of Changes in Child and Adolescent Screen Time During the COVID-19 Pandemic: A Systematic Review and Meta-analysis.",
+        "year": 2022,
+        "url": "https://www.semanticscholar.org/paper/109c8b49a1cc9ae481b4d279bb127d5db00109a8",
+        "citationCount": 211,
+        "authors": [
+          "S. Madigan",
+          "Rachel Eirich",
+          "Paolo Pador",
+          "B. McArthur",
+          "Ross D. Neville"
+        ],
+        "venue": "JAMA pediatrics",
+        "publicationDate": "2022-11-07",
+        "publicationTypes": [
+          "JournalArticle",
+          "Review"
+        ],
+        "externalIds": {
+          "DOI": "10.1001/jamapediatrics.2022.4116",
+          "CorpusId": 253408500,
+          "PubMed": "36342702"
+        },
+        "search_query": "screen time child development systematic review preschool"
+      },
+      "source_summary": "这篇2022年发表在《JAMA Pediatrics》的系统综述和元分析研究了COVID-19疫情期间儿童和青少年屏幕时间的变化。研究发现，与疫情前相比，屏幕时间平均增加了约84分钟/天（52%的增长），尤其是12至18岁青少年增加显著。研究建议家长关注孩子的屏幕使用习惯，鼓励健康的设备使用方式，避免过度依赖屏幕。",
+      "practical_takeaway": "尝试每天安排固定的无屏幕时间，比如饭后散步或阅读，帮助孩子建立线上线下活动的平衡。",
+      "topic": "儿童屏幕时间与疫情",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "aG-fgXmxW9E",
+        "photographer": "Mark Aliiev",
+        "url": "https://unsplash.com/photos/a-boat-floating-on-top-of-a-body-of-water-aG-fgXmxW9E",
+        "perceptual_hash": "eae3831272f03800",
+        "width": 3368,
+        "height": 6000
       }
     }
   ]
