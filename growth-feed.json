@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-24T22:51:48Z",
-  "today_id": "2026-07-25",
+  "updated_at": "2026-07-25T22:43:42Z",
+  "today_id": "2026-07-26",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2671,6 +2671,63 @@
         "perceptual_hash": "eae3831272f03800",
         "width": 3368,
         "height": 6000
+      }
+    },
+    {
+      "id": "2026-07-26",
+      "date": "2026-07-26",
+      "quote": {
+        "zh-Hans": "孩子看屏幕时，家长一起观看并讨论内容，有助于他们更好地理解信息，也减少孤独使用屏幕的负面影响。",
+        "en": "Watching screens together and discussing the content can help children understand better and reduce the downsides of solo screen use.",
+        "ja": "子どもが画面を見る際、親が一緒に視聴し内容について話し合うことで、理解を深めるとともに、画面を一人で見ることの悪影響を軽減できます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-26.jpg",
+      "image_filename": "2026-07-26.jpg",
+      "image_path": "images/2026-07-26.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "38f730d66ac9de71d0f376cce7148b8e2d8ca56e",
+        "title": "Early Childhood Screen Use Contexts and Cognitive and Psychosocial Outcomes: A Systematic Review and Meta-analysis.",
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/38f730d66ac9de71d0f376cce7148b8e2d8ca56e",
+        "citationCount": 92,
+        "authors": [
+          "Sumudu R. Mallawaarachchi",
+          "Jade Burley",
+          "M. Mavilidi",
+          "Steven J. Howard",
+          "L. Straker",
+          "L. Kervin"
+        ],
+        "venue": "JAMA pediatrics",
+        "publicationDate": "2024-08-05",
+        "publicationTypes": [
+          "JournalArticle",
+          "Review"
+        ],
+        "externalIds": {
+          "DOI": "10.1001/jamapediatrics.2024.2620",
+          "CorpusId": 271706711,
+          "PubMed": "39102255"
+        },
+        "search_query": "screen time child development systematic review preschool"
+      },
+      "source_summary": "这篇2024年发表在《JAMA Pediatrics》的系统综述和荟萃分析研究了屏幕使用的不同情境与0到5.99岁儿童认知和心理社会发展的关系。研究发现，屏幕内容的共同观看和讨论与认知发展有正相关，而独自观看或背景电视等情境与认知和心理社会发展有负相关。研究强调了屏幕使用情境的重要性，建议家庭关注内容质量和互动方式，而不仅仅是限制屏幕时间。",
+      "practical_takeaway": "选择适合孩子年龄的屏幕内容，和孩子一起观看并讨论，帮助他们更好地理解屏幕信息。",
+      "topic": "屏幕使用的家庭互动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "VrGqnlS6ELU",
+        "photographer": "Branimir Balogović",
+        "url": "https://unsplash.com/photos/reflection-of-trees-on-body-of-water-VrGqnlS6ELU",
+        "perceptual_hash": "8000806060000000",
+        "width": 3994,
+        "height": 4992
       }
     }
   ]
