@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-25T22:43:42Z",
-  "today_id": "2026-07-26",
+  "updated_at": "2026-07-26T23:07:04Z",
+  "today_id": "2026-07-27",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2728,6 +2728,58 @@
         "perceptual_hash": "8000806060000000",
         "width": 3994,
         "height": 4992
+      }
+    },
+    {
+      "id": "2026-07-27",
+      "date": "2026-07-27",
+      "quote": {
+        "zh-Hans": "用图片、动作和声音一起教孩子新单词，比单靠讲解更能帮助他们记住和理解词义。",
+        "en": "Using pictures, actions, and sounds together to teach new words helps children remember and understand better than explanations alone.",
+        "ja": "画像、動作、音声を組み合わせて新しい単語を教えると、説明だけよりも子どもが単語を覚え、意味を理解しやすくなります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-27.jpg",
+      "image_filename": "2026-07-27.jpg",
+      "image_path": "images/2026-07-27.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "aa04a67225d3d4a04cb5b014e3720c4c8ca0df1b",
+        "title": "Vocabulary Acquisition Among Arabic-Speaking EFL Kindergarten Learners: Multisensory vs. Traditional Approach",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/aa04a67225d3d4a04cb5b014e3720c4c8ca0df1b",
+        "citationCount": 0,
+        "authors": [
+          "Lamees Kamel Mahmoud",
+          "A. R. Altakhaineh",
+          "N. Al-Khawaldeh"
+        ],
+        "venue": "Language Teaching Research",
+        "publicationDate": "2026-06-24",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1177/13621688261457246",
+          "CorpusId": 289586918
+        },
+        "search_query": "multisensory learning children language vocabulary development study"
+      },
+      "source_summary": "这项研究比较了多感官学习法和传统教学法对约旦安曼地区幼儿园儿童英语词汇习得的影响。研究发现，多感官学习法（结合视觉、听觉和身体活动）显著提高了词汇记忆和学习一致性，同时激发了学习兴趣。研究基于双编码理论，强调语言与非语言信息结合的学习优势。摘要未说明具体年龄范围或长期效果。",
+      "practical_takeaway": "教孩子新单词时，可以结合图片、声音和简单动作，让学习更有趣，也更容易记住。",
+      "topic": "儿童语言学习",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "BSTSrdtraaM",
+        "photographer": "Dana Luig",
+        "url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-BSTSrdtraaM",
+        "perceptual_hash": "1f071f7f7f1f1e1f",
+        "width": 3909,
+        "height": 5863
       }
     }
   ]
