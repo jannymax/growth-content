@@ -1715,6 +1715,44 @@
         },
         "search_query": "multisensory learning children language vocabulary development study"
       }
+    },
+    {
+      "id": "pool_2026-07-28",
+      "status": "published",
+      "created_at": "2026-07-27T22:48:47Z",
+      "published_at": "2026-07-27T22:48:53Z",
+      "published_date": "2026-07-28",
+      "topic": "语言学习与感官整合",
+      "quote": {
+        "zh-Hans": "用触摸、听觉和视觉结合的方式教孩子新词，能帮助他们更好地理解和记住词汇。",
+        "en": "Teaching new words through touch, sound, and visual integration helps children better understand and retain vocabulary.",
+        "ja": "触覚、聴覚、視覚を組み合わせて新しい言葉を教えることで、子どもが語彙をよりよく理解し記憶するのを助けます。"
+      },
+      "image_query": "quiet lake morning mist minimal background",
+      "source_summary": "这项2026年的单一被试研究探讨了感官整合结合体验式学习对一名自闭症儿童词汇掌握的影响。研究通过22次实验会话，发现多感官刺激和直接体验活动能帮助孩子在干预阶段显著提高词汇表现，并在干预结束后保持稳定。研究仅适用于特定参与者和条件，家长可谨慎理解。",
+      "practical_takeaway": "教孩子新词时，可以结合触摸物品、听声音和看图像的方式，让学习更具体、更有趣。",
+      "source": {
+        "paperId": "20b5bda21c8e8acdc32f79b1138cb956ac87df02",
+        "title": "Experiential Learning through Sensory Integration in Improving Vocabulary Mastery of Children with Autism: A Single-Subject Study",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/20b5bda21c8e8acdc32f79b1138cb956ac87df02",
+        "citationCount": 0,
+        "authors": [
+          "Mirnawati Mirnawati",
+          "Dewi Juwita Susanti",
+          "Lusiana Vera Anjani"
+        ],
+        "venue": "Vidya Karya",
+        "publicationDate": "2026-04-30",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.20527/jvk.v41i1.25510",
+          "CorpusId": 289145834
+        },
+        "search_query": "multisensory learning children language vocabulary development study"
+      }
     }
   ]
 }
