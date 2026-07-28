@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-27T22:48:53Z",
-  "today_id": "2026-07-28",
+  "updated_at": "2026-07-28T22:52:24Z",
+  "today_id": "2026-07-29",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2832,6 +2832,63 @@
         "perceptual_hash": "f7fbfb7bcbc3c3c2",
         "width": 3840,
         "height": 5760
+      }
+    },
+    {
+      "id": "2026-07-29",
+      "date": "2026-07-29",
+      "quote": {
+        "zh-Hans": "每天抽出时间和孩子讲故事或一起玩，能为他们的语言发展提供支持，也减少屏幕时间的影响。",
+        "en": "Storytelling or playing together daily can support your child's language development and reduce screen time effects.",
+        "ja": "毎日子どもと物語を話したり一緒に遊ぶことで、言語発達を助け、スクリーン時間の影響を減らすことができます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-29.jpg",
+      "image_filename": "2026-07-29.jpg",
+      "image_path": "images/2026-07-29.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "96e1f2611faf38a1961f58b1d8411de5812429cc",
+        "title": "Analysis of the impact of parents' electronic screen time habits, young children's screen exposure and parent-child interaction on language development delay in young children",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/96e1f2611faf38a1961f58b1d8411de5812429cc",
+        "citationCount": 6,
+        "authors": [
+          "X. Wan",
+          "Xiaoqing Kang",
+          "Shunli Chen",
+          "Juan Du",
+          "F. Yan",
+          "Yongqi Bai"
+        ],
+        "venue": "Frontiers in Pediatrics",
+        "publicationDate": "2025-08-28",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12423064",
+          "DOI": "10.3389/fped.2025.1667048",
+          "CorpusId": 281019346,
+          "PubMed": "40948498"
+        },
+        "search_query": "emotion regulation preschool children parenting study"
+      },
+      "source_summary": "这项2025年发表在《Frontiers in Pediatrics》的研究分析了父母的屏幕使用习惯、儿童屏幕暴露和亲子互动对儿童语言发育迟缓的影响。研究发现，父母和孩子屏幕时间过长以及亲子互动频率低，与语言发育迟缓风险增加相关。特别是讲故事等互动活动较少的家庭，孩子的语言发展更容易受到影响。家长可以通过减少屏幕时间和增加互动活动来支持孩子的语言发展。",
+      "practical_takeaway": "每天抽出10分钟讲故事或玩互动游戏，既能减少屏幕时间，也能为孩子的语言发展提供支持。",
+      "topic": "语言发展与亲子互动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "OvgcHzA0nd0",
+        "photographer": "Azka Nurakli",
+        "url": "https://unsplash.com/photos/boat-in-body-of-water-OvgcHzA0nd0",
+        "perceptual_hash": "fffffff175f5f7ff",
+        "width": 1836,
+        "height": 2448
       }
     }
   ]
