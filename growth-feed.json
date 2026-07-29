@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-28T22:52:24Z",
-  "today_id": "2026-07-29",
+  "updated_at": "2026-07-29T22:45:12Z",
+  "today_id": "2026-07-30",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2889,6 +2889,60 @@
         "perceptual_hash": "fffffff175f5f7ff",
         "width": 1836,
         "height": 2448
+      }
+    },
+    {
+      "id": "2026-07-30",
+      "date": "2026-07-30",
+      "quote": {
+        "zh-Hans": "孩子在玩拼图时主动提问，与他们的数学能力发展相关。父母可以鼓励孩子表达自己的疑问。",
+        "en": "Children's questions during puzzle play are linked to math skills. Parents can encourage them to voice their curiosity.",
+        "ja": "パズル遊び中の子どもの質問は数学力の発達に関連しています。親は子どもの好奇心を引き出すよう促しましょう。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-30.jpg",
+      "image_filename": "2026-07-30.jpg",
+      "image_path": "images/2026-07-30.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "5296e8dc05afbf9f1e15d4601d4db54b73798595",
+        "title": "\"What comes next?\": Parent-child questions during puzzle play and children's math skills in China and the United States.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/5296e8dc05afbf9f1e15d4601d4db54b73798595",
+        "citationCount": 0,
+        "authors": [
+          "Zhongyu Wei",
+          "Q. Yang",
+          "Iris Jeffries",
+          "Meredith L. Rowe"
+        ],
+        "venue": "Developmental Psychology",
+        "publicationDate": "2026-07-20",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1037/dev0002236",
+          "CorpusId": 290365831,
+          "PubMed": "42475003"
+        },
+        "search_query": "scaffolding learning children parent interaction study"
+      },
+      "source_summary": "这项2026年的研究观察了中国和美国的家庭在拼图游戏中的互动，探讨父母和孩子提问行为与数学能力的关系。结果发现，父母的提问风格在两国有所不同，但孩子主动提出数学相关问题与数学能力发展在两组样本中均有正相关。研究强调了文化背景和孩子主动性在早期学习中的重要性。",
+      "practical_takeaway": "陪孩子玩拼图时，父母可以通过回应孩子的提问，或鼓励他们提出自己的问题，支持他们的学习兴趣。",
+      "topic": "儿童问题与数学能力",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "Za610CbFVZk",
+        "photographer": "Artem Shuba",
+        "url": "https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-in-the-fog-Za610CbFVZk",
+        "perceptual_hash": "0001000002cac808",
+        "width": 2832,
+        "height": 3700
       }
     }
   ]
