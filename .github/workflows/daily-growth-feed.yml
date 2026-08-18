@@ -3,6 +3,11 @@ name: Daily Growth Feed
 on:
   schedule:
     - cron: "0 22 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/daily-growth-feed.yml"
+      - "scripts/generate_daily_growth.py"
   workflow_dispatch:
 
 concurrency:
