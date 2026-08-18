@@ -26,8 +26,8 @@ PROMPTS_DIR = ROOT / "prompts"
 IMAGES_DIR = ROOT / "images"
 
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/jannymax/growth-content/main/images"
-GITHUB_MODELS_URL = "https://models.github.ai/inference/chat/completions"
-GITHUB_MODEL = os.getenv("GITHUB_MODEL", "openai/gpt-4o")
+OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions"
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
 
 SEMANTIC_SCHOLAR_SEARCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 UNSPLASH_SEARCH_URL = "https://api.unsplash.com/search/photos"
@@ -337,18 +337,21 @@ def search_semantic_scholar(used_keys, topic_offset=0):
     )
 
 
-def github_models_generate(system_prompt, user_prompt):
-    token = os.environ["GITHUB_TOKEN"]
+def openai_generate(system_prompt, user_prompt):
+    token = os.getenv("OPENAI_API_KEY", "").strip()
+    if not token:
+        raise RuntimeError(
+            "OPENAI_API_KEY is not configured. GitHub Models was retired on "
+            "2026-07-30; configure this repository secret to resume generation."
+        )
 
     headers = {
         "Authorization": f"Bearer {token}",
-        "Accept": "application/vnd.github+json",
         "Content-Type": "application/json",
-        "X-GitHub-Api-Version": "2026-03-10",
     }
 
     payload = {
-        "model": GITHUB_MODEL,
+        "model": OPENAI_MODEL,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
@@ -358,7 +361,7 @@ def github_models_generate(system_prompt, user_prompt):
     }
 
     response = requests.post(
-        GITHUB_MODELS_URL,
+        OPENAI_CHAT_COMPLETIONS_URL,
         headers=headers,
         json=payload,
         timeout=120,
@@ -447,7 +450,7 @@ def generate_insight(paper, recent_quotes):
 }}
 """
 
-    raw = github_models_generate(system_prompt, user_prompt)
+    raw = openai_generate(system_prompt, user_prompt)
     generated = parse_model_json(raw)
     insights = generated.get("insights") or []
     if len(insights) != 1:

@@ -1,9 +1,37 @@
 import unittest
+from unittest import mock
 
 from scripts import generate_daily_growth as growth
 
 
 class GenerateDailyGrowthTests(unittest.TestCase):
+    def test_openai_generate_uses_openai_chat_completions(self):
+        response = mock.Mock()
+        response.json.return_value = {
+            "choices": [{"message": {"content": '{"insights": []}'}}]
+        }
+
+        with mock.patch.dict(
+            "os.environ",
+            {"OPENAI_API_KEY": "test-key", "OPENAI_MODEL": "gpt-4.1-mini"},
+            clear=False,
+        ), mock.patch.object(growth.requests, "post", return_value=response) as post:
+            result = growth.openai_generate("system", "user")
+
+        self.assertEqual(result, '{"insights": []}')
+        self.assertEqual(post.call_args[0][0], growth.OPENAI_CHAT_COMPLETIONS_URL)
+        self.assertEqual(post.call_args[1]["json"]["model"], growth.OPENAI_MODEL)
+        self.assertEqual(
+            post.call_args[1]["headers"]["Authorization"],
+            "Bearer test-key",
+        )
+        response.raise_for_status.assert_called_once_with()
+
+    def test_openai_generate_explains_missing_key(self):
+        with mock.patch.dict("os.environ", {}, clear=True):
+            with self.assertRaisesRegex(RuntimeError, "OPENAI_API_KEY"):
+                growth.openai_generate("system", "user")
+
     def test_source_keys_include_paper_id_doi_title_and_url(self):
         paper = {
             "paperId": "abc123",

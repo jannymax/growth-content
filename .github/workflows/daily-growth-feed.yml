@@ -11,7 +11,6 @@ concurrency:
 
 permissions:
   contents: write
-  models: read
 
 jobs:
   generate:
@@ -36,9 +35,9 @@ jobs:
 
       - name: Generate daily growth feed entry
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          GITHUB_MODEL: openai/gpt-4o
+          OPENAI_MODEL: gpt-4.1-mini
         run: python scripts/generate_daily_growth.py
 
       - name: Commit directly to main
