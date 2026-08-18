@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-29T22:45:12Z",
-  "today_id": "2026-07-30",
+  "updated_at": "2026-08-18T00:00:00Z",
+  "today_id": "2026-08-18",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -2943,6 +2943,828 @@
         "perceptual_hash": "0001000002cac808",
         "width": 2832,
         "height": 3700
+      }
+    },
+    {
+      "id": "2026-08-01",
+      "date": "2026-08-01",
+      "quote": {
+        "zh-Hans": "当孩子讲述一天里的小事，大人用“后来呢”继续听，会给词汇、顺序和因果表达更多练习。",
+        "en": "When children recount a small event, an adult's gentle 'what happened next?' gives them more practice with vocabulary, sequence, and cause-and-effect language.",
+        "ja": "子どもが一日の出来事を話すとき、大人が「その次は？」と聞くことは、語彙や順序、原因と結果を表す練習になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-23.jpg",
+      "image_filename": "2026-06-23.jpg",
+      "image_path": "images/2026-06-23.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "睡前请孩子讲一件小事，只用一两个问题帮他把顺序讲完。",
+      "topic": "语言发展",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "sZXlOY-dhJY",
+        "photographer": "Truong Tuyet Ly",
+        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+      }
+    },
+    {
+      "id": "2026-08-02",
+      "date": "2026-08-02",
+      "quote": {
+        "zh-Hans": "夹夹子、穿绳和拧瓶盖这些看似普通的小动作，会让孩子同时练习手眼配合、注意和步骤控制。",
+        "en": "Clipping pegs, threading string, and twisting lids may look simple, but they let children practice hand-eye coordination, attention, and control of a sequence.",
+        "ja": "洗濯ばさみ、ひも通し、ふたをひねる動きは、手と目の協調、注意、手順のコントロールを練習する機会になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-24.jpg",
+      "image_filename": "2026-06-24.jpg",
+      "image_path": "images/2026-06-24.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Fine motor skills and executive function both contribute to kindergarten achievement",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01768.x",
+        "authors": [
+          "Claire E. Cameron",
+          "Laura L. Brock",
+          "William M. Murrah",
+          "Lawrence H. Bell",
+          "Samantha L. Worzalla",
+          "David Grissmer",
+          "Frederick J. Morrison"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01768.x"
+        }
+      },
+      "source_summary": "这项研究考察精细动作、执行功能与幼儿园学业表现之间的关系。结果显示，手部控制和执行功能都与早期学习有关。拧、夹、穿、撕这类小动作不只是生活技能，也让孩子在手眼配合中练习注意、顺序和控制。",
+      "practical_takeaway": "准备三个夹子和一个纸盒，让孩子按自己的速度夹上去再取下来。",
+      "topic": "精细动作",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+      }
+    },
+    {
+      "id": "2026-08-03",
+      "date": "2026-08-03",
+      "quote": {
+        "zh-Hans": "孩子连续问“为什么”时，不必马上给出完整答案；一起观察和找线索，就能让问题继续带动学习。",
+        "en": "When children keep asking why, adults do not need an instant complete answer; observing and looking for clues together lets the question continue to drive learning.",
+        "ja": "子どもが「なぜ？」と繰り返すとき、すぐに完璧な答えを出す必要はありません。一緒に観察し手がかりを探すことが学びを続けます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-25.jpg",
+      "image_filename": "2026-06-25.jpg",
+      "image_path": "images/2026-06-25.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Children's need to know: Curiosity in schools",
+        "year": 2011,
+        "url": "https://doi.org/10.17763/haer.81.4.h054131316473115",
+        "authors": [
+          "Susan Engel"
+        ],
+        "venue": "Harvard Educational Review",
+        "externalIds": {
+          "DOI": "10.17763/haer.81.4.h054131316473115"
+        }
+      },
+      "source_summary": "这篇教育研究文章讨论儿童好奇心在学校和学习中的位置，指出提问和探究常被课堂节奏压缩。它支持一个朴素观点：孩子的问题本身就是学习入口。成人认真回应问题，并一起寻找线索，能把好奇心保留在真实活动里。",
+      "practical_takeaway": "今天选孩子的一个问题，一起找三个能看见或验证的线索。",
+      "topic": "好奇心",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+      }
+    },
+    {
+      "id": "2026-08-04",
+      "date": "2026-08-04",
+      "quote": {
+        "zh-Hans": "在边界清楚的情况下给两个都可接受的选项，能让孩子练习决定、开始行动，也承担小小的结果。",
+        "en": "Two acceptable choices within a clear boundary let children practice deciding, beginning an action, and handling the small consequence that follows.",
+        "ja": "明確な範囲の中でどちらも選べる二つの選択肢は、決めること、行動を始めること、結果を引き受けることの練習になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-26.jpg",
+      "image_filename": "2026-06-26.jpg",
+      "image_path": "images/2026-06-26.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Parent styles associated with children's self-regulation and competence in school",
+        "year": 1989,
+        "url": "https://doi.org/10.1037/0022-0663.81.2.143",
+        "authors": [
+          "Wendy S. Grolnick",
+          "Richard M. Ryan"
+        ],
+        "venue": "Journal of Educational Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-0663.81.2.143"
+        }
+      },
+      "source_summary": "这项研究讨论父母风格与儿童自我调节和学校能力之间的关系，重点是自主支持、控制和能力感。研究提示，清楚边界内的选择能让孩子练习决定、计划和承担结果；自主支持不是放任，而是让孩子在可承受范围内参与行动。",
+      "practical_takeaway": "在刷牙、收玩具或换衣服时，给出两个你都能接受的选择。",
+      "topic": "自我调节",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "sZXlOY-dhJY",
+        "photographer": "Truong Tuyet Ly",
+        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+      }
+    },
+    {
+      "id": "2026-08-05",
+      "date": "2026-08-05",
+      "quote": {
+        "zh-Hans": "同伴游戏里的等待、争执和重新合作，都在帮孩子理解规则、别人的意图，以及关系如何被修复。",
+        "en": "Waiting, disagreement, and renewed cooperation in peer play help children understand rules, other people's intentions, and how relationships can be repaired.",
+        "ja": "友だちとの遊びで待つこと、ぶつかること、また協力することは、ルールや相手の意図、関係の修復を理解する練習です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-27.jpg",
+      "image_filename": "2026-06-27.jpg",
+      "image_path": "images/2026-06-27.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Peer relationships and social competence during early and middle childhood",
+        "year": 1999,
+        "url": "https://doi.org/10.1146/annurev.psych.50.1.333",
+        "authors": [
+          "Gary W. Ladd"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.psych.50.1.333"
+        }
+      },
+      "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
+      "practical_takeaway": "孩子和同伴出现小冲突时，先帮他们说清各自想要什么，再找下一步。",
+      "topic": "同伴交往",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+      }
+    },
+    {
+      "id": "2026-08-06",
+      "date": "2026-08-06",
+      "quote": {
+        "zh-Hans": "屏幕里的知识要转化成理解，往往需要大人陪着讨论，再把画面中的内容连到孩子真实的生活经验。",
+        "en": "For screen information to become understanding, children often benefit when an adult discusses it with them and connects what appears on screen to real life.",
+        "ja": "画面の情報が理解に変わるには、大人が一緒に話し、映像と子どもの実際の体験をつなぐことが役立ちます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-28.jpg",
+      "image_filename": "2026-06-28.jpg",
+      "image_path": "images/2026-06-28.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Media and young children’s learning",
+        "year": 2008,
+        "url": "https://doi.org/10.1353/foc.0.0002",
+        "authors": [
+          "Heather L. Kirkorian",
+          "Ellen A. Wartella",
+          "Daniel R. Anderson"
+        ],
+        "venue": "The Future of Children",
+        "externalIds": {
+          "DOI": "10.1353/foc.0.0002"
+        }
+      },
+      "source_summary": "这篇综述讨论年轻儿童从媒体中学习的条件，强调年龄、内容质量、重复观看和成人陪伴都会影响学习效果。研究不主张屏幕本身能替代互动；更稳妥的理解是，成人把屏幕内容连接到现实经验时，孩子更容易理解和迁移。",
+      "practical_takeaway": "看完一小段内容后，请孩子找出一件和今天生活相似的事。",
+      "topic": "媒体学习",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "sZXlOY-dhJY",
+        "photographer": "Truong Tuyet Ly",
+        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+      }
+    },
+    {
+      "id": "2026-08-07",
+      "date": "2026-08-07",
+      "quote": {
+        "zh-Hans": "具体说出孩子尝试过的方法和做过的调整，比只评价“聪明”更能把注意放在可以继续改变的过程上。",
+        "en": "Naming the strategies and adjustments a child actually tried keeps attention on a process they can keep changing, more than simply praising them as smart.",
+        "ja": "子どもが試した方法や工夫を具体的に伝えることは、「賢い」と言うだけより、変えられる過程に注意を向けます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-29.jpg",
+      "image_filename": "2026-06-29.jpg",
+      "image_path": "images/2026-06-29.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Praise for intelligence can undermine children's motivation and performance",
+        "year": 1998,
+        "url": "https://doi.org/10.1037/0022-3514.75.1.33",
+        "authors": [
+          "Claudia M. Mueller",
+          "Carol S. Dweck"
+        ],
+        "venue": "Journal of Personality and Social Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-3514.75.1.33"
+        }
+      },
+      "source_summary": "这项实验研究比较称赞聪明和称赞努力对儿童动机与表现的影响。结果显示，强调智力的表扬会让部分孩子更回避挑战；关注努力、策略和调整，更能把注意力放在可改变的过程上。日常反馈越具体，越容易支持继续尝试。",
+      "practical_takeaway": "任务结束后，说出你看见的一个具体策略，例如“你换了一个方向”。",
+      "topic": "学习动机",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+      }
+    },
+    {
+      "id": "2026-08-08",
+      "date": "2026-08-08",
+      "quote": {
+        "zh-Hans": "孩子通过触摸、移动、比较和试错来理解世界；当词语连上身体经验，抽象的概念就有了更具体的依托。",
+        "en": "Children understand the world by touching, moving, comparing, and testing; when words connect to bodily experience, abstract ideas gain a concrete anchor.",
+        "ja": "子どもは触れ、動かし、比べ、試すことで世界を理解します。言葉と身体感覚が結びつくと、抽象的な概念に具体的な足場ができます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-30.jpg",
+      "image_filename": "2026-06-30.jpg",
+      "image_path": "images/2026-06-30.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Exploratory behavior in the development of perceiving, acting, and the acquiring of knowledge",
+        "year": 1988,
+        "url": "https://doi.org/10.1146/annurev.ps.39.020188.001233",
+        "authors": [
+          "Eleanor J. Gibson"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.ps.39.020188.001233"
+        }
+      },
+      "source_summary": "这篇经典综述讨论儿童通过探索来发展知觉、行动和知识。研究强调，孩子不是被动接收信息，而是在触摸、移动、比较和试错中理解物体特征。感官探索的意义，在于把词语、身体经验和真实环境连接起来。",
+      "practical_takeaway": "散步时选一种触感或声音，请孩子用两个不同的词描述它。",
+      "topic": "感官探索",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+      }
+    },
+    {
+      "id": "2026-08-09",
+      "date": "2026-08-09",
+      "quote": {
+        "zh-Hans": "饭桌上轮流分享一件小事，会让孩子自然地练习听完、理解别人的视角，再组织自己的话作出回应。",
+        "en": "Taking turns to share one small event at the table lets children naturally practice listening through, understanding another viewpoint, and organizing a response.",
+        "ja": "食卓で一人ずつ小さな出来事を話すことは、最後まで聞き、相手の視点を理解し、返事を組み立てる練習になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-01.jpg",
+      "image_filename": "2026-07-01.jpg",
+      "image_path": "images/2026-07-01.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "吃饭时每人说一件今天的小事，规则是前一个人说完再回应。",
+      "topic": "家庭对话",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "sZXlOY-dhJY",
+        "photographer": "Truong Tuyet Ly",
+        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+      }
+    },
+    {
+      "id": "2026-08-10",
+      "date": "2026-08-10",
+      "quote": {
+        "zh-Hans": "跟着节奏拍手、停下和再开始，不只是音乐游戏，也让孩子在共同注意中练习听觉跟随和身体控制。",
+        "en": "Clapping, stopping, and restarting with a rhythm is more than a music game; shared attention gives children practice in auditory following and body control.",
+        "ja": "リズムに合わせて手をたたき、止まり、また始める遊びは、音を追う力と身体のコントロールを練習する機会です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-02.jpg",
+      "image_filename": "2026-07-02.jpg",
+      "image_path": "images/2026-07-02.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Active music classes in infancy enhance musical, communicative and social development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-7687.2012.01142.x",
+        "authors": [
+          "Dana W. Gerry",
+          "Andrea Unrau",
+          "Laurel J. Trainor"
+        ],
+        "venue": "Developmental Science",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-7687.2012.01142.x"
+        }
+      },
+      "source_summary": "这项研究比较婴幼儿主动音乐课程和被动音乐体验，关注音乐、沟通和社会发展。结果显示，主动参与节奏、动作和声音互动的孩子，在相关测量上表现更积极。家庭中的拍手、停顿和跟随节奏，能提供听觉注意与身体控制练习。",
+      "practical_takeaway": "拍一个简单节奏，中间留出停顿，让孩子跟着拍、停、再开始。",
+      "topic": "音乐互动",
+      "image_source": {
+        "provider": "Local repair"
+      }
+    },
+    {
+      "id": "2026-08-11",
+      "date": "2026-08-11",
+      "quote": {
+        "zh-Hans": "在较少干扰的自然环境里，跟踪云、树影或小虫的变化，能给孩子一段把注意放慢并稳定下来的时间。",
+        "en": "Following changes in clouds, shadows, or insects in a less distracting natural setting gives children time to slow and steady their attention.",
+        "ja": "刺激の少ない自然の中で、雲や木陰、虫の変化を追うことは、子どもが注意をゆっくり安定させる時間になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-03.jpg",
+      "image_filename": "2026-07-03.jpg",
+      "image_path": "images/2026-07-03.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A potential natural treatment for attention-deficit/hyperactivity disorder: evidence from a national study",
+        "year": 2004,
+        "url": "https://doi.org/10.2105/AJPH.94.9.1580",
+        "authors": [
+          "Frances E. Kuo",
+          "Andrea Faber Taylor"
+        ],
+        "venue": "American Journal of Public Health",
+        "externalIds": {
+          "DOI": "10.2105/AJPH.94.9.1580"
+        }
+      },
+      "source_summary": "这项研究考察自然环境接触与儿童注意表现之间的关系，尤其关注有注意困难儿童的户外活动。研究不能说明自然环境能替代专业支持，但提示绿地和自然场景与注意恢复有关。短时间观察自然变化，也能为孩子提供较少干扰的专注环境。",
+      "practical_takeaway": "在窗边或户外选一个对象，和孩子安静观察一分钟再说发现。",
+      "topic": "自然与注意",
+      "image_source": {
+        "provider": "Local repair"
+      }
+    },
+    {
+      "id": "2026-08-12",
+      "date": "2026-08-12",
+      "quote": {
+        "zh-Hans": "孩子遇到小困难时，大人先等几秒再给一点提示，会把解决问题的主动权留给孩子，也让他有机会调整策略。",
+        "en": "When a child meets a small difficulty, waiting a few seconds before offering a small hint preserves their ownership of the problem and gives them room to adjust strategy.",
+        "ja": "子どもが小さな困難に出会ったとき、数秒待ってから小さなヒントを出すと、自分で解く主体性と方法を調整する余地が残ります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-04.jpg",
+      "image_filename": "2026-07-04.jpg",
+      "image_path": "images/2026-07-04.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "a95bfe0a3516e0c5976df5b1b948979baacef000",
+        "title": "The effectiveness of an autonomy-supportive parenting intervention for enhancing maternal parenting skills and executive functioning among preschool-aged children: two preliminary studies.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/a95bfe0a3516e0c5976df5b1b948979baacef000",
+        "citationCount": 0,
+        "authors": [
+          "Donny Hendrawan",
+          "Rahmah Nurul Hayya",
+          "Farras Syazwani",
+          "Keiko Anarizki Adisya Fahira",
+          "Mawla Atqiyya Muhdiar",
+          "Nisrina Putri Anandiva"
+        ],
+        "venue": "Child Neuropsychology: A Journal of Normal and Abnormal Development in Childhood and Adolescence",
+        "publicationDate": "2026-02-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1080/09297049.2025.2612025",
+          "CorpusId": 285258911,
+          "PubMed": "41622938"
+        },
+        "search_query": "executive function child development parenting intervention"
+      },
+      "source_summary": "研究探讨了支持自主性养育（ASP）对学龄前儿童执行功能（EF）和母亲养育技能的影响。执行功能包括工作记忆、抑制控制和认知灵活性。通过两项初步研究发现，参与四次2小时的ASP干预培训后，母亲的养育技能和孩子的执行功能均有所提升。研究强调了针对性养育支持对儿童发展和家长技能的重要性。摘要未说明样本规模或具体效果量，需谨慎理解。",
+      "practical_takeaway": "孩子卡住时先等五秒，然后只问“你已经试过哪一步？”",
+      "topic": "执行功能",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "1gHcEFOtvlI",
+        "photographer": "Richie Bettencourt",
+        "url": "https://unsplash.com/photos/a-path-in-the-middle-of-a-forest-with-lots-of-trees-1gHcEFOtvlI",
+        "perceptual_hash": "5113136307060f0e",
+        "width": 4000,
+        "height": 6000
+      }
+    },
+    {
+      "id": "2026-08-13",
+      "date": "2026-08-13",
+      "quote": {
+        "zh-Hans": "孩子的情绪能力和父母的温暖回应会在日常中互相影响；稳定的倾听和回应，能让表达与调节持续被练习。",
+        "en": "Children's emotional skills and parents' warm responses influence one another over time; steady listening and response keep expression and regulation in everyday practice.",
+        "ja": "子どもの感情の力と親の温かい応答は日常で互いに影響します。安定して聞き応えることが、表現と調整の練習を支えます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-05.jpg",
+      "image_filename": "2026-07-05.jpg",
+      "image_path": "images/2026-07-05.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "title": "Unraveling the dynamics of emotional regulation and parental warmth across early childhood: prediction of later behavioral problems",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "citationCount": 6,
+        "authors": [
+          "Aimé Isdahl-Troye",
+          "Paula Villar",
+          "María Álvarez-Voces",
+          "Estrella Romero"
+        ],
+        "venue": "Scientific Reports",
+        "publicationDate": "2025-07-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12222833",
+          "DOI": "10.1038/s41598-025-06846-5",
+          "CorpusId": 279862145,
+          "PubMed": "40604066"
+        },
+        "search_query": "early childhood development parenting longitudinal study"
+      },
+      "source_summary": "这项研究分析了儿童情绪调节能力和父母温暖互动的双向关系，以及它们如何预测学龄期的行为问题。研究基于 2,341 名 3–10 岁儿童的数据，发现孩子的情绪能力和父母的温暖互动会互相影响，并且这种相互作用对孩子的行为发展有长期影响。研究强调了情绪调节与父母温暖在预防儿童内化和外化行为问题中的重要性。",
+      "practical_takeaway": "孩子激动时，先复述你看到的事实和感受，等稳定一些再讨论下一步。",
+      "topic": "情绪调节",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "rV5qv_ETZvY",
+        "photographer": "Justin Wolff",
+        "url": "https://unsplash.com/photos/green-trees-under-blue-sky-during-daytime-rV5qv_ETZvY",
+        "perceptual_hash": "3c3c381818180c82",
+        "width": 3706,
+        "height": 4632
+      }
+    },
+    {
+      "id": "2026-08-14",
+      "date": "2026-08-14",
+      "quote": {
+        "zh-Hans": "绿地、安全的步行空间和可以遇到同伴的场所，会增加孩子跑动、交流和自由探索的日常机会。",
+        "en": "Green space, safe walking areas, and places to meet peers increase children's everyday opportunities to move, communicate, and explore freely.",
+        "ja": "緑地、安全に歩ける場所、友だちと会える空間は、子どもが動き、話し、自由に探索する日常の機会を増やします。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-06.jpg",
+      "image_filename": "2026-07-06.jpg",
+      "image_path": "images/2026-07-06.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "5d820669f62e4b23ae89caa4407787fb1fe3f67c",
+        "title": "Neighborhood playability and early childhood development: a population-based birth cohort study",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/5d820669f62e4b23ae89caa4407787fb1fe3f67c",
+        "citationCount": 0,
+        "authors": [
+          "I. Jarvis",
+          "Emily Gemmell",
+          "Alicia Cavanaugh",
+          "Zoë Davis",
+          "Martin Guhn",
+          "H. Sbihi"
+        ],
+        "venue": "Environmental Research",
+        "publicationDate": "2026-03-01",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "7618905",
+          "DOI": "10.1016/j.envres.2026.124124",
+          "CorpusId": 286277420,
+          "PubMed": "41786116"
+        },
+        "search_query": "outdoor play child development early childhood study"
+      },
+      "source_summary": "这项基于加拿大温哥华的研究分析了3万余名儿童的早期发展与社区适宜游戏性之间的关系。研究发现，绿地丰富的社区与儿童在身体、情感和社交等多方面的健康发展之间存在正相关。研究还指出，交通环境和社会环境的友好程度也与儿童发展有关。研究结果提示，城市规划中增加自然环境和安全社交空间，有助于儿童健康成长。",
+      "practical_takeaway": "不必安排复杂活动，在安全的户外空间留出十分钟自由跑、看和聊。",
+      "topic": "户外游戏",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "6IGw9bWZ39s",
+        "photographer": "Petra Reid",
+        "url": "https://unsplash.com/photos/sunny-day-with-trees-on-a-grassy-hill-6IGw9bWZ39s",
+        "perceptual_hash": "0000c4c48a92e80f",
+        "width": 4480,
+        "height": 6720
+      }
+    },
+    {
+      "id": "2026-08-15",
+      "date": "2026-08-15",
+      "quote": {
+        "zh-Hans": "当父母留意孩子的表情、动作和语气，再用简短回应确认自己的理解，亲子之间的信息就会变得更清楚。",
+        "en": "When parents notice a child's expression, movement, and tone, then briefly check their understanding, communication between parent and child becomes clearer.",
+        "ja": "親が子どもの表情、動き、声の調子に注目し、短く理解を確かめると、親子のやり取りはより明確になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-07.jpg",
+      "image_filename": "2026-07-07.jpg",
+      "image_path": "images/2026-07-07.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "3f3b47eb9cb03f1486d7a9cff9b64d4379810f06",
+        "title": "Effectiveness of the ATTACH™ program on Indigenous parents and their children exposed to intergenerational stress: pilot findings.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/3f3b47eb9cb03f1486d7a9cff9b64d4379810f06",
+        "citationCount": 0,
+        "authors": [
+          "Kiri M Dean",
+          "J. Hart",
+          "Heather Bensler",
+          "Cheryle Chagnon-Greyeyes",
+          "Michelle Scott Paul",
+          "Nicole L Letourneau"
+        ],
+        "venue": "Canadian journal of public health",
+        "publicationDate": "2026-02-10",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.17269/s41997-026-01157-2",
+          "CorpusId": 285468291,
+          "PubMed": "41667754"
+        },
+        "search_query": "secure attachment child development parenting study"
+      },
+      "source_summary": "这项研究评估了 ATTACH™ 项目对经历代际压力的原住民家庭的影响。该项目旨在通过提升父母的反思能力和亲子互动质量，改善儿童发展结果。研究发现，参与项目的父母在反思能力和亲子互动质量上有显著提升，尤其是在理解和回应孩子情绪线索方面。由于样本量较小（17 对家庭），结果需谨慎解读，但表明该干预对高风险家庭具有潜在益处。",
+      "practical_takeaway": "今天留意孩子的一个非语言信号，用“你是想……吗？”简短确认。",
+      "topic": "亲子互动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "1NitK5CCwXg",
+        "photographer": "Vladyslav Melnyk",
+        "url": "https://unsplash.com/photos/spider-web-on-green-plant-during-sunset-1NitK5CCwXg",
+        "perceptual_hash": "0f1fef4b260e4645",
+        "width": 4000,
+        "height": 5679
+      }
+    },
+    {
+      "id": "2026-08-16",
+      "date": "2026-08-16",
+      "quote": {
+        "zh-Hans": "婴幼儿发出声音、表情或动作时，大人及时地回应和轮流，会让语言、认知和社交情感的练习发生在真实互动中。",
+        "en": "When infants signal with a sound, expression, or movement, timely back-and-forth responses place language, cognition, and social-emotional practice inside real interaction.",
+        "ja": "乳幼児が声、表情、動きで合図を出したとき、大人がすぐに応じて交互にやり取りすることで、言語や認知、社会情緒の練習が実際の関わりの中で起こります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-08.jpg",
+      "image_filename": "2026-07-08.jpg",
+      "image_path": "images/2026-07-08.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "00da2bcc92f953e79db85167bf52e22df80a2b9e",
+        "title": "Parenting interventions to promote early child development in the first three years of life: A global systematic review and meta-analysis",
+        "year": 2021,
+        "url": "https://www.semanticscholar.org/paper/00da2bcc92f953e79db85167bf52e22df80a2b9e",
+        "citationCount": 721,
+        "authors": [
+          "Joshua Jeong",
+          "E. Franchett",
+          "C. V. Ramos de Oliveira",
+          "K. Rehmani",
+          "A. Yousafzai"
+        ],
+        "venue": "PLoS Medicine",
+        "publicationDate": "2021-05-01",
+        "publicationTypes": [
+          "JournalArticle",
+          "Review"
+        ],
+        "externalIds": {
+          "PubMedCentral": "8109838",
+          "DOI": "10.1371/journal.pmed.1003602",
+          "CorpusId": 234359991,
+          "PubMed": "33970913"
+        },
+        "search_query": "positive parenting child socioemotional development study"
+      },
+      "source_summary": "2021年发表在《PLoS Medicine》的一项系统综述和荟萃分析研究了全球范围内针对3岁以下儿童的育儿干预措施对早期儿童发展（ECD）和育儿结果的影响。研究发现，回应式养育对儿童的认知、语言、运动和社交情感发展，以及亲子互动和育儿知识都有积极作用，尤其在低中收入国家效果更明显。但研究也指出，干预内容和实施的报告不够充分，且研究质量存在差异，需谨慎解读。",
+      "practical_takeaway": "孩子发出一个声音或指向某物时，先跟着回应，再等他继续。",
+      "topic": "回应式养育",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "uwGUc_U0MdU",
+        "photographer": "Jason Grant",
+        "url": "https://unsplash.com/photos/2-people-riding-on-boat-on-sea-during-daytime-uwGUc_U0MdU",
+        "perceptual_hash": "0100008000101000",
+        "width": 2592,
+        "height": 3808
+      }
+    },
+    {
+      "id": "2026-08-17",
+      "date": "2026-08-17",
+      "quote": {
+        "zh-Hans": "适龄的数字故事和解谜游戏，在大人陪伴并鼓励孩子自己尝试时，可以成为练习符号推理和问题解决的工具。",
+        "en": "Age-appropriate digital stories and puzzles can support symbolic reasoning and problem solving when an adult stays involved and encourages the child to try independently.",
+        "ja": "年齢に合ったデジタル物語や謎解きは、大人が関わりつつ子どもの自分で試す姿勢を支えると、記号的推論や問題解決の練習になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-09.jpg",
+      "image_filename": "2026-07-09.jpg",
+      "image_path": "images/2026-07-09.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "abd3bcc32c9cfc0932e58256565e0498cbf8098a",
+        "title": "Digital Play-Based Pedagogy in Early Childhood Education: A Quasi-Experimental Study of Preschool Cognitive Development",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/abd3bcc32c9cfc0932e58256565e0498cbf8098a",
+        "citationCount": 1,
+        "authors": [
+          "Suryansah",
+          "Ari Saputra",
+          "Lalu Ibrohim Burhan"
+        ],
+        "venue": "Cendekia",
+        "publicationDate": "2026-04-20",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.63982/cendekia.45a7bw44",
+          "CorpusId": 287639663
+        },
+        "search_query": "play based learning early childhood development research"
+      },
+      "source_summary": "2026年发表在《Cendekia》的研究探讨了基于游戏的数字化教学对4-6岁幼儿认知发展的影响。研究通过6周的干预，结合数字故事、教育游戏和解谜活动，发现这些方法可以显著提升孩子的符号推理和问题解决能力。研究强调，发展适龄的数字化游戏教学策略，能有效支持幼儿的认知参与和学习过程。摘要未说明具体样本量和效果量，需谨慎理解。",
+      "practical_takeaway": "和孩子玩一个短解谜游戏，遇到困难时先问他想试哪一步。",
+      "topic": "数字游戏",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "aXeXFty1900",
+        "photographer": "Joel Stählin",
+        "url": "https://unsplash.com/photos/brown-trees-on-forest-during-daytime-aXeXFty1900",
+        "perceptual_hash": "a703880c0e0f0f33",
+        "width": 4016,
+        "height": 6016
+      }
+    },
+    {
+      "id": "2026-08-18",
+      "date": "2026-08-18",
+      "quote": {
+        "zh-Hans": "孩子用简短语句表达时，大人先重复意思，再自然地扩展一两个词，能在不打断交流的情况下示范更完整的表达。",
+        "en": "When a child uses a short phrase, repeating its meaning and naturally adding one or two words models fuller language without interrupting the exchange.",
+        "ja": "子どもが短い言葉で伝えたとき、意味を繰り返して一、二語を自然に足すと、会話を遮らずにより完全な表現を示せます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-10.jpg",
+      "image_filename": "2026-07-10.jpg",
+      "image_path": "images/2026-07-10.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "6dbe60951bc7bd799dd918c3fd14cd5abbf06698",
+        "title": "Pragmatic Language Use and Parent-Child Interaction Among Children at Risk for Developmental Language Disorder and Typically Developing Peers.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/6dbe60951bc7bd799dd918c3fd14cd5abbf06698",
+        "citationCount": 0,
+        "authors": [
+          "Mısra Kolbaşı",
+          "Namık Yücel Birol"
+        ],
+        "venue": "International journal of language and communication disorders",
+        "publicationDate": "2026-04-22",
+        "publicationTypes": [
+          "Study",
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1111/1460-6984.70253",
+          "CorpusId": 287751914,
+          "PubMed": "42020350"
+        },
+        "search_query": "parent child interaction language development children study"
+      },
+      "source_summary": "本研究探讨了土耳其2-4岁发展性语言障碍风险儿童（rDLD）与典型发展儿童的语用语言使用及亲子互动行为的差异。结果显示，rDLD儿童在语用语言使用和社交互动方面表现出显著困难，且其父母的回应性较低，指令性行为较高。研究还发现，父母的回应性和情感表达与儿童的语言能力和互动行为密切相关。研究表明，早期评估和干预应关注语用语言、父母行为和儿童互动技能的综合发展。",
+      "practical_takeaway": "孩子说“车走了”时，可以回应“对，红色的车开走了”。",
+      "topic": "语用语言",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "l8iIWi1XHvc",
+        "photographer": "Petra Reid",
+        "url": "https://unsplash.com/photos/shaded-dirt-path-winding-through-trees-beside-a-river-l8iIWi1XHvc",
+        "perceptual_hash": "333f3f2f2f4e3673",
+        "width": 4480,
+        "height": 6720
       }
     }
   ]
