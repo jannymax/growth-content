@@ -71,6 +71,7 @@ SCIENCE_LITERACY_TOPIC_QUERIES = [
 ]
 
 SCIENCE_LITERACY_INTERVAL = 4
+SEMANTIC_SCHOLAR_MAX_QUERIES = 12
 TOPIC_QUERIES = CORE_TOPIC_QUERIES + SCIENCE_LITERACY_TOPIC_QUERIES
 
 DISALLOWED_ABSOLUTE_WORDS = [
@@ -290,14 +291,14 @@ def search_semantic_scholar(used_keys, topic_offset=0):
 
     last_error = None
 
-    for query in queries:
+    for query in queries[:SEMANTIC_SCHOLAR_MAX_QUERIES]:
         params = {
             "query": query,
             "limit": 50,
             "fields": fields,
         }
 
-        for attempt in range(3):
+        for attempt in range(2):
             try:
                 response = requests.get(
                     SEMANTIC_SCHOLAR_SEARCH_URL,
@@ -307,7 +308,8 @@ def search_semantic_scholar(used_keys, topic_offset=0):
                 )
 
                 if response.status_code == 429:
-                    wait_seconds = 12 * (attempt + 1)
+                    retry_after = int(response.headers.get("Retry-After", "0") or 0)
+                    wait_seconds = min(max(retry_after, 5 * (attempt + 1)), 15)
                     print(
                         "Semantic Scholar rate limited. "
                         f"Waiting {wait_seconds} seconds..."
@@ -327,7 +329,7 @@ def search_semantic_scholar(used_keys, topic_offset=0):
                 wait_seconds = 5 * (attempt + 1)
                 print(
                     "Semantic Scholar search failed. "
-                    f"Attempt {attempt + 1}/3. Waiting {wait_seconds} seconds..."
+                    f"Attempt {attempt + 1}/2. Waiting {wait_seconds} seconds..."
                 )
                 time.sleep(wait_seconds)
 
@@ -885,6 +887,12 @@ def main():
     if already_published_today(feed, date_id):
         print(f"{date_id} already exists in growth-feed.json. Nothing to do.")
         return
+
+    if not os.getenv("OPENAI_API_KEY", "").strip():
+        raise RuntimeError(
+            "OPENAI_API_KEY is not configured. GitHub Models was retired on "
+            "2026-07-30; add the OpenAI API key as a repository secret."
+        )
 
     entry = publish_daily_entry(feed, pool, date_id)
 
