@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-25T10:12:33Z",
-  "today_id": "2026-08-25",
+  "updated_at": "2026-08-25T22:11:53Z",
+  "today_id": "2026-08-26",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -4072,6 +4072,53 @@
       },
       "id": "2026-08-25",
       "date": "2026-08-25"
+    },
+    {
+      "library_source_id": "2026-06-16:1",
+      "quote": {
+        "zh-Hans": "今天可以留意：户外奔跑、攀爬和寻找小发现，能让孩子同时练身体协调、风险判断和持续观察。",
+        "en": "A thought to notice today: Running, climbing, and noticing small discoveries outdoors can support coordination, risk judgment, and sustained observation.",
+        "ja": "今日、心に留めたいこと：外で走ったり登ったり小さな発見を探したりすることは、協調性、危険の判断、観察を支えます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-16.jpg",
+      "image_filename": "2026-06-16.jpg",
+      "image_path": "images/2026-06-16.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "What is the relationship between outdoor time and physical activity, sedentary behaviour, and physical fitness in children? A systematic review",
+        "year": 2015,
+        "url": "https://doi.org/10.3390/ijerph120606455",
+        "authors": [
+          "Casey Gray",
+          "Rachel Gibbons",
+          "Rosanne Larouche",
+          "M. S. Sandseter",
+          "Angela Bienenstock",
+          "Mariana Brussoni",
+          "Guy Faulkner",
+          "Mark S. Tremblay"
+        ],
+        "venue": "International Journal of Environmental Research and Public Health",
+        "externalIds": {
+          "DOI": "10.3390/ijerph120606455"
+        }
+      },
+      "source_summary": "这篇系统综述梳理儿童户外时间与身体活动、久坐行为和体能之间的研究。总体证据显示，更多户外时间通常与更多身体活动相连。对家庭来说，户外活动的价值不只在消耗体力，也包括真实空间中的观察、移动、协商和风险判断。",
+      "practical_takeaway": "在安全范围里给孩子一点自由移动的空间，允许他们慢慢看、摸和尝试。",
+      "topic": "户外活动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "sZXlOY-dhJY",
+        "photographer": "Truong Tuyet Ly",
+        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+      },
+      "id": "2026-08-26",
+      "date": "2026-08-26"
     }
   ]
 }
