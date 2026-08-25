@@ -2445,6 +2445,228 @@
         },
         "search_query": "parent child interaction language development children study"
       }
+    },
+    {
+      "id": "library_2026-08-19",
+      "status": "published",
+      "created_at": "2026-08-25T10:12:33Z",
+      "published_at": "2026-08-25T10:12:33Z",
+      "published_date": "2026-08-19",
+      "library_source_id": "2026-06-04:1",
+      "topic": "共同探索",
+      "quote": {
+        "zh-Hans": "今天可以留意：大人先陪孩子观察、再把问题还给孩子，常能让他们在熟悉的事情里发现新的线索。",
+        "en": "A thought to notice today: When adults observe with children first and then return questions to them, familiar moments can reveal new clues.",
+        "ja": "今日、心に留めたいこと：大人がまず一緒に観察し、その後で問いを子どもに返すと、身近な場面から新しい手がかりを見つけやすくなります。"
+      },
+      "source_summary": "这项经典研究提出“脚手架”概念，观察成人如何通过示范、提示、分步骤支持儿童解决问题。重点不在成人替孩子完成任务，而在根据孩子当前能力提供刚好够用的帮助，再逐步撤回支持，让孩子把方法内化成自己的能力。",
+      "practical_takeaway": "孩子遇到问题时，先陪他看见细节，再问“你想先试哪个办法”。",
+      "source": {
+        "title": "The role of tutoring in problem solving",
+        "year": 1976,
+        "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x",
+        "authors": [
+          "David Wood",
+          "Jerome S. Bruner",
+          "Gail Ross"
+        ],
+        "venue": "Journal of Child Psychology and Psychiatry",
+        "externalIds": {
+          "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
+        }
+      }
+    },
+    {
+      "id": "library_2026-08-20",
+      "status": "published",
+      "created_at": "2026-08-25T10:12:33Z",
+      "published_at": "2026-08-25T10:12:33Z",
+      "published_date": "2026-08-20",
+      "library_source_id": "2026-06-07:1",
+      "topic": "创造力",
+      "quote": {
+        "zh-Hans": "今天可以留意：同一件玩具被孩子反复赋予新角色时，他们也在练习想象、规则转换和灵活表达。",
+        "en": "A thought to notice today: When children give the same toy new roles again and again, they practice imagination, rule shifting, and flexible expression.",
+        "ja": "今日、心に留めたいこと：同じおもちゃに何度も新しい役割を与える中で、子どもは想像力やルールの切り替え、柔軟な表現を練習しています。"
+      },
+      "source_summary": "这篇综述评估假装游戏与语言、社会理解、情绪和执行功能等发展的证据。作者强调证据强弱并不一致，不能把游戏神化；但假装游戏确实提供了一个低压力场景，让孩子练习符号替代、规则转换和从他人角度理解情境。",
+      "practical_takeaway": "拿同一个玩具连续换三种玩法，让孩子决定下一轮规则。",
+      "source": {
+        "title": "The impact of pretend play on children's development: A review of the evidence",
+        "year": 2013,
+        "url": "https://doi.org/10.1037/a0029321",
+        "authors": [
+          "Angeline S. Lillard",
+          "Matthew D. Lerner",
+          "Emily J. Hopkins",
+          "Rebecca A. Dore",
+          "Eric D. Smith",
+          "Carolyn M. Palmquist"
+        ],
+        "venue": "Psychological Bulletin",
+        "externalIds": {
+          "DOI": "10.1037/a0029321"
+        }
+      }
+    },
+    {
+      "id": "library_2026-08-21",
+      "status": "published",
+      "created_at": "2026-08-25T10:12:33Z",
+      "published_at": "2026-08-25T10:12:33Z",
+      "published_date": "2026-08-21",
+      "library_source_id": "2026-06-11:1",
+      "topic": "游戏学习",
+      "quote": {
+        "zh-Hans": "今天可以留意：孩子把积木当电话、把纸盒当房子时，并不只是玩闹，也是在练习符号、语言和换位思考。",
+        "en": "A thought to notice today: When children turn blocks into phones or boxes into houses, they are practicing symbols, language, and perspective taking.",
+        "ja": "今日、心に留めたいこと：積み木を電話に、箱を家に見立てる遊びは、記号や言葉、相手の視点を練習する時間でもあります。"
+      },
+      "source_summary": "这篇综述评估假装游戏与语言、社会理解、情绪和执行功能等发展的证据。作者强调证据强弱并不一致，不能把游戏神化；但假装游戏确实提供了一个低压力场景，让孩子练习符号替代、规则转换和从他人角度理解情境。",
+      "practical_takeaway": "今天可以把一个普通物品交给孩子，问它还能变成什么，并顺着孩子的设定玩一小会儿。",
+      "source": {
+        "title": "The impact of pretend play on children's development: A review of the evidence",
+        "year": 2013,
+        "url": "https://doi.org/10.1037/a0029321",
+        "authors": [
+          "Angeline S. Lillard",
+          "Matthew D. Lerner",
+          "Emily J. Hopkins",
+          "Rebecca A. Dore",
+          "Eric D. Smith",
+          "Carolyn M. Palmquist"
+        ],
+        "venue": "Psychological Bulletin",
+        "externalIds": {
+          "DOI": "10.1037/a0029321"
+        }
+      }
+    },
+    {
+      "id": "library_2026-08-22",
+      "status": "published",
+      "created_at": "2026-08-25T10:12:33Z",
+      "published_at": "2026-08-25T10:12:33Z",
+      "published_date": "2026-08-22",
+      "library_source_id": "2026-06-12:1",
+      "topic": "亲子共读",
+      "quote": {
+        "zh-Hans": "今天可以留意：共读时偶尔停下来问“你觉得接下来会怎样”，能把一本书变成孩子练习预测和表达的机会。",
+        "en": "A thought to notice today: Pausing during shared reading to ask what might happen next turns a book into practice for prediction and expression.",
+        "ja": "今日、心に留めたいこと：読み聞かせの途中で「次はどうなるかな」と聞くと、本は予測や表現を練習する機会になります。"
+      },
+      "source_summary": "这项元分析关注对话式亲子共读，比较成人提问、回应和扩展语言对儿童语言发展的作用。研究显示，共读的价值不只在读完一本书，更在成人与孩子围绕图片、情节和预测展开互动，让孩子有机会练习表达和理解。",
+      "practical_takeaway": "共读时少考一点，多问一句“你怎么看出来的”，让孩子有时间说出自己的想法。",
+      "source": {
+        "title": "Added Value of Dialogic Parent-Child Book Readings: A Meta-Analysis",
+        "year": 2008,
+        "url": "https://doi.org/10.1080/10409280701838603",
+        "authors": [
+          "Suzanne E. Mol",
+          "Adriana G. Bus",
+          "Maria T. de Jong",
+          "Daisy J. H. Smeets"
+        ],
+        "venue": "Early Education and Development",
+        "externalIds": {
+          "DOI": "10.1080/10409280701838603"
+        }
+      }
+    },
+    {
+      "id": "library_2026-08-23",
+      "status": "published",
+      "created_at": "2026-08-25T10:12:33Z",
+      "published_at": "2026-08-25T10:12:33Z",
+      "published_date": "2026-08-23",
+      "library_source_id": "2026-06-13:1",
+      "topic": "情绪命名",
+      "quote": {
+        "zh-Hans": "今天可以留意：当大人温和说出“你现在有点失望”，孩子更容易把身体里的感受和可表达的词语连起来。",
+        "en": "A thought to notice today: When adults gently name a feeling, children can connect body sensations with words they can use.",
+        "ja": "今日、心に留めたいこと：大人が「少しがっかりしたんだね」と穏やかに言うと、子どもは体の感覚と言葉を結びつけやすくなります。"
+      },
+      "source_summary": "这篇理论与研究综述讨论父母如何社会化儿童情绪，包括命名情绪、回应情绪和示范调节方式。它提醒家长，情绪教育不是简单压下反应，而是帮助孩子把身体感受、情境和可表达的词语连接起来，再学习合适的处理方式。",
+      "practical_takeaway": "孩子情绪上来时，先用一句短话命名感受，再陪他们呼吸或安静片刻。",
+      "source": {
+        "title": "Parental socialization of emotion",
+        "year": 1998,
+        "url": "https://doi.org/10.1207/s15327965pli0904_1",
+        "authors": [
+          "Nancy Eisenberg",
+          "Amanda Cumberland",
+          "Tracy L. Spinrad"
+        ],
+        "venue": "Psychological Inquiry",
+        "externalIds": {
+          "DOI": "10.1207/s15327965pli0904_1"
+        }
+      }
+    },
+    {
+      "id": "library_2026-08-24",
+      "status": "published",
+      "created_at": "2026-08-25T10:12:33Z",
+      "published_at": "2026-08-25T10:12:33Z",
+      "published_date": "2026-08-24",
+      "library_source_id": "2026-06-14:1",
+      "topic": "生活规律",
+      "quote": {
+        "zh-Hans": "今天可以留意：固定的起床、吃饭和睡前流程，会给孩子一个可预期的框架，帮助他们把注意力留给探索。",
+        "en": "A thought to notice today: Stable waking, meal, and bedtime routines give children a predictable frame that frees attention for exploration.",
+        "ja": "今日、心に留めたいこと：起床、食事、寝る前の流れが安定していると、子どもは見通しを持ち、探索に注意を向けやすくなります。"
+      },
+      "source_summary": "这篇综述回顾了家庭日常流程和家庭仪式相关研究，关注规律性活动与儿童适应、家庭关系和健康行为之间的联系。它不能说明某一种作息会直接带来某个结果，但支持一个清楚结论：可预期的日常安排，是儿童理解环境和练习自我调节的重要背景。",
+      "practical_takeaway": "选一个最容易固定的小流程，比如睡前收玩具和读书，让它每天大致相同。",
+      "source": {
+        "title": "A Review of 50 Years of Research on Naturally Occurring Family Routines and Rituals: Cause for Celebration?",
+        "year": 2002,
+        "url": "https://doi.org/10.1037/0893-3200.16.4.381",
+        "authors": [
+          "Barbara H. Fiese",
+          "Thomas J. Tomcho",
+          "Michael Douglas",
+          "Kimberly Josephs",
+          "Scott Poltrock",
+          "Tim Baker"
+        ],
+        "venue": "Journal of Family Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0893-3200.16.4.381"
+        }
+      }
+    },
+    {
+      "id": "library_2026-08-25",
+      "status": "published",
+      "created_at": "2026-08-25T10:12:33Z",
+      "published_at": "2026-08-25T10:12:33Z",
+      "published_date": "2026-08-25",
+      "library_source_id": "2026-06-15:1",
+      "topic": "睡眠恢复",
+      "quote": {
+        "zh-Hans": "今天可以留意：少一点睡前刺激，多一点熟悉的安静步骤，孩子更容易把白天的兴奋慢慢放下。",
+        "en": "A thought to notice today: Less stimulation and familiar quiet steps before bed help children ease from excitement into rest.",
+        "ja": "今日、心に留めたいこと：寝る前の刺激を少し減らし、慣れた静かな手順を重ねると、興奮から休息へ移りやすくなります。"
+      },
+      "source_summary": "这项研究考察固定睡前流程对幼儿睡眠和母亲情绪的影响，关注洗漱、安静活动和上床等重复步骤。结果显示，规律的睡前流程与更平稳的入睡和夜间睡眠有关。家长可理解为：低刺激、可预期的收尾动作，有助于孩子完成状态切换。",
+      "practical_takeaway": "睡前半小时减少刺激活动，用洗漱、灯光变暗、固定故事帮助孩子过渡。",
+      "source": {
+        "title": "A nightly bedtime routine: impact on sleep in young children and maternal mood",
+        "year": 2009,
+        "url": "https://doi.org/10.1093/sleep/32.5.599",
+        "authors": [
+          "Jodi A. Mindell",
+          "Brett Kuhn",
+          "Daniel S. Lewin",
+          "Lisa J. Meltzer",
+          "Avi Sadeh"
+        ],
+        "venue": "Sleep",
+        "externalIds": {
+          "DOI": "10.1093/sleep/32.5.599"
+        }
+      }
     }
   ]
 }

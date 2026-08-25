@@ -39,10 +39,6 @@ jobs:
         run: python scripts/generate_daily_growth.py --validate-only
 
       - name: Generate daily growth feed entry
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          OPENAI_MODEL: gpt-4.1-mini
         run: python scripts/generate_daily_growth.py
 
       - name: Commit directly to main

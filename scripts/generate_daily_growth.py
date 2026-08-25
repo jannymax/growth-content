@@ -6,7 +6,7 @@ import random
 import re
 import tempfile
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -72,6 +72,8 @@ SCIENCE_LITERACY_TOPIC_QUERIES = [
 
 SCIENCE_LITERACY_INTERVAL = 4
 SEMANTIC_SCHOLAR_MAX_QUERIES = 12
+MAX_DAILY_BACKFILL_DAYS = 7
+STATIC_LIBRARY_SIZE = 90
 TOPIC_QUERIES = CORE_TOPIC_QUERIES + SCIENCE_LITERACY_TOPIC_QUERIES
 
 DISALLOWED_ABSOLUTE_WORDS = [
@@ -171,6 +173,130 @@ def load_pool():
 
 def already_published_today(feed, date_id):
     return any(item.get("id") == date_id for item in feed.get("quotes", []))
+
+
+def pending_date_ids(feed, target_date_id, limit=MAX_DAILY_BACKFILL_DAYS):
+    """Return the oldest missing dates through target_date_id, capped per run."""
+    target = date.fromisoformat(target_date_id)
+    published_dates = {
+        date.fromisoformat(item["id"])
+        for item in feed.get("quotes", [])
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(item.get("id") or ""))
+    }
+    historical_dates = [published for published in published_dates if published <= target]
+    if not historical_dates:
+        return [target_date_id]
+
+    cursor = max(historical_dates) + timedelta(days=1)
+    pending = []
+    while cursor <= target and len(pending) < limit:
+        if cursor not in published_dates:
+            pending.append(cursor.isoformat())
+        cursor += timedelta(days=1)
+    return pending
+
+
+def build_static_content_library(feed, size=STATIC_LIBRARY_SIZE):
+    """Build a deterministic, API-free queue from reviewed multilingual entries."""
+    candidates = []
+    for item in feed.get("quotes", []):
+        quote = item.get("quote") or {}
+        zh = (quote.get("zh-Hans") or "").strip()
+        if item.get("library_source_id"):
+            continue
+        if not has_real_source(item.get("source") or {}):
+            continue
+        if not (35 <= len(zh) <= 100):
+            continue
+        if not quote.get("en") or not quote.get("ja"):
+            continue
+        candidates.append(item)
+
+    styles = [
+        {
+            "zh-Hans": "今天可以留意：{}",
+            "en": "A thought to notice today: {}",
+            "ja": "今日、心に留めたいこと：{}",
+        },
+        {
+            "zh-Hans": "换个角度看：{}",
+            "en": "Another way to see it: {}",
+            "ja": "別の角度から見ると：{}",
+        },
+    ]
+    library = []
+    for style_index, style in enumerate(styles):
+        for source in candidates:
+            source_quote = source["quote"]
+            library.append(
+                {
+                    "library_source_id": f"{source['id']}:{style_index + 1}",
+                    "quote": {
+                        language: template.format(source_quote[language])
+                        for language, template in style.items()
+                    },
+                    "author": source.get("author", {}),
+                    "image_url": source.get("image_url"),
+                    "image_filename": image_filename_for_item(source),
+                    "image_path": source.get("image_path"),
+                    "image_name": source.get("image_name", "quotation_card_bg"),
+                    "source": source.get("source", {}),
+                    "source_summary": source.get("source_summary", ""),
+                    "practical_takeaway": source.get("practical_takeaway", ""),
+                    "topic": source.get("topic", ""),
+                    "image_source": source.get("image_source", {}),
+                }
+            )
+            if len(library) == size:
+                return library
+
+    if len(library) < size:
+        raise RuntimeError(
+            f"Static content library has only {len(library)} reviewed entries; "
+            f"{size} are required."
+        )
+    return library
+
+
+def publish_static_library_entry(feed, pool, date_id, library):
+    used_ids = {
+        item.get("library_source_id")
+        for item in feed.get("quotes", [])
+        if item.get("library_source_id")
+    }
+    library_item = next(
+        (item for item in library if item["library_source_id"] not in used_ids),
+        None,
+    )
+    if library_item is None:
+        raise RuntimeError("Static content library is exhausted and must be refreshed.")
+
+    entry = dict(library_item)
+    entry["id"] = date_id
+    entry["date"] = date_id
+    feed["quotes"].append(entry)
+    feed["quotes"].sort(key=lambda item: item.get("date") or item.get("id") or "")
+    feed["today_id"] = date_id
+    feed["updated_at"] = iso_now()
+
+    pool["items"].append(
+        {
+            "id": f"library_{date_id}",
+            "status": "published",
+            "created_at": iso_now(),
+            "published_at": iso_now(),
+            "published_date": date_id,
+            "library_source_id": library_item["library_source_id"],
+            "topic": library_item.get("topic", ""),
+            "quote": library_item["quote"],
+            "source_summary": library_item.get("source_summary", ""),
+            "practical_takeaway": library_item.get("practical_takeaway", ""),
+            "source": library_item.get("source", {}),
+        }
+    )
+    validate_feed(feed)
+    validate_pool(pool)
+    return entry
 
 
 def canonical_text(value):
@@ -883,24 +1009,23 @@ def main():
         print("growth-feed.json and content_pool.json are valid.")
         return
 
-    date_id = today_id()
-    if already_published_today(feed, date_id):
-        print(f"{date_id} already exists in growth-feed.json. Nothing to do.")
+    target_date_id = today_id()
+    date_ids = pending_date_ids(feed, target_date_id)
+    if not date_ids:
+        print(f"{target_date_id} already exists in growth-feed.json. Nothing to do.")
         return
 
-    if not os.getenv("OPENAI_API_KEY", "").strip():
-        raise RuntimeError(
-            "OPENAI_API_KEY is not configured. GitHub Models was retired on "
-            "2026-07-30; add the OpenAI API key as a repository secret."
-        )
-
-    entry = publish_daily_entry(feed, pool, date_id)
+    library = build_static_content_library(feed)
+    entries = []
+    for date_id in date_ids:
+        entries.append(publish_static_library_entry(feed, pool, date_id, library))
 
     save_json(FEED_PATH, feed)
     save_json(POOL_PATH, pool)
 
-    print(f"Published daily growth quote for {date_id}.")
-    print((entry.get("quote") or {}).get("zh-Hans", ""))
+    print(f"Published {len(entries)} daily growth quote(s), through {date_ids[-1]}.")
+    for entry in entries:
+        print(f"{entry['id']}: {(entry.get('quote') or {}).get('zh-Hans', '')}")
 
 
 if __name__ == "__main__":
