@@ -2702,6 +2702,36 @@
           "DOI": "10.3390/ijerph120606455"
         }
       }
+    },
+    {
+      "id": "library_2026-08-27",
+      "status": "published",
+      "created_at": "2026-08-27T02:17:05Z",
+      "published_at": "2026-08-27T02:17:05Z",
+      "published_date": "2026-08-27",
+      "library_source_id": "2026-06-17:1",
+      "topic": "共同调节",
+      "quote": {
+        "zh-Hans": "今天可以留意：孩子情绪很满时，先陪他们慢下来，再讨论道理，往往比立刻讲规则更容易被听见。",
+        "en": "A thought to notice today: When emotions are high, helping children slow down before explaining rules is often easier for them to hear.",
+        "ja": "今日、心に留めたいこと：感情が高ぶっている時は、まず落ち着くのを支えてから話す方が、子どもに届きやすくなります。"
+      },
+      "source_summary": "这篇理论与研究综述讨论父母如何社会化儿童情绪，包括命名情绪、回应情绪和示范调节方式。它提醒家长，情绪教育不是简单压下反应，而是帮助孩子把身体感受、情境和可表达的词语连接起来，再学习合适的处理方式。",
+      "practical_takeaway": "先蹲下来降低音量，等孩子能看向你或点头后，再谈下一步怎么做。",
+      "source": {
+        "title": "Parental socialization of emotion",
+        "year": 1998,
+        "url": "https://doi.org/10.1207/s15327965pli0904_1",
+        "authors": [
+          "Nancy Eisenberg",
+          "Amanda Cumberland",
+          "Tracy L. Spinrad"
+        ],
+        "venue": "Psychological Inquiry",
+        "externalIds": {
+          "DOI": "10.1207/s15327965pli0904_1"
+        }
+      }
     }
   ]
 }
