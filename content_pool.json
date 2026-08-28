@@ -2732,6 +2732,35 @@
           "DOI": "10.1207/s15327965pli0904_1"
         }
       }
+    },
+    {
+      "id": "library_2026-08-28",
+      "status": "published",
+      "created_at": "2026-08-28T05:50:35Z",
+      "published_at": "2026-08-28T05:50:35Z",
+      "published_date": "2026-08-28",
+      "library_source_id": "2026-06-18:1",
+      "topic": "执行功能",
+      "quote": {
+        "zh-Hans": "今天可以留意：轮流、等待和记住两步指令这些小练习，正在一点点支持孩子的工作记忆和自我控制。",
+        "en": "A thought to notice today: Small practices like turn-taking, waiting, and remembering two-step directions gradually support working memory and self-control.",
+        "ja": "今日、心に留めたいこと：順番を待つ、二つの指示を覚えるなどの小さな練習は、作業記憶と自己調整を少しずつ支えます。"
+      },
+      "source_summary": "这篇综述从发展心理生物学角度讨论儿童入学准备和自我调节，重点包括工作记忆、抑制控制和认知灵活性。研究提示，执行功能不是靠讲道理突然形成，而是在等待、轮流、记住规则和调整策略等日常任务中反复练习。",
+      "practical_takeaway": "玩一个简单轮流游戏，刻意放慢节奏，让等待本身也变成可练习的部分。",
+      "source": {
+        "title": "School readiness and self-regulation: A developmental psychobiological approach",
+        "year": 2015,
+        "url": "https://doi.org/10.1146/annurev-psych-010814-015221",
+        "authors": [
+          "Clancy Blair",
+          "C. Cybele Raver"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev-psych-010814-015221"
+        }
+      }
     }
   ]
 }

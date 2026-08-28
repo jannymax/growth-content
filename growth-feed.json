@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-27T02:17:05Z",
-  "today_id": "2026-08-27",
+  "updated_at": "2026-08-28T05:50:35Z",
+  "today_id": "2026-08-28",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -4161,6 +4161,47 @@
       },
       "id": "2026-08-27",
       "date": "2026-08-27"
+    },
+    {
+      "library_source_id": "2026-06-18:1",
+      "quote": {
+        "zh-Hans": "今天可以留意：轮流、等待和记住两步指令这些小练习，正在一点点支持孩子的工作记忆和自我控制。",
+        "en": "A thought to notice today: Small practices like turn-taking, waiting, and remembering two-step directions gradually support working memory and self-control.",
+        "ja": "今日、心に留めたいこと：順番を待つ、二つの指示を覚えるなどの小さな練習は、作業記憶と自己調整を少しずつ支えます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-18.jpg",
+      "image_filename": "2026-06-18.jpg",
+      "image_path": "images/2026-06-18.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "School readiness and self-regulation: A developmental psychobiological approach",
+        "year": 2015,
+        "url": "https://doi.org/10.1146/annurev-psych-010814-015221",
+        "authors": [
+          "Clancy Blair",
+          "C. Cybele Raver"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev-psych-010814-015221"
+        }
+      },
+      "source_summary": "这篇综述从发展心理生物学角度讨论儿童入学准备和自我调节，重点包括工作记忆、抑制控制和认知灵活性。研究提示，执行功能不是靠讲道理突然形成，而是在等待、轮流、记住规则和调整策略等日常任务中反复练习。",
+      "practical_takeaway": "玩一个简单轮流游戏，刻意放慢节奏，让等待本身也变成可练习的部分。",
+      "topic": "执行功能",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "XqwilBo1t5s",
+        "photographer": "Adam Hornyak",
+        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+      },
+      "id": "2026-08-28",
+      "date": "2026-08-28"
     }
   ]
 }
