@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-28T05:50:35Z",
-  "today_id": "2026-08-28",
+  "updated_at": "2026-08-29T03:23:40Z",
+  "today_id": "2026-08-29",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -4202,6 +4202,48 @@
       },
       "id": "2026-08-28",
       "date": "2026-08-28"
+    },
+    {
+      "library_source_id": "2026-06-19:1",
+      "quote": {
+        "zh-Hans": "今天可以留意：把难任务拆成“我做一步、你试一步”，能让孩子在刚好够得着的挑战里积累信心。",
+        "en": "A thought to notice today: Breaking a hard task into “I try one step, you try one step” helps children build confidence within reachable challenge.",
+        "ja": "今日、心に留めたいこと：難しい課題を「大人が一歩、子どもが一歩」に分けると、届きそうな挑戦の中で自信を育てられます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-19.jpg",
+      "image_filename": "2026-06-19.jpg",
+      "image_path": "images/2026-06-19.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "The role of tutoring in problem solving",
+        "year": 1976,
+        "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x",
+        "authors": [
+          "David Wood",
+          "Jerome S. Bruner",
+          "Gail Ross"
+        ],
+        "venue": "Journal of Child Psychology and Psychiatry",
+        "externalIds": {
+          "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
+        }
+      },
+      "source_summary": "这项经典研究提出“脚手架”概念，观察成人如何通过示范、提示、分步骤支持儿童解决问题。重点不在成人替孩子完成任务，而在根据孩子当前能力提供刚好够用的帮助，再逐步撤回支持，让孩子把方法内化成自己的能力。",
+      "practical_takeaway": "遇到难题时先示范一小步，再请孩子接下一步，最后逐渐减少提醒。",
+      "topic": "脚手架支持",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "CvGxZHYGEas",
+        "photographer": "JIEUN KWON",
+        "url": "https://unsplash.com/photos/a-bird-flying-over-a-field-of-purple-flowers-CvGxZHYGEas"
+      },
+      "id": "2026-08-29",
+      "date": "2026-08-29"
     }
   ]
 }
