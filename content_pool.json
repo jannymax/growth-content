@@ -2791,6 +2791,36 @@
           "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
         }
       }
+    },
+    {
+      "id": "library_2026-08-30",
+      "status": "published",
+      "created_at": "2026-08-29T23:39:18Z",
+      "published_at": "2026-08-29T23:39:18Z",
+      "published_date": "2026-08-30",
+      "library_source_id": "2026-06-20:1",
+      "topic": "双语环境",
+      "quote": {
+        "zh-Hans": "今天可以留意：多语言环境里的孩子有时需要多等几秒，但他们也在练习在不同语境之间灵活切换。",
+        "en": "A thought to notice today: Children in multilingual settings sometimes need a few more seconds while they practice flexible shifts across contexts.",
+        "ja": "今日、心に留めたいこと：多言語環境の子どもには少し待つ時間が必要な時もあり、その間に文脈を切り替える練習をしています。"
+      },
+      "source_summary": "这篇综述讨论双语经验对语言、注意和认知控制的影响。作者强调双语儿童的发展路径会有差异，不能简单用单语速度衡量。孩子在两种语言和语境之间切换时，正在处理词汇选择、情境判断和注意转换等复杂任务。",
+      "practical_takeaway": "孩子停顿时多等几秒，可以重复他的意思，再补上更清楚的表达。",
+      "source": {
+        "title": "Bilingualism: consequences for mind and brain",
+        "year": 2012,
+        "url": "https://doi.org/10.1016/j.tics.2012.03.001",
+        "authors": [
+          "Ellen Bialystok",
+          "Fergus I. M. Craik",
+          "Gigi Luk"
+        ],
+        "venue": "Trends in Cognitive Sciences",
+        "externalIds": {
+          "DOI": "10.1016/j.tics.2012.03.001"
+        }
+      }
     }
   ]
 }
