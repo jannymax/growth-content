@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-29T23:39:18Z",
-  "today_id": "2026-08-30",
+  "updated_at": "2026-08-30T23:57:01Z",
+  "today_id": "2026-08-31",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -4286,6 +4286,46 @@
       },
       "id": "2026-08-30",
       "date": "2026-08-30"
+    },
+    {
+      "library_source_id": "2026-06-22:1",
+      "quote": {
+        "zh-Hans": "今天可以留意：孩子在抢玩具后学习轮流和修复关系，比完全避免冲突更能积累真实的社交经验。",
+        "en": "A thought to notice today: Learning to take turns and repair after toy conflicts can build more real social experience than avoiding every conflict.",
+        "ja": "今日、心に留めたいこと：おもちゃの取り合いの後で順番や仲直りを学ぶことは、衝突を完全に避けるより実際的な社会経験になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-22.jpg",
+      "image_filename": "2026-06-22.jpg",
+      "image_path": "images/2026-06-22.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Peer relationships and social competence during early and middle childhood",
+        "year": 1999,
+        "url": "https://doi.org/10.1146/annurev.psych.50.1.333",
+        "authors": [
+          "Gary W. Ladd"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.psych.50.1.333"
+        }
+      },
+      "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
+      "practical_takeaway": "冲突后帮孩子说清“我想要”和“可以轮到谁”，再引导他们重新开始。",
+      "topic": "同伴互动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "sZXlOY-dhJY",
+        "photographer": "Truong Tuyet Ly",
+        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+      },
+      "id": "2026-08-31",
+      "date": "2026-08-31"
     }
   ]
 }

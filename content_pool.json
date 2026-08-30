@@ -2821,6 +2821,34 @@
           "DOI": "10.1016/j.tics.2012.03.001"
         }
       }
+    },
+    {
+      "id": "library_2026-08-31",
+      "status": "published",
+      "created_at": "2026-08-30T23:57:01Z",
+      "published_at": "2026-08-30T23:57:01Z",
+      "published_date": "2026-08-31",
+      "library_source_id": "2026-06-22:1",
+      "topic": "同伴互动",
+      "quote": {
+        "zh-Hans": "今天可以留意：孩子在抢玩具后学习轮流和修复关系，比完全避免冲突更能积累真实的社交经验。",
+        "en": "A thought to notice today: Learning to take turns and repair after toy conflicts can build more real social experience than avoiding every conflict.",
+        "ja": "今日、心に留めたいこと：おもちゃの取り合いの後で順番や仲直りを学ぶことは、衝突を完全に避けるより実際的な社会経験になります。"
+      },
+      "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
+      "practical_takeaway": "冲突后帮孩子说清“我想要”和“可以轮到谁”，再引导他们重新开始。",
+      "source": {
+        "title": "Peer relationships and social competence during early and middle childhood",
+        "year": 1999,
+        "url": "https://doi.org/10.1146/annurev.psych.50.1.333",
+        "authors": [
+          "Gary W. Ladd"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.psych.50.1.333"
+        }
+      }
     }
   ]
 }
