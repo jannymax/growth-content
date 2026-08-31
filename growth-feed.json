@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-30T23:57:01Z",
+  "updated_at": "2026-08-31T09:24:08Z",
   "today_id": "2026-08-31",
   "quotes": [
     {
@@ -904,10 +904,10 @@
       },
       "topic": "睡眠恢复",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-15",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这项研究考察固定睡前流程对幼儿睡眠和母亲情绪的影响，关注洗漱、安静活动和上床等重复步骤。结果显示，规律的睡前流程与更平稳的入睡和夜间睡眠有关。家长可理解为：低刺激、可预期的收尾动作，有助于孩子完成状态切换。",
       "practical_takeaway": "睡前半小时减少刺激活动，用洗漱、灯光变暗、固定故事帮助孩子过渡。",
@@ -950,10 +950,10 @@
       },
       "topic": "户外活动",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-16",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇系统综述梳理儿童户外时间与身体活动、久坐行为和体能之间的研究。总体证据显示，更多户外时间通常与更多身体活动相连。对家庭来说，户外活动的价值不只在消耗体力，也包括真实空间中的观察、移动、协商和风险判断。",
       "practical_takeaway": "在安全范围里给孩子一点自由移动的空间，允许他们慢慢看、摸和尝试。",
@@ -991,10 +991,10 @@
       },
       "topic": "共同调节",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-17",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇理论与研究综述讨论父母如何社会化儿童情绪，包括命名情绪、回应情绪和示范调节方式。它提醒家长，情绪教育不是简单压下反应，而是帮助孩子把身体感受、情境和可表达的词语连接起来，再学习合适的处理方式。",
       "practical_takeaway": "先蹲下来降低音量，等孩子能看向你或点头后，再谈下一步怎么做。",
@@ -1031,10 +1031,10 @@
       },
       "topic": "执行功能",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-18",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇综述从发展心理生物学角度讨论儿童入学准备和自我调节，重点包括工作记忆、抑制控制和认知灵活性。研究提示，执行功能不是靠讲道理突然形成，而是在等待、轮流、记住规则和调整策略等日常任务中反复练习。",
       "practical_takeaway": "玩一个简单轮流游戏，刻意放慢节奏，让等待本身也变成可练习的部分。",
@@ -1113,10 +1113,10 @@
       },
       "topic": "双语环境",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-20",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇综述讨论双语经验对语言、注意和认知控制的影响。作者强调双语儿童的发展路径会有差异，不能简单用单语速度衡量。孩子在两种语言和语境之间切换时，正在处理词汇选择、情境判断和注意转换等复杂任务。",
       "practical_takeaway": "孩子停顿时多等几秒，可以重复他的意思，再补上更清楚的表达。",
@@ -1191,10 +1191,10 @@
       },
       "topic": "同伴互动",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-22",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
       "practical_takeaway": "冲突后帮孩子说清“我想要”和“可以轮到谁”，再引导他们重新开始。",
@@ -1230,10 +1230,10 @@
       },
       "topic": "叙事能力",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-23",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
       "practical_takeaway": "睡前请孩子讲今天一件小事，只追问顺序和感受，不急着纠正细节。",
@@ -1275,10 +1275,10 @@
       },
       "topic": "精细动作",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-24",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这项研究考察精细动作、执行功能与幼儿园学业表现之间的关系。结果显示，手部控制和执行功能都与早期学习有关。拧、夹、穿、撕这类小动作不只是生活技能，也让孩子在手眼配合中练习注意、顺序和控制。",
       "practical_takeaway": "准备撕纸、夹夹子或拧瓶盖这类小活动，让孩子按自己的速度完成。",
@@ -1314,10 +1314,10 @@
       },
       "topic": "好奇心",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-25",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇教育研究文章讨论儿童好奇心在学校和学习中的位置，指出提问和探究常被课堂节奏压缩。它支持一个朴素观点：孩子的问题本身就是学习入口。成人认真回应问题，并一起寻找线索，能把好奇心保留在真实活动里。",
       "practical_takeaway": "面对连续提问，可以说“我们找三个线索”，把追问变成共同观察。",
@@ -1354,10 +1354,10 @@
       },
       "topic": "自主选择",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-26",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这项研究讨论父母风格与儿童自我调节和学校能力之间的关系，重点是自主支持、控制和能力感。研究提示，清楚边界内的选择能让孩子练习决定、计划和承担结果；自主支持不是放任，而是让孩子在可承受范围内参与行动。",
       "practical_takeaway": "给两个你都能接受的选项，比如先刷牙还是先换睡衣，让孩子练习决定。",
@@ -1393,10 +1393,10 @@
       },
       "topic": "合作游戏",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-27",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
       "practical_takeaway": "一起搭积木时留一点难度，倒了之后让孩子想一个新办法。",
@@ -1434,10 +1434,10 @@
       },
       "topic": "屏幕使用",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-28",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇综述讨论年轻儿童从媒体中学习的条件，强调年龄、内容质量、重复观看和成人陪伴都会影响学习效果。研究不主张屏幕本身能替代互动；更稳妥的理解是，成人把屏幕内容连接到现实经验时，孩子更容易理解和迁移。",
       "practical_takeaway": "看完一小段内容后，问孩子里面有什么和今天生活相似。",
@@ -1474,10 +1474,10 @@
       },
       "topic": "学习动机",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-29",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这项实验研究比较称赞聪明和称赞努力对儿童动机与表现的影响。结果显示，强调智力的表扬会让部分孩子更回避挑战；关注努力、策略和调整，更能把注意力放在可改变的过程上。日常反馈越具体，越容易支持继续尝试。",
       "practical_takeaway": "孩子完成任务后，具体说出他尝试过的方法，而不只评价结果。",
@@ -1513,10 +1513,10 @@
       },
       "topic": "感官探索",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-06-30",
+        "usage": "original project background",
+        "text_free": true
       },
       "source_summary": "这篇经典综述讨论儿童通过探索来发展知觉、行动和知识。研究强调，孩子不是被动接收信息，而是在触摸、移动、比较和试错中理解物体特征。感官探索的意义，在于把词语、身体经验和真实环境连接起来。",
       "practical_takeaway": "散步时选一种声音、气味或触感，请孩子描述它像什么。",
@@ -2958,9 +2958,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-23.jpg",
-      "image_filename": "2026-06-23.jpg",
-      "image_path": "images/2026-06-23.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-01.jpg",
+      "image_filename": "2026-08-01.jpg",
+      "image_path": "images/2026-08-01.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
@@ -2978,10 +2978,10 @@
       "practical_takeaway": "睡前请孩子讲一件小事，只用一两个问题帮他把顺序讲完。",
       "topic": "语言发展",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-01",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -2997,9 +2997,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-24.jpg",
-      "image_filename": "2026-06-24.jpg",
-      "image_path": "images/2026-06-24.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-02.jpg",
+      "image_filename": "2026-08-02.jpg",
+      "image_path": "images/2026-08-02.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Fine motor skills and executive function both contribute to kindergarten achievement",
@@ -3023,10 +3023,10 @@
       "practical_takeaway": "准备三个夹子和一个纸盒，让孩子按自己的速度夹上去再取下来。",
       "topic": "精细动作",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-02",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3042,9 +3042,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-25.jpg",
-      "image_filename": "2026-06-25.jpg",
-      "image_path": "images/2026-06-25.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-03.jpg",
+      "image_filename": "2026-08-03.jpg",
+      "image_path": "images/2026-08-03.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Children's need to know: Curiosity in schools",
@@ -3062,10 +3062,10 @@
       "practical_takeaway": "今天选孩子的一个问题，一起找三个能看见或验证的线索。",
       "topic": "好奇心",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-03",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3081,9 +3081,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-26.jpg",
-      "image_filename": "2026-06-26.jpg",
-      "image_path": "images/2026-06-26.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-04.jpg",
+      "image_filename": "2026-08-04.jpg",
+      "image_path": "images/2026-08-04.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Parent styles associated with children's self-regulation and competence in school",
@@ -3102,10 +3102,10 @@
       "practical_takeaway": "在刷牙、收玩具或换衣服时，给出两个你都能接受的选择。",
       "topic": "自我调节",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-04",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3121,9 +3121,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-27.jpg",
-      "image_filename": "2026-06-27.jpg",
-      "image_path": "images/2026-06-27.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-05.jpg",
+      "image_filename": "2026-08-05.jpg",
+      "image_path": "images/2026-08-05.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Peer relationships and social competence during early and middle childhood",
@@ -3141,10 +3141,10 @@
       "practical_takeaway": "孩子和同伴出现小冲突时，先帮他们说清各自想要什么，再找下一步。",
       "topic": "同伴交往",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-05",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3160,9 +3160,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-28.jpg",
-      "image_filename": "2026-06-28.jpg",
-      "image_path": "images/2026-06-28.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-06.jpg",
+      "image_filename": "2026-08-06.jpg",
+      "image_path": "images/2026-08-06.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Media and young children’s learning",
@@ -3182,10 +3182,10 @@
       "practical_takeaway": "看完一小段内容后，请孩子找出一件和今天生活相似的事。",
       "topic": "媒体学习",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-06",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3201,9 +3201,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-29.jpg",
-      "image_filename": "2026-06-29.jpg",
-      "image_path": "images/2026-06-29.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-07.jpg",
+      "image_filename": "2026-08-07.jpg",
+      "image_path": "images/2026-08-07.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Praise for intelligence can undermine children's motivation and performance",
@@ -3222,10 +3222,10 @@
       "practical_takeaway": "任务结束后，说出你看见的一个具体策略，例如“你换了一个方向”。",
       "topic": "学习动机",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-07",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3241,9 +3241,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-30.jpg",
-      "image_filename": "2026-06-30.jpg",
-      "image_path": "images/2026-06-30.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-08.jpg",
+      "image_filename": "2026-08-08.jpg",
+      "image_path": "images/2026-08-08.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Exploratory behavior in the development of perceiving, acting, and the acquiring of knowledge",
@@ -3261,10 +3261,10 @@
       "practical_takeaway": "散步时选一种触感或声音，请孩子用两个不同的词描述它。",
       "topic": "感官探索",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-08",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3280,9 +3280,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-01.jpg",
-      "image_filename": "2026-07-01.jpg",
-      "image_path": "images/2026-07-01.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-09.jpg",
+      "image_filename": "2026-08-09.jpg",
+      "image_path": "images/2026-08-09.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
@@ -3300,10 +3300,10 @@
       "practical_takeaway": "吃饭时每人说一件今天的小事，规则是前一个人说完再回应。",
       "topic": "家庭对话",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-09",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3319,9 +3319,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-02.jpg",
-      "image_filename": "2026-07-02.jpg",
-      "image_path": "images/2026-07-02.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-10.jpg",
+      "image_filename": "2026-08-10.jpg",
+      "image_path": "images/2026-08-10.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Active music classes in infancy enhance musical, communicative and social development",
@@ -3341,7 +3341,10 @@
       "practical_takeaway": "拍一个简单节奏，中间留出停顿，让孩子跟着拍、停、再开始。",
       "topic": "音乐互动",
       "image_source": {
-        "provider": "Local repair"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-10",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3357,9 +3360,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-03.jpg",
-      "image_filename": "2026-07-03.jpg",
-      "image_path": "images/2026-07-03.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-11.jpg",
+      "image_filename": "2026-08-11.jpg",
+      "image_path": "images/2026-08-11.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "A potential natural treatment for attention-deficit/hyperactivity disorder: evidence from a national study",
@@ -3378,7 +3381,10 @@
       "practical_takeaway": "在窗边或户外选一个对象，和孩子安静观察一分钟再说发现。",
       "topic": "自然与注意",
       "image_source": {
-        "provider": "Local repair"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-11",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3394,9 +3400,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-04.jpg",
-      "image_filename": "2026-07-04.jpg",
-      "image_path": "images/2026-07-04.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-12.jpg",
+      "image_filename": "2026-08-12.jpg",
+      "image_path": "images/2026-08-12.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "paperId": "a95bfe0a3516e0c5976df5b1b948979baacef000",
@@ -3428,13 +3434,10 @@
       "practical_takeaway": "孩子卡住时先等五秒，然后只问“你已经试过哪一步？”",
       "topic": "执行功能",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "1gHcEFOtvlI",
-        "photographer": "Richie Bettencourt",
-        "url": "https://unsplash.com/photos/a-path-in-the-middle-of-a-forest-with-lots-of-trees-1gHcEFOtvlI",
-        "perceptual_hash": "5113136307060f0e",
-        "width": 4000,
-        "height": 6000
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-12",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3450,9 +3453,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-05.jpg",
-      "image_filename": "2026-07-05.jpg",
-      "image_path": "images/2026-07-05.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-13.jpg",
+      "image_filename": "2026-08-13.jpg",
+      "image_path": "images/2026-08-13.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "paperId": "52eff92ec2c3356fff9992b9313f61bcb864395b",
@@ -3483,13 +3486,10 @@
       "practical_takeaway": "孩子激动时，先复述你看到的事实和感受，等稳定一些再讨论下一步。",
       "topic": "情绪调节",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "rV5qv_ETZvY",
-        "photographer": "Justin Wolff",
-        "url": "https://unsplash.com/photos/green-trees-under-blue-sky-during-daytime-rV5qv_ETZvY",
-        "perceptual_hash": "3c3c381818180c82",
-        "width": 3706,
-        "height": 4632
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-13",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3505,9 +3505,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-06.jpg",
-      "image_filename": "2026-07-06.jpg",
-      "image_path": "images/2026-07-06.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-14.jpg",
+      "image_filename": "2026-08-14.jpg",
+      "image_path": "images/2026-08-14.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "paperId": "5d820669f62e4b23ae89caa4407787fb1fe3f67c",
@@ -3540,13 +3540,10 @@
       "practical_takeaway": "不必安排复杂活动，在安全的户外空间留出十分钟自由跑、看和聊。",
       "topic": "户外游戏",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "6IGw9bWZ39s",
-        "photographer": "Petra Reid",
-        "url": "https://unsplash.com/photos/sunny-day-with-trees-on-a-grassy-hill-6IGw9bWZ39s",
-        "perceptual_hash": "0000c4c48a92e80f",
-        "width": 4480,
-        "height": 6720
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-14",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3562,9 +3559,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-07.jpg",
-      "image_filename": "2026-07-07.jpg",
-      "image_path": "images/2026-07-07.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-15.jpg",
+      "image_filename": "2026-08-15.jpg",
+      "image_path": "images/2026-08-15.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "paperId": "3f3b47eb9cb03f1486d7a9cff9b64d4379810f06",
@@ -3596,13 +3593,10 @@
       "practical_takeaway": "今天留意孩子的一个非语言信号，用“你是想……吗？”简短确认。",
       "topic": "亲子互动",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "1NitK5CCwXg",
-        "photographer": "Vladyslav Melnyk",
-        "url": "https://unsplash.com/photos/spider-web-on-green-plant-during-sunset-1NitK5CCwXg",
-        "perceptual_hash": "0f1fef4b260e4645",
-        "width": 4000,
-        "height": 5679
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-15",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3618,9 +3612,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-08.jpg",
-      "image_filename": "2026-07-08.jpg",
-      "image_path": "images/2026-07-08.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-16.jpg",
+      "image_filename": "2026-08-16.jpg",
+      "image_path": "images/2026-08-16.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "paperId": "00da2bcc92f953e79db85167bf52e22df80a2b9e",
@@ -3653,13 +3647,10 @@
       "practical_takeaway": "孩子发出一个声音或指向某物时，先跟着回应，再等他继续。",
       "topic": "回应式养育",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "uwGUc_U0MdU",
-        "photographer": "Jason Grant",
-        "url": "https://unsplash.com/photos/2-people-riding-on-boat-on-sea-during-daytime-uwGUc_U0MdU",
-        "perceptual_hash": "0100008000101000",
-        "width": 2592,
-        "height": 3808
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-16",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3675,9 +3666,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-09.jpg",
-      "image_filename": "2026-07-09.jpg",
-      "image_path": "images/2026-07-09.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-17.jpg",
+      "image_filename": "2026-08-17.jpg",
+      "image_path": "images/2026-08-17.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "paperId": "abd3bcc32c9cfc0932e58256565e0498cbf8098a",
@@ -3705,13 +3696,10 @@
       "practical_takeaway": "和孩子玩一个短解谜游戏，遇到困难时先问他想试哪一步。",
       "topic": "数字游戏",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "aXeXFty1900",
-        "photographer": "Joel Stählin",
-        "url": "https://unsplash.com/photos/brown-trees-on-forest-during-daytime-aXeXFty1900",
-        "perceptual_hash": "a703880c0e0f0f33",
-        "width": 4016,
-        "height": 6016
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-17",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3727,9 +3715,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-07-10.jpg",
-      "image_filename": "2026-07-10.jpg",
-      "image_path": "images/2026-07-10.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-18.jpg",
+      "image_filename": "2026-08-18.jpg",
+      "image_path": "images/2026-08-18.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "paperId": "6dbe60951bc7bd799dd918c3fd14cd5abbf06698",
@@ -3758,13 +3746,10 @@
       "practical_takeaway": "孩子说“车走了”时，可以回应“对，红色的车开走了”。",
       "topic": "语用语言",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "l8iIWi1XHvc",
-        "photographer": "Petra Reid",
-        "url": "https://unsplash.com/photos/shaded-dirt-path-winding-through-trees-beside-a-river-l8iIWi1XHvc",
-        "perceptual_hash": "333f3f2f2f4e3673",
-        "width": 4480,
-        "height": 6720
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-18",
+        "usage": "original project background",
+        "text_free": true
       }
     },
     {
@@ -3779,9 +3764,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-04.jpg",
-      "image_filename": "2026-06-04.jpg",
-      "image_path": "images/2026-06-04.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-19.jpg",
+      "image_filename": "2026-08-19.jpg",
+      "image_path": "images/2026-08-19.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "The role of tutoring in problem solving",
@@ -3801,10 +3786,10 @@
       "practical_takeaway": "孩子遇到问题时，先陪他看见细节，再问“你想先试哪个办法”。",
       "topic": "共同探索",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "cQLRkh1YTWg",
-        "photographer": "Giorgio Trovato",
-        "url": "https://unsplash.com/photos/brown-grass-field-under-blue-sky-during-daytime-cQLRkh1YTWg"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-19",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-19",
       "date": "2026-08-19"
@@ -3821,9 +3806,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-07.jpg",
-      "image_filename": "2026-06-07.jpg",
-      "image_path": "images/2026-06-07.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-20.jpg",
+      "image_filename": "2026-08-20.jpg",
+      "image_path": "images/2026-08-20.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "The impact of pretend play on children's development: A review of the evidence",
@@ -3846,10 +3831,10 @@
       "practical_takeaway": "拿同一个玩具连续换三种玩法，让孩子决定下一轮规则。",
       "topic": "创造力",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "CxUp4OQd6G8",
-        "photographer": "Jakob Braun",
-        "url": "https://unsplash.com/photos/brown-grass-field-during-daytime-CxUp4OQd6G8"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-20",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-20",
       "date": "2026-08-20"
@@ -3866,9 +3851,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-11.jpg",
-      "image_filename": "2026-06-11.jpg",
-      "image_path": "images/2026-06-11.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-21.jpg",
+      "image_filename": "2026-08-21.jpg",
+      "image_path": "images/2026-08-21.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "The impact of pretend play on children's development: A review of the evidence",
@@ -3891,10 +3876,10 @@
       "practical_takeaway": "今天可以把一个普通物品交给孩子，问它还能变成什么，并顺着孩子的设定玩一小会儿。",
       "topic": "游戏学习",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "Jwz6CQc6NhA",
-        "photographer": "olha makarkina",
-        "url": "https://unsplash.com/photos/a-close-up-of-a-plant-with-a-blurry-background-Jwz6CQc6NhA"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-21",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-21",
       "date": "2026-08-21"
@@ -3911,9 +3896,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-12.jpg",
-      "image_filename": "2026-06-12.jpg",
-      "image_path": "images/2026-06-12.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-22.jpg",
+      "image_filename": "2026-08-22.jpg",
+      "image_path": "images/2026-08-22.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Added Value of Dialogic Parent-Child Book Readings: A Meta-Analysis",
@@ -3934,10 +3919,10 @@
       "practical_takeaway": "共读时少考一点，多问一句“你怎么看出来的”，让孩子有时间说出自己的想法。",
       "topic": "亲子共读",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-22",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-22",
       "date": "2026-08-22"
@@ -3954,9 +3939,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-13.jpg",
-      "image_filename": "2026-06-13.jpg",
-      "image_path": "images/2026-06-13.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-23.jpg",
+      "image_filename": "2026-08-23.jpg",
+      "image_path": "images/2026-08-23.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Parental socialization of emotion",
@@ -3976,10 +3961,10 @@
       "practical_takeaway": "孩子情绪上来时，先用一句短话命名感受，再陪他们呼吸或安静片刻。",
       "topic": "情绪命名",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "IpXwxlA_Adk",
-        "photographer": "Megan Nixon",
-        "url": "https://unsplash.com/photos/a-field-of-purple-flowers-with-a-sky-background-IpXwxlA_Adk"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-23",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-23",
       "date": "2026-08-23"
@@ -3996,9 +3981,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-14.jpg",
-      "image_filename": "2026-06-14.jpg",
-      "image_path": "images/2026-06-14.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-24.jpg",
+      "image_filename": "2026-08-24.jpg",
+      "image_path": "images/2026-08-24.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "A Review of 50 Years of Research on Naturally Occurring Family Routines and Rituals: Cause for Celebration?",
@@ -4021,10 +4006,10 @@
       "practical_takeaway": "选一个最容易固定的小流程，比如睡前收玩具和读书，让它每天大致相同。",
       "topic": "生活规律",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-24",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-24",
       "date": "2026-08-24"
@@ -4041,9 +4026,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-15.jpg",
-      "image_filename": "2026-06-15.jpg",
-      "image_path": "images/2026-06-15.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-25.jpg",
+      "image_filename": "2026-08-25.jpg",
+      "image_path": "images/2026-08-25.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "A nightly bedtime routine: impact on sleep in young children and maternal mood",
@@ -4065,10 +4050,10 @@
       "practical_takeaway": "睡前半小时减少刺激活动，用洗漱、灯光变暗、固定故事帮助孩子过渡。",
       "topic": "睡眠恢复",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-25",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-25",
       "date": "2026-08-25"
@@ -4085,9 +4070,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-16.jpg",
-      "image_filename": "2026-06-16.jpg",
-      "image_path": "images/2026-06-16.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-26.jpg",
+      "image_filename": "2026-08-26.jpg",
+      "image_path": "images/2026-08-26.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "What is the relationship between outdoor time and physical activity, sedentary behaviour, and physical fitness in children? A systematic review",
@@ -4112,10 +4097,10 @@
       "practical_takeaway": "在安全范围里给孩子一点自由移动的空间，允许他们慢慢看、摸和尝试。",
       "topic": "户外活动",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-26",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-26",
       "date": "2026-08-26"
@@ -4132,9 +4117,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-17.jpg",
-      "image_filename": "2026-06-17.jpg",
-      "image_path": "images/2026-06-17.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-27.jpg",
+      "image_filename": "2026-08-27.jpg",
+      "image_path": "images/2026-08-27.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Parental socialization of emotion",
@@ -4154,10 +4139,10 @@
       "practical_takeaway": "先蹲下来降低音量，等孩子能看向你或点头后，再谈下一步怎么做。",
       "topic": "共同调节",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-27",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-27",
       "date": "2026-08-27"
@@ -4174,9 +4159,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-18.jpg",
-      "image_filename": "2026-06-18.jpg",
-      "image_path": "images/2026-06-18.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-28.jpg",
+      "image_filename": "2026-08-28.jpg",
+      "image_path": "images/2026-08-28.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "School readiness and self-regulation: A developmental psychobiological approach",
@@ -4195,10 +4180,10 @@
       "practical_takeaway": "玩一个简单轮流游戏，刻意放慢节奏，让等待本身也变成可练习的部分。",
       "topic": "执行功能",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-28",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-28",
       "date": "2026-08-28"
@@ -4215,9 +4200,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-19.jpg",
-      "image_filename": "2026-06-19.jpg",
-      "image_path": "images/2026-06-19.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-29.jpg",
+      "image_filename": "2026-08-29.jpg",
+      "image_path": "images/2026-08-29.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "The role of tutoring in problem solving",
@@ -4237,10 +4222,10 @@
       "practical_takeaway": "遇到难题时先示范一小步，再请孩子接下一步，最后逐渐减少提醒。",
       "topic": "脚手架支持",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "CvGxZHYGEas",
-        "photographer": "JIEUN KWON",
-        "url": "https://unsplash.com/photos/a-bird-flying-over-a-field-of-purple-flowers-CvGxZHYGEas"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-29",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-29",
       "date": "2026-08-29"
@@ -4257,9 +4242,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-20.jpg",
-      "image_filename": "2026-06-20.jpg",
-      "image_path": "images/2026-06-20.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-30.jpg",
+      "image_filename": "2026-08-30.jpg",
+      "image_path": "images/2026-08-30.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Bilingualism: consequences for mind and brain",
@@ -4279,10 +4264,10 @@
       "practical_takeaway": "孩子停顿时多等几秒，可以重复他的意思，再补上更清楚的表达。",
       "topic": "双语环境",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "XqwilBo1t5s",
-        "photographer": "Adam Hornyak",
-        "url": "https://unsplash.com/photos/white-flower-on-brown-grass-field-during-daytime-XqwilBo1t5s"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-30",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-30",
       "date": "2026-08-30"
@@ -4299,9 +4284,9 @@
         "en": "Parenting Insights",
         "ja": "育児リサーチ"
       },
-      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-06-22.jpg",
-      "image_filename": "2026-06-22.jpg",
-      "image_path": "images/2026-06-22.jpg",
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-08-31.jpg",
+      "image_filename": "2026-08-31.jpg",
+      "image_path": "images/2026-08-31.jpg",
       "image_name": "quotation_card_bg",
       "source": {
         "title": "Peer relationships and social competence during early and middle childhood",
@@ -4319,10 +4304,10 @@
       "practical_takeaway": "冲突后帮孩子说清“我想要”和“可以轮到谁”，再引导他们重新开始。",
       "topic": "同伴互动",
       "image_source": {
-        "provider": "Unsplash",
-        "id": "sZXlOY-dhJY",
-        "photographer": "Truong Tuyet Ly",
-        "url": "https://unsplash.com/photos/wildflowers-bloom-in-a-hazy-muted-landscape-at-dawn-sZXlOY-dhJY"
+        "provider": "OpenAI image generation",
+        "id": "generated-2026-08-31",
+        "usage": "original project background",
+        "text_free": true
       },
       "id": "2026-08-31",
       "date": "2026-08-31"

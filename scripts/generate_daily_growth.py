@@ -1,5 +1,6 @@
 import argparse
 import difflib
+import hashlib
 import json
 import os
 import random
@@ -258,7 +259,7 @@ def build_static_content_library(feed, size=STATIC_LIBRARY_SIZE):
     return library
 
 
-def publish_static_library_entry(feed, pool, date_id, library):
+def publish_static_library_entry(feed, pool, date_id, library, image_meta=None):
     used_ids = {
         item.get("library_source_id")
         for item in feed.get("quotes", [])
@@ -274,6 +275,25 @@ def publish_static_library_entry(feed, pool, date_id, library):
     entry = dict(library_item)
     entry["id"] = date_id
     entry["date"] = date_id
+    if image_meta is not None:
+        image_filename = f"{date_id}.jpg"
+        entry.update(
+            {
+                "image_url": f"{GITHUB_RAW_BASE}/{image_filename}",
+                "image_filename": image_filename,
+                "image_path": f"images/{image_filename}",
+                "image_name": "quotation_card_bg",
+                "image_source": {
+                    "provider": "Unsplash",
+                    "id": image_meta.get("unsplash_id"),
+                    "photographer": image_meta.get("unsplash_user"),
+                    "url": image_meta.get("unsplash_page"),
+                    "perceptual_hash": image_meta.get("perceptual_hash"),
+                    "width": image_meta.get("width"),
+                    "height": image_meta.get("height"),
+                },
+            }
+        )
     feed["quotes"].append(entry)
     feed["quotes"].sort(key=lambda item: item.get("date") or item.get("id") or "")
     feed["today_id"] = date_id
@@ -890,6 +910,8 @@ def validate_feed(feed):
 
     seen_ids = set()
     seen_quotes = {}
+    seen_image_filenames = {}
+    seen_image_hashes = {}
     for item in feed.get("quotes", []):
         item_id = item.get("id")
         if not item_id:
@@ -918,6 +940,21 @@ def validate_feed(feed):
             raise RuntimeError(
                 f"Feed item {item_id} points to missing image: {image_path}"
             )
+        previous_image_id = seen_image_filenames.get(image_filename)
+        if previous_image_id:
+            raise RuntimeError(
+                f"Duplicate image filename in {previous_image_id} and {item_id}: "
+                f"{image_filename}"
+            )
+        seen_image_filenames[image_filename] = item_id
+
+        image_hash = hashlib.sha256(image_path.read_bytes()).hexdigest()
+        previous_hash_id = seen_image_hashes.get(image_hash)
+        if previous_hash_id:
+            raise RuntimeError(
+                f"Identical image content in {previous_hash_id} and {item_id}."
+            )
+        seen_image_hashes[image_hash] = item_id
 
         source = item.get("source") or {}
         if item_id >= "2026-06-02" and not has_real_source(source):
@@ -1018,7 +1055,29 @@ def main():
     library = build_static_content_library(feed)
     entries = []
     for date_id in date_ids:
-        entries.append(publish_static_library_entry(feed, pool, date_id, library))
+        library_item = next(
+            item
+            for item in library
+            if item["library_source_id"]
+            not in {
+                quote.get("library_source_id")
+                for quote in feed.get("quotes", [])
+            }
+        )
+        image_meta = download_unsplash_image(
+            date_id=date_id,
+            image_query=library_item.get("topic") or DEFAULT_IMAGE_QUERY,
+            feed=feed,
+        )
+        entries.append(
+            publish_static_library_entry(
+                feed,
+                pool,
+                date_id,
+                library,
+                image_meta=image_meta,
+            )
+        )
 
     save_json(FEED_PATH, feed)
     save_json(POOL_PATH, pool)

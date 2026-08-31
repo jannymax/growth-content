@@ -129,6 +129,37 @@ class GenerateDailyGrowthTests(unittest.TestCase):
 
         self.assertEqual(entry["library_source_id"], "source:2")
 
+    def test_static_library_uses_fresh_daily_image_when_provided(self):
+        library = [
+            {
+                "library_source_id": "source:1",
+                "quote": {"zh-Hans": "第一条", "en": "First", "ja": "一つ目"},
+                "source": {"title": "Study", "year": 2025, "url": "https://example.org"},
+                "source_summary": "研究摘要",
+                "image_filename": "old.jpg",
+            }
+        ]
+        feed = {"quotes": []}
+        pool = {"items": []}
+        image_meta = {
+            "unsplash_id": "fresh-photo",
+            "perceptual_hash": "0123456789abcdef",
+        }
+
+        with mock.patch.object(growth, "validate_feed"), mock.patch.object(
+            growth, "validate_pool"
+        ):
+            entry = growth.publish_static_library_entry(
+                feed,
+                pool,
+                "2026-08-31",
+                library,
+                image_meta=image_meta,
+            )
+
+        self.assertEqual(entry["image_filename"], "2026-08-31.jpg")
+        self.assertEqual(entry["image_source"]["id"], "fresh-photo")
+
     def test_source_keys_include_paper_id_doi_title_and_url(self):
         paper = {
             "paperId": "abc123",
