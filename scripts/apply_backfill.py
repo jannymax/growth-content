@@ -1,3 +1,4 @@
+import argparse
 import copy
 import json
 from pathlib import Path
@@ -6,7 +7,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FEED_PATH = ROOT / "growth-feed.json"
 POOL_PATH = ROOT / "content_pool.json"
-BACKFILL_PATH = ROOT / "backfill_2026_08.json"
+DEFAULT_BACKFILL_PATH = ROOT / "backfill_2026_08.json"
+IMAGES_DIR = ROOT / "images"
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/jannymax/growth-content/main/images"
 
 
 def load(path):
@@ -21,9 +24,14 @@ def save(path, value):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("backfill", nargs="?", type=Path, default=DEFAULT_BACKFILL_PATH)
+    args = parser.parse_args()
+
     feed = load(FEED_PATH)
     pool = load(POOL_PATH)
-    backfill = load(BACKFILL_PATH)
+    backfill_path = args.backfill if args.backfill.is_absolute() else ROOT / args.backfill
+    backfill = load(backfill_path)
 
     by_id = {item["id"]: item for item in feed["quotes"]}
     existing_ids = set(by_id)
@@ -35,20 +43,29 @@ def main():
             continue
 
         source_item = by_id[curated["source_ref"]]
+        image_filename = f"{date_id}.jpg"
+        image_path = IMAGES_DIR / image_filename
+        if not image_path.exists():
+            raise RuntimeError(f"Missing backfill image: {image_path}")
         entry = {
             "id": date_id,
             "date": date_id,
             "quote": curated["quote"],
             "author": copy.deepcopy(source_item["author"]),
-            "image_url": source_item.get("image_url"),
-            "image_filename": source_item.get("image_filename"),
-            "image_path": source_item.get("image_path"),
+            "image_url": f"{GITHUB_RAW_BASE}/{image_filename}",
+            "image_filename": image_filename,
+            "image_path": f"images/{image_filename}",
             "image_name": source_item.get("image_name", "quotation_card_bg"),
             "source": copy.deepcopy(source_item["source"]),
             "source_summary": source_item["source_summary"],
             "practical_takeaway": curated["practical_takeaway"],
             "topic": curated["topic"],
-            "image_source": copy.deepcopy(source_item.get("image_source", {})),
+            "image_source": {
+                "provider": "OpenAI image generation",
+                "id": f"generated-{date_id}",
+                "usage": "original project background",
+                "text_free": True,
+            },
         }
         feed["quotes"].append(entry)
         existing_ids.add(date_id)
@@ -74,8 +91,9 @@ def main():
 
     feed["quotes"].sort(key=lambda item: item["date"])
     pool["items"].sort(key=lambda item: item.get("published_date") or item.get("created_at") or "")
-    feed["today_id"] = "2026-08-18"
-    feed["updated_at"] = "2026-08-18T00:00:00Z"
+    latest_date = max(item["date"] for item in feed["quotes"])
+    feed["today_id"] = latest_date
+    feed["updated_at"] = f"{latest_date}T00:00:00Z"
 
     save(FEED_PATH, feed)
     save(POOL_PATH, pool)

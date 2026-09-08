@@ -39,6 +39,8 @@ jobs:
         run: python scripts/generate_daily_growth.py --validate-only
 
       - name: Generate daily growth feed entry
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python scripts/generate_daily_growth.py
 
       - name: Commit directly to main

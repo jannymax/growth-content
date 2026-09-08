@@ -89,6 +89,13 @@ class GenerateDailyGrowthTests(unittest.TestCase):
         self.assertEqual(len(library), 90)
         self.assertEqual(len({item["library_source_id"] for item in library}), 90)
         self.assertTrue(all(item["quote"]["en"] for item in library))
+        self.assertGreater(
+            len({item["quote"]["zh-Hans"].split("：", 1)[0] for item in library[:10]}),
+            1,
+        )
+        self.assertFalse(
+            any(item["quote"]["zh-Hans"].startswith("今天可以留意") for item in library)
+        )
 
     def test_static_library_skips_already_published_item(self):
         library = [

@@ -215,19 +215,38 @@ def build_static_content_library(feed, size=STATIC_LIBRARY_SIZE):
 
     styles = [
         {
-            "zh-Hans": "今天可以留意：{}",
-            "en": "A thought to notice today: {}",
-            "ja": "今日、心に留めたいこと：{}",
+            "zh-Hans": "一个值得记住的观察是：{}",
+            "en": "One observation worth remembering: {}",
+            "ja": "覚えておきたい一つの視点：{}",
         },
         {
             "zh-Hans": "换个角度看：{}",
             "en": "Another way to see it: {}",
             "ja": "別の角度から見ると：{}",
         },
+        {
+            "zh-Hans": "研究提醒我们：{}",
+            "en": "Research offers this reminder: {}",
+            "ja": "研究からのヒント：{}",
+        },
+        {
+            "zh-Hans": "日常里常被忽略的一点是：{}",
+            "en": "One easily missed part of daily life: {}",
+            "ja": "日常で見落としやすいこと：{}",
+        },
+        {
+            "zh-Hans": "不妨这样理解：{}",
+            "en": "It may help to see it this way: {}",
+            "ja": "こんなふうに捉えてみると：{}",
+        },
     ]
     library = []
-    for style_index, style in enumerate(styles):
-        for source in candidates:
+    round_index = 0
+    while len(library) < size:
+        added_this_round = 0
+        for source_index, source in enumerate(candidates):
+            style_index = (source_index + round_index) % len(styles)
+            style = styles[style_index]
             source_quote = source["quote"]
             library.append(
                 {
@@ -248,8 +267,12 @@ def build_static_content_library(feed, size=STATIC_LIBRARY_SIZE):
                     "image_source": source.get("image_source", {}),
                 }
             )
+            added_this_round += 1
             if len(library) == size:
                 return library
+        if not added_this_round:
+            break
+        round_index += 1
 
     if len(library) < size:
         raise RuntimeError(
