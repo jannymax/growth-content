@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-08T00:00:00Z",
-  "today_id": "2026-09-08",
+  "updated_at": "2026-09-08T23:42:51Z",
+  "today_id": "2026-09-09",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -4648,6 +4648,54 @@
         "usage": "original project background",
         "text_free": true
       }
+    },
+    {
+      "library_source_id": "2026-06-07:2",
+      "quote": {
+        "zh-Hans": "换个角度看：同一件玩具被孩子反复赋予新角色时，他们也在练习想象、规则转换和灵活表达。",
+        "en": "Another way to see it: When children give the same toy new roles again and again, they practice imagination, rule shifting, and flexible expression.",
+        "ja": "別の角度から見ると：同じおもちゃに何度も新しい役割を与える中で、子どもは想像力やルールの切り替え、柔軟な表現を練習しています。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-09.jpg",
+      "image_filename": "2026-09-09.jpg",
+      "image_path": "images/2026-09-09.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "The impact of pretend play on children's development: A review of the evidence",
+        "year": 2013,
+        "url": "https://doi.org/10.1037/a0029321",
+        "authors": [
+          "Angeline S. Lillard",
+          "Matthew D. Lerner",
+          "Emily J. Hopkins",
+          "Rebecca A. Dore",
+          "Eric D. Smith",
+          "Carolyn M. Palmquist"
+        ],
+        "venue": "Psychological Bulletin",
+        "externalIds": {
+          "DOI": "10.1037/a0029321"
+        }
+      },
+      "source_summary": "这篇综述评估假装游戏与语言、社会理解、情绪和执行功能等发展的证据。作者强调证据强弱并不一致，不能把游戏神化；但假装游戏确实提供了一个低压力场景，让孩子练习符号替代、规则转换和从他人角度理解情境。",
+      "practical_takeaway": "拿同一个玩具连续换三种玩法，让孩子决定下一轮规则。",
+      "topic": "创造力",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "dOpqdH5Ksds",
+        "photographer": "Pawel Czerwinski",
+        "url": "https://unsplash.com/photos/abstract-skyline-comprised-of-cylinders-and-lines-dOpqdH5Ksds",
+        "perceptual_hash": "408021f2b2820005",
+        "width": 6000,
+        "height": 9000
+      },
+      "id": "2026-09-09",
+      "date": "2026-09-09"
     }
   ]
 }
