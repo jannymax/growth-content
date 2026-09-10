@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-08T23:42:51Z",
-  "today_id": "2026-09-09",
+  "updated_at": "2026-09-10T23:27:10Z",
+  "today_id": "2026-09-11",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -4696,6 +4696,100 @@
       },
       "id": "2026-09-09",
       "date": "2026-09-09"
+    },
+    {
+      "library_source_id": "2026-06-11:3",
+      "quote": {
+        "zh-Hans": "研究提醒我们：孩子把积木当电话、把纸盒当房子时，并不只是玩闹，也是在练习符号、语言和换位思考。",
+        "en": "Research offers this reminder: When children turn blocks into phones or boxes into houses, they are practicing symbols, language, and perspective taking.",
+        "ja": "研究からのヒント：積み木を電話に、箱を家に見立てる遊びは、記号や言葉、相手の視点を練習する時間でもあります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-10.jpg",
+      "image_filename": "2026-09-10.jpg",
+      "image_path": "images/2026-09-10.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "The impact of pretend play on children's development: A review of the evidence",
+        "year": 2013,
+        "url": "https://doi.org/10.1037/a0029321",
+        "authors": [
+          "Angeline S. Lillard",
+          "Matthew D. Lerner",
+          "Emily J. Hopkins",
+          "Rebecca A. Dore",
+          "Eric D. Smith",
+          "Carolyn M. Palmquist"
+        ],
+        "venue": "Psychological Bulletin",
+        "externalIds": {
+          "DOI": "10.1037/a0029321"
+        }
+      },
+      "source_summary": "这篇综述评估假装游戏与语言、社会理解、情绪和执行功能等发展的证据。作者强调证据强弱并不一致，不能把游戏神化；但假装游戏确实提供了一个低压力场景，让孩子练习符号替代、规则转换和从他人角度理解情境。",
+      "practical_takeaway": "今天可以把一个普通物品交给孩子，问它还能变成什么，并顺着孩子的设定玩一小会儿。",
+      "topic": "游戏学习",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "WHdC7jqTRlQ",
+        "photographer": "Pramod Tiwari",
+        "url": "https://unsplash.com/photos/a-white-square-with-a-hole-in-it-WHdC7jqTRlQ",
+        "perceptual_hash": "bfbf78e0e0e0e975",
+        "width": 3240,
+        "height": 4050
+      },
+      "id": "2026-09-10",
+      "date": "2026-09-10"
+    },
+    {
+      "library_source_id": "2026-06-12:4",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：共读时偶尔停下来问“你觉得接下来会怎样”，能把一本书变成孩子练习预测和表达的机会。",
+        "en": "One easily missed part of daily life: Pausing during shared reading to ask what might happen next turns a book into practice for prediction and expression.",
+        "ja": "日常で見落としやすいこと：読み聞かせの途中で「次はどうなるかな」と聞くと、本は予測や表現を練習する機会になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-11.jpg",
+      "image_filename": "2026-09-11.jpg",
+      "image_path": "images/2026-09-11.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Added Value of Dialogic Parent-Child Book Readings: A Meta-Analysis",
+        "year": 2008,
+        "url": "https://doi.org/10.1080/10409280701838603",
+        "authors": [
+          "Suzanne E. Mol",
+          "Adriana G. Bus",
+          "Maria T. de Jong",
+          "Daisy J. H. Smeets"
+        ],
+        "venue": "Early Education and Development",
+        "externalIds": {
+          "DOI": "10.1080/10409280701838603"
+        }
+      },
+      "source_summary": "这项元分析关注对话式亲子共读，比较成人提问、回应和扩展语言对儿童语言发展的作用。研究显示，共读的价值不只在读完一本书，更在成人与孩子围绕图片、情节和预测展开互动，让孩子有机会练习表达和理解。",
+      "practical_takeaway": "共读时少考一点，多问一句“你怎么看出来的”，让孩子有时间说出自己的想法。",
+      "topic": "亲子共读",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "Uxqlfigh6oE",
+        "photographer": "Inside Weather",
+        "url": "https://unsplash.com/photos/black-and-brown-leather-padded-tub-sofa-Uxqlfigh6oE",
+        "perceptual_hash": "01191f19b98f0f0f",
+        "width": 10924,
+        "height": 16384
+      },
+      "id": "2026-09-11",
+      "date": "2026-09-11"
     }
   ]
 }
