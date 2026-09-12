@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-11T23:34:54Z",
-  "today_id": "2026-09-12",
+  "updated_at": "2026-09-12T23:28:03Z",
+  "today_id": "2026-09-13",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -4835,6 +4835,53 @@
       },
       "id": "2026-09-12",
       "date": "2026-09-12"
+    },
+    {
+      "library_source_id": "2026-06-15:2",
+      "quote": {
+        "zh-Hans": "换个角度看：少一点睡前刺激，多一点熟悉的安静步骤，孩子更容易把白天的兴奋慢慢放下。",
+        "en": "Another way to see it: Less stimulation and familiar quiet steps before bed help children ease from excitement into rest.",
+        "ja": "別の角度から見ると：寝る前の刺激を少し減らし、慣れた静かな手順を重ねると、興奮から休息へ移りやすくなります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-13.jpg",
+      "image_filename": "2026-09-13.jpg",
+      "image_path": "images/2026-09-13.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A nightly bedtime routine: impact on sleep in young children and maternal mood",
+        "year": 2009,
+        "url": "https://doi.org/10.1093/sleep/32.5.599",
+        "authors": [
+          "Jodi A. Mindell",
+          "Brett Kuhn",
+          "Daniel S. Lewin",
+          "Lisa J. Meltzer",
+          "Avi Sadeh"
+        ],
+        "venue": "Sleep",
+        "externalIds": {
+          "DOI": "10.1093/sleep/32.5.599"
+        }
+      },
+      "source_summary": "这项研究考察固定睡前流程对幼儿睡眠和母亲情绪的影响，关注洗漱、安静活动和上床等重复步骤。结果显示，规律的睡前流程与更平稳的入睡和夜间睡眠有关。家长可理解为：低刺激、可预期的收尾动作，有助于孩子完成状态切换。",
+      "practical_takeaway": "睡前半小时减少刺激活动，用洗漱、灯光变暗、固定故事帮助孩子过渡。",
+      "topic": "睡眠恢复",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "ooHiAngstSU",
+        "photographer": "José Ignacio Pompé",
+        "url": "https://unsplash.com/photos/a-man-riding-skis-down-a-snow-covered-slope-ooHiAngstSU",
+        "perceptual_hash": "04010007072d0305",
+        "width": 4000,
+        "height": 6000
+      },
+      "id": "2026-09-13",
+      "date": "2026-09-13"
     }
   ]
 }
