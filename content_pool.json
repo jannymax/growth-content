@@ -3409,6 +3409,34 @@
           "DOI": "10.1146/annurev.psych.50.1.333"
         }
       }
+    },
+    {
+      "id": "library_2026-09-19",
+      "status": "published",
+      "created_at": "2026-09-18T23:40:10Z",
+      "published_at": "2026-09-18T23:40:10Z",
+      "published_date": "2026-09-19",
+      "library_source_id": "2026-06-23:4",
+      "topic": "叙事能力",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：请孩子讲“先发生什么、后来怎样”，能帮助他们把记忆、因果和语言组织在一起。",
+        "en": "One easily missed part of daily life: Asking what happened first and what came next helps children organize memory, cause, and language together.",
+        "ja": "日常で見落としやすいこと：「最初に何があって、その後どうなったの」と聞くことは、記憶、因果、言葉をまとめる助けになります。"
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "睡前请孩子讲今天一件小事，只追问顺序和感受，不急着纠正细节。",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      }
     }
   ]
 }

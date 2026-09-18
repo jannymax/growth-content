@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-17T23:45:48Z",
-  "today_id": "2026-09-18",
+  "updated_at": "2026-09-18T23:40:10Z",
+  "today_id": "2026-09-19",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5109,6 +5109,49 @@
       },
       "id": "2026-09-18",
       "date": "2026-09-18"
+    },
+    {
+      "library_source_id": "2026-06-23:4",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：请孩子讲“先发生什么、后来怎样”，能帮助他们把记忆、因果和语言组织在一起。",
+        "en": "One easily missed part of daily life: Asking what happened first and what came next helps children organize memory, cause, and language together.",
+        "ja": "日常で見落としやすいこと：「最初に何があって、その後どうなったの」と聞くことは、記憶、因果、言葉をまとめる助けになります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-19.jpg",
+      "image_filename": "2026-09-19.jpg",
+      "image_path": "images/2026-09-19.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "睡前请孩子讲今天一件小事，只追问顺序和感受，不急着纠正细节。",
+      "topic": "叙事能力",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "8MrUiSlpmlQ",
+        "photographer": "Pawel Czerwinski",
+        "url": "https://unsplash.com/photos/a-close-up-of-a-white-object-on-a-gray-background-8MrUiSlpmlQ",
+        "perceptual_hash": "00707f67638499e6",
+        "width": 5600,
+        "height": 8400
+      },
+      "id": "2026-09-19",
+      "date": "2026-09-19"
     }
   ]
 }
