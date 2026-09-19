@@ -3437,6 +3437,34 @@
           "DOI": "10.1111/j.1467-8624.2012.01805.x"
         }
       }
+    },
+    {
+      "id": "library_2026-09-20",
+      "status": "published",
+      "created_at": "2026-09-19T23:40:28Z",
+      "published_at": "2026-09-19T23:40:28Z",
+      "published_date": "2026-09-20",
+      "library_source_id": "2026-06-25:5",
+      "topic": "好奇心",
+      "quote": {
+        "zh-Hans": "不妨这样理解：面对孩子连续追问“为什么”，先承认问题有意思，再一起找线索，会保护他们的探索劲头。",
+        "en": "It may help to see it this way: When children ask many whys, acknowledging the question and searching for clues together protects their curiosity.",
+        "ja": "こんなふうに捉えてみると：子どもの「どうして」に、まず面白い問いだと受け止め、一緒に手がかりを探すことは好奇心を守ります。"
+      },
+      "source_summary": "这篇教育研究文章讨论儿童好奇心在学校和学习中的位置，指出提问和探究常被课堂节奏压缩。它支持一个朴素观点：孩子的问题本身就是学习入口。成人认真回应问题，并一起寻找线索，能把好奇心保留在真实活动里。",
+      "practical_takeaway": "面对连续提问，可以说“我们找三个线索”，把追问变成共同观察。",
+      "source": {
+        "title": "Children's need to know: Curiosity in schools",
+        "year": 2011,
+        "url": "https://doi.org/10.17763/haer.81.4.h054131316473115",
+        "authors": [
+          "Susan Engel"
+        ],
+        "venue": "Harvard Educational Review",
+        "externalIds": {
+          "DOI": "10.17763/haer.81.4.h054131316473115"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-18T23:40:10Z",
-  "today_id": "2026-09-19",
+  "updated_at": "2026-09-19T23:40:28Z",
+  "today_id": "2026-09-20",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5152,6 +5152,49 @@
       },
       "id": "2026-09-19",
       "date": "2026-09-19"
+    },
+    {
+      "library_source_id": "2026-06-25:5",
+      "quote": {
+        "zh-Hans": "不妨这样理解：面对孩子连续追问“为什么”，先承认问题有意思，再一起找线索，会保护他们的探索劲头。",
+        "en": "It may help to see it this way: When children ask many whys, acknowledging the question and searching for clues together protects their curiosity.",
+        "ja": "こんなふうに捉えてみると：子どもの「どうして」に、まず面白い問いだと受け止め、一緒に手がかりを探すことは好奇心を守ります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-20.jpg",
+      "image_filename": "2026-09-20.jpg",
+      "image_path": "images/2026-09-20.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Children's need to know: Curiosity in schools",
+        "year": 2011,
+        "url": "https://doi.org/10.17763/haer.81.4.h054131316473115",
+        "authors": [
+          "Susan Engel"
+        ],
+        "venue": "Harvard Educational Review",
+        "externalIds": {
+          "DOI": "10.17763/haer.81.4.h054131316473115"
+        }
+      },
+      "source_summary": "这篇教育研究文章讨论儿童好奇心在学校和学习中的位置，指出提问和探究常被课堂节奏压缩。它支持一个朴素观点：孩子的问题本身就是学习入口。成人认真回应问题，并一起寻找线索，能把好奇心保留在真实活动里。",
+      "practical_takeaway": "面对连续提问，可以说“我们找三个线索”，把追问变成共同观察。",
+      "topic": "好奇心",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "0BVkO0t6oCE",
+        "photographer": "Ian Keefe",
+        "url": "https://unsplash.com/photos/white-and-pink-sky-over-the-sea-0BVkO0t6oCE",
+        "perceptual_hash": "40000000000480c0",
+        "width": 3806,
+        "height": 5709
+      },
+      "id": "2026-09-20",
+      "date": "2026-09-20"
     }
   ]
 }
