@@ -3465,6 +3465,35 @@
           "DOI": "10.17763/haer.81.4.h054131316473115"
         }
       }
+    },
+    {
+      "id": "library_2026-09-21",
+      "status": "published",
+      "created_at": "2026-09-20T23:37:44Z",
+      "published_at": "2026-09-20T23:37:44Z",
+      "published_date": "2026-09-21",
+      "library_source_id": "2026-06-26:1",
+      "topic": "自主选择",
+      "quote": {
+        "zh-Hans": "一个值得记住的观察是：给孩子两个都可接受的选择，能让他们在边界清楚的情况下练习做决定和承担结果。",
+        "en": "One observation worth remembering: Offering two acceptable choices lets children practice decision-making and consequences within clear boundaries.",
+        "ja": "覚えておきたい一つの視点：どちらも受け入れられる二つの選択肢を出すと、境界の中で決める練習ができます。"
+      },
+      "source_summary": "这项研究讨论父母风格与儿童自我调节和学校能力之间的关系，重点是自主支持、控制和能力感。研究提示，清楚边界内的选择能让孩子练习决定、计划和承担结果；自主支持不是放任，而是让孩子在可承受范围内参与行动。",
+      "practical_takeaway": "给两个你都能接受的选项，比如先刷牙还是先换睡衣，让孩子练习决定。",
+      "source": {
+        "title": "Parent styles associated with children's self-regulation and competence in school",
+        "year": 1989,
+        "url": "https://doi.org/10.1037/0022-0663.81.2.143",
+        "authors": [
+          "Wendy S. Grolnick",
+          "Richard M. Ryan"
+        ],
+        "venue": "Journal of Educational Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-0663.81.2.143"
+        }
+      }
     }
   ]
 }
