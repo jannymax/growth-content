@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-20T23:37:44Z",
-  "today_id": "2026-09-21",
+  "updated_at": "2026-09-22T00:18:58Z",
+  "today_id": "2026-09-22",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5239,6 +5239,49 @@
       },
       "id": "2026-09-21",
       "date": "2026-09-21"
+    },
+    {
+      "library_source_id": "2026-06-27:2",
+      "quote": {
+        "zh-Hans": "换个角度看：一起搭一座会倒的塔，孩子学到的不只是结构，还有等待、协商和失败后再试一次。",
+        "en": "Another way to see it: Building a tower that may fall teaches not only structure, but waiting, negotiation, and trying again after failure.",
+        "ja": "別の角度から見ると：倒れるかもしれない塔を一緒に作る中で、構造だけでなく、待つこと、相談すること、再挑戦も学びます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-22.jpg",
+      "image_filename": "2026-09-22.jpg",
+      "image_path": "images/2026-09-22.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Peer relationships and social competence during early and middle childhood",
+        "year": 1999,
+        "url": "https://doi.org/10.1146/annurev.psych.50.1.333",
+        "authors": [
+          "Gary W. Ladd"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.psych.50.1.333"
+        }
+      },
+      "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
+      "practical_takeaway": "一起搭积木时留一点难度，倒了之后让孩子想一个新办法。",
+      "topic": "合作游戏",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "iEKg9h5_hd4",
+        "photographer": "Hans",
+        "url": "https://unsplash.com/photos/dark-teal-night-sky-with-stars-iEKg9h5_hd4",
+        "perceptual_hash": "060f1f3d03030700",
+        "width": 3024,
+        "height": 4032
+      },
+      "id": "2026-09-22",
+      "date": "2026-09-22"
     }
   ]
 }
