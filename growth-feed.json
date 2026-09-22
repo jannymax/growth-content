@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T00:18:58Z",
-  "today_id": "2026-09-22",
+  "updated_at": "2026-09-22T23:52:37Z",
+  "today_id": "2026-09-23",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5282,6 +5282,51 @@
       },
       "id": "2026-09-22",
       "date": "2026-09-22"
+    },
+    {
+      "library_source_id": "2026-06-28:3",
+      "quote": {
+        "zh-Hans": "研究提醒我们：屏幕内容若能被大人陪着讨论和连接到生活，比孩子独自快速刷过更容易留下理解。",
+        "en": "Research offers this reminder: Screen content is more likely to become understanding when adults discuss it and connect it to life.",
+        "ja": "研究からのヒント：画面の内容は、大人が一緒に話し生活と結びつけることで、ただ流し見るより理解につながりやすくなります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-23.jpg",
+      "image_filename": "2026-09-23.jpg",
+      "image_path": "images/2026-09-23.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Media and young children’s learning",
+        "year": 2008,
+        "url": "https://doi.org/10.1353/foc.0.0002",
+        "authors": [
+          "Heather L. Kirkorian",
+          "Ellen A. Wartella",
+          "Daniel R. Anderson"
+        ],
+        "venue": "The Future of Children",
+        "externalIds": {
+          "DOI": "10.1353/foc.0.0002"
+        }
+      },
+      "source_summary": "这篇综述讨论年轻儿童从媒体中学习的条件，强调年龄、内容质量、重复观看和成人陪伴都会影响学习效果。研究不主张屏幕本身能替代互动；更稳妥的理解是，成人把屏幕内容连接到现实经验时，孩子更容易理解和迁移。",
+      "practical_takeaway": "看完一小段内容后，问孩子里面有什么和今天生活相似。",
+      "topic": "屏幕使用",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "6pZezVqzRVo",
+        "photographer": "Pawel Czerwinski",
+        "url": "https://unsplash.com/photos/the-shadow-of-a-palm-tree-on-a-wall-6pZezVqzRVo",
+        "perceptual_hash": "694ef239189a9a9e",
+        "width": 5600,
+        "height": 8400
+      },
+      "id": "2026-09-23",
+      "date": "2026-09-23"
     }
   ]
 }
