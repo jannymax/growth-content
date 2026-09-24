@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T23:52:37Z",
-  "today_id": "2026-09-23",
+  "updated_at": "2026-09-24T00:02:03Z",
+  "today_id": "2026-09-24",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5327,6 +5327,50 @@
       },
       "id": "2026-09-23",
       "date": "2026-09-23"
+    },
+    {
+      "library_source_id": "2026-06-29:4",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：称赞孩子“你试了好几种办法”，比只说“真聪明”更能把注意力放回努力和策略。",
+        "en": "One easily missed part of daily life: Praising “you tried several ways” can return attention to effort and strategy more than simply saying “smart.”",
+        "ja": "日常で見落としやすいこと：「いくつも方法を試したね」と伝えると、「賢いね」だけより努力や工夫に目を向けやすくなります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-24.jpg",
+      "image_filename": "2026-09-24.jpg",
+      "image_path": "images/2026-09-24.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Praise for intelligence can undermine children's motivation and performance",
+        "year": 1998,
+        "url": "https://doi.org/10.1037/0022-3514.75.1.33",
+        "authors": [
+          "Claudia M. Mueller",
+          "Carol S. Dweck"
+        ],
+        "venue": "Journal of Personality and Social Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-3514.75.1.33"
+        }
+      },
+      "source_summary": "这项实验研究比较称赞聪明和称赞努力对儿童动机与表现的影响。结果显示，强调智力的表扬会让部分孩子更回避挑战；关注努力、策略和调整，更能把注意力放在可改变的过程上。日常反馈越具体，越容易支持继续尝试。",
+      "practical_takeaway": "孩子完成任务后，具体说出他尝试过的方法，而不只评价结果。",
+      "topic": "学习动机",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "buBw_G9Kq28",
+        "photographer": "Christian Collado",
+        "url": "https://unsplash.com/photos/body-of-water-under-white-sky-during-daytime-buBw_G9Kq28",
+        "perceptual_hash": "0913073fdbd2f0c8",
+        "width": 2939,
+        "height": 3918
+      },
+      "id": "2026-09-24",
+      "date": "2026-09-24"
     }
   ]
 }
