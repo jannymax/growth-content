@@ -3581,6 +3581,34 @@
           "DOI": "10.1037/0022-3514.75.1.33"
         }
       }
+    },
+    {
+      "id": "library_2026-09-25",
+      "status": "published",
+      "created_at": "2026-09-25T00:05:49Z",
+      "published_at": "2026-09-25T00:05:49Z",
+      "published_date": "2026-09-25",
+      "library_source_id": "2026-07-01:5",
+      "topic": "家庭对话",
+      "quote": {
+        "zh-Hans": "不妨这样理解：饭桌上的闲聊、复盘和小玩笑，常常是孩子练习倾听、表达和理解他人想法的自然场景。",
+        "en": "It may help to see it this way: Mealtime chats, reflections, and small jokes are natural settings for listening, expression, and understanding others.",
+        "ja": "こんなふうに捉えてみると：食卓での会話や振り返り、小さな冗談は、聞く力、表現、他者理解を練習する自然な場になります。"
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "吃饭时轮流分享一件今天的小事，让孩子练习听完再回应。",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      }
     }
   ]
 }

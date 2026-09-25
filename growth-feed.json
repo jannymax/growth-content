@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-24T00:02:03Z",
-  "today_id": "2026-09-24",
+  "updated_at": "2026-09-25T00:05:49Z",
+  "today_id": "2026-09-25",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5371,6 +5371,49 @@
       },
       "id": "2026-09-24",
       "date": "2026-09-24"
+    },
+    {
+      "library_source_id": "2026-07-01:5",
+      "quote": {
+        "zh-Hans": "不妨这样理解：饭桌上的闲聊、复盘和小玩笑，常常是孩子练习倾听、表达和理解他人想法的自然场景。",
+        "en": "It may help to see it this way: Mealtime chats, reflections, and small jokes are natural settings for listening, expression, and understanding others.",
+        "ja": "こんなふうに捉えてみると：食卓での会話や振り返り、小さな冗談は、聞く力、表現、他者理解を練習する自然な場になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-25.jpg",
+      "image_filename": "2026-09-25.jpg",
+      "image_path": "images/2026-09-25.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "吃饭时轮流分享一件今天的小事，让孩子练习听完再回应。",
+      "topic": "家庭对话",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "0sGIBwxN7ak",
+        "photographer": "Point Normal",
+        "url": "https://unsplash.com/photos/a-blue-room-with-a-chair-and-a-picture-frame-0sGIBwxN7ak",
+        "perceptual_hash": "7f7777cdc3ffffff",
+        "width": 2500,
+        "height": 3500
+      },
+      "id": "2026-09-25",
+      "date": "2026-09-25"
     }
   ]
 }
