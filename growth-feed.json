@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-25T00:05:49Z",
-  "today_id": "2026-09-25",
+  "updated_at": "2026-09-26T00:12:09Z",
+  "today_id": "2026-09-26",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5414,6 +5414,51 @@
       },
       "id": "2026-09-25",
       "date": "2026-09-25"
+    },
+    {
+      "library_source_id": "2026-07-02:1",
+      "quote": {
+        "zh-Hans": "一个值得记住的观察是：拍手、哼唱和跟着节奏停下来，能让孩子在轻松互动里练听觉注意和身体控制。",
+        "en": "One observation worth remembering: Clapping, humming, and stopping with rhythm let children practice auditory attention and body control through easy interaction.",
+        "ja": "覚えておきたい一つの視点：手拍子、鼻歌、リズムに合わせて止まる遊びは、聞く注意と体のコントロールを楽しく支えます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-26.jpg",
+      "image_filename": "2026-09-26.jpg",
+      "image_path": "images/2026-09-26.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Active music classes in infancy enhance musical, communicative and social development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-7687.2012.01142.x",
+        "authors": [
+          "Dana W. Gerry",
+          "Andrea Unrau",
+          "Laurel J. Trainor"
+        ],
+        "venue": "Developmental Science",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-7687.2012.01142.x"
+        }
+      },
+      "source_summary": "这项研究比较婴幼儿主动音乐课程和被动音乐体验，关注音乐、沟通和社会发展。结果显示，主动参与节奏、动作和声音互动的孩子，在相关测量上表现更积极。家庭中的拍手、停顿和跟随节奏，能提供听觉注意与身体控制练习。",
+      "practical_takeaway": "拍一个简单节奏，让孩子跟着停和走，时间短也可以。",
+      "topic": "音乐节奏",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "rZTfhj6fBUg",
+        "photographer": "Steve A Johnson",
+        "url": "https://unsplash.com/photos/background-pattern-rZTfhj6fBUg",
+        "perceptual_hash": "1818183040808000",
+        "width": 3240,
+        "height": 5760
+      },
+      "id": "2026-09-26",
+      "date": "2026-09-26"
     }
   ]
 }
