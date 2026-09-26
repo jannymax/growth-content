@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26T00:12:09Z",
-  "today_id": "2026-09-26",
+  "updated_at": "2026-09-26T23:56:47Z",
+  "today_id": "2026-09-27",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5459,6 +5459,50 @@
       },
       "id": "2026-09-26",
       "date": "2026-09-26"
+    },
+    {
+      "library_source_id": "2026-07-03:2",
+      "quote": {
+        "zh-Hans": "换个角度看：在树荫下观察蚂蚁或云的变化，能把孩子的注意力慢慢拉长，也给情绪一个缓冲。",
+        "en": "Another way to see it: Watching ants or changing clouds under trees can gently lengthen attention and give emotions a buffer.",
+        "ja": "別の角度から見ると：木陰でアリや雲の変化を見る時間は、注意をゆっくり伸ばし、気持ちにも余白を作ります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-27.jpg",
+      "image_filename": "2026-09-27.jpg",
+      "image_path": "images/2026-09-27.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A potential natural treatment for attention-deficit/hyperactivity disorder: evidence from a national study",
+        "year": 2004,
+        "url": "https://doi.org/10.2105/AJPH.94.9.1580",
+        "authors": [
+          "Frances E. Kuo",
+          "Andrea Faber Taylor"
+        ],
+        "venue": "American Journal of Public Health",
+        "externalIds": {
+          "DOI": "10.2105/AJPH.94.9.1580"
+        }
+      },
+      "source_summary": "这项研究考察自然环境接触与儿童注意表现之间的关系，尤其关注有注意困难儿童的户外活动。研究不能说明自然环境能替代专业支持，但提示绿地和自然场景与注意恢复有关。短时间观察自然变化，也能为孩子提供较少干扰的专注环境。",
+      "practical_takeaway": "找一处树荫或窗边，和孩子观察同一个小变化一分钟。",
+      "topic": "自然接触",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "tnydtQWIr0c",
+        "photographer": "Pawel Czerwinski",
+        "url": "https://unsplash.com/photos/geometric-shapes-create-an-abstract-minimalist-composition-tnydtQWIr0c",
+        "perceptual_hash": "3a1b1eb3b398b7bf",
+        "width": 6000,
+        "height": 9000
+      },
+      "id": "2026-09-27",
+      "date": "2026-09-27"
     }
   ]
 }
