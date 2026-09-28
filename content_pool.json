@@ -3668,6 +3668,48 @@
           "DOI": "10.2105/AJPH.94.9.1580"
         }
       }
+    },
+    {
+      "id": "library_2026-09-28",
+      "status": "published",
+      "created_at": "2026-09-28T00:02:03Z",
+      "published_at": "2026-09-28T00:02:03Z",
+      "published_date": "2026-09-28",
+      "library_source_id": "2026-07-04:3",
+      "topic": "自主性支持与执行功能",
+      "quote": {
+        "zh-Hans": "研究提醒我们：让孩子先自己想办法，再给一点提示，能把一次小困难变成练习工作记忆和灵活调整的机会。",
+        "en": "Research offers this reminder: Letting children try first, then offering a small cue, turns a hard moment into practice for memory and flexible adjustment.",
+        "ja": "研究からのヒント：子どもが先に試し、その後で少し手がかりを出すと、小さな困難が記憶と柔軟な調整の練習になります。"
+      },
+      "source_summary": "研究探讨了支持自主性养育（ASP）对学龄前儿童执行功能（EF）和母亲养育技能的影响。执行功能包括工作记忆、抑制控制和认知灵活性。通过两项初步研究发现，参与四次2小时的ASP干预培训后，母亲的养育技能和孩子的执行功能均有所提升。研究强调了针对性养育支持对儿童发展和家长技能的重要性。摘要未说明样本规模或具体效果量，需谨慎理解。",
+      "practical_takeaway": "孩子卡住时先等几秒，再给一个很小的提示，例如“你已经试过哪一步了”。",
+      "source": {
+        "paperId": "a95bfe0a3516e0c5976df5b1b948979baacef000",
+        "title": "The effectiveness of an autonomy-supportive parenting intervention for enhancing maternal parenting skills and executive functioning among preschool-aged children: two preliminary studies.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/a95bfe0a3516e0c5976df5b1b948979baacef000",
+        "citationCount": 0,
+        "authors": [
+          "Donny Hendrawan",
+          "Rahmah Nurul Hayya",
+          "Farras Syazwani",
+          "Keiko Anarizki Adisya Fahira",
+          "Mawla Atqiyya Muhdiar",
+          "Nisrina Putri Anandiva"
+        ],
+        "venue": "Child Neuropsychology: A Journal of Normal and Abnormal Development in Childhood and Adolescence",
+        "publicationDate": "2026-02-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.1080/09297049.2025.2612025",
+          "CorpusId": 285258911,
+          "PubMed": "41622938"
+        },
+        "search_query": "executive function child development parenting intervention"
+      }
     }
   ]
 }
