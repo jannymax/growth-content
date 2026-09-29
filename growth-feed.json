@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T00:02:03Z",
-  "today_id": "2026-09-28",
+  "updated_at": "2026-09-29T01:19:05Z",
+  "today_id": "2026-09-29",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5560,6 +5560,62 @@
       },
       "id": "2026-09-28",
       "date": "2026-09-28"
+    },
+    {
+      "library_source_id": "2026-07-05:4",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：孩子学着表达情绪时，父母稳定、温暖的回应，会让这种练习更容易在日常互动中持续下去。",
+        "en": "One easily missed part of daily life: When children practice expressing emotions, steady and warm responses help that practice continue in everyday interaction.",
+        "ja": "日常で見落としやすいこと：子どもが感情を表す練習をしている時、安定した温かな応答は、その練習を日常の中で続けやすくします。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-09-29.jpg",
+      "image_filename": "2026-09-29.jpg",
+      "image_path": "images/2026-09-29.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "title": "Unraveling the dynamics of emotional regulation and parental warmth across early childhood: prediction of later behavioral problems",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "citationCount": 6,
+        "authors": [
+          "Aimé Isdahl-Troye",
+          "Paula Villar",
+          "María Álvarez-Voces",
+          "Estrella Romero"
+        ],
+        "venue": "Scientific Reports",
+        "publicationDate": "2025-07-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12222833",
+          "DOI": "10.1038/s41598-025-06846-5",
+          "CorpusId": 279862145,
+          "PubMed": "40604066"
+        },
+        "search_query": "early childhood development parenting longitudinal study"
+      },
+      "source_summary": "这项研究分析了儿童情绪调节能力和父母温暖互动的双向关系，以及它们如何预测学龄期的行为问题。研究基于 2,341 名 3–10 岁儿童的数据，发现孩子的情绪能力和父母的温暖互动会互相影响，并且这种相互作用对孩子的行为发展有长期影响。研究强调了情绪调节与父母温暖在预防儿童内化和外化行为问题中的重要性。",
+      "practical_takeaway": "孩子说不清情绪时，先复述你看到的事实和感受，再一起讨论下一步。",
+      "topic": "情绪调节与父母温暖的双向作用",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "5NMocGI_hZo",
+        "photographer": "Carmen Alarcón",
+        "url": "https://unsplash.com/photos/pink-and-white-round-illustration-5NMocGI_hZo",
+        "perceptual_hash": "0000808b47264000",
+        "width": 2160,
+        "height": 3840
+      },
+      "id": "2026-09-29",
+      "date": "2026-09-29"
     }
   ]
 }
