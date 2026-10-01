@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30T00:48:05Z",
-  "today_id": "2026-09-30",
+  "updated_at": "2026-10-01T00:52:25Z",
+  "today_id": "2026-10-01",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -5674,6 +5674,63 @@
       },
       "id": "2026-09-30",
       "date": "2026-09-30"
+    },
+    {
+      "library_source_id": "2026-07-07:1",
+      "quote": {
+        "zh-Hans": "一个值得记住的观察是：父母看懂孩子的表情和动作，并给出及时回应，会让亲子互动更清楚，也让情绪表达更容易被练习。",
+        "en": "One observation worth remembering: Reading a child’s expressions and responding in time makes interaction clearer and gives emotional expression more practice.",
+        "ja": "覚えておきたい一つの視点：子どもの表情や動きを読み取り、タイミングよく応答すると、親子のやり取りが明確になり、感情表現も練習しやすくなります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-01.jpg",
+      "image_filename": "2026-10-01.jpg",
+      "image_path": "images/2026-10-01.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "3f3b47eb9cb03f1486d7a9cff9b64d4379810f06",
+        "title": "Effectiveness of the ATTACH™ program on Indigenous parents and their children exposed to intergenerational stress: pilot findings.",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/3f3b47eb9cb03f1486d7a9cff9b64d4379810f06",
+        "citationCount": 0,
+        "authors": [
+          "Kiri M Dean",
+          "J. Hart",
+          "Heather Bensler",
+          "Cheryle Chagnon-Greyeyes",
+          "Michelle Scott Paul",
+          "Nicole L Letourneau"
+        ],
+        "venue": "Canadian journal of public health",
+        "publicationDate": "2026-02-10",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "DOI": "10.17269/s41997-026-01157-2",
+          "CorpusId": 285468291,
+          "PubMed": "41667754"
+        },
+        "search_query": "secure attachment child development parenting study"
+      },
+      "source_summary": "这项研究评估了 ATTACH™ 项目对经历代际压力的原住民家庭的影响。该项目旨在通过提升父母的反思能力和亲子互动质量，改善儿童发展结果。研究发现，参与项目的父母在反思能力和亲子互动质量上有显著提升，尤其是在理解和回应孩子情绪线索方面。由于样本量较小（17 对家庭），结果需谨慎解读，但表明该干预对高风险家庭具有潜在益处。",
+      "practical_takeaway": "今天留意孩子一个表情或动作，用点头、简短回应或复述，确认你理解了他的意思。",
+      "topic": "亲子互动与情感表达",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "gvCoiGy_-Co",
+        "photographer": "Mathias Reding",
+        "url": "https://unsplash.com/photos/birds-on-shore-under-cloudy-sky-during-daytime-gvCoiGy_-Co",
+        "perceptual_hash": "0100180e1f1f3100",
+        "width": 3365,
+        "height": 5048
+      },
+      "id": "2026-10-01",
+      "date": "2026-10-01"
     }
   ]
 }
