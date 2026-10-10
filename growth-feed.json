@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T01:30:32Z",
-  "today_id": "2026-10-09",
+  "updated_at": "2026-10-10T01:20:21Z",
+  "today_id": "2026-10-10",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -6171,6 +6171,64 @@
       },
       "id": "2026-10-09",
       "date": "2026-10-09"
+    },
+    {
+      "library_source_id": "2026-07-16:5",
+      "quote": {
+        "zh-Hans": "不妨这样理解：父母间的互动会影响彼此的育儿敏感度，温暖的交流能为家庭提供更稳定的支持。",
+        "en": "It may help to see it this way: Parents' interactions can influence each other's sensitivity in caregiving, fostering a more stable family environment.",
+        "ja": "こんなふうに捉えてみると：親同士の交流は育児の感受性に影響を与え、家庭に安定した支えをもたらします。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-10.jpg",
+      "image_filename": "2026-10-10.jpg",
+      "image_path": "images/2026-10-10.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "b8a3b3b145a83c4a6b7cb19fdb16a5d0e9521768",
+        "title": "One and one makes three—mothers' and fathers' attachment, mentalizing and parenting sensitivity",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/b8a3b3b145a83c4a6b7cb19fdb16a5d0e9521768",
+        "citationCount": 3,
+        "authors": [
+          "Selina Ismair",
+          "Antonia Dinzinger",
+          "Gabriela Markova",
+          "Jonas Schropp",
+          "K. Brisch",
+          "Wolfgang Sperl"
+        ],
+        "venue": "Frontiers in Psychology",
+        "publicationDate": "2025-07-11",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12289603",
+          "DOI": "10.3389/fpsyg.2025.1582698",
+          "CorpusId": 280121945,
+          "PubMed": "40718554"
+        },
+        "search_query": "secure attachment child development parenting study"
+      },
+      "source_summary": "这项2025年的研究探讨了母亲和父亲的依恋表征及反思功能（RF）如何在家庭系统中相互影响对方的育儿敏感度。研究发现，父亲的育儿反思功能会中介母亲的反思功能与父亲育儿敏感度之间的关系，但父亲的反思功能未影响母亲的敏感度。研究样本为40个首次育儿的家庭，采用了多方法纵向设计。由于样本较小且缺乏因果推断，结果需谨慎解读，但强调了家庭干预中关注双亲反思能力的重要性。",
+      "practical_takeaway": "父母间多进行温暖、开放的交流，能为彼此的育儿敏感度提供支持，也让家庭氛围更稳定。",
+      "topic": "家庭系统与育儿敏感度",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "_og8Eqj1kok",
+        "photographer": "Tom Barrett",
+        "url": "https://unsplash.com/photos/body-of-water-_og8Eqj1kok",
+        "perceptual_hash": "020204010307071f",
+        "width": 3981,
+        "height": 5971
+      },
+      "id": "2026-10-10",
+      "date": "2026-10-10"
     }
   ]
 }
