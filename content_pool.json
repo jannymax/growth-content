@@ -4199,6 +4199,47 @@
         },
         "search_query": "secure attachment child development parenting study"
       }
+    },
+    {
+      "id": "library_2026-10-11",
+      "status": "published",
+      "created_at": "2026-10-11T00:32:57Z",
+      "published_at": "2026-10-11T00:32:57Z",
+      "published_date": "2026-10-11",
+      "library_source_id": "2026-07-19:1",
+      "topic": "儿童情绪调节与认知控制",
+      "quote": {
+        "zh-Hans": "一个值得记住的观察是：孩子的情绪调节能力与认知控制有关，稳定的情绪和专注力能帮助他们更好地适应学习和社交挑战。",
+        "en": "One observation worth remembering: Children's emotion regulation is linked to cognitive control. Stable emotions and focus support better learning and social adjustment.",
+        "ja": "覚えておきたい一つの視点：子どもの感情調整能力は認知制御と関連しています。安定した感情と集中力は、学習や社会的適応を助けます。"
+      },
+      "source_summary": "这项研究通过多种方法和指标，探讨了儿童的情绪调节能力（ER）及其与认知控制、家庭风险因素和发展结果的关系。研究发现，情绪调节能力较好的儿童在智力、学术表现和社会行为方面表现更优。情绪调节能力较差的儿童可能在认知控制、学术成就和社交行为上面临更多挑战。研究强调了早期干预的重要性，但摘要未说明具体干预效果或方法。",
+      "practical_takeaway": "帮助孩子稳定情绪时，可以引导他们用语言表达感受，并通过简单任务练习专注力。",
+      "source": {
+        "paperId": "d538071989b9441ab6b9faa400378f20cad2e41e",
+        "title": "Emotion Regulation Profiles Using Multiple Components and Contexts: Correlates and Consequences From Early Childhood to Preadolescence",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/d538071989b9441ab6b9faa400378f20cad2e41e",
+        "citationCount": 1,
+        "authors": [
+          "Sujin Lee",
+          "Erna Chiu",
+          "Alaina Schreiner",
+          "Sheryl L. Olson"
+        ],
+        "venue": "Research on Child and Adolescent Psychopathology",
+        "publicationDate": "2026-03-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12953315",
+          "DOI": "10.1007/s10802-026-01441-2",
+          "CorpusId": 286214867,
+          "PubMed": "41772311"
+        },
+        "search_query": "children emotion development emotion understanding regulation longitudinal study"
+      }
     }
   ]
 }
