@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T00:11:45Z",
-  "today_id": "2026-10-21",
+  "updated_at": "2026-10-22T00:16:25Z",
+  "today_id": "2026-10-22",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -6835,6 +6835,49 @@
       },
       "id": "2026-10-21",
       "date": "2026-10-21"
+    },
+    {
+      "library_source_id": "2026-08-01:2",
+      "quote": {
+        "zh-Hans": "换个角度看：当孩子讲述一天里的小事，大人用“后来呢”继续听，会给词汇、顺序和因果表达更多练习。",
+        "en": "Another way to see it: When children recount a small event, an adult's gentle 'what happened next?' gives them more practice with vocabulary, sequence, and cause-and-effect language.",
+        "ja": "別の角度から見ると：子どもが一日の出来事を話すとき、大人が「その次は？」と聞くことは、語彙や順序、原因と結果を表す練習になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-22.jpg",
+      "image_filename": "2026-10-22.jpg",
+      "image_path": "images/2026-10-22.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "睡前请孩子讲一件小事，只用一两个问题帮他把顺序讲完。",
+      "topic": "语言发展",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "P584Nc8v78s",
+        "photographer": "Pawel Czerwinski",
+        "url": "https://unsplash.com/photos/a-close-up-of-a-white-egg-P584Nc8v78s",
+        "perceptual_hash": "cfcf9fbfdfcc191b",
+        "width": 4000,
+        "height": 6000
+      },
+      "id": "2026-10-22",
+      "date": "2026-10-22"
     }
   ]
 }

@@ -4640,6 +4640,34 @@
         },
         "search_query": "scaffolding learning children parent interaction study"
       }
+    },
+    {
+      "id": "library_2026-10-22",
+      "status": "published",
+      "created_at": "2026-10-22T00:16:25Z",
+      "published_at": "2026-10-22T00:16:25Z",
+      "published_date": "2026-10-22",
+      "library_source_id": "2026-08-01:2",
+      "topic": "语言发展",
+      "quote": {
+        "zh-Hans": "换个角度看：当孩子讲述一天里的小事，大人用“后来呢”继续听，会给词汇、顺序和因果表达更多练习。",
+        "en": "Another way to see it: When children recount a small event, an adult's gentle 'what happened next?' gives them more practice with vocabulary, sequence, and cause-and-effect language.",
+        "ja": "別の角度から見ると：子どもが一日の出来事を話すとき、大人が「その次は？」と聞くことは、語彙や順序、原因と結果を表す練習になります。"
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "睡前请孩子讲一件小事，只用一两个问题帮他把顺序讲完。",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      }
     }
   ]
 }
