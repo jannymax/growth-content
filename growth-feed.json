@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22T00:16:25Z",
-  "today_id": "2026-10-22",
+  "updated_at": "2026-10-23T00:13:13Z",
+  "today_id": "2026-10-23",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -6878,6 +6878,55 @@
       },
       "id": "2026-10-22",
       "date": "2026-10-22"
+    },
+    {
+      "library_source_id": "2026-08-02:3",
+      "quote": {
+        "zh-Hans": "研究提醒我们：夹夹子、穿绳和拧瓶盖这些看似普通的小动作，会让孩子同时练习手眼配合、注意和步骤控制。",
+        "en": "Research offers this reminder: Clipping pegs, threading string, and twisting lids may look simple, but they let children practice hand-eye coordination, attention, and control of a sequence.",
+        "ja": "研究からのヒント：洗濯ばさみ、ひも通し、ふたをひねる動きは、手と目の協調、注意、手順のコントロールを練習する機会になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-23.jpg",
+      "image_filename": "2026-10-23.jpg",
+      "image_path": "images/2026-10-23.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Fine motor skills and executive function both contribute to kindergarten achievement",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01768.x",
+        "authors": [
+          "Claire E. Cameron",
+          "Laura L. Brock",
+          "William M. Murrah",
+          "Lawrence H. Bell",
+          "Samantha L. Worzalla",
+          "David Grissmer",
+          "Frederick J. Morrison"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01768.x"
+        }
+      },
+      "source_summary": "这项研究考察精细动作、执行功能与幼儿园学业表现之间的关系。结果显示，手部控制和执行功能都与早期学习有关。拧、夹、穿、撕这类小动作不只是生活技能，也让孩子在手眼配合中练习注意、顺序和控制。",
+      "practical_takeaway": "准备三个夹子和一个纸盒，让孩子按自己的速度夹上去再取下来。",
+      "topic": "精细动作",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "h6q1adun2R0",
+        "photographer": "Jack Cross",
+        "url": "https://unsplash.com/photos/body-of-water-during-daytime-h6q1adun2R0",
+        "perceptual_hash": "61e3e74707870383",
+        "width": 1646,
+        "height": 2484
+      },
+      "id": "2026-10-23",
+      "date": "2026-10-23"
     }
   ]
 }
