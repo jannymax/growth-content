@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T00:13:13Z",
-  "today_id": "2026-10-23",
+  "updated_at": "2026-10-24T00:05:38Z",
+  "today_id": "2026-10-24",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -6927,6 +6927,49 @@
       },
       "id": "2026-10-23",
       "date": "2026-10-23"
+    },
+    {
+      "library_source_id": "2026-08-03:4",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：孩子连续问“为什么”时，不必马上给出完整答案；一起观察和找线索，就能让问题继续带动学习。",
+        "en": "One easily missed part of daily life: When children keep asking why, adults do not need an instant complete answer; observing and looking for clues together lets the question continue to drive learning.",
+        "ja": "日常で見落としやすいこと：子どもが「なぜ？」と繰り返すとき、すぐに完璧な答えを出す必要はありません。一緒に観察し手がかりを探すことが学びを続けます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-24.jpg",
+      "image_filename": "2026-10-24.jpg",
+      "image_path": "images/2026-10-24.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Children's need to know: Curiosity in schools",
+        "year": 2011,
+        "url": "https://doi.org/10.17763/haer.81.4.h054131316473115",
+        "authors": [
+          "Susan Engel"
+        ],
+        "venue": "Harvard Educational Review",
+        "externalIds": {
+          "DOI": "10.17763/haer.81.4.h054131316473115"
+        }
+      },
+      "source_summary": "这篇教育研究文章讨论儿童好奇心在学校和学习中的位置，指出提问和探究常被课堂节奏压缩。它支持一个朴素观点：孩子的问题本身就是学习入口。成人认真回应问题，并一起寻找线索，能把好奇心保留在真实活动里。",
+      "practical_takeaway": "今天选孩子的一个问题，一起找三个能看见或验证的线索。",
+      "topic": "好奇心",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "Iia-DCBlEDg",
+        "photographer": "Codioful (Formerly Gradienta)",
+        "url": "https://unsplash.com/photos/white-light-bulb-turned-on-in-room-Iia-DCBlEDg",
+        "perceptual_hash": "0707070320e0e0e0",
+        "width": 4000,
+        "height": 6000
+      },
+      "id": "2026-10-24",
+      "date": "2026-10-24"
     }
   ]
 }
