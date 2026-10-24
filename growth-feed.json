@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-24T00:05:38Z",
-  "today_id": "2026-10-24",
+  "updated_at": "2026-10-24T23:49:14Z",
+  "today_id": "2026-10-25",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -6970,6 +6970,50 @@
       },
       "id": "2026-10-24",
       "date": "2026-10-24"
+    },
+    {
+      "library_source_id": "2026-08-04:5",
+      "quote": {
+        "zh-Hans": "不妨这样理解：在边界清楚的情况下给两个都可接受的选项，能让孩子练习决定、开始行动，也承担小小的结果。",
+        "en": "It may help to see it this way: Two acceptable choices within a clear boundary let children practice deciding, beginning an action, and handling the small consequence that follows.",
+        "ja": "こんなふうに捉えてみると：明確な範囲の中でどちらも選べる二つの選択肢は、決めること、行動を始めること、結果を引き受けることの練習になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-25.jpg",
+      "image_filename": "2026-10-25.jpg",
+      "image_path": "images/2026-10-25.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Parent styles associated with children's self-regulation and competence in school",
+        "year": 1989,
+        "url": "https://doi.org/10.1037/0022-0663.81.2.143",
+        "authors": [
+          "Wendy S. Grolnick",
+          "Richard M. Ryan"
+        ],
+        "venue": "Journal of Educational Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-0663.81.2.143"
+        }
+      },
+      "source_summary": "这项研究讨论父母风格与儿童自我调节和学校能力之间的关系，重点是自主支持、控制和能力感。研究提示，清楚边界内的选择能让孩子练习决定、计划和承担结果；自主支持不是放任，而是让孩子在可承受范围内参与行动。",
+      "practical_takeaway": "在刷牙、收玩具或换衣服时，给出两个你都能接受的选择。",
+      "topic": "自我调节",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "73NEchmtA6s",
+        "photographer": "Sasha Matic",
+        "url": "https://unsplash.com/photos/a-black-and-white-photo-of-rocks-in-the-water-73NEchmtA6s",
+        "perceptual_hash": "00000007202e0e00",
+        "width": 3099,
+        "height": 3873
+      },
+      "id": "2026-10-25",
+      "date": "2026-10-25"
     }
   ]
 }
