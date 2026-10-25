@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-24T23:49:14Z",
-  "today_id": "2026-10-25",
+  "updated_at": "2026-10-25T23:38:20Z",
+  "today_id": "2026-10-26",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -7014,6 +7014,49 @@
       },
       "id": "2026-10-25",
       "date": "2026-10-25"
+    },
+    {
+      "library_source_id": "2026-08-05:1",
+      "quote": {
+        "zh-Hans": "一个值得记住的观察是：同伴游戏里的等待、争执和重新合作，都在帮孩子理解规则、别人的意图，以及关系如何被修复。",
+        "en": "One observation worth remembering: Waiting, disagreement, and renewed cooperation in peer play help children understand rules, other people's intentions, and how relationships can be repaired.",
+        "ja": "覚えておきたい一つの視点：友だちとの遊びで待つこと、ぶつかること、また協力することは、ルールや相手の意図、関係の修復を理解する練習です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-26.jpg",
+      "image_filename": "2026-10-26.jpg",
+      "image_path": "images/2026-10-26.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Peer relationships and social competence during early and middle childhood",
+        "year": 1999,
+        "url": "https://doi.org/10.1146/annurev.psych.50.1.333",
+        "authors": [
+          "Gary W. Ladd"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.psych.50.1.333"
+        }
+      },
+      "source_summary": "这篇综述讨论同伴关系和社会能力在儿童早中期的发展，关注接纳、冲突、合作和友谊经验。研究提示，同伴互动不是只有“玩得开心”才有价值；轮流、协商、争执后的修复，都是儿童理解规则和他人意图的真实练习场。",
+      "practical_takeaway": "孩子和同伴出现小冲突时，先帮他们说清各自想要什么，再找下一步。",
+      "topic": "同伴交往",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "tgQbE_W7Gfs",
+        "photographer": "Dave Hoefler",
+        "url": "https://unsplash.com/photos/calm-body-of-water-tgQbE_W7Gfs",
+        "perceptual_hash": "8214084e3c7e04a0",
+        "width": 3807,
+        "height": 5330
+      },
+      "id": "2026-10-26",
+      "date": "2026-10-26"
     }
   ]
 }
