@@ -4817,6 +4817,35 @@
           "DOI": "10.1353/foc.0.0002"
         }
       }
+    },
+    {
+      "id": "library_2026-10-28",
+      "status": "published",
+      "created_at": "2026-10-28T00:46:53Z",
+      "published_at": "2026-10-28T00:46:53Z",
+      "published_date": "2026-10-28",
+      "library_source_id": "2026-08-07:3",
+      "topic": "学习动机",
+      "quote": {
+        "zh-Hans": "研究提醒我们：具体说出孩子尝试过的方法和做过的调整，比只评价“聪明”更能把注意放在可以继续改变的过程上。",
+        "en": "Research offers this reminder: Naming the strategies and adjustments a child actually tried keeps attention on a process they can keep changing, more than simply praising them as smart.",
+        "ja": "研究からのヒント：子どもが試した方法や工夫を具体的に伝えることは、「賢い」と言うだけより、変えられる過程に注意を向けます。"
+      },
+      "source_summary": "这项实验研究比较称赞聪明和称赞努力对儿童动机与表现的影响。结果显示，强调智力的表扬会让部分孩子更回避挑战；关注努力、策略和调整，更能把注意力放在可改变的过程上。日常反馈越具体，越容易支持继续尝试。",
+      "practical_takeaway": "任务结束后，说出你看见的一个具体策略，例如“你换了一个方向”。",
+      "source": {
+        "title": "Praise for intelligence can undermine children's motivation and performance",
+        "year": 1998,
+        "url": "https://doi.org/10.1037/0022-3514.75.1.33",
+        "authors": [
+          "Claudia M. Mueller",
+          "Carol S. Dweck"
+        ],
+        "venue": "Journal of Personality and Social Psychology",
+        "externalIds": {
+          "DOI": "10.1037/0022-3514.75.1.33"
+        }
+      }
     }
   ]
 }
