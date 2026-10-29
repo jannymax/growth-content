@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T00:46:53Z",
-  "today_id": "2026-10-28",
+  "updated_at": "2026-10-29T01:18:54Z",
+  "today_id": "2026-10-29",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -7146,6 +7146,49 @@
       },
       "id": "2026-10-28",
       "date": "2026-10-28"
+    },
+    {
+      "library_source_id": "2026-08-08:4",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：孩子通过触摸、移动、比较和试错来理解世界；当词语连上身体经验，抽象的概念就有了更具体的依托。",
+        "en": "One easily missed part of daily life: Children understand the world by touching, moving, comparing, and testing; when words connect to bodily experience, abstract ideas gain a concrete anchor.",
+        "ja": "日常で見落としやすいこと：子どもは触れ、動かし、比べ、試すことで世界を理解します。言葉と身体感覚が結びつくと、抽象的な概念に具体的な足場ができます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-29.jpg",
+      "image_filename": "2026-10-29.jpg",
+      "image_path": "images/2026-10-29.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Exploratory behavior in the development of perceiving, acting, and the acquiring of knowledge",
+        "year": 1988,
+        "url": "https://doi.org/10.1146/annurev.ps.39.020188.001233",
+        "authors": [
+          "Eleanor J. Gibson"
+        ],
+        "venue": "Annual Review of Psychology",
+        "externalIds": {
+          "DOI": "10.1146/annurev.ps.39.020188.001233"
+        }
+      },
+      "source_summary": "这篇经典综述讨论儿童通过探索来发展知觉、行动和知识。研究强调，孩子不是被动接收信息，而是在触摸、移动、比较和试错中理解物体特征。感官探索的意义，在于把词语、身体经验和真实环境连接起来。",
+      "practical_takeaway": "散步时选一种触感或声音，请孩子用两个不同的词描述它。",
+      "topic": "感官探索",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "pgDgFzUSzpI",
+        "photographer": "set.sj",
+        "url": "https://unsplash.com/photos/a-person-standing-in-the-middle-of-a-body-of-water-pgDgFzUSzpI",
+        "perceptual_hash": "1f3f3f0f5f77573f",
+        "width": 4000,
+        "height": 6000
+      },
+      "id": "2026-10-29",
+      "date": "2026-10-29"
     }
   ]
 }
