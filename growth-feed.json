@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T01:18:54Z",
-  "today_id": "2026-10-29",
+  "updated_at": "2026-10-30T01:22:44Z",
+  "today_id": "2026-10-30",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -7189,6 +7189,49 @@
       },
       "id": "2026-10-29",
       "date": "2026-10-29"
+    },
+    {
+      "library_source_id": "2026-08-09:5",
+      "quote": {
+        "zh-Hans": "不妨这样理解：饭桌上轮流分享一件小事，会让孩子自然地练习听完、理解别人的视角，再组织自己的话作出回应。",
+        "en": "It may help to see it this way: Taking turns to share one small event at the table lets children naturally practice listening through, understanding another viewpoint, and organizing a response.",
+        "ja": "こんなふうに捉えてみると：食卓で一人ずつ小さな出来事を話すことは、最後まで聞き、相手の視点を理解し、返事を組み立てる練習になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-30.jpg",
+      "image_filename": "2026-10-30.jpg",
+      "image_path": "images/2026-10-30.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+        "authors": [
+          "Meredith L. Rowe"
+        ],
+        "venue": "Child Development",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-8624.2012.01805.x"
+        }
+      },
+      "source_summary": "这项纵向研究关注成人对儿童说话的数量和质量与词汇发展的关系。研究强调，不只是多说话，词语多样性、回应孩子兴趣和扩展孩子表达也很重要。家庭中的聊天、复述和讲经历，能为语言组织提供具体练习。",
+      "practical_takeaway": "吃饭时每人说一件今天的小事，规则是前一个人说完再回应。",
+      "topic": "家庭对话",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "6KisTpSle8Q",
+        "photographer": "Sarah Dorweiler",
+        "url": "https://unsplash.com/photos/black-digital-device-at-9-6KisTpSle8Q",
+        "perceptual_hash": "34138ac6f2f2f145",
+        "width": 2451,
+        "height": 3676
+      },
+      "id": "2026-10-30",
+      "date": "2026-10-30"
     }
   ]
 }
