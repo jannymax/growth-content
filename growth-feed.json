@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T01:22:44Z",
-  "today_id": "2026-10-30",
+  "updated_at": "2026-10-31T01:07:06Z",
+  "today_id": "2026-10-31",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -7232,6 +7232,51 @@
       },
       "id": "2026-10-30",
       "date": "2026-10-30"
+    },
+    {
+      "library_source_id": "2026-08-10:1",
+      "quote": {
+        "zh-Hans": "一个值得记住的观察是：跟着节奏拍手、停下和再开始，不只是音乐游戏，也让孩子在共同注意中练习听觉跟随和身体控制。",
+        "en": "One observation worth remembering: Clapping, stopping, and restarting with a rhythm is more than a music game; shared attention gives children practice in auditory following and body control.",
+        "ja": "覚えておきたい一つの視点：リズムに合わせて手をたたき、止まり、また始める遊びは、音を追う力と身体のコントロールを練習する機会です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-10-31.jpg",
+      "image_filename": "2026-10-31.jpg",
+      "image_path": "images/2026-10-31.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Active music classes in infancy enhance musical, communicative and social development",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1467-7687.2012.01142.x",
+        "authors": [
+          "Dana W. Gerry",
+          "Andrea Unrau",
+          "Laurel J. Trainor"
+        ],
+        "venue": "Developmental Science",
+        "externalIds": {
+          "DOI": "10.1111/j.1467-7687.2012.01142.x"
+        }
+      },
+      "source_summary": "这项研究比较婴幼儿主动音乐课程和被动音乐体验，关注音乐、沟通和社会发展。结果显示，主动参与节奏、动作和声音互动的孩子，在相关测量上表现更积极。家庭中的拍手、停顿和跟随节奏，能提供听觉注意与身体控制练习。",
+      "practical_takeaway": "拍一个简单节奏，中间留出停顿，让孩子跟着拍、停、再开始。",
+      "topic": "音乐互动",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "WROShL98m18",
+        "photographer": "A. C.",
+        "url": "https://unsplash.com/photos/landscape-photography-of-rock-formations-near-body-of-water-under-white-and-blue-sky-WROShL98m18",
+        "perceptual_hash": "02010003170e0623",
+        "width": 2470,
+        "height": 3705
+      },
+      "id": "2026-10-31",
+      "date": "2026-10-31"
     }
   ]
 }
