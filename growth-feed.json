@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T01:07:06Z",
-  "today_id": "2026-10-31",
+  "updated_at": "2026-11-01T00:30:11Z",
+  "today_id": "2026-11-01",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -7277,6 +7277,50 @@
       },
       "id": "2026-10-31",
       "date": "2026-10-31"
+    },
+    {
+      "library_source_id": "2026-08-11:2",
+      "quote": {
+        "zh-Hans": "换个角度看：在较少干扰的自然环境里，跟踪云、树影或小虫的变化，能给孩子一段把注意放慢并稳定下来的时间。",
+        "en": "Another way to see it: Following changes in clouds, shadows, or insects in a less distracting natural setting gives children time to slow and steady their attention.",
+        "ja": "別の角度から見ると：刺激の少ない自然の中で、雲や木陰、虫の変化を追うことは、子どもが注意をゆっくり安定させる時間になります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-01.jpg",
+      "image_filename": "2026-11-01.jpg",
+      "image_path": "images/2026-11-01.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "A potential natural treatment for attention-deficit/hyperactivity disorder: evidence from a national study",
+        "year": 2004,
+        "url": "https://doi.org/10.2105/AJPH.94.9.1580",
+        "authors": [
+          "Frances E. Kuo",
+          "Andrea Faber Taylor"
+        ],
+        "venue": "American Journal of Public Health",
+        "externalIds": {
+          "DOI": "10.2105/AJPH.94.9.1580"
+        }
+      },
+      "source_summary": "这项研究考察自然环境接触与儿童注意表现之间的关系，尤其关注有注意困难儿童的户外活动。研究不能说明自然环境能替代专业支持，但提示绿地和自然场景与注意恢复有关。短时间观察自然变化，也能为孩子提供较少干扰的专注环境。",
+      "practical_takeaway": "在窗边或户外选一个对象，和孩子安静观察一分钟再说发现。",
+      "topic": "自然与注意",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "BzS6WjI6IhY",
+        "photographer": "geissht",
+        "url": "https://unsplash.com/photos/a-plane-flying-in-the-sky-above-the-clouds-BzS6WjI6IhY",
+        "perceptual_hash": "1cf000100000001a",
+        "width": 5304,
+        "height": 7952
+      },
+      "id": "2026-11-01",
+      "date": "2026-11-01"
     }
   ]
 }
