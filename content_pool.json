@@ -5003,6 +5003,47 @@
         },
         "search_query": "executive function child development parenting intervention"
       }
+    },
+    {
+      "id": "library_2026-11-03",
+      "status": "published",
+      "created_at": "2026-11-03T03:06:09Z",
+      "published_at": "2026-11-03T03:06:09Z",
+      "published_date": "2026-11-03",
+      "library_source_id": "2026-08-13:4",
+      "topic": "情绪调节",
+      "quote": {
+        "zh-Hans": "日常里常被忽略的一点是：孩子的情绪能力和父母的温暖回应会在日常中互相影响；稳定的倾听和回应，能让表达与调节持续被练习。",
+        "en": "One easily missed part of daily life: Children's emotional skills and parents' warm responses influence one another over time; steady listening and response keep expression and regulation in everyday practice.",
+        "ja": "日常で見落としやすいこと：子どもの感情の力と親の温かい応答は日常で互いに影響します。安定して聞き応えることが、表現と調整の練習を支えます。"
+      },
+      "source_summary": "这项研究分析了儿童情绪调节能力和父母温暖互动的双向关系，以及它们如何预测学龄期的行为问题。研究基于 2,341 名 3–10 岁儿童的数据，发现孩子的情绪能力和父母的温暖互动会互相影响，并且这种相互作用对孩子的行为发展有长期影响。研究强调了情绪调节与父母温暖在预防儿童内化和外化行为问题中的重要性。",
+      "practical_takeaway": "孩子激动时，先复述你看到的事实和感受，等稳定一些再讨论下一步。",
+      "source": {
+        "paperId": "52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "title": "Unraveling the dynamics of emotional regulation and parental warmth across early childhood: prediction of later behavioral problems",
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/52eff92ec2c3356fff9992b9313f61bcb864395b",
+        "citationCount": 6,
+        "authors": [
+          "Aimé Isdahl-Troye",
+          "Paula Villar",
+          "María Álvarez-Voces",
+          "Estrella Romero"
+        ],
+        "venue": "Scientific Reports",
+        "publicationDate": "2025-07-02",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "12222833",
+          "DOI": "10.1038/s41598-025-06846-5",
+          "CorpusId": 279862145,
+          "PubMed": "40604066"
+        },
+        "search_query": "early childhood development parenting longitudinal study"
+      }
     }
   ]
 }
