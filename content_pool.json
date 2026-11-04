@@ -5087,6 +5087,154 @@
         },
         "search_query": "outdoor play child development early childhood study"
       }
+    },
+    {
+      "id": "ep-ch01-01",
+      "concept_id": "language-access-versus-learning-goal",
+      "status": "ready",
+      "topic": "语言理解与学习目标",
+      "quote": {
+        "zh-Hans": "孩子用不熟悉的语言学习时，困难可能出在听懂任务，而非理解知识本身。教学需要同时照顾两件事：让指令能够被理解，也保留原本要学习的内容。",
+        "en": "When children learn in an unfamiliar language, difficulty may lie in understanding the task rather than the subject itself. Teaching must make instructions accessible while preserving the intended learning goals.",
+        "ja": "慣れない言語で学ぶ子どもは、内容そのものより課題の指示を理解することに困っている場合があります。指示を分かりやすくすることと、本来の学習目標を保つことの両方が必要です。"
+      },
+      "source_summary": "第1章语言多样性一节讨论：课堂教师需要使第二语言学习者能够理解教学任务，同时保持课程的主要学习目标。这里区分语言可及性与学科目标，并非断言所有学习困难都由语言造成。适用于使用非熟悉教学语言的学习者。",
+      "practical_takeaway": "",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "year": 2009,
+        "edition": "Second Edition",
+        "chapter": "1. The changing teaching profession and you",
+        "pages": "11",
+        "pdf_pages": "11",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Original Chinese summary and English/Japanese translations; not a quotation"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "reviewed_at": "2026-11-04",
+        "reviewer": "Codex",
+        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
+      }
+    },
+    {
+      "id": "ep-ch01-02",
+      "concept_id": "educational-technology-fit",
+      "status": "ready",
+      "topic": "技术与学习任务",
+      "quote": {
+        "zh-Hans": "判断一种学习工具是否有用，要看它支持了什么具体活动。能查到更多资料，不等于已经学会筛选可靠信息；工具扩大了信息来源，辨别信息仍需要学习。",
+        "en": "A learning tool should be judged by the activity it supports. Access to more information does not mean knowing how to identify reliable sources; evaluating information remains something learners need to learn.",
+        "ja": "学習道具の有用性は、どんな活動を支えるかで考えます。多くの情報にアクセスできても、信頼できる情報を選べるとは限りません。情報を見極める力は、別に学ぶ必要があります。"
+      },
+      "source_summary": "第1章技术支持学习一节既讨论信息获取机会，也指出学生需要帮助才能分辨可信与不可靠的网站。本条提取工具可供性与信息判断能力的区别，不声称某种设备能提升成绩，也不沿用2009年的设备普及情况。适用于开始使用网络资料的学习者。",
+      "practical_takeaway": "",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "year": 2009,
+        "edition": "Second Edition",
+        "chapter": "1. The changing teaching profession and you",
+        "pages": "13",
+        "pdf_pages": "13",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Original Chinese summary and English/Japanese translations; not a quotation"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "reviewed_at": "2026-11-04",
+        "reviewer": "Codex",
+        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
+      }
+    },
+    {
+      "id": "ep-ch01-03",
+      "concept_id": "action-research-systematic-observation",
+      "status": "ready",
+      "topic": "行动研究",
+      "quote": {
+        "zh-Hans": "教育中的“行动研究”，是把自己的教学问题变成可观察的问题：记录孩子的表现，调整一种做法，再查看变化。它帮助改进具体情境中的教学，不等于找到了适合所有孩子的方法。",
+        "en": "Action research turns a question about one’s teaching into something observable: record learners’ responses, adjust a practice, and examine what changes. It informs teaching in a particular setting, rather than establishing a method for every child.",
+        "ja": "教育の「アクション・リサーチ」は、自分の指導上の疑問を観察できる問いに変えることです。子どもの様子を記録し、方法を調整して変化を確かめます。特定の場面を改善するためのもので、すべての子どもに通じる方法を証明するものではありません。"
+      },
+      "source_summary": "教材第14–16页以教师追踪阅读表现、比较提问形式等例子介绍行动研究，强调有计划、系统记录和交流。这里说明的是实践研究的方法与情境边界，不把这些示例当作已证实有效的干预，不从观察前后变化单独推出因果关系。",
+      "practical_takeaway": "",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "year": 2009,
+        "edition": "Second Edition",
+        "chapter": "1. The changing teaching profession and you",
+        "pages": "14–16",
+        "pdf_pages": "14–16",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Original Chinese summary and English/Japanese translations; not a quotation"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "reviewed_at": "2026-11-04",
+        "reviewer": "Codex",
+        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
+      }
+    },
+    {
+      "id": "ep-ch01-04",
+      "concept_id": "assessment-stakes-definition",
+      "status": "ready",
+      "topic": "评价的后果",
+      "quote": {
+        "zh-Hans": "“高利害考试”指结果会影响升学、毕业等重要机会的考试。它的重要性来自成绩带来的后果，不只是题目有多难；当成绩也用于评价教师时，还会影响教师选择教什么。",
+        "en": "High-stakes tests are exams whose results affect important opportunities, such as progression or graduation. Their stakes come from the consequences, not simply their difficulty; using scores to evaluate teachers can also shape instructional choices.",
+        "ja": "「ハイステークス・テスト」は、進級や卒業など重要な機会に結果が関わる試験です。重要なのは問題の難しさだけでなく、結果がもたらす影響です。成績が教師の評価にも使われると、何を教えるかの選択にも関わります。"
+      },
+      "source_summary": "教材第14页介绍高利害考试的定义及其对教学决策的影响。本条解释评价制度中的概念，不主张考试必然有害，也不将书中当时美国的政策要求当作今天中国的制度。适用于理解学校评价情境。",
+      "practical_takeaway": "",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "year": 2009,
+        "edition": "Second Edition",
+        "chapter": "1. The changing teaching profession and you",
+        "pages": "14",
+        "pdf_pages": "14",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Original Chinese summary and English/Japanese translations; not a quotation"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "reviewed_at": "2026-11-04",
+        "reviewer": "Codex",
+        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
+      }
     }
   ]
 }

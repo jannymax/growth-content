@@ -1079,6 +1079,60 @@ def publish_daily_entry(feed, pool, date_id):
     return entry
 
 
+def validate_queue_item(item, previous):
+    for key in ("id", "concept_id", "source_summary", "topic"):
+        if not str(item.get(key) or "").strip():
+            raise RuntimeError(f"Queue item missing {key}")
+    quote = item.get("quote") or {}
+    if not all(isinstance(quote.get(lang), str) and quote[lang].strip()
+               for lang in ("zh-Hans", "en", "ja")):
+        raise RuntimeError("Queue item requires three languages")
+    if not 25 <= len(quote["zh-Hans"]) <= 150:
+        raise RuntimeError("Queue quote must be concise and complete (25-150 characters)")
+    source = item.get("source") or {}
+    if not has_real_source(source) or not all(source.get(k) for k in
+            ("authors", "chapter", "pages", "edition")):
+        raise RuntimeError("Queue item requires precise textbook provenance")
+    review = item.get("review") or {}
+    if not all(review.get(k) is True for k in
+            ("source_checked", "standalone", "semantic_dedup_checked", "translations_checked")):
+        raise RuntimeError("Queue item has not passed editorial review")
+    for old in previous:
+        if old.get("concept_id") == item["concept_id"]:
+            raise RuntimeError("Duplicate concept_id")
+        if quote_similarity(quote["zh-Hans"], (old.get("quote") or {}).get("zh-Hans", "")) >= 0.72:
+            raise RuntimeError("Queue quote too similar to existing content")
+
+
+def validate_ready_queue(feed, pool):
+    previous = list(feed.get("quotes", []))
+    for item in pool["items"]:
+        if item.get("status") == "ready":
+            validate_queue_item(item, previous)
+            previous.append(item)
+
+
+def publish_queued_entry(feed, pool, date_id):
+    if already_published_today(feed, date_id):
+        return None
+    validate_ready_queue(feed, pool)
+    item = next((i for i in pool["items"] if i.get("status") == "ready"), None)
+    if item is None:
+        raise RuntimeError("Ready content queue exhausted; refill before publishing. No recycled content.")
+    if not available_curated_photos(feed):
+        raise RuntimeError("Approved photo queue exhausted; refill before publishing.")
+    image_meta = select_curated_image(date_id, feed)
+    entry = build_feed_entry(date_id, item, image_meta)
+    entry.update(content_id=item["id"], concept_id=item["concept_id"])
+    feed["quotes"].append(entry)
+    feed["quotes"].sort(key=lambda x: x["id"])
+    feed.update(today_id=date_id, updated_at=iso_now())
+    item.update(status="published", published_date=date_id, published_at=iso_now())
+    validate_feed(feed)
+    validate_pool(pool)
+    return entry
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--validate-only", action="store_true")
@@ -1090,48 +1144,21 @@ def main():
     validate_feed(feed)
     validate_pool(pool)
 
+    validate_ready_queue(feed, pool)
+
     if args.validate_only:
         print("growth-feed.json and content_pool.json are valid.")
         return
 
-    target_date_id = today_id()
-    date_ids = pending_date_ids(feed, target_date_id)
-    if not date_ids:
-        print(f"{target_date_id} already exists in growth-feed.json. Nothing to do.")
+    date_id = today_id()
+    if already_published_today(feed, date_id):
+        print(f"{date_id} already published; nothing to do.")
         return
-
-    available = available_curated_photos(feed)
-    if len(available) < len(date_ids):
-        raise RuntimeError("Not enough approved photos for pending dates. Refill curated/photos.json before publishing.")
-    library = build_static_content_library(feed)
-    entries = []
-    for date_id in date_ids:
-        library_item = next(
-            item
-            for item in library
-            if item["library_source_id"]
-            not in {
-                quote.get("library_source_id")
-                for quote in feed.get("quotes", [])
-            }
-        )
-        image_meta = select_curated_image(date_id, feed)
-        entries.append(
-            publish_static_library_entry(
-                feed,
-                pool,
-                date_id,
-                library,
-                image_meta=image_meta,
-            )
-        )
-
+    entry = publish_queued_entry(feed, pool, date_id)
+    # Both files are committed together by Actions; a failed run never pushes either.
     save_json(FEED_PATH, feed)
     save_json(POOL_PATH, pool)
-
-    print(f"Published {len(entries)} daily growth quote(s), through {date_ids[-1]}.")
-    for entry in entries:
-        print(f"{entry['id']}: {(entry.get('quote') or {}).get('zh-Hans', '')}")
+    print(f"Published {entry['id']} from {entry['content_id']}")
 
 
 if __name__ == "__main__":

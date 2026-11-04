@@ -8,6 +8,9 @@ on:
     paths:
       - ".github/workflows/daily-growth-feed.yml"
       - "scripts/generate_daily_growth.py"
+      - "scripts/import_chapter.py"
+      - "content_pool.json"
+      - "curated/**"
   workflow_dispatch:
 
 concurrency:
@@ -34,6 +37,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Test publishing and import behavior
+        run: python -m unittest discover -s tests
 
       - name: Validate current content files
         run: python scripts/generate_daily_growth.py --validate-only

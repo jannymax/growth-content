@@ -1,0 +1,40 @@
+import copy
+import sys
+import unittest
+from pathlib import Path
+from unittest import mock
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
+import generate_daily_growth as g
+from import_chapter import import_items
+
+
+def item():
+    return dict(id='textbook-1', concept_id='learning-context', status='ready', topic='学习',
+        quote={'zh-Hans':'学习不仅是记住信息，还包括在不同情境中理解和运用知识；只在原来的练习里做对，不等于已经能够迁移。','en':'Learning in context.', 'ja':'学習と文脈。'},
+        source_summary='测试来源说明',source=dict(title='Educational Psychology',year=2009,url='https://example.org/book',authors=['Seifert'],edition='2',chapter='2',pages='20'),
+        review=dict(source_checked=True,standalone=True,semantic_dedup_checked=True,translations_checked=True))
+
+class QueueTests(unittest.TestCase):
+    def test_import_idempotent_and_conflict(self):
+        a=item(); feed={'quotes':[]}; pool={'items':[]}
+        pool=import_items(feed,pool,[a]); self.assertEqual(len(import_items(feed,pool,[a])['items']),1)
+        b=copy.deepcopy(a);b['source_summary']='changed'
+        with self.assertRaises(RuntimeError): import_items(feed,pool,[b])
+    def test_unreviewed_and_duplicate_concept_rejected(self):
+        a=item();a['review']['source_checked']=False
+        with self.assertRaises(RuntimeError): import_items({'quotes':[]},{'items':[]},[a])
+        a=item();b=copy.deepcopy(a);b['id']='different'
+        with self.assertRaises(RuntimeError): import_items({'quotes':[]},{'items':[]},[a,b])
+    def test_empty_and_missing_photo_do_not_consume(self):
+        with self.assertRaises(RuntimeError): g.publish_queued_entry({'quotes':[]},{'items':[]},'2026-11-05')
+        pool={'items':[item()]}
+        with mock.patch.object(g,'available_curated_photos',return_value=[]):
+            with self.assertRaises(RuntimeError): g.publish_queued_entry({'quotes':[]},pool,'2026-11-05')
+        self.assertEqual(pool['items'][0]['status'],'ready')
+    def test_fifo_and_same_day_retry(self):
+        feed={'quotes':[]};pool={'items':[item()]}
+        with mock.patch.object(g,'available_curated_photos',return_value=[{}]), mock.patch.object(g,'select_curated_image',return_value={}), mock.patch.object(g,'validate_feed'):
+            entry=g.publish_queued_entry(feed,pool,'2026-11-05')
+            self.assertEqual(entry['content_id'],'textbook-1')
+            self.assertIsNone(g.publish_queued_entry(feed,pool,'2026-11-05'))
+        self.assertEqual(len(feed['quotes']),1)
