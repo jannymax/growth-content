@@ -1,45 +1,23 @@
 # growth-content
 
-这个仓库每天自动更新一条儿童成长内容：
+> 文档描述设计与运行方式；每天自动更新是否成功，须查 GitHub Actions、最新提交与数据文件，不能仅凭本说明判断。
 
-- 从真实儿童发展/育儿相关研究里选 1 篇文献
-- 生成 1 条较完整的三语成长短句
-- 保留研究依据简述和家庭实践建议
-- 下载一张竖版、安静、有留白的背景图
-- 写入 `growth-feed.json`、`content_pool.json` 和 `images/`
+每日成长内容仓库。现行定时入口复用已有三语研究内容库，配图从人工审阅的 `curated/photos.json` 取用，不再随机搜索图片。
 
-## 现在的自动化方式
+## 配图标准（2026-11-04 用户确认）
 
-每天定时任务会直接提交到 `main` 分支，不再每天创建一个需要手动合并的 PR。
+以 Yunus Tuğ 的暮色麦田（10014507）及 Shiebi AL 的暮色草花（4223699）为已确认基准：光色细腻、后期完成度高、留白舒展、景深过渡自然，让人放松并产生向往。近景与远景均可；不固定题材或色调。每图检查后期，尊重原作已完成的调色，不机械套滤镜。
 
-如果当天已经有内容，程序会自动跳过；如果文献、模型或图片接口失败，程序会停止，不会写入半截 JSON。
+## 发布与补充
 
-## 需要的 GitHub Secrets
+先实际看图、核对原作与许可，再将合适的 JPEG 放入 `curated/photos/`，在清单记录作者、作品页、许可和审核状态。仅 `approved` 可发布。按清单顺序选取，已发布 Pexels ID 不重复。初始储备仅两张，耗尽会明确失败并保留原有线上内容，不随机降级。补图后手动运行每日工作流可继续。
 
-仓库需要配置：
+GitHub Actions 每天运行，生成成功后提交 main。沿用原来的图片 URL、日期 ID、JPEG 与三语数据结构，未修改 App。历史图片不覆盖，避免旧版缓存不刷新。图片来自 Pexels，许可：https://www.pexels.com/license/ 。精选图使用1440像素宽发布版本，保留完整构图和作者光色。
 
-- `UNSPLASH_ACCESS_KEY`：用于下载背景图片
+## 验证
 
-`GITHUB_TOKEN` 由 GitHub Actions 自动提供，不需要手动添加。
+`python -m unittest discover -s tests`
 
-## 内容质量规则
+`python scripts/generate_daily_growth.py --validate-only`
 
-新版本会尽量避免：
-
-- 重复使用同一篇文献
-- 把一篇旧文献拆成很多天反复发
-- 生成过短、太浅的总结
-- 使用太像以前的中文短句
-- 重复使用同一张 Unsplash 图片
-- 使用看起来过于相似的背景图
-- 写坏 `growth-feed.json`
-
-## 手动检查
-
-如果想检查当前 JSON 是否健康，可以在本地运行：
-
-```bash
-python scripts/generate_daily_growth.py --validate-only
-```
-
-如果本地没有安装依赖，GitHub Actions 仍然会在云端自动安装并运行。
+本入口不再需要 Unsplash 或生图密钥；旧 Unsplash 函数仅保留兼容参考，不由发布路径调用。未提交本地生图实验或内部制作记录。

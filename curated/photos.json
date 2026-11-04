@@ -1,0 +1,26 @@
+{
+  "photos": [
+    {
+      "id": "10014507",
+      "photographer": "Yunus Tuğ",
+      "page": "https://www.pexels.com/photo/green-grass-field-during-sunset-10014507/",
+      "review": "保留候选：大片天空、粉橙与深绿关系、自然麦田层次；地平线小物略杂，非最终入选。",
+      "approval": "用户认可为选片审美基准；未授权发布",
+      "status": "approved",
+      "file": "curated/photos/10014507.jpg",
+      "license": "https://www.pexels.com/license/",
+      "approved_on": "2026-11-04"
+    },
+    {
+      "id": "4223699",
+      "photographer": "Shiebi AL",
+      "page": "https://www.pexels.com/photo/grass-in-a-blurry-field-4223699/",
+      "review": "保留对照：细小粉色草花、自然焦外与暮色；枝条偏杂、暗部偏重。",
+      "approval": "用户认可为选片审美基准；未授权发布",
+      "status": "approved",
+      "file": "curated/photos/4223699.jpg",
+      "license": "https://www.pexels.com/license/",
+      "approved_on": "2026-11-04"
+    }
+  ]
+}

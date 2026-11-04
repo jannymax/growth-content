@@ -307,7 +307,7 @@ def publish_static_library_entry(feed, pool, date_id, library, image_meta=None):
                 "image_path": f"images/{image_filename}",
                 "image_name": "quotation_card_bg",
                 "image_source": {
-                    "provider": "Unsplash",
+                    "provider": image_meta.get("provider", "Unsplash"),
                     "id": image_meta.get("unsplash_id"),
                     "photographer": image_meta.get("unsplash_user"),
                     "url": image_meta.get("unsplash_page"),
@@ -797,6 +797,35 @@ def notify_unsplash_download(photo, access_key):
         print(f"Unsplash download notification failed: {error}")
 
 
+def available_curated_photos(feed):
+    manifest = json.loads((ROOT / "curated/photos.json").read_text(encoding="utf-8"))
+    used = {str((q.get("image_source") or {}).get("id"))
+            for q in feed.get("quotes", [])
+            if (q.get("image_source") or {}).get("provider") == "Pexels"}
+    return [p for p in manifest["photos"]
+            if p.get("status") == "approved" and str(p["id"]) not in used]
+
+
+def select_curated_image(date_id, feed):
+    from PIL import Image
+    photos = available_curated_photos(feed)
+    if not photos:
+        raise RuntimeError("Curated photo queue exhausted. Review and approve more photos; random fallback is disabled.")
+    photo = photos[0]
+    source = (ROOT / photo["file"]).resolve()
+    if (ROOT / "curated/photos").resolve() not in source.parents:
+        raise RuntimeError("Invalid curated image path")
+    with Image.open(source) as im:
+        im.verify()
+    with Image.open(source) as im:
+        width, height = im.size
+    dest = IMAGES_DIR / (date_id + ".jpg")
+    dest.write_bytes(source.read_bytes())
+    return {"path": dest, "provider": "Pexels", "unsplash_id": photo["id"],
+            "unsplash_user": photo["photographer"], "unsplash_page": photo["page"],
+            "width": width, "height": height, "perceptual_hash": dhash_image_file(dest)}
+
+
 def download_unsplash_image(date_id, image_query, feed):
     access_key = os.environ["UNSPLASH_ACCESS_KEY"]
     query = f"{image_query or DEFAULT_IMAGE_QUERY} calm minimal premium background negative space"
@@ -889,7 +918,7 @@ def build_feed_entry(date_id, pool_item, image_meta):
         "practical_takeaway": pool_item.get("practical_takeaway", ""),
         "topic": pool_item.get("topic", ""),
         "image_source": {
-            "provider": "Unsplash",
+            "provider": image_meta.get("provider", "Unsplash"),
             "id": image_meta.get("unsplash_id"),
             "photographer": image_meta.get("unsplash_user"),
             "url": image_meta.get("unsplash_page"),
@@ -1031,11 +1060,7 @@ def publish_daily_entry(feed, pool, date_id):
         raise RuntimeError(f"Could not generate a valid insight: {last_error}")
 
     pool_item = make_pool_item(insight, paper, date_id)
-    image_meta = download_unsplash_image(
-        date_id=date_id,
-        image_query=pool_item.get("image_query", DEFAULT_IMAGE_QUERY),
-        feed=feed,
-    )
+    image_meta = select_curated_image(date_id, feed)
     entry = build_feed_entry(date_id, pool_item, image_meta)
 
     feed["quotes"].append(entry)
@@ -1075,6 +1100,9 @@ def main():
         print(f"{target_date_id} already exists in growth-feed.json. Nothing to do.")
         return
 
+    available = available_curated_photos(feed)
+    if len(available) < len(date_ids):
+        raise RuntimeError("Not enough approved photos for pending dates. Refill curated/photos.json before publishing.")
     library = build_static_content_library(feed)
     entries = []
     for date_id in date_ids:
@@ -1087,11 +1115,7 @@ def main():
                 for quote in feed.get("quotes", [])
             }
         )
-        image_meta = download_unsplash_image(
-            date_id=date_id,
-            image_query=library_item.get("topic") or DEFAULT_IMAGE_QUERY,
-            feed=feed,
-        )
+        image_meta = select_curated_image(date_id, feed)
         entries.append(
             publish_static_library_entry(
                 feed,
