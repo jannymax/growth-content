@@ -5094,11 +5094,11 @@
       "status": "ready",
       "topic": "语言理解与学习目标",
       "quote": {
-        "zh-Hans": "孩子用不熟悉的语言学习时，困难可能出在听懂任务，而非理解知识本身。教学需要同时照顾两件事：让指令能够被理解，也保留原本要学习的内容。",
-        "en": "When children learn in an unfamiliar language, difficulty may lie in understanding the task rather than the subject itself. Teaching must make instructions accessible while preserving the intended learning goals.",
-        "ja": "慣れない言語で学ぶ子どもは、内容そのものより課題の指示を理解することに困っている場合があります。指示を分かりやすくすることと、本来の学習目標を保つことの両方が必要です。"
+        "zh-Hans": "孩子用不熟悉的语言学习时，任务表现可能同时受语言理解和知识掌握影响。先确认他听懂了要求，再判断他是否掌握了知识。",
+        "en": "When children learn in an unfamiliar language, their performance may reflect both language comprehension and subject knowledge. Check that they understand the instructions before judging what they know.",
+        "ja": "慣れない言語で学ぶ子どもの課題への取り組みには、言語の理解と知識の習得の両方が影響する場合があります。知識が身についているかを判断する前に、指示を理解しているか確かめましょう。"
       },
-      "source_summary": "第1章语言多样性一节讨论：课堂教师需要使第二语言学习者能够理解教学任务，同时保持课程的主要学习目标。这里区分语言可及性与学科目标，并非断言所有学习困难都由语言造成。适用于使用非熟悉教学语言的学习者。",
+      "source_summary": "依据教材第1章第11页对第二语言学习者的讨论：教师需要让学生理解任务，同时保留课程目标。短句将此转述为家长可理解的判断顺序；并非对个别孩子困难原因的诊断，也不是经独立试验验证的家庭干预。",
       "practical_takeaway": "",
       "source": {
         "title": "Educational Psychology",
@@ -5113,7 +5113,7 @@
         "pdf_pages": "11",
         "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
         "license": "CC BY 3.0",
-        "adaptation": "Original Chinese summary and English/Japanese translations; not a quotation"
+        "adaptation": "Parent-facing paraphrase with explicitly identified application extensions; not a direct quotation or a tested intervention."
       },
       "review": {
         "source_checked": true,
@@ -5122,7 +5122,8 @@
         "translations_checked": true,
         "reviewed_at": "2026-11-04",
         "reviewer": "Codex",
-        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
+        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims",
+        "editorial_standard": "2026-11-04 用户确认：家长能理解、简洁专业、概念清楚、结论有边界"
       }
     },
     {
@@ -5131,11 +5132,11 @@
       "status": "ready",
       "topic": "技术与学习任务",
       "quote": {
-        "zh-Hans": "判断一种学习工具是否有用，要看它支持了什么具体活动。能查到更多资料，不等于已经学会筛选可靠信息；工具扩大了信息来源，辨别信息仍需要学习。",
-        "en": "A learning tool should be judged by the activity it supports. Access to more information does not mean knowing how to identify reliable sources; evaluating information remains something learners need to learn.",
-        "ja": "学習道具の有用性は、どんな活動を支えるかで考えます。多くの情報にアクセスできても、信頼できる情報を選べるとは限りません。情報を見極める力は、別に学ぶ必要があります。"
+        "zh-Hans": "孩子能搜到答案，不代表能判断答案是否可靠。学习使用信息，还包括辨认来源、查看依据，并与其他可靠资料相互核对。",
+        "en": "Finding an answer does not mean a child can judge its reliability. Learning to use information also involves identifying its source, examining the evidence, and checking it against other reliable sources.",
+        "ja": "答えを検索できても、その答えが信頼できるか判断できるとは限りません。情報を使う学習には、出典や根拠を確かめ、ほかの信頼できる資料と照らし合わせることも含まれます。"
       },
-      "source_summary": "第1章技术支持学习一节既讨论信息获取机会，也指出学生需要帮助才能分辨可信与不可靠的网站。本条提取工具可供性与信息判断能力的区别，不声称某种设备能提升成绩，也不沿用2009年的设备普及情况。适用于开始使用网络资料的学习者。",
+      "source_summary": "教材第1章第13页指出，获取网络信息与辨认可信资料是不同的学习任务。短句中的查看来源、依据和交叉核对，是围绕该观点作出的信息判断步骤延伸，不是教材逐字列出的操作清单。",
       "practical_takeaway": "",
       "source": {
         "title": "Educational Psychology",
@@ -5150,7 +5151,7 @@
         "pdf_pages": "13",
         "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
         "license": "CC BY 3.0",
-        "adaptation": "Original Chinese summary and English/Japanese translations; not a quotation"
+        "adaptation": "Parent-facing paraphrase with explicitly identified application extensions; not a direct quotation or a tested intervention."
       },
       "review": {
         "source_checked": true,
@@ -5159,7 +5160,8 @@
         "translations_checked": true,
         "reviewed_at": "2026-11-04",
         "reviewer": "Codex",
-        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
+        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims",
+        "editorial_standard": "2026-11-04 用户确认：家长能理解、简洁专业、概念清楚、结论有边界"
       }
     },
     {
@@ -5168,11 +5170,11 @@
       "status": "ready",
       "topic": "行动研究",
       "quote": {
-        "zh-Hans": "教育中的“行动研究”，是把自己的教学问题变成可观察的问题：记录孩子的表现，调整一种做法，再查看变化。它帮助改进具体情境中的教学，不等于找到了适合所有孩子的方法。",
-        "en": "Action research turns a question about one’s teaching into something observable: record learners’ responses, adjust a practice, and examine what changes. It informs teaching in a particular setting, rather than establishing a method for every child.",
-        "ja": "教育の「アクション・リサーチ」は、自分の指導上の疑問を観察できる問いに変えることです。子どもの様子を記録し、方法を調整して変化を確かめます。特定の場面を改善するためのもので、すべての子どもに通じる方法を証明するものではありません。"
+        "zh-Hans": "判断一种方法是否适合孩子，需要明确观察什么，并持续记录。一次表现变好，还不足以说明方法有效；任务难度、情绪和熟悉程度也可能影响表现。",
+        "en": "To judge whether an approach suits a child, specify what to observe and keep records over time. One improved performance is not enough to establish effectiveness; task difficulty, mood, and familiarity may also affect performance.",
+        "ja": "ある方法が子どもに合っているかを判断するには、何を観察するかを明確にし、継続して記録する必要があります。一度うまくできただけでは、方法の効果は判断できません。課題の難しさ、気分、慣れも影響する場合があります。"
       },
-      "source_summary": "教材第14–16页以教师追踪阅读表现、比较提问形式等例子介绍行动研究，强调有计划、系统记录和交流。这里说明的是实践研究的方法与情境边界，不把这些示例当作已证实有效的干预，不从观察前后变化单独推出因果关系。",
+      "source_summary": "依据教材第1章第14–16页行动研究中的明确问题、系统观察与记录思路，转化为家长评价方法时的审慎原则。任务难度、情绪和熟悉程度是编辑补充的替代解释示例，并非本章实验证明的影响因素或已验证家庭干预。一次改善不能单独建立因果结论。",
       "practical_takeaway": "",
       "source": {
         "title": "Educational Psychology",
@@ -5187,7 +5189,7 @@
         "pdf_pages": "14–16",
         "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
         "license": "CC BY 3.0",
-        "adaptation": "Original Chinese summary and English/Japanese translations; not a quotation"
+        "adaptation": "Parent-facing paraphrase with explicitly identified application extensions; not a direct quotation or a tested intervention."
       },
       "review": {
         "source_checked": true,
@@ -5196,13 +5198,14 @@
         "translations_checked": true,
         "reviewed_at": "2026-11-04",
         "reviewer": "Codex",
-        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
+        "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims",
+        "editorial_standard": "2026-11-04 用户确认：家长能理解、简洁专业、概念清楚、结论有边界"
       }
     },
     {
       "id": "ep-ch01-04",
       "concept_id": "assessment-stakes-definition",
-      "status": "ready",
+      "status": "excluded",
       "topic": "评价的后果",
       "quote": {
         "zh-Hans": "“高利害考试”指结果会影响升学、毕业等重要机会的考试。它的重要性来自成绩带来的后果，不只是题目有多难；当成绩也用于评价教师时，还会影响教师选择教什么。",
@@ -5234,7 +5237,8 @@
         "reviewed_at": "2026-11-04",
         "reviewer": "Codex",
         "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
-      }
+      },
+      "exclusion_reason": "家长关联度不足；按用户确认的简洁专业家长视角标准移出发布队列"
     }
   ]
 }
