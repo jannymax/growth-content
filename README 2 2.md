@@ -24,7 +24,9 @@ GitHub Actions 每天运行，生成成功后提交 main。沿用原来的图片
 
 ## 教材队列（2026-11-04）
 
-每周一北京时间09:00由本地Codex任务研读一章，顺序为教育心理学全书、儿童成长与发展全书、理解人的发展全书。本地资料与进度位于 KIKI/research/daily-growth-textbooks；原书不上传本公开仓库。该任务需要电脑与Codex运行。
+每周一北京时间09:00由本地Codex任务检查库存并灵活研读补充，顺序为教育心理学全书、儿童成长与发展全书、理解人的发展全书。本地资料与进度位于 KIKI/research/daily-growth-textbooks；原书不上传本公开仓库。该任务需要电脑与Codex运行。
+
+章节不绑定发布天数：内容丰富可按完整小节分批研读，内容少且库存不足可接着下一章；每条须有独立知识增量，不固定每章条数。按14至28天合格库存作为工作目标，充足时无需强制生成。分批记录小节与已推送条目进度，整章完成后才切到下一章。
 
 每章输出 JSON 的 items 数组。每条包含稳定 id、跨教材统一 concept_id、status=ready、topic、quote（三语）、source_summary、可选 practical_takeaway；source 必须包含 title/year/url/authors/edition/chapter/pages；review 的 source_checked/standalone/semantic_dedup_checked/translations_checked 均须为 true。审核必须真实执行，结构校验不能证明科学准确性。保留必要不确定性，不强行写建议，不凑七条。
 
