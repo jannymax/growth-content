@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T03:06:09Z",
-  "today_id": "2026-11-03",
+  "updated_at": "2026-11-04T01:44:02Z",
+  "today_id": "2026-11-04",
   "quotes": [
     {
       "id": "2026-05-11",
@@ -7434,6 +7434,64 @@
       },
       "id": "2026-11-03",
       "date": "2026-11-03"
+    },
+    {
+      "library_source_id": "2026-08-14:5",
+      "quote": {
+        "zh-Hans": "不妨这样理解：绿地、安全的步行空间和可以遇到同伴的场所，会增加孩子跑动、交流和自由探索的日常机会。",
+        "en": "It may help to see it this way: Green space, safe walking areas, and places to meet peers increase children's everyday opportunities to move, communicate, and explore freely.",
+        "ja": "こんなふうに捉えてみると：緑地、安全に歩ける場所、友だちと会える空間は、子どもが動き、話し、自由に探索する日常の機会を増やします。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-04.jpg",
+      "image_filename": "2026-11-04.jpg",
+      "image_path": "images/2026-11-04.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "paperId": "5d820669f62e4b23ae89caa4407787fb1fe3f67c",
+        "title": "Neighborhood playability and early childhood development: a population-based birth cohort study",
+        "year": 2026,
+        "url": "https://www.semanticscholar.org/paper/5d820669f62e4b23ae89caa4407787fb1fe3f67c",
+        "citationCount": 0,
+        "authors": [
+          "I. Jarvis",
+          "Emily Gemmell",
+          "Alicia Cavanaugh",
+          "Zoë Davis",
+          "Martin Guhn",
+          "H. Sbihi"
+        ],
+        "venue": "Environmental Research",
+        "publicationDate": "2026-03-01",
+        "publicationTypes": [
+          "JournalArticle"
+        ],
+        "externalIds": {
+          "PubMedCentral": "7618905",
+          "DOI": "10.1016/j.envres.2026.124124",
+          "CorpusId": 286277420,
+          "PubMed": "41786116"
+        },
+        "search_query": "outdoor play child development early childhood study"
+      },
+      "source_summary": "这项基于加拿大温哥华的研究分析了3万余名儿童的早期发展与社区适宜游戏性之间的关系。研究发现，绿地丰富的社区与儿童在身体、情感和社交等多方面的健康发展之间存在正相关。研究还指出，交通环境和社会环境的友好程度也与儿童发展有关。研究结果提示，城市规划中增加自然环境和安全社交空间，有助于儿童健康成长。",
+      "practical_takeaway": "不必安排复杂活动，在安全的户外空间留出十分钟自由跑、看和聊。",
+      "topic": "户外游戏",
+      "image_source": {
+        "provider": "Unsplash",
+        "id": "e3RUKNgEt8I",
+        "photographer": "Pawel Czerwinski",
+        "url": "https://unsplash.com/photos/a-blurry-photo-of-a-plant-in-a-dark-room-e3RUKNgEt8I",
+        "perceptual_hash": "62446969d872727e",
+        "width": 5600,
+        "height": 8400
+      },
+      "id": "2026-11-04",
+      "date": "2026-11-04"
     }
   ]
 }
