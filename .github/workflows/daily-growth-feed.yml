@@ -9,6 +9,7 @@ on:
       - ".github/workflows/daily-growth-feed.yml"
       - "scripts/generate_daily_growth.py"
       - "scripts/import_chapter.py"
+      - "tests/**"
       - "content_pool.json"
       - "curated/**"
   workflow_dispatch:
