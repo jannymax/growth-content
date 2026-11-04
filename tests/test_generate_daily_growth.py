@@ -61,111 +61,12 @@ class GenerateDailyGrowthTests(unittest.TestCase):
 
         self.assertEqual(growth.pending_date_ids(feed, "2026-08-25"), [])
 
-    def test_static_library_builds_ninety_unique_entries_without_api(self):
-        source_items = []
-        for index in range(45):
-            source_items.append(
-                {
-                    "id": f"2026-06-{index + 1:02d}",
-                    "quote": {
-                        "zh-Hans": f"这是第{index}条经过审核的儿童成长观察，描述家长如何在日常互动中提供稳定而温和的支持。",
-                        "en": f"Reviewed parenting insight number {index}.",
-                        "ja": f"確認済みの育児の視点{index}。",
-                    },
-                    "image_filename": "2026-06-02.jpg",
-                    "source": {
-                        "title": f"Study {index}",
-                        "year": 2025,
-                        "url": f"https://example.org/{index}",
-                    },
-                }
-            )
+    def test_recycling_paths_are_disabled(self):
+        with self.assertRaisesRegex(RuntimeError, "recycling"):
+            growth.build_static_content_library({})
+        with self.assertRaisesRegex(RuntimeError, "recycling"):
+            growth.publish_static_library_entry({}, {}, "2026-11-04", [])
 
-        library = growth.build_static_content_library(
-            {"quotes": source_items},
-            size=90,
-        )
-
-        self.assertEqual(len(library), 90)
-        self.assertEqual(len({item["library_source_id"] for item in library}), 90)
-        self.assertTrue(all(item["quote"]["en"] for item in library))
-        self.assertGreater(
-            len({item["quote"]["zh-Hans"].split("：", 1)[0] for item in library[:10]}),
-            1,
-        )
-        self.assertFalse(
-            any(item["quote"]["zh-Hans"].startswith("今天可以留意") for item in library)
-        )
-
-    def test_static_library_skips_already_published_item(self):
-        library = [
-            {
-                "library_source_id": "source:1",
-                "quote": {"zh-Hans": "第一条", "en": "First", "ja": "一つ目"},
-                "source": {"title": "Study", "year": 2025, "url": "https://example.org"},
-                "source_summary": "研究摘要",
-                "image_filename": "2026-06-02.jpg",
-            },
-            {
-                "library_source_id": "source:2",
-                "quote": {"zh-Hans": "第二条", "en": "Second", "ja": "二つ目"},
-                "source": {"title": "Study", "year": 2025, "url": "https://example.org"},
-                "source_summary": "研究摘要",
-                "image_filename": "2026-06-02.jpg",
-            },
-        ]
-        feed = {
-            "quotes": [
-                {
-                    "id": "2026-08-24",
-                    "library_source_id": "source:1",
-                    "quote": {"zh-Hans": "已发布"},
-                    "image_filename": "2026-06-02.jpg",
-                    "source": {},
-                }
-            ]
-        }
-        pool = {"items": []}
-
-        with mock.patch.object(growth, "validate_feed"), mock.patch.object(
-            growth, "validate_pool"
-        ):
-            entry = growth.publish_static_library_entry(
-                feed, pool, "2026-08-25", library
-            )
-
-        self.assertEqual(entry["library_source_id"], "source:2")
-
-    def test_static_library_uses_fresh_daily_image_when_provided(self):
-        library = [
-            {
-                "library_source_id": "source:1",
-                "quote": {"zh-Hans": "第一条", "en": "First", "ja": "一つ目"},
-                "source": {"title": "Study", "year": 2025, "url": "https://example.org"},
-                "source_summary": "研究摘要",
-                "image_filename": "old.jpg",
-            }
-        ]
-        feed = {"quotes": []}
-        pool = {"items": []}
-        image_meta = {
-            "unsplash_id": "fresh-photo",
-            "perceptual_hash": "0123456789abcdef",
-        }
-
-        with mock.patch.object(growth, "validate_feed"), mock.patch.object(
-            growth, "validate_pool"
-        ):
-            entry = growth.publish_static_library_entry(
-                feed,
-                pool,
-                "2026-08-31",
-                library,
-                image_meta=image_meta,
-            )
-
-        self.assertEqual(entry["image_filename"], "2026-08-31.jpg")
-        self.assertEqual(entry["image_source"]["id"], "fresh-photo")
 
     def test_source_keys_include_paper_id_doi_title_and_url(self):
         paper = {

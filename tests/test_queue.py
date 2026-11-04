@@ -62,3 +62,23 @@ class PublicationIntegrationTests(unittest.TestCase):
                 g.validate_feed(feed)
                 g.validate_pool(pool)
                 self.assertIsNone(g.publish_queued_entry(feed, pool, '2099-01-01'))
+
+class DedupRegressionTests(unittest.TestCase):
+    def test_preface_changes_do_not_create_new_content(self):
+        text = '孩子通过观察和比较逐渐理解事物之间的关系。'
+        self.assertEqual(g.quote_similarity(text, '换个角度看：研究提醒我们：'+text), 1.0)
+
+    def test_retired_history_blocks_reimport_with_new_id(self):
+        old = item()
+        new = copy.deepcopy(old)
+        new.update(id='new-id', concept_id='different-label')
+        new['quote']['zh-Hans'] = '不妨这样理解：' + old['quote']['zh-Hans']
+        with mock.patch.object(g, 'load_json', return_value={'items':[old]}):
+            with self.assertRaisesRegex(RuntimeError, 'similar'):
+                import_items({'quotes':[]}, {'items':[]}, [new])
+
+    def test_published_pool_blocks_bypassing_importer(self):
+        old = item(); old['status'] = 'published'
+        new = copy.deepcopy(old);new.update(id='new-id',status='ready')
+        with self.assertRaisesRegex(RuntimeError, 'concept_id'):
+            g.validate_ready_queue({'quotes':[]}, {'items':[old,new]})

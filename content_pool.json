@@ -30,11 +30,12 @@
         "externalIds": {
           "DOI": "10.1037/0893-3200.16.4.381"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-03"
     },
     {
       "id": "pool_20260602083314_2",
-      "status": "draft",
+      "status": "excluded",
       "created_at": "2026-06-02T08:33:14Z",
       "published_at": null,
       "published_date": null,
@@ -46,11 +47,12 @@
       },
       "image_query": "calm ocean sunset minimal background",
       "source_summary": "安全的关系为儿童提供了学习和探索的支持。",
-      "source": {}
+      "source": {},
+      "exclusion_reason": "Legacy unreviewed draft; must pass current textbook editorial and dedup review before admission"
     },
     {
       "id": "pool_20260602083314_3",
-      "status": "draft",
+      "status": "excluded",
       "created_at": "2026-06-02T08:33:14Z",
       "published_at": null,
       "published_date": null,
@@ -62,11 +64,12 @@
       },
       "image_query": "peaceful grassland minimal background",
       "source_summary": "研究指出引导参与对儿童理解世界的重要性。",
-      "source": {}
+      "source": {},
+      "exclusion_reason": "Legacy unreviewed draft; must pass current textbook editorial and dedup review before admission"
     },
     {
       "id": "pool_20260602083314_4",
-      "status": "draft",
+      "status": "excluded",
       "created_at": "2026-06-02T08:33:14Z",
       "published_at": null,
       "published_date": null,
@@ -78,11 +81,12 @@
       },
       "image_query": "serene wheat field minimal background",
       "source_summary": "象征性游戏在儿童发展中起到促进创造力的作用。",
-      "source": {}
+      "source": {},
+      "exclusion_reason": "Legacy unreviewed draft; must pass current textbook editorial and dedup review before admission"
     },
     {
       "id": "pool_20260602083314_5",
-      "status": "draft",
+      "status": "excluded",
       "created_at": "2026-06-02T08:33:14Z",
       "published_at": null,
       "published_date": null,
@@ -94,11 +98,12 @@
       },
       "image_query": "tranquil city morning minimal background",
       "source_summary": "语言互动对儿童的社交和认知发展至关重要。",
-      "source": {}
+      "source": {},
+      "exclusion_reason": "Legacy unreviewed draft; must pass current textbook editorial and dedup review before admission"
     },
     {
       "id": "pool_20260602083314_6",
-      "status": "draft",
+      "status": "excluded",
       "created_at": "2026-06-02T08:33:14Z",
       "published_at": null,
       "published_date": null,
@@ -110,7 +115,8 @@
       },
       "image_query": "calm rainy street minimal background",
       "source_summary": "逐渐增加的挑战对激发儿童学习兴趣有积极影响。",
-      "source": {}
+      "source": {},
+      "exclusion_reason": "Legacy unreviewed draft; must pass current textbook editorial and dedup review before admission"
     },
     {
       "id": "pool_2026-06-04",
@@ -140,7 +146,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-08-19"
     },
     {
       "id": "pool_2026-06-07",
@@ -173,7 +180,8 @@
         "externalIds": {
           "DOI": "10.1037/a0029321"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-10"
     },
     {
       "id": "pool_2026-06-11",
@@ -206,7 +214,8 @@
         "externalIds": {
           "DOI": "10.1037/a0029321"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-10"
     },
     {
       "id": "pool_2026-06-12",
@@ -237,7 +246,8 @@
         "externalIds": {
           "DOI": "10.1080/10409280701838603"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-11"
     },
     {
       "id": "pool_2026-06-13",
@@ -267,7 +277,8 @@
         "externalIds": {
           "DOI": "10.1207/s15327965pli0904_1"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-12"
     },
     {
       "id": "pool_2026-06-14",
@@ -300,7 +311,8 @@
         "externalIds": {
           "DOI": "10.1037/0893-3200.16.4.381"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-03"
     },
     {
       "id": "pool_2026-06-15",
@@ -332,7 +344,8 @@
         "externalIds": {
           "DOI": "10.1093/sleep/32.5.599"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-13"
     },
     {
       "id": "pool_2026-06-16",
@@ -367,7 +380,8 @@
         "externalIds": {
           "DOI": "10.3390/ijerph120606455"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-14"
     },
     {
       "id": "pool_2026-06-17",
@@ -397,7 +411,8 @@
         "externalIds": {
           "DOI": "10.1207/s15327965pli0904_1"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-15"
     },
     {
       "id": "pool_2026-06-18",
@@ -426,7 +441,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev-psych-010814-015221"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-16"
     },
     {
       "id": "pool_2026-06-19",
@@ -456,7 +472,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-11-02"
     },
     {
       "id": "pool_2026-06-20",
@@ -486,7 +503,8 @@
         "externalIds": {
           "DOI": "10.1016/j.tics.2012.03.001"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-17"
     },
     {
       "id": "pool_2026-06-21",
@@ -514,7 +532,8 @@
         "externalIds": {
           "DOI": "10.1080/14616730500365928"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-07"
     },
     {
       "id": "pool_2026-06-22",
@@ -542,7 +561,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev.psych.50.1.333"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-26"
     },
     {
       "id": "pool_2026-06-23",
@@ -570,7 +590,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01805.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-22"
     },
     {
       "id": "pool_2026-06-24",
@@ -604,7 +625,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01768.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-23"
     },
     {
       "id": "pool_2026-06-25",
@@ -632,7 +654,8 @@
         "externalIds": {
           "DOI": "10.17763/haer.81.4.h054131316473115"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-24"
     },
     {
       "id": "pool_2026-06-26",
@@ -661,7 +684,8 @@
         "externalIds": {
           "DOI": "10.1037/0022-0663.81.2.143"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-25"
     },
     {
       "id": "pool_2026-06-27",
@@ -689,7 +713,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev.psych.50.1.333"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-22"
     },
     {
       "id": "pool_2026-06-28",
@@ -719,7 +744,8 @@
         "externalIds": {
           "DOI": "10.1353/foc.0.0002"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-27"
     },
     {
       "id": "pool_2026-06-29",
@@ -748,7 +774,8 @@
         "externalIds": {
           "DOI": "10.1037/0022-3514.75.1.33"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-28"
     },
     {
       "id": "pool_2026-06-30",
@@ -776,7 +803,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev.ps.39.020188.001233"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-29"
     },
     {
       "id": "pool_2026-07-01",
@@ -804,7 +832,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01805.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-30"
     },
     {
       "id": "pool_2026-07-02",
@@ -834,7 +863,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-7687.2012.01142.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-31"
     },
     {
       "id": "pool_2026-07-03",
@@ -863,7 +893,8 @@
         "externalIds": {
           "DOI": "10.2105/AJPH.94.9.1580"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-11-01"
     },
     {
       "id": "pool_2026-07-04",
@@ -905,7 +936,8 @@
           "PubMed": "41622938"
         },
         "search_query": "executive function child development parenting intervention"
-      }
+      },
+      "retired_duplicate_of": "2026-11-02"
     },
     {
       "id": "pool_2026-07-05",
@@ -946,7 +978,8 @@
           "PubMed": "40604066"
         },
         "search_query": "early childhood development parenting longitudinal study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-03"
     },
     {
       "id": "pool_2026-07-06",
@@ -989,7 +1022,8 @@
           "PubMed": "41786116"
         },
         "search_query": "outdoor play child development early childhood study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-04"
     },
     {
       "id": "pool_2026-07-07",
@@ -1031,7 +1065,8 @@
           "PubMed": "41667754"
         },
         "search_query": "secure attachment child development parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-01"
     },
     {
       "id": "pool_2026-07-08",
@@ -1074,7 +1109,8 @@
           "PubMed": "33970913"
         },
         "search_query": "positive parenting child socioemotional development study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-02"
     },
     {
       "id": "pool_2026-07-09",
@@ -1112,7 +1148,8 @@
           "CorpusId": 287639663
         },
         "search_query": "play based learning early childhood development research"
-      }
+      },
+      "retired_duplicate_of": "2026-10-03"
     },
     {
       "id": "pool_2026-07-10",
@@ -1151,7 +1188,8 @@
           "PubMed": "42020350"
         },
         "search_query": "parent child interaction language development children study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-04"
     },
     {
       "id": "pool_2026-07-11",
@@ -1190,7 +1228,8 @@
           "CorpusId": 150523525
         },
         "search_query": "scaffolding learning children parent interaction study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-15"
     },
     {
       "id": "pool_2026-07-12",
@@ -1228,7 +1267,8 @@
           "PubMed": "42385270"
         },
         "search_query": "scaffolding learning children parent interaction study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-06"
     },
     {
       "id": "pool_2026-07-13",
@@ -1271,7 +1311,8 @@
           "PubMed": "35651851"
         },
         "search_query": "attention development children learning classroom educational psychology study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-07"
     },
     {
       "id": "pool_2026-07-14",
@@ -1309,7 +1350,8 @@
           "CorpusId": 289357247
         },
         "search_query": "emotion regulation preschool children parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-03"
     },
     {
       "id": "pool_2026-07-15",
@@ -1351,7 +1393,8 @@
           "PubMed": "37476119"
         },
         "search_query": "screen time child development systematic review preschool"
-      }
+      },
+      "retired_duplicate_of": "2026-10-27"
     },
     {
       "id": "pool_2026-07-16",
@@ -1394,7 +1437,8 @@
           "PubMed": "40718554"
         },
         "search_query": "secure attachment child development parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-10"
     },
     {
       "id": "pool_2026-07-19",
@@ -1435,7 +1479,8 @@
           "PubMed": "41772311"
         },
         "search_query": "children emotion development emotion understanding regulation longitudinal study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-11"
     },
     {
       "id": "pool_2026-07-21",
@@ -1472,7 +1517,8 @@
           "CorpusId": 284697084
         },
         "search_query": "shared reading language development children meta analysis"
-      }
+      },
+      "retired_duplicate_of": "2026-10-12"
     },
     {
       "id": "pool_2026-07-22",
@@ -1511,7 +1557,8 @@
           "CorpusId": 284801472
         },
         "search_query": "sleep routines child development parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-13"
     },
     {
       "id": "pool_2026-07-23",
@@ -1548,7 +1595,8 @@
           "CorpusId": 279921282
         },
         "search_query": "secure attachment child development parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-14"
     },
     {
       "id": "pool_2026-07-24",
@@ -1591,7 +1639,8 @@
           "PubMed": "41769797"
         },
         "search_query": "retrieval practice spacing effect children learning education study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-15"
     },
     {
       "id": "pool_2026-07-25",
@@ -1633,7 +1682,8 @@
           "PubMed": "36342702"
         },
         "search_query": "screen time child development systematic review preschool"
-      }
+      },
+      "retired_duplicate_of": "2026-10-16"
     },
     {
       "id": "pool_2026-07-26",
@@ -1676,7 +1726,8 @@
           "PubMed": "39102255"
         },
         "search_query": "screen time child development systematic review preschool"
-      }
+      },
+      "retired_duplicate_of": "2026-10-27"
     },
     {
       "id": "pool_2026-07-27",
@@ -1714,7 +1765,8 @@
           "CorpusId": 289586918
         },
         "search_query": "multisensory learning children language vocabulary development study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-19"
     },
     {
       "id": "pool_2026-07-28",
@@ -1752,7 +1804,8 @@
           "CorpusId": 289145834
         },
         "search_query": "multisensory learning children language vocabulary development study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-19"
     },
     {
       "id": "pool_2026-07-29",
@@ -1795,7 +1848,8 @@
           "PubMed": "40948498"
         },
         "search_query": "emotion regulation preschool children parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-20"
     },
     {
       "id": "pool_2026-07-30",
@@ -1835,7 +1889,8 @@
           "PubMed": "42475003"
         },
         "search_query": "scaffolding learning children parent interaction study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-21"
     },
     {
       "id": "pool_2026-08-01",
@@ -1863,7 +1918,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01805.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-22"
     },
     {
       "id": "pool_2026-08-02",
@@ -1897,7 +1953,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01768.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-23"
     },
     {
       "id": "pool_2026-08-03",
@@ -1925,7 +1982,8 @@
         "externalIds": {
           "DOI": "10.17763/haer.81.4.h054131316473115"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-24"
     },
     {
       "id": "pool_2026-08-04",
@@ -1954,7 +2012,8 @@
         "externalIds": {
           "DOI": "10.1037/0022-0663.81.2.143"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-25"
     },
     {
       "id": "pool_2026-08-05",
@@ -1982,7 +2041,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev.psych.50.1.333"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-26"
     },
     {
       "id": "pool_2026-08-06",
@@ -2012,7 +2072,8 @@
         "externalIds": {
           "DOI": "10.1353/foc.0.0002"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-27"
     },
     {
       "id": "pool_2026-08-07",
@@ -2041,7 +2102,8 @@
         "externalIds": {
           "DOI": "10.1037/0022-3514.75.1.33"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-28"
     },
     {
       "id": "pool_2026-08-08",
@@ -2069,7 +2131,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev.ps.39.020188.001233"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-29"
     },
     {
       "id": "pool_2026-08-09",
@@ -2097,7 +2160,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01805.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-30"
     },
     {
       "id": "pool_2026-08-10",
@@ -2127,7 +2191,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-7687.2012.01142.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-31"
     },
     {
       "id": "pool_2026-08-11",
@@ -2156,7 +2221,8 @@
         "externalIds": {
           "DOI": "10.2105/AJPH.94.9.1580"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-11-01"
     },
     {
       "id": "pool_2026-08-12",
@@ -2198,7 +2264,8 @@
           "PubMed": "41622938"
         },
         "search_query": "executive function child development parenting intervention"
-      }
+      },
+      "retired_duplicate_of": "2026-11-02"
     },
     {
       "id": "pool_2026-08-13",
@@ -2239,7 +2306,8 @@
           "PubMed": "40604066"
         },
         "search_query": "early childhood development parenting longitudinal study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-03"
     },
     {
       "id": "pool_2026-08-14",
@@ -2282,7 +2350,8 @@
           "PubMed": "41786116"
         },
         "search_query": "outdoor play child development early childhood study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-04"
     },
     {
       "id": "pool_2026-08-15",
@@ -2324,7 +2393,8 @@
           "PubMed": "41667754"
         },
         "search_query": "secure attachment child development parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-01"
     },
     {
       "id": "pool_2026-08-16",
@@ -2367,7 +2437,8 @@
           "PubMed": "33970913"
         },
         "search_query": "positive parenting child socioemotional development study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-02"
     },
     {
       "id": "pool_2026-08-17",
@@ -2405,7 +2476,8 @@
           "CorpusId": 287639663
         },
         "search_query": "play based learning early childhood development research"
-      }
+      },
+      "retired_duplicate_of": "2026-10-03"
     },
     {
       "id": "pool_2026-08-18",
@@ -2444,7 +2516,8 @@
           "PubMed": "42020350"
         },
         "search_query": "parent child interaction language development children study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-04"
     },
     {
       "id": "library_2026-08-19",
@@ -2507,7 +2580,8 @@
         "externalIds": {
           "DOI": "10.1037/a0029321"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-10"
     },
     {
       "id": "library_2026-08-21",
@@ -2540,7 +2614,8 @@
         "externalIds": {
           "DOI": "10.1037/a0029321"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-10"
     },
     {
       "id": "library_2026-08-22",
@@ -2571,7 +2646,8 @@
         "externalIds": {
           "DOI": "10.1080/10409280701838603"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-11"
     },
     {
       "id": "library_2026-08-23",
@@ -2601,7 +2677,8 @@
         "externalIds": {
           "DOI": "10.1207/s15327965pli0904_1"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-12"
     },
     {
       "id": "library_2026-08-24",
@@ -2634,7 +2711,8 @@
         "externalIds": {
           "DOI": "10.1037/0893-3200.16.4.381"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-03"
     },
     {
       "id": "library_2026-08-25",
@@ -2666,7 +2744,8 @@
         "externalIds": {
           "DOI": "10.1093/sleep/32.5.599"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-13"
     },
     {
       "id": "library_2026-08-26",
@@ -2701,7 +2780,8 @@
         "externalIds": {
           "DOI": "10.3390/ijerph120606455"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-14"
     },
     {
       "id": "library_2026-08-27",
@@ -2731,7 +2811,8 @@
         "externalIds": {
           "DOI": "10.1207/s15327965pli0904_1"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-15"
     },
     {
       "id": "library_2026-08-28",
@@ -2760,7 +2841,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev-psych-010814-015221"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-16"
     },
     {
       "id": "library_2026-08-29",
@@ -2790,7 +2872,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-11-02"
     },
     {
       "id": "library_2026-08-30",
@@ -2820,7 +2903,8 @@
         "externalIds": {
           "DOI": "10.1016/j.tics.2012.03.001"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-17"
     },
     {
       "id": "library_2026-08-31",
@@ -2848,7 +2932,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev.psych.50.1.333"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-26"
     },
     {
       "id": "pool_2026-09-01",
@@ -3004,7 +3089,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev-psych-010814-015221"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-16"
     },
     {
       "id": "pool_2026-09-06",
@@ -3097,7 +3183,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1469-7610.1976.tb00381.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-11-02"
     },
     {
       "id": "library_2026-09-09",
@@ -3130,7 +3217,8 @@
         "externalIds": {
           "DOI": "10.1037/a0029321"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-09-10"
     },
     {
       "id": "library_2026-09-10",
@@ -3408,7 +3496,8 @@
         "externalIds": {
           "DOI": "10.1146/annurev.psych.50.1.333"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-26"
     },
     {
       "id": "library_2026-09-19",
@@ -3436,7 +3525,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01805.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-22"
     },
     {
       "id": "library_2026-09-20",
@@ -3464,7 +3554,8 @@
         "externalIds": {
           "DOI": "10.17763/haer.81.4.h054131316473115"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-24"
     },
     {
       "id": "library_2026-09-21",
@@ -3493,7 +3584,8 @@
         "externalIds": {
           "DOI": "10.1037/0022-0663.81.2.143"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-25"
     },
     {
       "id": "library_2026-09-22",
@@ -3551,7 +3643,8 @@
         "externalIds": {
           "DOI": "10.1353/foc.0.0002"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-27"
     },
     {
       "id": "library_2026-09-24",
@@ -3580,7 +3673,8 @@
         "externalIds": {
           "DOI": "10.1037/0022-3514.75.1.33"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-28"
     },
     {
       "id": "library_2026-09-25",
@@ -3608,7 +3702,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-8624.2012.01805.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-30"
     },
     {
       "id": "library_2026-09-26",
@@ -3638,7 +3733,8 @@
         "externalIds": {
           "DOI": "10.1111/j.1467-7687.2012.01142.x"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-10-31"
     },
     {
       "id": "library_2026-09-27",
@@ -3667,7 +3763,8 @@
         "externalIds": {
           "DOI": "10.2105/AJPH.94.9.1580"
         }
-      }
+      },
+      "retired_duplicate_of": "2026-11-01"
     },
     {
       "id": "library_2026-09-28",
@@ -3709,7 +3806,8 @@
           "PubMed": "41622938"
         },
         "search_query": "executive function child development parenting intervention"
-      }
+      },
+      "retired_duplicate_of": "2026-11-02"
     },
     {
       "id": "library_2026-09-29",
@@ -3750,7 +3848,8 @@
           "PubMed": "40604066"
         },
         "search_query": "early childhood development parenting longitudinal study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-03"
     },
     {
       "id": "library_2026-09-30",
@@ -3793,7 +3892,8 @@
           "PubMed": "41786116"
         },
         "search_query": "outdoor play child development early childhood study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-04"
     },
     {
       "id": "library_2026-10-01",
@@ -3994,7 +4094,8 @@
           "CorpusId": 150523525
         },
         "search_query": "scaffolding learning children parent interaction study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-15"
     },
     {
       "id": "library_2026-10-06",
@@ -4113,7 +4214,8 @@
           "CorpusId": 289357247
         },
         "search_query": "emotion regulation preschool children parenting study"
-      }
+      },
+      "retired_duplicate_of": "2026-11-03"
     },
     {
       "id": "library_2026-10-09",
@@ -4155,7 +4257,8 @@
           "PubMed": "37476119"
         },
         "search_query": "screen time child development systematic review preschool"
-      }
+      },
+      "retired_duplicate_of": "2026-10-27"
     },
     {
       "id": "library_2026-10-10",
@@ -4480,7 +4583,8 @@
           "PubMed": "39102255"
         },
         "search_query": "screen time child development systematic review preschool"
-      }
+      },
+      "retired_duplicate_of": "2026-10-27"
     },
     {
       "id": "library_2026-10-18",
@@ -4518,7 +4622,8 @@
           "CorpusId": 289586918
         },
         "search_query": "multisensory learning children language vocabulary development study"
-      }
+      },
+      "retired_duplicate_of": "2026-10-19"
     },
     {
       "id": "library_2026-10-19",

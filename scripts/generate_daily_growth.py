@@ -197,149 +197,12 @@ def pending_date_ids(feed, target_date_id, limit=MAX_DAILY_BACKFILL_DAYS):
     return pending
 
 
-def build_static_content_library(feed, size=STATIC_LIBRARY_SIZE):
-    """Build a deterministic, API-free queue from reviewed multilingual entries."""
-    candidates = []
-    for item in feed.get("quotes", []):
-        quote = item.get("quote") or {}
-        zh = (quote.get("zh-Hans") or "").strip()
-        if item.get("library_source_id"):
-            continue
-        if not has_real_source(item.get("source") or {}):
-            continue
-        if not (35 <= len(zh) <= 100):
-            continue
-        if not quote.get("en") or not quote.get("ja"):
-            continue
-        candidates.append(item)
-
-    styles = [
-        {
-            "zh-Hans": "一个值得记住的观察是：{}",
-            "en": "One observation worth remembering: {}",
-            "ja": "覚えておきたい一つの視点：{}",
-        },
-        {
-            "zh-Hans": "换个角度看：{}",
-            "en": "Another way to see it: {}",
-            "ja": "別の角度から見ると：{}",
-        },
-        {
-            "zh-Hans": "研究提醒我们：{}",
-            "en": "Research offers this reminder: {}",
-            "ja": "研究からのヒント：{}",
-        },
-        {
-            "zh-Hans": "日常里常被忽略的一点是：{}",
-            "en": "One easily missed part of daily life: {}",
-            "ja": "日常で見落としやすいこと：{}",
-        },
-        {
-            "zh-Hans": "不妨这样理解：{}",
-            "en": "It may help to see it this way: {}",
-            "ja": "こんなふうに捉えてみると：{}",
-        },
-    ]
-    library = []
-    round_index = 0
-    while len(library) < size:
-        added_this_round = 0
-        for source_index, source in enumerate(candidates):
-            style_index = (source_index + round_index) % len(styles)
-            style = styles[style_index]
-            source_quote = source["quote"]
-            library.append(
-                {
-                    "library_source_id": f"{source['id']}:{style_index + 1}",
-                    "quote": {
-                        language: template.format(source_quote[language])
-                        for language, template in style.items()
-                    },
-                    "author": source.get("author", {}),
-                    "image_url": source.get("image_url"),
-                    "image_filename": image_filename_for_item(source),
-                    "image_path": source.get("image_path"),
-                    "image_name": source.get("image_name", "quotation_card_bg"),
-                    "source": source.get("source", {}),
-                    "source_summary": source.get("source_summary", ""),
-                    "practical_takeaway": source.get("practical_takeaway", ""),
-                    "topic": source.get("topic", ""),
-                    "image_source": source.get("image_source", {}),
-                }
-            )
-            added_this_round += 1
-            if len(library) == size:
-                return library
-        if not added_this_round:
-            break
-        round_index += 1
-
-    if len(library) < size:
-        raise RuntimeError(
-            f"Static content library has only {len(library)} reviewed entries; "
-            f"{size} are required."
-        )
-    return library
+def build_static_content_library(*args, **kwargs):
+    raise RuntimeError("Retired: recycling published content is prohibited")
 
 
-def publish_static_library_entry(feed, pool, date_id, library, image_meta=None):
-    used_ids = {
-        item.get("library_source_id")
-        for item in feed.get("quotes", [])
-        if item.get("library_source_id")
-    }
-    library_item = next(
-        (item for item in library if item["library_source_id"] not in used_ids),
-        None,
-    )
-    if library_item is None:
-        raise RuntimeError("Static content library is exhausted and must be refreshed.")
-
-    entry = dict(library_item)
-    entry["id"] = date_id
-    entry["date"] = date_id
-    if image_meta is not None:
-        image_filename = f"{date_id}.jpg"
-        entry.update(
-            {
-                "image_url": f"{GITHUB_RAW_BASE}/{image_filename}",
-                "image_filename": image_filename,
-                "image_path": f"images/{image_filename}",
-                "image_name": "quotation_card_bg",
-                "image_source": {
-                    "provider": image_meta.get("provider", "Unsplash"),
-                    "id": image_meta.get("unsplash_id"),
-                    "photographer": image_meta.get("unsplash_user"),
-                    "url": image_meta.get("unsplash_page"),
-                    "perceptual_hash": image_meta.get("perceptual_hash"),
-                    "width": image_meta.get("width"),
-                    "height": image_meta.get("height"),
-                },
-            }
-        )
-    feed["quotes"].append(entry)
-    feed["quotes"].sort(key=lambda item: item.get("date") or item.get("id") or "")
-    feed["today_id"] = date_id
-    feed["updated_at"] = iso_now()
-
-    pool["items"].append(
-        {
-            "id": f"library_{date_id}",
-            "status": "published",
-            "created_at": iso_now(),
-            "published_at": iso_now(),
-            "published_date": date_id,
-            "library_source_id": library_item["library_source_id"],
-            "topic": library_item.get("topic", ""),
-            "quote": library_item["quote"],
-            "source_summary": library_item.get("source_summary", ""),
-            "practical_takeaway": library_item.get("practical_takeaway", ""),
-            "source": library_item.get("source", {}),
-        }
-    )
-    validate_feed(feed)
-    validate_pool(pool)
-    return entry
+def publish_static_library_entry(*args, **kwargs):
+    raise RuntimeError("Retired: recycling published content is prohibited")
 
 
 def canonical_text(value):
@@ -376,11 +239,27 @@ def used_source_keys(feed, pool):
     return keys
 
 
+def dedup_text(value):
+    text = canonical_text(value)
+    prefixes = ("一个值得记住的观察是", "日常里常被忽略的一点是", "今天可以留意", "换个角度看", "研究提醒我们", "不妨这样理解")
+    while True:
+        prefix = next((p for p in prefixes if text.startswith(p)), None)
+        if not prefix:
+            return text
+        text = text[len(prefix):]
+
+
+def dedup_history(feed, pool):
+    retired = load_json(ROOT / "curated" / "retired-quotes.json", {"items": []})
+    return (list(feed.get("quotes", [])) + retired["items"] +
+            [x for x in pool["items"] if x.get("status") != "ready"])
+
+
 def quote_similarity(left, right):
     return difflib.SequenceMatcher(
         None,
-        canonical_text(left),
-        canonical_text(right),
+        dedup_text(left),
+        dedup_text(right),
     ).ratio()
 
 
@@ -1105,7 +984,7 @@ def validate_queue_item(item, previous):
 
 
 def validate_ready_queue(feed, pool):
-    previous = list(feed.get("quotes", []))
+    previous = dedup_history(feed, pool)
     for item in pool["items"]:
         if item.get("status") == "ready":
             validate_queue_item(item, previous)

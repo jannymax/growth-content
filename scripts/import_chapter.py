@@ -15,7 +15,7 @@ def import_items(feed, pool, items):
             continue
         if item.get('status') != 'ready':
             raise RuntimeError('Only reviewed ready items can be imported')
-        g.validate_queue_item(item, feed['quotes'] + candidate['items'])
+        g.validate_queue_item(item, g.dedup_history(feed, candidate) + [x for x in candidate['items'] if x.get('status') == 'ready'])
         candidate['items'].append(item)
     g.validate_pool(candidate)
     g.validate_ready_queue(feed, candidate)
