@@ -38,3 +38,27 @@ class QueueTests(unittest.TestCase):
             self.assertEqual(entry['content_id'],'textbook-1')
             self.assertIsNone(g.publish_queued_entry(feed,pool,'2026-11-05'))
         self.assertEqual(len(feed['quotes']),1)
+
+class PublicationIntegrationTests(unittest.TestCase):
+    def test_real_photo_and_feed_in_temporary_directory(self):
+        try:
+            import PIL
+        except ImportError:
+            self.skipTest('Pillow is installed by the GitHub workflow')
+        import tempfile
+        feed, pool = g.load_feed(), g.load_pool()
+        ready = [x for x in pool['items'] if x.get('status') == 'ready']
+        if not ready or not g.available_curated_photos(feed):
+            self.skipTest('Production inventory empty; queue behavior covered by fixtures')
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td)
+            for photo in g.IMAGES_DIR.iterdir():
+                if photo.is_file():
+                    (target / photo.name).symlink_to(photo.resolve())
+            with mock.patch.object(g, 'IMAGES_DIR', target):
+                entry = g.publish_queued_entry(feed, pool, '2099-01-01')
+                self.assertEqual(entry['content_id'], ready[0]['id'])
+                self.assertTrue((target / '2099-01-01.jpg').exists())
+                g.validate_feed(feed)
+                g.validate_pool(pool)
+                self.assertIsNone(g.publish_queued_entry(feed, pool, '2099-01-01'))
