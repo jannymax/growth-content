@@ -5196,7 +5196,7 @@
     {
       "id": "ep-ch01-01",
       "concept_id": "language-access-versus-learning-goal",
-      "status": "ready",
+      "status": "published",
       "topic": "语言理解与学习目标",
       "quote": {
         "zh-Hans": "孩子用不熟悉的语言学习时，任务表现可能同时受语言理解和知识掌握影响。先确认他听懂了要求，再判断他是否掌握了知识。",
@@ -5229,7 +5229,9 @@
         "reviewer": "Codex",
         "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims",
         "editorial_standard": "2026-11-04 用户确认：家长能理解、简洁专业、概念清楚、结论有边界"
-      }
+      },
+      "published_date": "2026-11-05",
+      "published_at": "2026-11-05T01:51:48Z"
     },
     {
       "id": "ep-ch01-02",

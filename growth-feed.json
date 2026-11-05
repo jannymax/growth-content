@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T07:55:56Z",
-  "today_id": "2026-11-04",
+  "updated_at": "2026-11-05T01:51:48Z",
+  "today_id": "2026-11-05",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -2490,6 +2490,53 @@
       },
       "id": "2026-11-04",
       "date": "2026-11-04"
+    },
+    {
+      "id": "2026-11-05",
+      "date": "2026-11-05",
+      "quote": {
+        "zh-Hans": "孩子用不熟悉的语言学习时，任务表现可能同时受语言理解和知识掌握影响。先确认他听懂了要求，再判断他是否掌握了知识。",
+        "en": "When children learn in an unfamiliar language, their performance may reflect both language comprehension and subject knowledge. Check that they understand the instructions before judging what they know.",
+        "ja": "慣れない言語で学ぶ子どもの課題への取り組みには、言語の理解と知識の習得の両方が影響する場合があります。知識が身についているかを判断する前に、指示を理解しているか確かめましょう。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-05.jpg",
+      "image_filename": "2026-11-05.jpg",
+      "image_path": "images/2026-11-05.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "year": 2009,
+        "edition": "Second Edition",
+        "chapter": "1. The changing teaching profession and you",
+        "pages": "11",
+        "pdf_pages": "11",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase with explicitly identified application extensions; not a direct quotation or a tested intervention."
+      },
+      "source_summary": "依据教材第1章第11页对第二语言学习者的讨论：教师需要让学生理解任务，同时保留课程目标。短句将此转述为家长可理解的判断顺序；并非对个别孩子困难原因的诊断，也不是经独立试验验证的家庭干预。",
+      "practical_takeaway": "",
+      "topic": "语言理解与学习目标",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "10014507",
+        "photographer": "Yunus Tuğ",
+        "url": "https://www.pexels.com/photo/green-grass-field-during-sunset-10014507/",
+        "perceptual_hash": "7fff11fce4434344",
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch01-01",
+      "concept_id": "language-access-versus-learning-goal"
     }
   ]
 }
