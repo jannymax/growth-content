@@ -5236,7 +5236,7 @@
     {
       "id": "ep-ch01-02",
       "concept_id": "educational-technology-fit",
-      "status": "ready",
+      "status": "published",
       "topic": "技术与学习任务",
       "quote": {
         "zh-Hans": "孩子能搜到答案，不代表能判断答案是否可靠。学习使用信息，还包括辨认来源、查看依据，并与其他可靠资料相互核对。",
@@ -5269,7 +5269,9 @@
         "reviewer": "Codex",
         "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims",
         "editorial_standard": "2026-11-04 用户确认：家长能理解、简洁专业、概念清楚、结论有边界"
-      }
+      },
+      "published_date": "2026-11-06",
+      "published_at": "2026-11-06T01:50:56Z"
     },
     {
       "id": "ep-ch01-03",
