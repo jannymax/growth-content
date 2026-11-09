@@ -186,6 +186,32 @@
       "approved_on": "2026-11-09",
       "approval": "用户确认两周审阅稿全部通过",
       "review": "已审阅完整图片及两周卡片；保留原图构图和调色，按审阅顺序发布。"
+    },
+    {
+      "id": "16795675",
+      "photographer": "Peter Steiner 🇨🇭 1973",
+      "page": "https://www.pexels.com/photo/mist-over-pine-forest-16795675/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/16795675.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-09",
+      "approval": "Editor reviewed under user authorization to replenish two entries",
+      "width": 1440,
+      "height": 2160,
+      "review": "雾层使树影逐层淡去，左上留白与斜向林线平衡；青灰色克制，空气透视自然，无水印。"
+    },
+    {
+      "id": "20451732",
+      "photographer": "Lisa Pinciroli",
+      "page": "https://www.pexels.com/photo/sea-at-sunrise-20451732/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/20451732.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-09",
+      "approval": "Editor reviewed under user authorization to replenish two entries",
+      "width": 1440,
+      "height": 2160,
+      "review": "粉杏晨光向灰紫海面自然过渡，大面积天空留白；小船与尾迹形成尺度和叙事，海面纹理柔和，无水印。"
     }
   ]
 }

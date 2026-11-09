@@ -6012,6 +6012,112 @@
       },
       "topic": "学习，也包括认识自己的方法",
       "practical_takeaway": ""
+    },
+    {
+      "day": 15,
+      "id": "ep-ch02-15",
+      "status": "ready",
+      "title": "成绩不能涵盖全部学习",
+      "topic": "成绩不能涵盖全部学习",
+      "concept_id": "learning-beyond-academic-achievement",
+      "quote": {
+        "zh-Hans": "孩子学会骑车、逐渐熟悉一个人，也属于学习。心理学中的学习包括技能、知识和态度因经验而发生的较稳定变化；学业成绩只能反映其中一部分。",
+        "en": "Learning to ride a bicycle or gradually getting to know someone also counts as learning. In psychology, learning includes relatively lasting changes in skills, knowledge, and attitudes through experience. Academic results reflect only part of it.",
+        "ja": "自転車に乗れるようになることや、誰かを少しずつ知ることも学習です。心理学でいう学習には、経験による技能・知識・態度の比較的持続する変化が含まれます。成績が表すのは、その一部です。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "20–21",
+        "pdf_pages": "20–21",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材观点：学习包括身体技能、社会、情绪与认知领域的较稳定变化，不限于课堂中的有意学习。家庭视角延伸：成绩只反映部分学习，不用其概括孩子全部成长；不是多元智能理论的实证断言。知识增量为学习范围，与旧稿游戏促进认知、学习保持不同。",
+      "practical_takeaway": "",
+      "photo": {
+        "id": "16795675",
+        "photographer": "Peter Steiner 🇨🇭 1973",
+        "page": "https://www.pexels.com/photo/mist-over-pine-forest-16795675/",
+        "license": "https://www.pexels.com/license/",
+        "file": "curated/photos/16795675.jpg",
+        "status": "approved",
+        "approved_on": "2026-11-09",
+        "approval": "Editor reviewed under user authorization to replenish two entries",
+        "width": 1440,
+        "height": 2160,
+        "review": "雾层使树影逐层淡去，左上留白与斜向林线平衡；青灰色克制，空气透视自然，无水印。"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "User authorized two additions; editor reviewed, not individually reviewed by user",
+        "reviewer": "Codex source, semantic and translation review"
+      }
+    },
+    {
+      "day": 16,
+      "id": "ep-ch02-16",
+      "status": "ready",
+      "title": "行为发生前，也有线索",
+      "topic": "行为发生前，也有线索",
+      "concept_id": "behavior-antecedent-observation",
+      "quote": {
+        "zh-Hans": "理解孩子反复出现的行为，也要看它发生前的情境：刚接到了什么要求，周围发生了什么。把这些线索记录下来，能帮助家长寻找规律，但不能仅凭一次观察确定原因。",
+        "en": "To understand a child's recurring behavior, also look at what came just before it: what was asked of the child and what was happening around them. Recording these clues can help parents identify patterns, but one observation cannot establish the cause.",
+        "ja": "子どもが繰り返す行動を理解するときは、その直前の状況にも目を向けます。何を求められ、周囲で何が起きていたでしょうか。記録は傾向を探る手がかりになりますが、一度の観察だけで原因は判断できません。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "24",
+        "pdf_pages": "24",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材观点：行为主义关注行为与紧接其前的事件及其后果之间的联系，不能完整解释内在思考。家庭应用延伸：记录要求与环境，寻找行为前因线索；不是因果验证，也不宣称可据此诊断或改善问题。知识增量为行为前的情境，区别于ep-ch02-08/09行为后的回应及第1章方法效果评估。",
+      "practical_takeaway": "",
+      "photo": {
+        "id": "20451732",
+        "photographer": "Lisa Pinciroli",
+        "page": "https://www.pexels.com/photo/sea-at-sunrise-20451732/",
+        "license": "https://www.pexels.com/license/",
+        "file": "curated/photos/20451732.jpg",
+        "status": "approved",
+        "approved_on": "2026-11-09",
+        "approval": "Editor reviewed under user authorization to replenish two entries",
+        "width": 1440,
+        "height": 2160,
+        "review": "粉杏晨光向灰紫海面自然过渡，大面积天空留白；小船与尾迹形成尺度和叙事，海面纹理柔和，无水印。"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "User authorized two additions; editor reviewed, not individually reviewed by user",
+        "reviewer": "Codex source, semantic and translation review"
+      }
     }
   ]
 }
