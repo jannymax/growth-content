@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T01:16:05Z",
+  "updated_at": "2026-11-09T01:37:56Z",
   "today_id": "2026-11-09",
   "quotes": [
     {
@@ -2584,6 +2584,100 @@
       },
       "content_id": "ep-ch01-02",
       "concept_id": "educational-technology-fit"
+    },
+    {
+      "id": "2026-11-07",
+      "date": "2026-11-07",
+      "quote": {
+        "zh-Hans": "孩子刚练习完就答对，说明他当时能完成任务；隔一段时间仍能做到，才更能看出学习是否保留下来。判断掌握程度，需要把短暂表现与较稳定的变化分开。",
+        "en": "Answering correctly just after practice shows what a child can do at that moment. Being able to do it again later gives a better indication of retention. Assessing learning means distinguishing temporary performance from relatively lasting change.",
+        "ja": "練習の直後に正解できることは、その時点で課題をこなせたことを示します。時間がたってもできるかを見ると、学習が定着したかをより判断しやすくなります。一時的な成績と比較的持続する変化を区別することが大切です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-07.jpg",
+      "image_filename": "2026-11-07.jpg",
+      "image_path": "images/2026-11-07.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "20",
+        "pdf_pages": "20",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材对学习的定义强调相对持久的变化；间隔后再观察是家庭应用延伸，不规定统一间隔或测试频率。",
+      "practical_takeaway": "",
+      "topic": "当场答对，不等于已经学会",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "34513222",
+        "photographer": "Davide Negro",
+        "url": "https://www.pexels.com/photo/tranquil-mountain-lake-at-sunrise-with-mist-34513222/",
+        "perceptual_hash": null,
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-01",
+      "concept_id": "learning-retention-versus-performance"
+    },
+    {
+      "id": "2026-11-08",
+      "date": "2026-11-08",
+      "quote": {
+        "zh-Hans": "同样一段讲解，不同孩子可能记住不同部分，也可能形成不同理解。判断孩子学到了什么，要看他实际怎样解释和运用，不能只看大人是否已经讲过。",
+        "en": "Children may remember different parts of the same explanation or understand it differently. To judge what a child has learned, look at how they explain and use it, not simply whether an adult has already taught it.",
+        "ja": "同じ説明を聞いても、子どもによって覚える部分や理解の仕方は異なります。何を学んだかは、大人が説明したかどうかだけでなく、子どもが実際にどう説明し、使うかを見て判断します。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-08.jpg",
+      "image_filename": "2026-11-08.jpg",
+      "image_path": "images/2026-11-08.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "21",
+        "pdf_pages": "21",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材区分教学内容与学生实际理解和保留的内容；让孩子解释是应用延伸，与第1章语言理解障碍不同。",
+      "practical_takeaway": "",
+      "topic": "讲过了，不等于理解了",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "11623802",
+        "photographer": "Atahan Demir",
+        "url": "https://www.pexels.com/photo/silhouette-of-mountain-during-sunset-11623802/",
+        "perceptual_hash": null,
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-02",
+      "concept_id": "instruction-versus-learned-content"
     },
     {
       "id": "2026-11-09",

@@ -5354,7 +5354,7 @@
     {
       "day": 1,
       "id": "ep-ch02-01",
-      "status": "ready",
+      "status": "published",
       "title": "当场答对，不等于已经学会",
       "quote": {
         "zh-Hans": "孩子刚练习完就答对，说明他当时能完成任务；隔一段时间仍能做到，才更能看出学习是否保留下来。判断掌握程度，需要把短暂表现与较稳定的变化分开。",
@@ -5396,12 +5396,14 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "当场答对，不等于已经学会",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-07",
+      "published_at": "2026-11-09T01:37:56Z"
     },
     {
       "day": 2,
       "id": "ep-ch02-02",
-      "status": "ready",
+      "status": "published",
       "title": "讲过了，不等于理解了",
       "quote": {
         "zh-Hans": "同样一段讲解，不同孩子可能记住不同部分，也可能形成不同理解。判断孩子学到了什么，要看他实际怎样解释和运用，不能只看大人是否已经讲过。",
@@ -5443,7 +5445,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "讲过了，不等于理解了",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-08",
+      "published_at": "2026-11-09T01:37:56Z"
     },
     {
       "day": 3,
