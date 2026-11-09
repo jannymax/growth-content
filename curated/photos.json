@@ -21,6 +21,17 @@
       "file": "curated/photos/4223699.jpg",
       "license": "https://www.pexels.com/license/",
       "approved_on": "2026-11-04"
+    },
+    {
+      "id": "18947286",
+      "photographer": "Yunus Tuğ",
+      "page": "https://www.pexels.com/photo/rural-landscape-at-sunrise-18947286/",
+      "review": "实际审图：大面积粉白天空留白，暖色晨光与冷绿山谷分层，景深自然；保留原作调色。",
+      "approval": "按用户授权由编辑审图入库",
+      "status": "approved",
+      "file": "curated/photos/18947286.jpg",
+      "license": "https://www.pexels.com/license/",
+      "approved_on": "2026-11-09"
     }
   ]
 }
