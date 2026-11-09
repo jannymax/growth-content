@@ -5350,6 +5350,664 @@
         "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims"
       },
       "exclusion_reason": "家长关联度不足；按用户确认的简洁专业家长视角标准移出发布队列"
+    },
+    {
+      "day": 1,
+      "id": "ep-ch02-01",
+      "status": "ready",
+      "title": "当场答对，不等于已经学会",
+      "quote": {
+        "zh-Hans": "孩子刚练习完就答对，说明他当时能完成任务；隔一段时间仍能做到，才更能看出学习是否保留下来。判断掌握程度，需要把短暂表现与较稳定的变化分开。",
+        "en": "Answering correctly just after practice shows what a child can do at that moment. Being able to do it again later gives a better indication of retention. Assessing learning means distinguishing temporary performance from relatively lasting change.",
+        "ja": "練習の直後に正解できることは、その時点で課題をこなせたことを示します。時間がたってもできるかを見ると、学習が定着したかをより判断しやすくなります。一時的な成績と比較的持続する変化を区別することが大切です。"
+      },
+      "concept_id": "learning-retention-versus-performance",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "20",
+        "pdf_pages": "20",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材对学习的定义强调相对持久的变化；间隔后再观察是家庭应用延伸，不规定统一间隔或测试频率。",
+      "photo": {
+        "id": "34513222",
+        "photographer": "Davide Negro",
+        "page": "https://www.pexels.com/photo/tranquil-mountain-lake-at-sunrise-with-mist-34513222/",
+        "file": "photos/34513222.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "当场答对，不等于已经学会",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 2,
+      "id": "ep-ch02-02",
+      "status": "ready",
+      "title": "讲过了，不等于理解了",
+      "quote": {
+        "zh-Hans": "同样一段讲解，不同孩子可能记住不同部分，也可能形成不同理解。判断孩子学到了什么，要看他实际怎样解释和运用，不能只看大人是否已经讲过。",
+        "en": "Children may remember different parts of the same explanation or understand it differently. To judge what a child has learned, look at how they explain and use it, not simply whether an adult has already taught it.",
+        "ja": "同じ説明を聞いても、子どもによって覚える部分や理解の仕方は異なります。何を学んだかは、大人が説明したかどうかだけでなく、子どもが実際にどう説明し、使うかを見て判断します。"
+      },
+      "concept_id": "instruction-versus-learned-content",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "21",
+        "pdf_pages": "21",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材区分教学内容与学生实际理解和保留的内容；让孩子解释是应用延伸，与第1章语言理解障碍不同。",
+      "photo": {
+        "id": "11623802",
+        "photographer": "Atahan Demir",
+        "page": "https://www.pexels.com/photo/silhouette-of-mountain-during-sunset-11623802/",
+        "file": "photos/11623802.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "讲过了，不等于理解了",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 3,
+      "id": "ep-ch02-03",
+      "status": "ready",
+      "title": "准备好学习，是双向的",
+      "quote": {
+        "zh-Hans": "“准备好学习”不仅指孩子具备哪些能力，也包括学习安排是否适合孩子。对需要活动和游戏的幼儿，调整教学方式同样重要，不能把适应的责任全部交给孩子。",
+        "en": "Being ready to learn involves both a child’s abilities and how well learning arrangements fit the child. For young children who need movement and play, adapting teaching matters too; adjustment is not solely the child’s responsibility.",
+        "ja": "「学ぶ準備」には、子どもの能力だけでなく、学び方がその子に合っているかも含まれます。活動や遊びを必要とする幼児には、教え方の調整も大切です。適応する責任を子どもだけに負わせることはできません。"
+      },
+      "concept_id": "reciprocal-readiness",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "22–23",
+        "pdf_pages": "22–23",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材明确给出学习准备的双向含义，幼儿活动与游戏为原文例子；不使用旧版阅读准备词汇量作为门槛。",
+      "photo": {
+        "id": "17028391",
+        "photographer": "Arthur Swiffen",
+        "page": "https://www.pexels.com/photo/close-up-of-pink-flowers-on-a-field-17028391/",
+        "file": "photos/17028391.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "准备好学习，是双向的",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 4,
+      "id": "ep-ch02-04",
+      "status": "ready",
+      "title": "会做原题，还要看能否换个情境",
+      "quote": {
+        "zh-Hans": "孩子会做练习中的题目，不代表换个情境仍会使用同样的知识。把课堂上学到的方法用到新的问题里，叫作学习迁移，也是判断知识能否实际运用的重要方面。",
+        "en": "Solving a practiced problem does not guarantee that a child can use the same knowledge in a different setting. Applying what was learned to a new problem is called transfer, an important aspect of putting knowledge to use.",
+        "ja": "練習した問題が解けても、場面が変われば同じ知識を使えるとは限りません。学んだ方法を新しい問題に使うことを「学習の転移」と呼びます。知識を実際に活用できるかを見る重要な側面です。"
+      },
+      "concept_id": "transfer-across-contexts",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "23",
+        "pdf_pages": "23",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "迁移的概念性转述；不把单次迁移失败视为没有学会，也不与旧屏幕共看内容混为同一机制。",
+      "photo": {
+        "id": "34640423",
+        "photographer": "Sergio Zhukov",
+        "page": "https://www.pexels.com/photo/sunset-over-misty-mountain-range-and-clouds-34640423/",
+        "file": "photos/34640423.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "会做原题，还要看能否换个情境",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 5,
+      "id": "ep-ch02-05",
+      "status": "ready",
+      "title": "对学习的感受，也会被学会",
+      "quote": {
+        "zh-Hans": "孩子反复在某个学习场景中经历紧张或愉快，后来仅仅进入这个场景，也可能出现相似感受。孩子对学习环境的反应，有时与过去的经历有关，不只是对眼前任务的评价。",
+        "en": "When a learning setting repeatedly accompanies tension or enjoyment, entering that setting may later evoke similar feelings. A child’s response to a learning environment can reflect past experiences, not just the task at hand.",
+        "ja": "ある学習場面で緊張や楽しさを繰り返し経験すると、後にその場に入るだけで似た気持ちが生じることがあります。学習環境への反応には、目の前の課題だけでなく、過去の経験が関わる場合があります。"
+      },
+      "concept_id": "learned-emotional-associations",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "25–27",
+        "pdf_pages": "25–27",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "依据经典条件作用的课堂例子，不把它当作诊断某个孩子情绪的唯一解释。",
+      "photo": {
+        "id": "14953998",
+        "photographer": "Ali Ramazan Çiftçi",
+        "page": "https://www.pexels.com/photo/close-up-of-a-flower-at-sunset-14953998/",
+        "file": "photos/14953998.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "对学习的感受，也会被学会",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 6,
+      "id": "ep-ch02-06",
+      "status": "ready",
+      "title": "一次经历，可能影响相似场景",
+      "quote": {
+        "zh-Hans": "孩子在一个课堂里形成的紧张感，有时会延伸到相似的课堂。这种反应的扩展叫作泛化；因此，对新场景的抗拒，不一定完全由新场景本身引起。",
+        "en": "Tension learned in one classroom may sometimes extend to similar classrooms. This spread of a response is called generalization. Resistance to a new setting therefore need not arise entirely from that setting itself.",
+        "ja": "ある教室で身についた緊張反応が、似た教室にも広がることがあります。この反応の広がりを「般化」と呼びます。新しい場所への抵抗感は、その場所自体だけが原因とは限りません。"
+      },
+      "concept_id": "stimulus-generalization",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "28",
+        "pdf_pages": "28",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "原文以相似课堂说明情绪反应的泛化；本条只说明一个可能机制，不能据此断定孩子抗拒原因。",
+      "photo": {
+        "id": "9662328",
+        "photographer": "Torie Roman",
+        "page": "https://www.pexels.com/photo/silhouette-of-mountains-at-sunset-9662328/",
+        "file": "photos/9662328.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "一次经历，可能影响相似场景",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 7,
+      "id": "ep-ch02-07",
+      "status": "ready",
+      "title": "是不是奖励，要看实际效果",
+      "quote": {
+        "zh-Hans": "大人认为是奖励的东西，未必会让孩子更愿意重复某种行为。心理学中的“强化”，看的是行为之后的结果是否增加了该行为，而不是大人有没有奖励的意图。",
+        "en": "What adults consider a reward may not make a child more likely to repeat a behavior. In psychology, reinforcement is defined by whether a consequence increases the behavior, not by an adult’s intention to reward it.",
+        "ja": "大人がご褒美だと考えるものでも、子どもがその行動を繰り返すとは限りません。心理学の「強化」は、ご褒美を与える意図ではなく、行動の後の結果によってその行動が増えたかどうかで判断します。"
+      },
+      "concept_id": "reinforcement-functional-definition",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "29–30",
+        "pdf_pages": "29–30",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "操作性条件作用中强化的功能性定义；不推荐具体奖惩方案，不等同旧内容的过程表扬。",
+      "photo": {
+        "id": "14569255",
+        "photographer": "Luke Miller",
+        "page": "https://www.pexels.com/photo/sunset-over-grasses-on-meadow-14569255/",
+        "file": "photos/14569255.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "是不是奖励，要看实际效果",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 8,
+      "id": "ep-ch02-08",
+      "status": "ready",
+      "title": "影响行为的不只有大人",
+      "quote": {
+        "zh-Hans": "孩子做出一个动作后，同伴的笑声、注意或回应，也可能让这个动作更常出现。理解一种行为为什么反复发生，需要看看孩子从周围得到了什么反应，而不只看家长的要求。",
+        "en": "Peers’ laughter, attention, or responses may make a child’s action more frequent. Understanding why a behavior recurs involves looking at the responses it receives from others, not only at what parents ask for.",
+        "ja": "子どもの行動に対する仲間の笑い声や注目、応答も、その行動を増やすことがあります。行動が繰り返される理由を理解するには、親の要求だけでなく、周囲からどんな反応を受けているかを見る必要があります。"
+      },
+      "concept_id": "peer-consequences-maintain-behavior",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "30",
+        "pdf_pages": "30",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材同伴因做鬼脸而发笑的例子；观察后果为家长理解延伸，不推断孩子故意操控他人。",
+      "photo": {
+        "id": "19163887",
+        "photographer": "Willian Justen de Vasconcellos",
+        "page": "https://www.pexels.com/photo/field-grass-at-sunset-19163887/",
+        "file": "photos/19163887.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "影响行为的不只有大人",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 9,
+      "id": "ep-ch02-09",
+      "status": "ready",
+      "title": "偶尔得到回应，也可能让行为持续",
+      "quote": {
+        "zh-Hans": "一种行为如果只是偶尔带来想要的结果，也可能持续很久。比如逗笑同伴不必每次成功，孩子仍可能反复尝试；所以，回应不频繁，不代表它对行为没有影响。",
+        "en": "A behavior may persist even when it only occasionally produces a desired result. A child may keep trying to amuse peers without succeeding every time. Infrequent responses can still influence behavior.",
+        "ja": "望む結果が時々しか得られなくても、行動が長く続くことがあります。仲間を笑わせようとして毎回成功しなくても、子どもは試し続けるかもしれません。反応が少ないからといって、影響がないとは限りません。"
+      },
+      "concept_id": "intermittent-reinforcement-persistence",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "33",
+        "pdf_pages": "33",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材对间歇强化与行为持续性的概括；不由此建议忽视哭泣、求助或安全需求，不保证某种行为必然持续。",
+      "photo": {
+        "id": "22055567",
+        "photographer": "Benjamin Farren",
+        "page": "https://www.pexels.com/photo/mountain-valley-during-sunset-22055567/",
+        "file": "photos/22055567.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "偶尔得到回应，也可能让行为持续",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 10,
+      "id": "ep-ch02-10",
+      "status": "ready",
+      "title": "喜欢活动，也可以喜欢被认可",
+      "quote": {
+        "zh-Hans": "孩子喜欢阅读，也可能同时期待老师的肯定。活动本身的乐趣和外界的认可可以并存；仅凭孩子在意表扬，还不能判断他对这件事没有真正的兴趣。",
+        "en": "A child can enjoy reading while also hoping for a teacher’s approval. Enjoyment of the activity and appreciation from others can coexist; caring about praise alone does not show that the interest is insincere.",
+        "ja": "読書が好きな子どもでも、先生に認められることを期待する場合があります。活動そのものの楽しさと周囲からの評価は両立します。褒められることを気にするだけで、本当の興味がないとは判断できません。"
+      },
+      "concept_id": "intrinsic-extrinsic-coexistence",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "31",
+        "pdf_pages": "31",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材说明活动自身与外部后果可同时提供动机；不延伸为所有外在奖励无害或都会有效。",
+      "photo": {
+        "id": "9824974",
+        "photographer": "Nikita Nikitin",
+        "page": "https://www.pexels.com/photo/field-flowers-during-sunset-9824974/",
+        "file": "photos/9824974.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "喜欢活动，也可以喜欢被认可",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 11,
+      "id": "ep-ch02-11",
+      "status": "ready",
+      "title": "有些错误，来自正在形成的规则",
+      "quote": {
+        "zh-Hans": "孩子把蝴蝶也叫作“鸟”，可能是在用“会飞”理解新事物。在皮亚杰的理论中，学习既包括用已有概念解释新经验，也包括发现差异后修正原来的概念。",
+        "en": "A child who calls a butterfly a bird may be using flight to make sense of something new. In Piaget’s theory, learning involves both interpreting experience through existing concepts and revising those concepts when differences emerge.",
+        "ja": "蝶も「鳥」と呼ぶ子どもは、「飛ぶ」という特徴で新しいものを理解しようとしているのかもしれません。ピアジェの理論では、既存の概念で経験を捉えることと、違いに気づいて概念を修正することの両方が学習に含まれます。"
+      },
+      "concept_id": "assimilation-accommodation",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "34",
+        "pdf_pages": "34",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "保留经典理论归属，鸟与飞行物为教材例子；不是对所有儿童错误的统一解释。",
+      "photo": {
+        "id": "7368351",
+        "photographer": "Andrew PaKip",
+        "page": "https://www.pexels.com/photo/close-up-of-a-flower-7368351/",
+        "file": "photos/7368351.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "有些错误，来自正在形成的规则",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 12,
+      "id": "ep-ch02-12",
+      "status": "ready",
+      "title": "理解一个词，不只是会解释它",
+      "quote": {
+        "zh-Hans": "孩子对“鸟”的理解，不只包括这个词的意思，还包括看过的鸟、观察到的动作和相关交谈。在皮亚杰的理论中，这些知识与经验共同构成理解事物的认知结构。",
+        "en": "A child’s understanding of birds includes more than the word’s definition: it also includes birds seen, movements observed, and conversations about them. In Piaget’s theory, this knowledge and experience form organized structures for understanding.",
+        "ja": "子どもの「鳥」の理解には、言葉の意味だけでなく、見た鳥や観察した動き、鳥についての会話も含まれます。ピアジェの理論では、こうした知識や経験が、物事を理解するための認知的な構造を形づくります。"
+      },
+      "concept_id": "schema-as-organized-experience",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "34–35",
+        "pdf_pages": "34–35",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "图式的概念性转述，强调组织起来的经验而非孤立词义；不同于旧内容的多感官记词效果。",
+      "photo": {
+        "id": "16243214",
+        "photographer": "Olga Solodilova",
+        "page": "https://www.pexels.com/photo/sunset-sunlight-over-flower-16243214/",
+        "file": "photos/16243214.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "理解一个词，不只是会解释它",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 13,
+      "id": "ep-ch02-13",
+      "status": "ready",
+      "title": "会复述，与会解释不同",
+      "quote": {
+        "zh-Hans": "孩子能复述故事情节，不等于能解释人物为什么这样做。记住、理解、应用和评价，是不同的学习目标；判断孩子的理解，先要明确我们希望他做到哪一种。",
+        "en": "Retelling a story does not necessarily mean a child can explain why its characters acted as they did. Remembering, understanding, applying, and evaluating are different learning goals. First clarify which goal you are assessing.",
+        "ja": "物語の筋を話せても、登場人物がなぜそう行動したかを説明できるとは限りません。記憶、理解、応用、評価は異なる学習目標です。理解を判断するときは、何ができることを目指すのかを明確にします。"
+      },
+      "concept_id": "distinct-learning-objectives",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "36–37",
+        "pdf_pages": "36–37",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "依据布卢姆学习目标分类；只说明目标类型不同，不把类别当作每个孩子必须依次经过的固定阶段。",
+      "photo": {
+        "id": "3657275",
+        "photographer": "Diana ✨",
+        "page": "https://www.pexels.com/photo/silhouette-of-mountain-during-sunset-3657275/",
+        "file": "photos/3657275.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "会复述，与会解释不同",
+      "practical_takeaway": ""
+    },
+    {
+      "day": 14,
+      "id": "ep-ch02-14",
+      "status": "ready",
+      "title": "学习，也包括认识自己的方法",
+      "quote": {
+        "zh-Hans": "孩子逐渐学会发现自己哪里没懂、哪种方法有帮助，并据此调整学习，这叫作元认知。家长不仅可以关注答案，也可以留意孩子能否说明自己的思路与调整理由。",
+        "en": "Learning to notice gaps in understanding, identify helpful strategies, and adjust accordingly is called metacognition. Parents can attend not only to answers, but also to whether children can explain their thinking and reasons for changing approach.",
+        "ja": "分からない点や役立つ方法に気づき、それに応じて学び方を調整する力を「メタ認知」と呼びます。親は答えだけでなく、子どもが自分の考え方や方法を変えた理由を説明できるかにも目を向けられます。"
+      },
+      "concept_id": "metacognitive-monitoring-regulation",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "37–38",
+        "pdf_pages": "37–38",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "元认知概念与自我调节的转述；家长观察思路为应用延伸，依年龄与表达能力调整，不要求幼儿作成人式反思。",
+      "photo": {
+        "id": "5128942",
+        "photographer": "Phan Nguyen",
+        "page": "https://www.pexels.com/photo/close-up-of-flowers-on-a-field-at-sunset-5128942/",
+        "file": "photos/5128942.jpg",
+        "license": "https://www.pexels.com/license/"
+      },
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-09",
+        "approval": "用户已确认14条语录和14张图片",
+        "reviewer": "Codex translation and consistency review"
+      },
+      "topic": "学习，也包括认识自己的方法",
+      "practical_takeaway": ""
     }
   ]
 }
