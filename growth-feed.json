@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T01:50:56Z",
-  "today_id": "2026-11-06",
+  "updated_at": "2026-11-09T01:16:05Z",
+  "today_id": "2026-11-09",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -2584,6 +2584,53 @@
       },
       "content_id": "ep-ch01-02",
       "concept_id": "educational-technology-fit"
+    },
+    {
+      "id": "2026-11-09",
+      "date": "2026-11-09",
+      "quote": {
+        "zh-Hans": "判断一种方法是否适合孩子，需要明确观察什么，并持续记录。一次表现变好，还不足以说明方法有效；任务难度、情绪和熟悉程度也可能影响表现。",
+        "en": "To judge whether an approach suits a child, specify what to observe and keep records over time. One improved performance is not enough to establish effectiveness; task difficulty, mood, and familiarity may also affect performance.",
+        "ja": "ある方法が子どもに合っているかを判断するには、何を観察するかを明確にし、継続して記録する必要があります。一度うまくできただけでは、方法の効果は判断できません。課題の難しさ、気分、慣れも影響する場合があります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-09.jpg",
+      "image_filename": "2026-11-09.jpg",
+      "image_path": "images/2026-11-09.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "year": 2009,
+        "edition": "Second Edition",
+        "chapter": "1. The changing teaching profession and you",
+        "pages": "14–16",
+        "pdf_pages": "14–16",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase with explicitly identified application extensions; not a direct quotation or a tested intervention."
+      },
+      "source_summary": "依据教材第1章第14–16页行动研究中的明确问题、系统观察与记录思路，转化为家长评价方法时的审慎原则。任务难度、情绪和熟悉程度是编辑补充的替代解释示例，并非本章实验证明的影响因素或已验证家庭干预。一次改善不能单独建立因果结论。",
+      "practical_takeaway": "",
+      "topic": "行动研究",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "18947286",
+        "photographer": "Yunus Tuğ",
+        "url": "https://www.pexels.com/photo/rural-landscape-at-sunrise-18947286/",
+        "perceptual_hash": "07d00f0f0f0e869d",
+        "width": 1440,
+        "height": 1920
+      },
+      "content_id": "ep-ch01-03",
+      "concept_id": "action-research-systematic-observation"
     }
   ]
 }

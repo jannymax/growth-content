@@ -5276,7 +5276,7 @@
     {
       "id": "ep-ch01-03",
       "concept_id": "action-research-systematic-observation",
-      "status": "ready",
+      "status": "published",
       "topic": "行动研究",
       "quote": {
         "zh-Hans": "判断一种方法是否适合孩子，需要明确观察什么，并持续记录。一次表现变好，还不足以说明方法有效；任务难度、情绪和熟悉程度也可能影响表现。",
@@ -5309,7 +5309,9 @@
         "reviewer": "Codex",
         "scope": "Read complete chapter pp.8–19; checked against all published Chinese entries; conceptual summaries, no new efficacy claims",
         "editorial_standard": "2026-11-04 用户确认：家长能理解、简洁专业、概念清楚、结论有边界"
-      }
+      },
+      "published_date": "2026-11-09",
+      "published_at": "2026-11-09T01:16:05Z"
     },
     {
       "id": "ep-ch01-04",
