@@ -5452,7 +5452,7 @@
     {
       "day": 3,
       "id": "ep-ch02-03",
-      "status": "ready",
+      "status": "published",
       "title": "准备好学习，是双向的",
       "quote": {
         "zh-Hans": "“准备好学习”不仅指孩子具备哪些能力，也包括学习安排是否适合孩子。对需要活动和游戏的幼儿，调整教学方式同样重要，不能把适应的责任全部交给孩子。",
@@ -5494,7 +5494,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "准备好学习，是双向的",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-10",
+      "published_at": "2026-11-10T03:51:05Z"
     },
     {
       "day": 4,

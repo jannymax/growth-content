@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T01:37:56Z",
-  "today_id": "2026-11-09",
+  "updated_at": "2026-11-10T03:51:05Z",
+  "today_id": "2026-11-10",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -2725,6 +2725,53 @@
       },
       "content_id": "ep-ch01-03",
       "concept_id": "action-research-systematic-observation"
+    },
+    {
+      "id": "2026-11-10",
+      "date": "2026-11-10",
+      "quote": {
+        "zh-Hans": "“准备好学习”不仅指孩子具备哪些能力，也包括学习安排是否适合孩子。对需要活动和游戏的幼儿，调整教学方式同样重要，不能把适应的责任全部交给孩子。",
+        "en": "Being ready to learn involves both a child’s abilities and how well learning arrangements fit the child. For young children who need movement and play, adapting teaching matters too; adjustment is not solely the child’s responsibility.",
+        "ja": "「学ぶ準備」には、子どもの能力だけでなく、学び方がその子に合っているかも含まれます。活動や遊びを必要とする幼児には、教え方の調整も大切です。適応する責任を子どもだけに負わせることはできません。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-10.jpg",
+      "image_filename": "2026-11-10.jpg",
+      "image_path": "images/2026-11-10.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "22–23",
+        "pdf_pages": "22–23",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材明确给出学习准备的双向含义，幼儿活动与游戏为原文例子；不使用旧版阅读准备词汇量作为门槛。",
+      "practical_takeaway": "",
+      "topic": "准备好学习，是双向的",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "17028391",
+        "photographer": "Arthur Swiffen",
+        "url": "https://www.pexels.com/photo/close-up-of-pink-flowers-on-a-field-17028391/",
+        "perceptual_hash": "f66a3d0e5092f31b",
+        "width": 1440,
+        "height": 2159
+      },
+      "content_id": "ep-ch02-03",
+      "concept_id": "reciprocal-readiness"
     }
   ]
 }
