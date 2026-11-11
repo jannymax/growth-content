@@ -5501,7 +5501,7 @@
     {
       "day": 4,
       "id": "ep-ch02-04",
-      "status": "ready",
+      "status": "published",
       "title": "会做原题，还要看能否换个情境",
       "quote": {
         "zh-Hans": "孩子会做练习中的题目，不代表换个情境仍会使用同样的知识。把课堂上学到的方法用到新的问题里，叫作学习迁移，也是判断知识能否实际运用的重要方面。",
@@ -5543,7 +5543,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "会做原题，还要看能否换个情境",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-11",
+      "published_at": "2026-11-11T01:30:16Z"
     },
     {
       "day": 5,

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T03:51:05Z",
-  "today_id": "2026-11-10",
+  "updated_at": "2026-11-11T01:30:16Z",
+  "today_id": "2026-11-11",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -2772,6 +2772,53 @@
       },
       "content_id": "ep-ch02-03",
       "concept_id": "reciprocal-readiness"
+    },
+    {
+      "id": "2026-11-11",
+      "date": "2026-11-11",
+      "quote": {
+        "zh-Hans": "孩子会做练习中的题目，不代表换个情境仍会使用同样的知识。把课堂上学到的方法用到新的问题里，叫作学习迁移，也是判断知识能否实际运用的重要方面。",
+        "en": "Solving a practiced problem does not guarantee that a child can use the same knowledge in a different setting. Applying what was learned to a new problem is called transfer, an important aspect of putting knowledge to use.",
+        "ja": "練習した問題が解けても、場面が変われば同じ知識を使えるとは限りません。学んだ方法を新しい問題に使うことを「学習の転移」と呼びます。知識を実際に活用できるかを見る重要な側面です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-11.jpg",
+      "image_filename": "2026-11-11.jpg",
+      "image_path": "images/2026-11-11.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "23",
+        "pdf_pages": "23",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "迁移的概念性转述；不把单次迁移失败视为没有学会，也不与旧屏幕共看内容混为同一机制。",
+      "practical_takeaway": "",
+      "topic": "会做原题，还要看能否换个情境",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "34640423",
+        "photographer": "Sergio Zhukov",
+        "url": "https://www.pexels.com/photo/sunset-over-misty-mountain-range-and-clouds-34640423/",
+        "perceptual_hash": "0f0f0f0f07350f0f",
+        "width": 1440,
+        "height": 960
+      },
+      "content_id": "ep-ch02-04",
+      "concept_id": "transfer-across-contexts"
     }
   ]
 }
