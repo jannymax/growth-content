@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T01:30:16Z",
-  "today_id": "2026-11-11",
+  "updated_at": "2026-11-12T02:33:27Z",
+  "today_id": "2026-11-12",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -2819,6 +2819,53 @@
       },
       "content_id": "ep-ch02-04",
       "concept_id": "transfer-across-contexts"
+    },
+    {
+      "id": "2026-11-12",
+      "date": "2026-11-12",
+      "quote": {
+        "zh-Hans": "孩子反复在某个学习场景中经历紧张或愉快，后来仅仅进入这个场景，也可能出现相似感受。孩子对学习环境的反应，有时与过去的经历有关，不只是对眼前任务的评价。",
+        "en": "When a learning setting repeatedly accompanies tension or enjoyment, entering that setting may later evoke similar feelings. A child’s response to a learning environment can reflect past experiences, not just the task at hand.",
+        "ja": "ある学習場面で緊張や楽しさを繰り返し経験すると、後にその場に入るだけで似た気持ちが生じることがあります。学習環境への反応には、目の前の課題だけでなく、過去の経験が関わる場合があります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-12.jpg",
+      "image_filename": "2026-11-12.jpg",
+      "image_path": "images/2026-11-12.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "25–27",
+        "pdf_pages": "25–27",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "依据经典条件作用的课堂例子，不把它当作诊断某个孩子情绪的唯一解释。",
+      "practical_takeaway": "",
+      "topic": "对学习的感受，也会被学会",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "14953998",
+        "photographer": "Ali Ramazan Çiftçi",
+        "url": "https://www.pexels.com/photo/close-up-of-a-flower-at-sunset-14953998/",
+        "perceptual_hash": "08030f0f47cba35f",
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-05",
+      "concept_id": "learned-emotional-associations"
     }
   ]
 }

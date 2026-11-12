@@ -5550,7 +5550,7 @@
     {
       "day": 5,
       "id": "ep-ch02-05",
-      "status": "ready",
+      "status": "published",
       "title": "对学习的感受，也会被学会",
       "quote": {
         "zh-Hans": "孩子反复在某个学习场景中经历紧张或愉快，后来仅仅进入这个场景，也可能出现相似感受。孩子对学习环境的反应，有时与过去的经历有关，不只是对眼前任务的评价。",
@@ -5592,7 +5592,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "对学习的感受，也会被学会",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-12",
+      "published_at": "2026-11-12T02:33:27Z"
     },
     {
       "day": 6,
