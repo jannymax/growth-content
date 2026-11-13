@@ -5599,7 +5599,7 @@
     {
       "day": 6,
       "id": "ep-ch02-06",
-      "status": "ready",
+      "status": "published",
       "title": "一次经历，可能影响相似场景",
       "quote": {
         "zh-Hans": "孩子在一个课堂里形成的紧张感，有时会延伸到相似的课堂。这种反应的扩展叫作泛化；因此，对新场景的抗拒，不一定完全由新场景本身引起。",
@@ -5641,7 +5641,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "一次经历，可能影响相似场景",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-13",
+      "published_at": "2026-11-13T02:10:57Z"
     },
     {
       "day": 7,
