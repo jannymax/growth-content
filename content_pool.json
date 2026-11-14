@@ -5648,7 +5648,7 @@
     {
       "day": 7,
       "id": "ep-ch02-07",
-      "status": "ready",
+      "status": "published",
       "title": "是不是奖励，要看实际效果",
       "quote": {
         "zh-Hans": "大人认为是奖励的东西，未必会让孩子更愿意重复某种行为。心理学中的“强化”，看的是行为之后的结果是否增加了该行为，而不是大人有没有奖励的意图。",
@@ -5690,7 +5690,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "是不是奖励，要看实际效果",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-14",
+      "published_at": "2026-11-14T01:52:36Z"
     },
     {
       "day": 8,

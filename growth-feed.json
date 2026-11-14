@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T02:10:57Z",
-  "today_id": "2026-11-13",
+  "updated_at": "2026-11-14T01:52:36Z",
+  "today_id": "2026-11-14",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -2913,6 +2913,53 @@
       },
       "content_id": "ep-ch02-06",
       "concept_id": "stimulus-generalization"
+    },
+    {
+      "id": "2026-11-14",
+      "date": "2026-11-14",
+      "quote": {
+        "zh-Hans": "大人认为是奖励的东西，未必会让孩子更愿意重复某种行为。心理学中的“强化”，看的是行为之后的结果是否增加了该行为，而不是大人有没有奖励的意图。",
+        "en": "What adults consider a reward may not make a child more likely to repeat a behavior. In psychology, reinforcement is defined by whether a consequence increases the behavior, not by an adult’s intention to reward it.",
+        "ja": "大人がご褒美だと考えるものでも、子どもがその行動を繰り返すとは限りません。心理学の「強化」は、ご褒美を与える意図ではなく、行動の後の結果によってその行動が増えたかどうかで判断します。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-14.jpg",
+      "image_filename": "2026-11-14.jpg",
+      "image_path": "images/2026-11-14.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "29–30",
+        "pdf_pages": "29–30",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "操作性条件作用中强化的功能性定义；不推荐具体奖惩方案，不等同旧内容的过程表扬。",
+      "practical_takeaway": "",
+      "topic": "是不是奖励，要看实际效果",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "14569255",
+        "photographer": "Luke Miller",
+        "url": "https://www.pexels.com/photo/sunset-over-grasses-on-meadow-14569255/",
+        "perceptual_hash": "00c833254f0dcdcd",
+        "width": 1440,
+        "height": 1800
+      },
+      "content_id": "ep-ch02-07",
+      "concept_id": "reinforcement-functional-definition"
     }
   ]
 }
