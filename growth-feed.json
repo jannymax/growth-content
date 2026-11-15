@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T01:52:36Z",
-  "today_id": "2026-11-14",
+  "updated_at": "2026-11-15T01:21:19Z",
+  "today_id": "2026-11-15",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -2960,6 +2960,53 @@
       },
       "content_id": "ep-ch02-07",
       "concept_id": "reinforcement-functional-definition"
+    },
+    {
+      "id": "2026-11-15",
+      "date": "2026-11-15",
+      "quote": {
+        "zh-Hans": "孩子做出一个动作后，同伴的笑声、注意或回应，也可能让这个动作更常出现。理解一种行为为什么反复发生，需要看看孩子从周围得到了什么反应，而不只看家长的要求。",
+        "en": "Peers’ laughter, attention, or responses may make a child’s action more frequent. Understanding why a behavior recurs involves looking at the responses it receives from others, not only at what parents ask for.",
+        "ja": "子どもの行動に対する仲間の笑い声や注目、応答も、その行動を増やすことがあります。行動が繰り返される理由を理解するには、親の要求だけでなく、周囲からどんな反応を受けているかを見る必要があります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-15.jpg",
+      "image_filename": "2026-11-15.jpg",
+      "image_path": "images/2026-11-15.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "30",
+        "pdf_pages": "30",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材同伴因做鬼脸而发笑的例子；观察后果为家长理解延伸，不推断孩子故意操控他人。",
+      "practical_takeaway": "",
+      "topic": "影响行为的不只有大人",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "19163887",
+        "photographer": "Willian Justen de Vasconcellos",
+        "url": "https://www.pexels.com/photo/field-grass-at-sunset-19163887/",
+        "perceptual_hash": "799303070f29218c",
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-08",
+      "concept_id": "peer-consequences-maintain-behavior"
     }
   ]
 }

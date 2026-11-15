@@ -5697,7 +5697,7 @@
     {
       "day": 8,
       "id": "ep-ch02-08",
-      "status": "ready",
+      "status": "published",
       "title": "影响行为的不只有大人",
       "quote": {
         "zh-Hans": "孩子做出一个动作后，同伴的笑声、注意或回应，也可能让这个动作更常出现。理解一种行为为什么反复发生，需要看看孩子从周围得到了什么反应，而不只看家长的要求。",
@@ -5739,7 +5739,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "影响行为的不只有大人",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-15",
+      "published_at": "2026-11-15T01:21:19Z"
     },
     {
       "day": 9,
