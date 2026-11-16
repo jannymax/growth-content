@@ -5746,7 +5746,7 @@
     {
       "day": 9,
       "id": "ep-ch02-09",
-      "status": "ready",
+      "status": "published",
       "title": "偶尔得到回应，也可能让行为持续",
       "quote": {
         "zh-Hans": "一种行为如果只是偶尔带来想要的结果，也可能持续很久。比如逗笑同伴不必每次成功，孩子仍可能反复尝试；所以，回应不频繁，不代表它对行为没有影响。",
@@ -5788,7 +5788,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "偶尔得到回应，也可能让行为持续",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-16",
+      "published_at": "2026-11-16T01:26:49Z"
     },
     {
       "day": 10,

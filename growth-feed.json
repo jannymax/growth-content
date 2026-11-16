@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T01:21:19Z",
-  "today_id": "2026-11-15",
+  "updated_at": "2026-11-16T01:26:49Z",
+  "today_id": "2026-11-16",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3007,6 +3007,53 @@
       },
       "content_id": "ep-ch02-08",
       "concept_id": "peer-consequences-maintain-behavior"
+    },
+    {
+      "id": "2026-11-16",
+      "date": "2026-11-16",
+      "quote": {
+        "zh-Hans": "一种行为如果只是偶尔带来想要的结果，也可能持续很久。比如逗笑同伴不必每次成功，孩子仍可能反复尝试；所以，回应不频繁，不代表它对行为没有影响。",
+        "en": "A behavior may persist even when it only occasionally produces a desired result. A child may keep trying to amuse peers without succeeding every time. Infrequent responses can still influence behavior.",
+        "ja": "望む結果が時々しか得られなくても、行動が長く続くことがあります。仲間を笑わせようとして毎回成功しなくても、子どもは試し続けるかもしれません。反応が少ないからといって、影響がないとは限りません。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-16.jpg",
+      "image_filename": "2026-11-16.jpg",
+      "image_path": "images/2026-11-16.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "33",
+        "pdf_pages": "33",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材对间歇强化与行为持续性的概括；不由此建议忽视哭泣、求助或安全需求，不保证某种行为必然持续。",
+      "practical_takeaway": "",
+      "topic": "偶尔得到回应，也可能让行为持续",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "22055567",
+        "photographer": "Benjamin Farren",
+        "url": "https://www.pexels.com/photo/mountain-valley-during-sunset-22055567/",
+        "perceptual_hash": "0f0f0f0e0f0f0308",
+        "width": 1440,
+        "height": 2157
+      },
+      "content_id": "ep-ch02-09",
+      "concept_id": "intermittent-reinforcement-persistence"
     }
   ]
 }
