@@ -212,6 +212,97 @@
       "width": 1440,
       "height": 2160,
       "review": "粉杏晨光向灰紫海面自然过渡，大面积天空留白；小船与尾迹形成尺度和叙事，海面纹理柔和，无水印。"
+    },
+    {
+      "id": "29035001",
+      "photographer": "Sergio Zhukov",
+      "page": "https://www.pexels.com/photo/breathtaking-sunrise-over-misty-mountainscape-29035001/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/29035001.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-16",
+      "approval": "User approved seven-photo preview",
+      "review": "粉色云霞与蓝灰云海分层，留白舒展",
+      "width": 1440,
+      "height": 2159
+    },
+    {
+      "id": "36138012",
+      "photographer": "Yash Rai",
+      "page": "https://www.pexels.com/photo/golden-field-of-wildflowers-at-sunset-36138012/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/36138012.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-16",
+      "approval": "User approved seven-photo preview",
+      "review": "金色侧逆光，草花虚实连续，保留横幅",
+      "width": 1440,
+      "height": 950
+    },
+    {
+      "id": "29494080",
+      "photographer": "Afitab",
+      "page": "https://www.pexels.com/photo/serene-misty-mountains-landscape-at-dawn-29494080/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/29494080.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-16",
+      "approval": "User approved seven-photo preview",
+      "review": "青蓝色调克制，山雾渐淡，空间开阔",
+      "width": 1440,
+      "height": 1920
+    },
+    {
+      "id": "33357242",
+      "photographer": "Darya Grey_Owl",
+      "page": "https://www.pexels.com/photo/wildflower-meadow-at-sunset-with-soft-light-33357242/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/33357242.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-16",
+      "approval": "User approved seven-photo preview",
+      "review": "暮色粉紫天空与草花呼应，自然纵深",
+      "width": 1440,
+      "height": 1920
+    },
+    {
+      "id": "10471894",
+      "photographer": "Daniel Torobekov",
+      "page": "https://www.pexels.com/photo/foggy-mountains-10471894/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/10471894.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-16",
+      "approval": "User approved seven-photo preview",
+      "review": "蓝色山峦渐变，空气透视层次自然",
+      "width": 1440,
+      "height": 961
+    },
+    {
+      "id": "29254418",
+      "photographer": "Himanshu Bag",
+      "page": "https://www.pexels.com/photo/dramatic-mountain-sunrise-over-cloudy-peaks-29254418/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/29254418.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-16",
+      "approval": "User approved seven-photo preview",
+      "review": "金灰天空大留白，山云明暗细腻",
+      "width": 1440,
+      "height": 2160
+    },
+    {
+      "id": "40937202",
+      "photographer": "Matheus Bertelli",
+      "page": "https://www.pexels.com/photo/misty-mountain-landscape-at-sunrise-40937202/",
+      "license": "https://www.pexels.com/license/",
+      "file": "curated/photos/40937202.jpg",
+      "status": "approved",
+      "approved_on": "2026-11-16",
+      "approval": "User approved seven-photo preview",
+      "review": "雪峰隐入柔光云层，前景纹理与远景连续",
+      "width": 1440,
+      "height": 960
     }
   ]
 }

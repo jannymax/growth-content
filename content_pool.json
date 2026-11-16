@@ -6132,6 +6132,265 @@
         "approval": "User authorized two additions; editor reviewed, not individually reviewed by user",
         "reviewer": "Codex source, semantic and translation review"
       }
+    },
+    {
+      "id": "ep-ch03-01",
+      "concept_id": "long-term-development-versus-specific-learning",
+      "status": "ready",
+      "topic": "成长需要放到更长的时间里看",
+      "quote": {
+        "zh-Hans": "孩子把一首曲子练熟，是具体的学习；经过几年，演奏技巧、音乐理解和兴趣一起变化，则体现了发展。看孩子的成长，既要看眼前学会了什么，也要看能力长期怎样变化。",
+        "en": "Mastering a piece of music is specific learning; changes in playing skills, musical understanding, and interests over several years reflect development. To understand a child's growth, consider both what they have learned recently and how their abilities change over time.",
+        "ja": "一曲を弾けるようになるのは個別の学習です。数年かけて演奏技術、音楽の理解、興味がともに変わることは発達を表します。子どもの成長を見るときは、今できるようになったことと、長期的な能力の変化の両方に目を向けます。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "41",
+        "pdf_pages": "41",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材用钢琴例子区分具体学习与多来源长期发展。家庭延伸为观察时间尺度，不主张只等待成熟；区别于学习保持和学习领域多样性。",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-16",
+        "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
+      }
+    },
+    {
+      "id": "ep-ch03-02",
+      "concept_id": "same-age-development-experience-differences",
+      "status": "ready",
+      "topic": "同龄，不代表相同的起点",
+      "quote": {
+        "zh-Hans": "同龄孩子的表现差异，可能来自长期发展，也可能来自接触和练习的机会不同。判断孩子适合什么活动，年龄是参考，还需要看他已有的经验与能力。",
+        "en": "Differences between children of the same age may reflect long-term development or different opportunities for experience and practice. Age is a useful reference when choosing activities, but a child's existing experience and abilities also matter.",
+        "ja": "同じ年齢でも、発達の違いや、経験・練習の機会の違いによって子どもの様子は異なります。活動が合うかを考えるときは、年齢だけでなく、それまでの経験や今の力も手がかりになります。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "42",
+        "pdf_pages": "42",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材区分同龄者长期发展与短期经验差异。家庭延伸为活动判断同时参考经验；增量是同龄差异的不同来源，非重复教学适配的责任。",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-16",
+        "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
+      }
+    },
+    {
+      "id": "ep-ch03-03",
+      "concept_id": "developmental-models-not-individual-deadlines",
+      "status": "ready",
+      "topic": "发展规律不是每个孩子的时间表",
+      "quote": {
+        "zh-Hans": "发展理论概括的是成长中的共同趋势，不能完整描述每个孩子。家长可以用它理解变化，但不能把理论中的典型路径，当作孩子必须按时完成的清单。",
+        "en": "Developmental theories describe common patterns of growth, not every detail of each child's development. Parents can use them to understand change, but a typical pathway is not a checklist that every child must complete on schedule.",
+        "ja": "発達理論は成長に共通する傾向をまとめたもので、一人ひとりのすべてを説明するものではありません。変化を理解する参考にはなりますが、典型的な道筋を、決まった時期までに達成すべき一覧にすることはできません。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "42–43",
+        "pdf_pages": "42–43",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材提醒宏观理论过度概括及把实际趋势混为应然要求的风险。家庭延伸为不作个人期限清单；不否定必要的发展评估。",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-16",
+        "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
+      }
+    },
+    {
+      "id": "ep-ch03-04",
+      "concept_id": "physical-demands-of-academic-tasks",
+      "status": "ready",
+      "topic": "学习任务，也有身体上的要求",
+      "quote": {
+        "zh-Hans": "握笔、操作工具、长时间坐着，都对身体协调和耐受能力有要求。孩子完成任务吃力时，除了理解和注意，也需要看看身体上的要求是否适合他。",
+        "en": "Holding a pencil, using tools, and sitting for extended periods place demands on physical coordination and endurance. When a child struggles with a task, consider whether its physical demands fit the child, alongside understanding and attention.",
+        "ja": "鉛筆を持つこと、道具を使うこと、長く座ることにも、体の協調運動や持続する力が必要です。課題に苦労しているときは、理解や注意だけでなく、身体的な負担が子どもに合っているかも考えます。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "43, 45",
+        "pdf_pages": "43, 45",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材指出身体发展是学业任务基础，举握笔与静坐例；操作工具为生活化转述。家庭观察延伸不是医学诊断或干预效果，区别于运动游戏促进发展的旧稿。",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-16",
+        "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
+      }
+    },
+    {
+      "id": "ep-ch03-05",
+      "concept_id": "conservation-of-quantity",
+      "status": "ready",
+      "topic": "看起来变了，数量未必改变",
+      "quote": {
+        "zh-Hans": "同一团橡皮泥拉长后，孩子可能觉得它变多了。理解“形状改变、总量不变”，在皮亚杰理论中叫作守恒。这样的判断差异，反映的是孩子怎样理解数量，不能简单归为粗心。",
+        "en": "After a ball of clay is stretched, a child may think there is more of it. Understanding that the amount stays the same despite a change in shape is called conservation in Piaget's theory. Such judgments reflect how a child understands quantity and should not simply be dismissed as carelessness.",
+        "ja": "粘土の塊を長く伸ばすと、量が増えたと考える子どももいます。形が変わっても量は同じだと理解することを、ピアジェの理論では保存と呼びます。この判断には量の捉え方が表れており、単なる不注意とは言い切れません。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "49",
+        "pdf_pages": "49",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材守恒实验及概念，按经典理论呈现，不设年龄门槛或由单次任务评定能力；不简单归因粗心为家长解释延伸。与旧前运算概述相比增量为数量守恒。",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-16",
+        "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
+      }
+    },
+    {
+      "id": "ep-ch03-06",
+      "concept_id": "reversibility-of-mental-operations",
+      "status": "ready",
+      "topic": "能顺着想，也能倒着想",
+      "quote": {
+        "zh-Hans": "“把橡皮泥搓成长条，还能再揉回原来的球。”这种在脑中把变化倒推回去的能力，在皮亚杰理论中叫作可逆性。它关注的是孩子能否理解过程可以还原，而不只是记住操作顺序。",
+        "en": "A piece of clay rolled into a long shape can be rolled back into the original ball. Mentally reversing a transformation like this is called reversibility in Piaget's theory. It concerns understanding that a process can be undone, not merely remembering the order of the steps.",
+        "ja": "長く伸ばした粘土は、また元の丸い形に戻せます。このように変化を頭の中で逆にたどる力を、ピアジェの理論では可逆性と呼びます。手順を覚えるだけでなく、過程を逆に戻せると理解することです。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "48–49",
+        "pdf_pages": "48–49",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材可逆性与粘土还原例。无额外家庭干预主张；经典理论非统一年龄规律。增量是心理操作反向还原，区别于第5条总量不变及旧稿分解任务。",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-16",
+        "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
+      }
+    },
+    {
+      "id": "ep-ch03-07",
+      "concept_id": "formal-reasoning-domain-limits",
+      "status": "ready",
+      "topic": "抽象推理不是能力的全部",
+      "quote": {
+        "zh-Hans": "能讨论“假如……会怎样”，体现了一类抽象推理能力。但在皮亚杰理论中，这类能力主要涉及逻辑与科学问题，不能据此判断孩子的音乐、运动或人际能力，也不保证他有学习动力。",
+        "en": "Discussing what might happen in a hypothetical situation shows a form of abstract reasoning. In Piaget's theory, this mainly concerns logical and scientific problems. It does not establish a child's musical, athletic, or interpersonal abilities, nor does it guarantee motivation to learn.",
+        "ja": "「もし……だったら」と考えられることは、抽象的な推論の一つです。ただし、ピアジェの理論が扱うのは主に論理や科学の問題です。それだけで音楽、運動、対人関係の力は判断できず、学習意欲があるとも限りません。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "50",
+        "pdf_pages": "50",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材明确形式运算主要是科学推理，不保证动机、运动音乐艺术等能力，随后转社会理论。人际能力为适用范围解释，不是研究效果；与学习领域多样性不同，增量为特定认知理论解释边界。",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-16",
+        "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
+      }
     }
   ]
 }
