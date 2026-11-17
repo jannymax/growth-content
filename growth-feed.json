@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T01:26:49Z",
-  "today_id": "2026-11-16",
+  "updated_at": "2026-11-17T04:12:34Z",
+  "today_id": "2026-11-17",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3054,6 +3054,53 @@
       },
       "content_id": "ep-ch02-09",
       "concept_id": "intermittent-reinforcement-persistence"
+    },
+    {
+      "id": "2026-11-17",
+      "date": "2026-11-17",
+      "quote": {
+        "zh-Hans": "孩子喜欢阅读，也可能同时期待老师的肯定。活动本身的乐趣和外界的认可可以并存；仅凭孩子在意表扬，还不能判断他对这件事没有真正的兴趣。",
+        "en": "A child can enjoy reading while also hoping for a teacher’s approval. Enjoyment of the activity and appreciation from others can coexist; caring about praise alone does not show that the interest is insincere.",
+        "ja": "読書が好きな子どもでも、先生に認められることを期待する場合があります。活動そのものの楽しさと周囲からの評価は両立します。褒められることを気にするだけで、本当の興味がないとは判断できません。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-17.jpg",
+      "image_filename": "2026-11-17.jpg",
+      "image_path": "images/2026-11-17.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "31",
+        "pdf_pages": "31",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材说明活动自身与外部后果可同时提供动机；不延伸为所有外在奖励无害或都会有效。",
+      "practical_takeaway": "",
+      "topic": "喜欢活动，也可以喜欢被认可",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "9824974",
+        "photographer": "Nikita Nikitin",
+        "url": "https://www.pexels.com/photo/field-flowers-during-sunset-9824974/",
+        "perceptual_hash": "3235151d0b071c05",
+        "width": 1440,
+        "height": 960
+      },
+      "content_id": "ep-ch02-10",
+      "concept_id": "intrinsic-extrinsic-coexistence"
     }
   ]
 }

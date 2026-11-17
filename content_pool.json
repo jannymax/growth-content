@@ -5795,7 +5795,7 @@
     {
       "day": 10,
       "id": "ep-ch02-10",
-      "status": "ready",
+      "status": "published",
       "title": "喜欢活动，也可以喜欢被认可",
       "quote": {
         "zh-Hans": "孩子喜欢阅读，也可能同时期待老师的肯定。活动本身的乐趣和外界的认可可以并存；仅凭孩子在意表扬，还不能判断他对这件事没有真正的兴趣。",
@@ -5837,7 +5837,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "喜欢活动，也可以喜欢被认可",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-17",
+      "published_at": "2026-11-17T04:12:34Z"
     },
     {
       "day": 11,
