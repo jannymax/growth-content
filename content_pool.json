@@ -5844,7 +5844,7 @@
     {
       "day": 11,
       "id": "ep-ch02-11",
-      "status": "ready",
+      "status": "published",
       "title": "有些错误，来自正在形成的规则",
       "quote": {
         "zh-Hans": "孩子把蝴蝶也叫作“鸟”，可能是在用“会飞”理解新事物。在皮亚杰的理论中，学习既包括用已有概念解释新经验，也包括发现差异后修正原来的概念。",
@@ -5886,7 +5886,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "有些错误，来自正在形成的规则",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-18",
+      "published_at": "2026-11-18T03:10:03Z"
     },
     {
       "day": 12,

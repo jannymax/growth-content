@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T04:12:34Z",
-  "today_id": "2026-11-17",
+  "updated_at": "2026-11-18T03:10:03Z",
+  "today_id": "2026-11-18",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3101,6 +3101,53 @@
       },
       "content_id": "ep-ch02-10",
       "concept_id": "intrinsic-extrinsic-coexistence"
+    },
+    {
+      "id": "2026-11-18",
+      "date": "2026-11-18",
+      "quote": {
+        "zh-Hans": "孩子把蝴蝶也叫作“鸟”，可能是在用“会飞”理解新事物。在皮亚杰的理论中，学习既包括用已有概念解释新经验，也包括发现差异后修正原来的概念。",
+        "en": "A child who calls a butterfly a bird may be using flight to make sense of something new. In Piaget’s theory, learning involves both interpreting experience through existing concepts and revising those concepts when differences emerge.",
+        "ja": "蝶も「鳥」と呼ぶ子どもは、「飛ぶ」という特徴で新しいものを理解しようとしているのかもしれません。ピアジェの理論では、既存の概念で経験を捉えることと、違いに気づいて概念を修正することの両方が学習に含まれます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-18.jpg",
+      "image_filename": "2026-11-18.jpg",
+      "image_path": "images/2026-11-18.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "34",
+        "pdf_pages": "34",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "保留经典理论归属，鸟与飞行物为教材例子；不是对所有儿童错误的统一解释。",
+      "practical_takeaway": "",
+      "topic": "有些错误，来自正在形成的规则",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "7368351",
+        "photographer": "Andrew PaKip",
+        "url": "https://www.pexels.com/photo/close-up-of-a-flower-7368351/",
+        "perceptual_hash": "4340a7544d5e4c3a",
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-11",
+      "concept_id": "assimilation-accommodation"
     }
   ]
 }
