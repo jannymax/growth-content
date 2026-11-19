@@ -5893,7 +5893,7 @@
     {
       "day": 12,
       "id": "ep-ch02-12",
-      "status": "ready",
+      "status": "published",
       "title": "理解一个词，不只是会解释它",
       "quote": {
         "zh-Hans": "孩子对“鸟”的理解，不只包括这个词的意思，还包括看过的鸟、观察到的动作和相关交谈。在皮亚杰的理论中，这些知识与经验共同构成理解事物的认知结构。",
@@ -5935,7 +5935,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "理解一个词，不只是会解释它",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-19",
+      "published_at": "2026-11-19T02:51:27Z"
     },
     {
       "day": 13,

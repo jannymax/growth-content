@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T03:10:03Z",
-  "today_id": "2026-11-18",
+  "updated_at": "2026-11-19T02:51:27Z",
+  "today_id": "2026-11-19",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3148,6 +3148,53 @@
       },
       "content_id": "ep-ch02-11",
       "concept_id": "assimilation-accommodation"
+    },
+    {
+      "id": "2026-11-19",
+      "date": "2026-11-19",
+      "quote": {
+        "zh-Hans": "孩子对“鸟”的理解，不只包括这个词的意思，还包括看过的鸟、观察到的动作和相关交谈。在皮亚杰的理论中，这些知识与经验共同构成理解事物的认知结构。",
+        "en": "A child’s understanding of birds includes more than the word’s definition: it also includes birds seen, movements observed, and conversations about them. In Piaget’s theory, this knowledge and experience form organized structures for understanding.",
+        "ja": "子どもの「鳥」の理解には、言葉の意味だけでなく、見た鳥や観察した動き、鳥についての会話も含まれます。ピアジェの理論では、こうした知識や経験が、物事を理解するための認知的な構造を形づくります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-19.jpg",
+      "image_filename": "2026-11-19.jpg",
+      "image_path": "images/2026-11-19.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "34–35",
+        "pdf_pages": "34–35",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "图式的概念性转述，强调组织起来的经验而非孤立词义；不同于旧内容的多感官记词效果。",
+      "practical_takeaway": "",
+      "topic": "理解一个词，不只是会解释它",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "16243214",
+        "photographer": "Olga Solodilova",
+        "url": "https://www.pexels.com/photo/sunset-sunlight-over-flower-16243214/",
+        "perceptual_hash": "1919090d06061a25",
+        "width": 1440,
+        "height": 960
+      },
+      "content_id": "ep-ch02-12",
+      "concept_id": "schema-as-organized-experience"
     }
   ]
 }
