@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T02:51:27Z",
-  "today_id": "2026-11-19",
+  "updated_at": "2026-11-20T02:41:29Z",
+  "today_id": "2026-11-20",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3195,6 +3195,53 @@
       },
       "content_id": "ep-ch02-12",
       "concept_id": "schema-as-organized-experience"
+    },
+    {
+      "id": "2026-11-20",
+      "date": "2026-11-20",
+      "quote": {
+        "zh-Hans": "孩子能复述故事情节，不等于能解释人物为什么这样做。记住、理解、应用和评价，是不同的学习目标；判断孩子的理解，先要明确我们希望他做到哪一种。",
+        "en": "Retelling a story does not necessarily mean a child can explain why its characters acted as they did. Remembering, understanding, applying, and evaluating are different learning goals. First clarify which goal you are assessing.",
+        "ja": "物語の筋を話せても、登場人物がなぜそう行動したかを説明できるとは限りません。記憶、理解、応用、評価は異なる学習目標です。理解を判断するときは、何ができることを目指すのかを明確にします。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-20.jpg",
+      "image_filename": "2026-11-20.jpg",
+      "image_path": "images/2026-11-20.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "36–37",
+        "pdf_pages": "36–37",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "依据布卢姆学习目标分类；只说明目标类型不同，不把类别当作每个孩子必须依次经过的固定阶段。",
+      "practical_takeaway": "",
+      "topic": "会复述，与会解释不同",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "3657275",
+        "photographer": "Diana ✨",
+        "url": "https://www.pexels.com/photo/silhouette-of-mountain-during-sunset-3657275/",
+        "perceptual_hash": "b1cc09fb7f1cf507",
+        "width": 1440,
+        "height": 960
+      },
+      "content_id": "ep-ch02-13",
+      "concept_id": "distinct-learning-objectives"
     }
   ]
 }

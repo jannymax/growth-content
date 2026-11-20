@@ -5942,7 +5942,7 @@
     {
       "day": 13,
       "id": "ep-ch02-13",
-      "status": "ready",
+      "status": "published",
       "title": "会复述，与会解释不同",
       "quote": {
         "zh-Hans": "孩子能复述故事情节，不等于能解释人物为什么这样做。记住、理解、应用和评价，是不同的学习目标；判断孩子的理解，先要明确我们希望他做到哪一种。",
@@ -5984,7 +5984,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "会复述，与会解释不同",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-20",
+      "published_at": "2026-11-20T02:41:29Z"
     },
     {
       "day": 14,
