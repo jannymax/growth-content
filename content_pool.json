@@ -5991,7 +5991,7 @@
     {
       "day": 14,
       "id": "ep-ch02-14",
-      "status": "ready",
+      "status": "published",
       "title": "学习，也包括认识自己的方法",
       "quote": {
         "zh-Hans": "孩子逐渐学会发现自己哪里没懂、哪种方法有帮助，并据此调整学习，这叫作元认知。家长不仅可以关注答案，也可以留意孩子能否说明自己的思路与调整理由。",
@@ -6033,7 +6033,9 @@
         "reviewer": "Codex translation and consistency review"
       },
       "topic": "学习，也包括认识自己的方法",
-      "practical_takeaway": ""
+      "practical_takeaway": "",
+      "published_date": "2026-11-21",
+      "published_at": "2026-11-21T02:52:24Z"
     },
     {
       "day": 15,

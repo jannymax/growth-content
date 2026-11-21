@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T02:41:29Z",
-  "today_id": "2026-11-20",
+  "updated_at": "2026-11-21T02:52:24Z",
+  "today_id": "2026-11-21",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3242,6 +3242,53 @@
       },
       "content_id": "ep-ch02-13",
       "concept_id": "distinct-learning-objectives"
+    },
+    {
+      "id": "2026-11-21",
+      "date": "2026-11-21",
+      "quote": {
+        "zh-Hans": "孩子逐渐学会发现自己哪里没懂、哪种方法有帮助，并据此调整学习，这叫作元认知。家长不仅可以关注答案，也可以留意孩子能否说明自己的思路与调整理由。",
+        "en": "Learning to notice gaps in understanding, identify helpful strategies, and adjust accordingly is called metacognition. Parents can attend not only to answers, but also to whether children can explain their thinking and reasons for changing approach.",
+        "ja": "分からない点や役立つ方法に気づき、それに応じて学び方を調整する力を「メタ認知」と呼びます。親は答えだけでなく、子どもが自分の考え方や方法を変えた理由を説明できるかにも目を向けられます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-21.jpg",
+      "image_filename": "2026-11-21.jpg",
+      "image_path": "images/2026-11-21.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "37–38",
+        "pdf_pages": "37–38",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "元认知概念与自我调节的转述；家长观察思路为应用延伸，依年龄与表达能力调整，不要求幼儿作成人式反思。",
+      "practical_takeaway": "",
+      "topic": "学习，也包括认识自己的方法",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "5128942",
+        "photographer": "Phan Nguyen",
+        "url": "https://www.pexels.com/photo/close-up-of-flowers-on-a-field-at-sunset-5128942/",
+        "perceptual_hash": "9b0ecdedb1736cd3",
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-14",
+      "concept_id": "metacognitive-monitoring-regulation"
     }
   ]
 }
