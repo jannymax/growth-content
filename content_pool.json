@@ -6040,7 +6040,7 @@
     {
       "day": 15,
       "id": "ep-ch02-15",
-      "status": "ready",
+      "status": "published",
       "title": "成绩不能涵盖全部学习",
       "topic": "成绩不能涵盖全部学习",
       "concept_id": "learning-beyond-academic-achievement",
@@ -6088,7 +6088,9 @@
         "reviewed_at": "2026-11-09",
         "approval": "User authorized two additions; editor reviewed, not individually reviewed by user",
         "reviewer": "Codex source, semantic and translation review"
-      }
+      },
+      "published_date": "2026-11-22",
+      "published_at": "2026-11-22T01:42:46Z"
     },
     {
       "day": 16,

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T02:52:24Z",
-  "today_id": "2026-11-21",
+  "updated_at": "2026-11-22T01:42:46Z",
+  "today_id": "2026-11-22",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3289,6 +3289,53 @@
       },
       "content_id": "ep-ch02-14",
       "concept_id": "metacognitive-monitoring-regulation"
+    },
+    {
+      "id": "2026-11-22",
+      "date": "2026-11-22",
+      "quote": {
+        "zh-Hans": "孩子学会骑车、逐渐熟悉一个人，也属于学习。心理学中的学习包括技能、知识和态度因经验而发生的较稳定变化；学业成绩只能反映其中一部分。",
+        "en": "Learning to ride a bicycle or gradually getting to know someone also counts as learning. In psychology, learning includes relatively lasting changes in skills, knowledge, and attitudes through experience. Academic results reflect only part of it.",
+        "ja": "自転車に乗れるようになることや、誰かを少しずつ知ることも学習です。心理学でいう学習には、経験による技能・知識・態度の比較的持続する変化が含まれます。成績が表すのは、その一部です。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-22.jpg",
+      "image_filename": "2026-11-22.jpg",
+      "image_path": "images/2026-11-22.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "20–21",
+        "pdf_pages": "20–21",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材观点：学习包括身体技能、社会、情绪与认知领域的较稳定变化，不限于课堂中的有意学习。家庭视角延伸：成绩只反映部分学习，不用其概括孩子全部成长；不是多元智能理论的实证断言。知识增量为学习范围，与旧稿游戏促进认知、学习保持不同。",
+      "practical_takeaway": "",
+      "topic": "成绩不能涵盖全部学习",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "16795675",
+        "photographer": "Peter Steiner 🇨🇭 1973",
+        "url": "https://www.pexels.com/photo/mist-over-pine-forest-16795675/",
+        "perceptual_hash": "fefefed79f8fbfaf",
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-15",
+      "concept_id": "learning-beyond-academic-achievement"
     }
   ]
 }
