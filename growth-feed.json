@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T01:42:46Z",
-  "today_id": "2026-11-22",
+  "updated_at": "2026-11-23T02:01:16Z",
+  "today_id": "2026-11-23",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3336,6 +3336,53 @@
       },
       "content_id": "ep-ch02-15",
       "concept_id": "learning-beyond-academic-achievement"
+    },
+    {
+      "id": "2026-11-23",
+      "date": "2026-11-23",
+      "quote": {
+        "zh-Hans": "理解孩子反复出现的行为，也要看它发生前的情境：刚接到了什么要求，周围发生了什么。把这些线索记录下来，能帮助家长寻找规律，但不能仅凭一次观察确定原因。",
+        "en": "To understand a child's recurring behavior, also look at what came just before it: what was asked of the child and what was happening around them. Recording these clues can help parents identify patterns, but one observation cannot establish the cause.",
+        "ja": "子どもが繰り返す行動を理解するときは、その直前の状況にも目を向けます。何を求められ、周囲で何が起きていたでしょうか。記録は傾向を探る手がかりになりますが、一度の観察だけで原因は判断できません。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-23.jpg",
+      "image_filename": "2026-11-23.jpg",
+      "image_path": "images/2026-11-23.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "2. The learning process",
+        "pages": "24",
+        "pdf_pages": "24",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材观点：行为主义关注行为与紧接其前的事件及其后果之间的联系，不能完整解释内在思考。家庭应用延伸：记录要求与环境，寻找行为前因线索；不是因果验证，也不宣称可据此诊断或改善问题。知识增量为行为前的情境，区别于ep-ch02-08/09行为后的回应及第1章方法效果评估。",
+      "practical_takeaway": "",
+      "topic": "行为发生前，也有线索",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "20451732",
+        "photographer": "Lisa Pinciroli",
+        "url": "https://www.pexels.com/photo/sea-at-sunrise-20451732/",
+        "perceptual_hash": "070f0f0f0f0f0f0f",
+        "width": 1440,
+        "height": 2160
+      },
+      "content_id": "ep-ch02-16",
+      "concept_id": "behavior-antecedent-observation"
     }
   ]
 }
