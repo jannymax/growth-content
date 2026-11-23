@@ -6405,6 +6405,524 @@
         "reviewed_at": "2026-11-16",
         "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
       }
+    },
+    {
+      "id": "ep-ch03-08",
+      "concept_id": "autonomy-before-self-care-proficiency",
+      "status": "ready",
+      "topic": "自主不等于已经熟练",
+      "quote": {
+        "zh-Hans": "孩子坚持自己穿衣，却穿得慢、容易出错，并不矛盾。埃里克森的自主性理论指出，幼儿正在尝试自己掌控日常生活。大人需要给孩子足够的耐心和练习机会，在必要时帮一把，而不是急着代劳。",
+        "en": "A child may insist on dressing independently yet struggle or make mistakes. In Erikson's account of autonomy, young children are trying to take charge of daily life. Adults can offer patience and opportunities to practise, helping when needed rather than rushing to take over.",
+        "ja": "自分で着替えたいのに、時間がかかったり間違えたりしても矛盾ではありません。エリクソンの自律性の理論では、幼児は日常生活を自分で担おうとしています。大人は急いで代わりにするより、辛抱強く練習の機会をつくり、必要なときに手を貸します。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "52",
+        "pdf_pages": "52",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of autonomy-before-self-care-proficiency. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-09",
+      "concept_id": "initiative-desire-versus-action-limits",
+      "status": "ready",
+      "topic": "限制行为，不否定愿望",
+      "quote": {
+        "zh-Hans": "孩子想用光积木搭一座城，家长可以说：“你想搭大城堡，但也要给别人留一些。”按埃里克森的主动性理论，帮助孩子调整做法，比让他觉得“有这个想法就是错的”，更能保留主动尝试的意愿。",
+        "en": "If a child wants every block to build a city, a parent can say, 'You want a big castle, but others need some blocks too.' Erikson's account of initiative suggests guiding the child's actions while preserving the wish to try, rather than making the wish itself seem wrong.",
+        "ja": "積み木を全部使って街を作りたい子には、「大きなお城を作りたいんだね。でも、ほかの子の分も残そう」と伝えられます。エリクソンの自主性の理論では、願い自体を悪いものにするより、やり方を調整する手助けが、自分から試す意欲を守ります。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "52",
+        "pdf_pages": "52",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of initiative-desire-versus-action-limits. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-10",
+      "concept_id": "industry-mastery-satisfaction",
+      "status": "ready",
+      "topic": "胜任感来自做成事情",
+      "quote": {
+        "zh-Hans": "以前拼不上的拼图，现在能独立完成；以前总要提醒的步骤，现在能自己记住。这些具体变化，让孩子体会到“我能做好”。埃里克森所说的勤奋感，就包含通过努力掌握技能后的这种满足。",
+        "en": "A puzzle once too difficult can now be completed alone; steps that needed reminders can now be remembered. Such changes give children a sense of competence. Erikson's concept of industry includes this satisfaction in mastering skills through effort.",
+        "ja": "以前はできなかったパズルを一人で完成させたり、声をかけられなくても手順を思い出せたりする。こうした変化から、子どもは「自分にもできる」と感じます。エリクソンの勤勉性には、努力して技能を身につけた満足感が含まれます。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "52–53",
+        "pdf_pages": "52–53",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of industry-mastery-satisfaction. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-11",
+      "concept_id": "perfection-undermines-competence",
+      "status": "ready",
+      "topic": "进步不必以完美为门槛",
+      "quote": {
+        "zh-Hans": "孩子练了很久，已经比以前做得好，却仍因一点小错被判为“不行”。在埃里克森的理论中，掌握技能的经历有助于建立胜任感；如果只有完美才算成功，孩子可能觉得自己怎么努力都不够好。",
+        "en": "A child may improve through practice yet be told the result is unacceptable because of one small mistake. In Erikson's theory, mastering skills supports competence. If only perfection counts as success, children may feel that no effort is ever enough.",
+        "ja": "長く練習して上達しても、小さな間違いだけで「だめ」と言われることがあります。エリクソンの理論では、技能を身につける経験が有能感を支えます。完璧でなければ成功と認められないと、いくら頑張っても足りないと感じるかもしれません。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "53",
+        "pdf_pages": "53",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of perfection-undermines-competence. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-12",
+      "concept_id": "identity-role-experimentation",
+      "status": "ready",
+      "topic": "兴趣变化也可能是探索",
+      "quote": {
+        "zh-Hans": "孩子改变兴趣或未来打算，不一定只是缺乏坚持。埃里克森的身份认同理论认为，青少年会通过尝试不同角色，逐渐认识自己的兴趣、能力和价值观。改变方向，有时也是探索的一部分。",
+        "en": "Changing interests or future plans does not always mean a lack of persistence. Erikson's theory of identity describes adolescents trying different roles as they discover their interests, abilities, and values. Changing direction can be part of that exploration.",
+        "ja": "興味や将来の計画が変わるのは、必ずしも粘り強さがないからではありません。エリクソンのアイデンティティ理論では、青年はさまざまな役割を試し、自分の興味、能力、価値観を知っていきます。方向転換も、その探索の一部になり得ます。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "53",
+        "pdf_pages": "53",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of identity-role-experimentation. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-13",
+      "concept_id": "identity-self-and-expectations",
+      "status": "ready",
+      "topic": "自我认识里有三种声音",
+      "quote": {
+        "zh-Hans": "孩子喜欢画画，家长却认为学理科才有前途，他可能因此犹豫：该按自己的兴趣走，还是满足家人的期待？埃里克森的身份认同理论关注的，就包括孩子怎样在自身特点、个人愿望和他人期待之间认识自己。",
+        "en": "A child who loves drawing may hesitate when parents see science as the only promising path: follow personal interests or meet family expectations? Erikson's theory of identity considers how young people understand themselves amid their qualities, wishes, and others' expectations.",
+        "ja": "絵が好きでも、親が理系こそ将来性があると考えていれば、自分の興味と家族の期待の間で迷うかもしれません。エリクソンのアイデンティティ理論は、自分の特徴、願い、他者の期待の間で、どう自分を理解するかも扱います。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "53",
+        "pdf_pages": "53",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of identity-self-and-expectations. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-14",
+      "concept_id": "identity-diverse-role-models",
+      "status": "ready",
+      "topic": "成功可以有多种样子",
+      "quote": {
+        "zh-Hans": "心理学中的身份认同理论强调，不同类型的榜样能为孩子认识自己提供参照。看到不同能力、职业和生活选择都可能有价值，孩子思考“我想成为谁”时，也会有更丰富的可能。",
+        "en": "Identity theory highlights how diverse role models can offer children reference points for understanding themselves. Seeing value in different abilities, careers, and ways of living expands the possibilities they can consider when asking who they want to become.",
+        "ja": "アイデンティティ理論は、多様な手本が子どもの自己理解の参考になると考えます。異なる能力、職業、生き方にも価値があると知ることで、「どんな人になりたいか」を考える選択肢が広がります。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "53",
+        "pdf_pages": "53",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of identity-diverse-role-models. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-15",
+      "concept_id": "moral-knowledge-versus-action",
+      "status": "ready",
+      "topic": "知道对错，与实际做到不同",
+      "quote": {
+        "zh-Hans": "孩子知道不能打人，却可能在争抢玩具时动手。心理学区分道德认识和道德行为：知道什么是对的，不等于实际行动一定符合这个判断。因此，会背规则，还不能说明孩子已经能在冲突中遵守规则。",
+        "en": "A child may know hitting is wrong yet hit during an argument over a toy. Psychology distinguishes moral understanding from moral action: knowing what is right does not ensure acting accordingly. Reciting a rule does not establish that a child can follow it during conflict.",
+        "ja": "たたいてはいけないと知っていても、おもちゃの取り合いで手が出ることはあります。心理学では道徳的な理解と行動を区別します。正しさを知っていても、その通りに行動できるとは限りません。ルールを言えても、争いの中で守れるとは限らないのです。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "56",
+        "pdf_pages": "56",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of moral-knowledge-versus-action. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-16",
+      "concept_id": "justice-equality-versus-need",
+      "status": "ready",
+      "topic": "公平也包含不同需要",
+      "quote": {
+        "zh-Hans": "两个孩子学同一件事，一个已经会了，另一个还需要示范。多帮助后者，并不一定是不公平。心理学对公平与关怀的讨论提醒我们：既要考虑每个人的机会，也要考虑他们实际需要多少帮助。",
+        "en": "When two children learn the same task, one may already know how while the other needs a demonstration. Giving the latter more help is not necessarily unfair. Discussions of justice and care consider both each person's opportunities and how much help they actually need.",
+        "ja": "同じことを学ぶ二人でも、一人はすでにでき、もう一人は実演が必要かもしれません。後者を多く手伝うことが、必ずしも不公平とは限りません。公正とケアの議論では、各自の機会と、実際に必要な援助の両方を考えます。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "56",
+        "pdf_pages": "56",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of justice-equality-versus-need. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-17",
+      "concept_id": "moral-reasoning-behind-compliance",
+      "status": "ready",
+      "topic": "守规矩的理由值得听",
+      "quote": {
+        "zh-Hans": "孩子不拿别人的东西，可能是怕受罚，也可能是认为应该尊重物品的主人。家长除了看他有没有遵守规则，也可以听听他的理由。科尔伯格的道德发展理论关注的，正是这些理由的不同。",
+        "en": "A child may leave others' belongings alone out of fear of punishment or respect for the owner. Parents can listen to the child's reasons as well as observe compliance. Kohlberg's theory of moral development focuses on such differences in reasoning.",
+        "ja": "他人の物を取らない理由は、罰が怖いからかもしれませんし、持ち主を尊重したいからかもしれません。親はルールを守ったかだけでなく、その理由にも耳を傾けられます。コールバーグの道徳発達理論は、こうした理由の違いに注目します。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "57",
+        "pdf_pages": "57",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of moral-reasoning-behind-compliance. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-18",
+      "concept_id": "reciprocity-third-party-effects",
+      "status": "ready",
+      "topic": "双方愿意，还要看谁受影响",
+      "quote": {
+        "zh-Hans": "两个孩子都同意一项交换，并不表示安排一定合理。道德发展理论指出，仅看双方是否满意，可能忽略其他受影响的人；理解公平，还需要把视野放宽。",
+        "en": "Two children agreeing to an exchange does not necessarily make it reasonable. Moral development theory points out that considering only the participants' satisfaction can overlook others affected. Understanding fairness requires a wider view.",
+        "ja": "二人の子どもが交換に同意しても、その取り決めが必ず妥当とは限りません。道徳発達理論は、当事者の満足だけを見ると、ほかに影響を受ける人を見落とす可能性を指摘します。公平を考えるには、視野を広げることも必要です。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "57–58",
+        "pdf_pages": "57–58",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of reciprocity-third-party-effects. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-19",
+      "concept_id": "peer-approval-versus-moral-justification",
+      "status": "ready",
+      "topic": "大家赞成，不等于理由充分",
+      "quote": {
+        "zh-Hans": "“朋友们都这样做”，能解释孩子为什么跟随，却不能单独证明行为合理。科尔伯格的理论区分同伴认可与更广泛的道德判断，提醒我们继续看行为是否伤害了别人。",
+        "en": "'My friends all do it' can explain a child's choice without establishing that it is justified. Kohlberg's theory distinguishes peer approval from broader moral judgment, inviting consideration of whether the action harms others.",
+        "ja": "「友達もみんなしている」は行動の理由にはなっても、それだけで正当性は示せません。コールバーグの理論は、仲間からの承認と、より広い道徳的判断を区別し、誰かを傷つけていないかも考えます。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "58",
+        "pdf_pages": "58",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of peer-approval-versus-moral-justification. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-20",
+      "concept_id": "integrated-care-self-and-others",
+      "status": "ready",
+      "topic": "关心别人，也包括自己",
+      "quote": {
+        "zh-Hans": "孩子总让别人先选、从不表达自己的意见，看起来很懂事，却不一定照顾到了自己的需要。吉利根的关怀理论强调，关心应当包括自己和别人，而不是只有别人满意，才算做得对。",
+        "en": "A child who always lets others choose first and never expresses an opinion may seem considerate while overlooking personal needs. Gilligan's ethics of care includes both oneself and others; pleasing everyone else is not the only measure of doing right.",
+        "ja": "いつも人に先に選ばせ、自分の意見を言わない子は、思いやりがあるようでも、自分の必要を置き去りにしているかもしれません。ギリガンのケアの倫理は、自分と他者の両方を含みます。他人だけが満足すれば正しい、というわけではありません。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "60",
+        "pdf_pages": "60",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of integrated-care-self-and-others. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
+    },
+    {
+      "id": "ep-ch03-21",
+      "concept_id": "moral-process-versus-conclusion",
+      "status": "ready",
+      "topic": "不同意，也可能有认真思考",
+      "quote": {
+        "zh-Hans": "讨论一条规则时，两个人可能得出不同结论，却都认真考虑了相关人的权利。道德发展理论提醒我们：评价一个判断，要看理由和形成决定的过程，不能只看答案是否与自己一致。",
+        "en": "Two people discussing a rule may reach different conclusions while both taking the rights of those affected seriously. Moral development theory invites us to examine reasons and decision-making processes, not merely whether the conclusion matches our own.",
+        "ja": "あるルールについて結論が異なっても、双方が関係者の権利を真剣に考えている場合があります。道徳発達理論は、判断を評価するとき、自分と同じ結論かどうかだけでなく、理由や決め方を見るよう促します。"
+      },
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "58",
+        "pdf_pages": "58",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "Textbook account of moral-process-versus-conclusion. Classical theoretical interpretation, not a claim of experimentally proven parenting effects. Concrete family examples and parent-facing implications are adaptations. No universal age deadline or diagnosis is implied.",
+      "practical_takeaway": "",
+      "review": {
+        "source_checked": true,
+        "standalone": true,
+        "semantic_dedup_checked": true,
+        "translations_checked": true,
+        "publication_approved": true,
+        "reviewed_at": "2026-11-23",
+        "approval": "User approved revised Chinese and photographs; translations editor reviewed"
+      }
     }
   ]
 }
