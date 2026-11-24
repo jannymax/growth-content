@@ -6150,7 +6150,7 @@
     {
       "id": "ep-ch03-01",
       "concept_id": "long-term-development-versus-specific-learning",
-      "status": "ready",
+      "status": "published",
       "topic": "成长需要放到更长的时间里看",
       "quote": {
         "zh-Hans": "孩子把一首曲子练熟，是具体的学习；经过几年，演奏技巧、音乐理解和兴趣一起变化，则体现了发展。看孩子的成长，既要看眼前学会了什么，也要看能力长期怎样变化。",
@@ -6182,7 +6182,9 @@
         "publication_approved": true,
         "reviewed_at": "2026-11-16",
         "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
-      }
+      },
+      "published_date": "2026-11-24",
+      "published_at": "2026-11-24T05:37:02Z"
     },
     {
       "id": "ep-ch03-02",

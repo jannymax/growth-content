@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T02:01:16Z",
-  "today_id": "2026-11-23",
+  "updated_at": "2026-11-24T05:37:02Z",
+  "today_id": "2026-11-24",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3383,6 +3383,53 @@
       },
       "content_id": "ep-ch02-16",
       "concept_id": "behavior-antecedent-observation"
+    },
+    {
+      "id": "2026-11-24",
+      "date": "2026-11-24",
+      "quote": {
+        "zh-Hans": "孩子把一首曲子练熟，是具体的学习；经过几年，演奏技巧、音乐理解和兴趣一起变化，则体现了发展。看孩子的成长，既要看眼前学会了什么，也要看能力长期怎样变化。",
+        "en": "Mastering a piece of music is specific learning; changes in playing skills, musical understanding, and interests over several years reflect development. To understand a child's growth, consider both what they have learned recently and how their abilities change over time.",
+        "ja": "一曲を弾けるようになるのは個別の学習です。数年かけて演奏技術、音楽の理解、興味がともに変わることは発達を表します。子どもの成長を見るときは、今できるようになったことと、長期的な能力の変化の両方に目を向けます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-24.jpg",
+      "image_filename": "2026-11-24.jpg",
+      "image_path": "images/2026-11-24.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "41",
+        "pdf_pages": "41",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材用钢琴例子区分具体学习与多来源长期发展。家庭延伸为观察时间尺度，不主张只等待成熟；区别于学习保持和学习领域多样性。",
+      "practical_takeaway": "",
+      "topic": "成长需要放到更长的时间里看",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "29035001",
+        "photographer": "Sergio Zhukov",
+        "url": "https://www.pexels.com/photo/breathtaking-sunrise-over-misty-mountainscape-29035001/",
+        "perceptual_hash": "074b03030303070f",
+        "width": 1440,
+        "height": 2159
+      },
+      "content_id": "ep-ch03-01",
+      "concept_id": "long-term-development-versus-specific-learning"
     }
   ]
 }
