@@ -6189,7 +6189,7 @@
     {
       "id": "ep-ch03-02",
       "concept_id": "same-age-development-experience-differences",
-      "status": "ready",
+      "status": "published",
       "topic": "同龄，不代表相同的起点",
       "quote": {
         "zh-Hans": "同龄孩子的表现差异，可能来自长期发展，也可能来自接触和练习的机会不同。判断孩子适合什么活动，年龄是参考，还需要看他已有的经验与能力。",
@@ -6221,7 +6221,9 @@
         "publication_approved": true,
         "reviewed_at": "2026-11-16",
         "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
-      }
+      },
+      "published_date": "2026-11-25",
+      "published_at": "2026-11-25T04:37:58Z"
     },
     {
       "id": "ep-ch03-03",

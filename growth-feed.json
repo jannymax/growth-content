@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T05:37:02Z",
-  "today_id": "2026-11-24",
+  "updated_at": "2026-11-25T04:37:58Z",
+  "today_id": "2026-11-25",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3430,6 +3430,53 @@
       },
       "content_id": "ep-ch03-01",
       "concept_id": "long-term-development-versus-specific-learning"
+    },
+    {
+      "id": "2026-11-25",
+      "date": "2026-11-25",
+      "quote": {
+        "zh-Hans": "同龄孩子的表现差异，可能来自长期发展，也可能来自接触和练习的机会不同。判断孩子适合什么活动，年龄是参考，还需要看他已有的经验与能力。",
+        "en": "Differences between children of the same age may reflect long-term development or different opportunities for experience and practice. Age is a useful reference when choosing activities, but a child's existing experience and abilities also matter.",
+        "ja": "同じ年齢でも、発達の違いや、経験・練習の機会の違いによって子どもの様子は異なります。活動が合うかを考えるときは、年齢だけでなく、それまでの経験や今の力も手がかりになります。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-25.jpg",
+      "image_filename": "2026-11-25.jpg",
+      "image_path": "images/2026-11-25.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "42",
+        "pdf_pages": "42",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材区分同龄者长期发展与短期经验差异。家庭延伸为活动判断同时参考经验；增量是同龄差异的不同来源，非重复教学适配的责任。",
+      "practical_takeaway": "",
+      "topic": "同龄，不代表相同的起点",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "36138012",
+        "photographer": "Yash Rai",
+        "url": "https://www.pexels.com/photo/golden-field-of-wildflowers-at-sunset-36138012/",
+        "perceptual_hash": "37171f1b27038757",
+        "width": 1440,
+        "height": 950
+      },
+      "content_id": "ep-ch03-02",
+      "concept_id": "same-age-development-experience-differences"
     }
   ]
 }
