@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T04:37:58Z",
-  "today_id": "2026-11-25",
+  "updated_at": "2026-11-26T03:48:28Z",
+  "today_id": "2026-11-26",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3477,6 +3477,53 @@
       },
       "content_id": "ep-ch03-02",
       "concept_id": "same-age-development-experience-differences"
+    },
+    {
+      "id": "2026-11-26",
+      "date": "2026-11-26",
+      "quote": {
+        "zh-Hans": "发展理论概括的是成长中的共同趋势，不能完整描述每个孩子。家长可以用它理解变化，但不能把理论中的典型路径，当作孩子必须按时完成的清单。",
+        "en": "Developmental theories describe common patterns of growth, not every detail of each child's development. Parents can use them to understand change, but a typical pathway is not a checklist that every child must complete on schedule.",
+        "ja": "発達理論は成長に共通する傾向をまとめたもので、一人ひとりのすべてを説明するものではありません。変化を理解する参考にはなりますが、典型的な道筋を、決まった時期までに達成すべき一覧にすることはできません。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-26.jpg",
+      "image_filename": "2026-11-26.jpg",
+      "image_path": "images/2026-11-26.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "42–43",
+        "pdf_pages": "42–43",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材提醒宏观理论过度概括及把实际趋势混为应然要求的风险。家庭延伸为不作个人期限清单；不否定必要的发展评估。",
+      "practical_takeaway": "",
+      "topic": "发展规律不是每个孩子的时间表",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "29494080",
+        "photographer": "Afitab",
+        "url": "https://www.pexels.com/photo/serene-misty-mountains-landscape-at-dawn-29494080/",
+        "perceptual_hash": "00003e00033bc444",
+        "width": 1440,
+        "height": 1920
+      },
+      "content_id": "ep-ch03-03",
+      "concept_id": "developmental-models-not-individual-deadlines"
     }
   ]
 }

@@ -6228,7 +6228,7 @@
     {
       "id": "ep-ch03-03",
       "concept_id": "developmental-models-not-individual-deadlines",
-      "status": "ready",
+      "status": "published",
       "topic": "发展规律不是每个孩子的时间表",
       "quote": {
         "zh-Hans": "发展理论概括的是成长中的共同趋势，不能完整描述每个孩子。家长可以用它理解变化，但不能把理论中的典型路径，当作孩子必须按时完成的清单。",
@@ -6260,7 +6260,9 @@
         "publication_approved": true,
         "reviewed_at": "2026-11-16",
         "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
-      }
+      },
+      "published_date": "2026-11-26",
+      "published_at": "2026-11-26T03:48:28Z"
     },
     {
       "id": "ep-ch03-04",
