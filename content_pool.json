@@ -6267,7 +6267,7 @@
     {
       "id": "ep-ch03-04",
       "concept_id": "physical-demands-of-academic-tasks",
-      "status": "ready",
+      "status": "published",
       "topic": "学习任务，也有身体上的要求",
       "quote": {
         "zh-Hans": "握笔、操作工具、长时间坐着，都对身体协调和耐受能力有要求。孩子完成任务吃力时，除了理解和注意，也需要看看身体上的要求是否适合他。",
@@ -6299,7 +6299,9 @@
         "publication_approved": true,
         "reviewed_at": "2026-11-16",
         "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
-      }
+      },
+      "published_date": "2026-11-27",
+      "published_at": "2026-11-27T03:49:56Z"
     },
     {
       "id": "ep-ch03-05",

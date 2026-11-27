@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T03:48:28Z",
-  "today_id": "2026-11-26",
+  "updated_at": "2026-11-27T03:49:56Z",
+  "today_id": "2026-11-27",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3524,6 +3524,53 @@
       },
       "content_id": "ep-ch03-03",
       "concept_id": "developmental-models-not-individual-deadlines"
+    },
+    {
+      "id": "2026-11-27",
+      "date": "2026-11-27",
+      "quote": {
+        "zh-Hans": "握笔、操作工具、长时间坐着，都对身体协调和耐受能力有要求。孩子完成任务吃力时，除了理解和注意，也需要看看身体上的要求是否适合他。",
+        "en": "Holding a pencil, using tools, and sitting for extended periods place demands on physical coordination and endurance. When a child struggles with a task, consider whether its physical demands fit the child, alongside understanding and attention.",
+        "ja": "鉛筆を持つこと、道具を使うこと、長く座ることにも、体の協調運動や持続する力が必要です。課題に苦労しているときは、理解や注意だけでなく、身体的な負担が子どもに合っているかも考えます。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-27.jpg",
+      "image_filename": "2026-11-27.jpg",
+      "image_path": "images/2026-11-27.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "43, 45",
+        "pdf_pages": "43, 45",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材指出身体发展是学业任务基础，举握笔与静坐例；操作工具为生活化转述。家庭观察延伸不是医学诊断或干预效果，区别于运动游戏促进发展的旧稿。",
+      "practical_takeaway": "",
+      "topic": "学习任务，也有身体上的要求",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "33357242",
+        "photographer": "Darya Grey_Owl",
+        "url": "https://www.pexels.com/photo/wildflower-meadow-at-sunset-with-soft-light-33357242/",
+        "perceptual_hash": "0033203741519154",
+        "width": 1440,
+        "height": 1920
+      },
+      "content_id": "ep-ch03-04",
+      "concept_id": "physical-demands-of-academic-tasks"
     }
   ]
 }
