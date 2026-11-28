@@ -6306,7 +6306,7 @@
     {
       "id": "ep-ch03-05",
       "concept_id": "conservation-of-quantity",
-      "status": "ready",
+      "status": "published",
       "topic": "看起来变了，数量未必改变",
       "quote": {
         "zh-Hans": "同一团橡皮泥拉长后，孩子可能觉得它变多了。理解“形状改变、总量不变”，在皮亚杰理论中叫作守恒。这样的判断差异，反映的是孩子怎样理解数量，不能简单归为粗心。",
@@ -6338,7 +6338,9 @@
         "publication_approved": true,
         "reviewed_at": "2026-11-16",
         "approval": "User approved Chinese text and seven photos; translations reviewed by editor"
-      }
+      },
+      "published_date": "2026-11-28",
+      "published_at": "2026-11-28T03:35:11Z"
     },
     {
       "id": "ep-ch03-06",

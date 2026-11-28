@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-27T03:49:56Z",
-  "today_id": "2026-11-27",
+  "updated_at": "2026-11-28T03:35:11Z",
+  "today_id": "2026-11-28",
   "quotes": [
     {
       "id": "2026-05-13",
@@ -3571,6 +3571,53 @@
       },
       "content_id": "ep-ch03-04",
       "concept_id": "physical-demands-of-academic-tasks"
+    },
+    {
+      "id": "2026-11-28",
+      "date": "2026-11-28",
+      "quote": {
+        "zh-Hans": "同一团橡皮泥拉长后，孩子可能觉得它变多了。理解“形状改变、总量不变”，在皮亚杰理论中叫作守恒。这样的判断差异，反映的是孩子怎样理解数量，不能简单归为粗心。",
+        "en": "After a ball of clay is stretched, a child may think there is more of it. Understanding that the amount stays the same despite a change in shape is called conservation in Piaget's theory. Such judgments reflect how a child understands quantity and should not simply be dismissed as carelessness.",
+        "ja": "粘土の塊を長く伸ばすと、量が増えたと考える子どももいます。形が変わっても量は同じだと理解することを、ピアジェの理論では保存と呼びます。この判断には量の捉え方が表れており、単なる不注意とは言い切れません。"
+      },
+      "author": {
+        "zh-Hans": "育儿研究",
+        "en": "Parenting Insights",
+        "ja": "育児リサーチ"
+      },
+      "image_url": "https://raw.githubusercontent.com/jannymax/growth-content/main/images/2026-11-28.jpg",
+      "image_filename": "2026-11-28.jpg",
+      "image_path": "images/2026-11-28.jpg",
+      "image_name": "quotation_card_bg",
+      "source": {
+        "title": "Educational Psychology",
+        "authors": [
+          "Kelvin Seifert",
+          "Rosemary Sutton"
+        ],
+        "edition": "Second Edition",
+        "year": 2009,
+        "chapter": "3. Student development",
+        "pages": "49",
+        "pdf_pages": "49",
+        "url": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+        "license": "CC BY 3.0",
+        "adaptation": "Parent-facing paraphrase; application extensions identified in source_summary; not a direct quotation."
+      },
+      "source_summary": "教材守恒实验及概念，按经典理论呈现，不设年龄门槛或由单次任务评定能力；不简单归因粗心为家长解释延伸。与旧前运算概述相比增量为数量守恒。",
+      "practical_takeaway": "",
+      "topic": "看起来变了，数量未必改变",
+      "image_source": {
+        "provider": "Pexels",
+        "id": "10471894",
+        "photographer": "Daniel Torobekov",
+        "url": "https://www.pexels.com/photo/foggy-mountains-10471894/",
+        "perceptual_hash": "0703030100010b4f",
+        "width": 1440,
+        "height": 961
+      },
+      "content_id": "ep-ch03-05",
+      "concept_id": "conservation-of-quantity"
     }
   ]
 }
